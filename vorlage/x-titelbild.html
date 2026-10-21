@@ -1,0 +1,51 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- X-Titelbild 1500 × 500. Unten links (ca. 0–460 px breit, 300–500 px hoch) liegt das Profilbild darüber: dort nichts Wichtiges. -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+@font-face{font-family:'JB';font-weight:700;src:url(schrift/jetbrains-mono-700.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1500px;height:500px;overflow:hidden}
+body{font-family:'DM Sans',sans-serif;color:#fff;position:relative;background:#0c1033}
+.bg{position:absolute;inset:0;background:
+ radial-gradient(ellipse 38% 70% at 32% 30%, rgba(124,92,230,.75), transparent 70%),
+ radial-gradient(ellipse 35% 80% at 82% 60%, rgba(20,184,166,.45), transparent 70%),
+ radial-gradient(ellipse 30% 60% at 100% 0%, rgba(99,102,241,.5), transparent 70%),
+ linear-gradient(120deg,#0b0f2e 0%,#141447 50%,#0b1a33 100%)}
+.raster{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:50px 50px;mask-image:radial-gradient(ellipse 60% 90% at 70% 50%,#000,transparent 75%)}
+.text{position:absolute;left:460px;top:130px;width:620px}
+.chip{display:inline-flex;align-items:center;gap:10px;font-size:20px;font-weight:700;color:#c7f5ec;padding:8px 16px;border-radius:999px;background:rgba(20,184,166,.14);border:1.5px solid rgba(45,212,191,.45)}
+.chip i{width:10px;height:10px;border-radius:50%;background:#2dd4bf;box-shadow:0 0 12px #2dd4bf}
+h1{white-space:nowrap;font-size:58px;font-weight:800;line-height:1.02;letter-spacing:-.03em;margin-top:22px}
+h1 em{font-style:normal;background:linear-gradient(90deg,#c4b5fd,#7ee7d8);-webkit-background-clip:text;color:transparent}
+p{font-size:23px;color:#cfd2fa;margin-top:16px;font-weight:500}
+.karte{position:absolute;background:rgba(20,24,70,.72);border:1.5px solid rgba(255,255,255,.14);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+.k1{left:1110px;top:84px;width:340px;padding:22px 24px}
+.k1 h3{font-size:15px;letter-spacing:.14em;color:#aab0e8;font-weight:700;margin-bottom:14px}
+.bz{display:grid;grid-template-columns:110px 1fr 52px;gap:12px;align-items:center;font-size:17px;font-weight:500;margin-top:10px}
+.spur{height:12px;border-radius:99px;background:rgba(255,255,255,.1);overflow:hidden}
+.spur b{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#6366f1,#14b8a6)}
+.spur b.rot{background:linear-gradient(90deg,#fb7185,#f43f5e)}
+.z{font-family:'JB';font-size:16px;text-align:right}
+.k2{left:1060px;top:318px;width:390px;padding:16px 20px;display:flex;gap:14px;align-items:flex-start;background:linear-gradient(135deg,rgba(99,102,241,.55),rgba(20,184,166,.45))}
+.orb{flex:none;width:40px;height:40px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#c4b5fd,#6366f1 55%,#14b8a6);box-shadow:0 0 20px rgba(165,180,252,.7)}
+.k2 b{display:block;font-size:15px;color:#e0e7ff}
+.k2 span{font-size:18px;font-weight:500;line-height:1.3}
+.k3{left:1250px;top:40px;padding:10px 16px;font-size:16px;font-weight:700;display:flex;gap:8px;align-items:center;background:rgba(251,113,133,.16);border-color:rgba(251,113,133,.55);color:#fecdd3;border-radius:999px}
+</style></head><body>
+<div class="bg"></div><div class="raster"></div>
+<div class="text">
+ <span class="chip"><i></i>Jetzt live · 14 Tage MAX kostenlos</span>
+ <h1>Dein Depot.<br><em>Endlich verständlich.</em></h1>
+ <p>Alle Depots an einem Ort. Erklärt statt verkauft.</p>
+</div>
+<div class="karte k1"><h3>DEINE AUFTEILUNG · BEISPIEL</h3>
+ <div class="bz"><span>Technologie</span><div class="spur"><b class="rot" style="width:100%"></b></div><span class="z">34 %</span></div>
+ <div class="bz"><span>Gesundheit</span><div class="spur"><b style="width:52%"></b></div><span class="z">18 %</span></div>
+ <div class="bz"><span>Finanzen</span><div class="spur"><b style="width:41%"></b></div><span class="z">14 %</span></div>
+ <div class="bz"><span>Konsum</span><div class="spur"><b style="width:35%"></b></div><span class="z">12 %</span></div>
+</div>
+<div class="karte k3"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fda4af" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>Klumpen erkannt</div>
+<div class="karte k2"><div class="orb"></div><div><b>Deqo</b><span>Ein Drittel steckt in Technologie. Soll ich dir zeigen, was das bedeutet?</span></div></div>
+</body></html>
