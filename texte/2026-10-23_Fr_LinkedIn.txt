@@ -7,10 +7,12 @@ Die Idee kam aus meinem eigenen Depot:
 
 Daraus ist in eineinhalb Jahren depiq entstanden – Schritt für Schritt.
 
-Was depiq macht:
-✅ alle Depots an einem Ort
-✅ zeigt, wie breit du wirklich gestreut bist
-✅ ein KI-Coach erklärt dir deine Zahlen
+Was depiq anders macht:
+🌍 Marktereignisse weltweit – und was sie für dein Depot bedeuten
+🔍 Fair Value: Ist eine Aktie eher günstig oder teuer bewertet?
+🧩 Klumpenrisiken in deinem Depot sofort sichtbar
+🤖 Deqo, ein KI-Coach, beantwortet Fragen zu deinem eigenen Depot
+📚 eine Academy, um Investieren Schritt für Schritt zu verstehen
 
 Die ersten 14 Tage sind alle Funktionen kostenlos. Den Link findest du im ersten Kommentar 👇
 
