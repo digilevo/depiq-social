@@ -25,10 +25,10 @@ const POSTS={
   unter:'Ruhe? Stress? Oder schaust du lieber gar nicht rein?'
  },
  '2026-10-26_Mo':{
-  saeule:'loesung', chip:'Endlich Klarheit',
-  titel:{ig:['Endlich','wissen, wo','du <em>stehst.</em>'], x:['Endlich wissen,','wo du <em>stehst.</em>']},
-  unter:'Kein Rätselraten, kein Bauchgefühl. Dein ganzes Depot auf einen Blick.',
-  liste:['Mehr Ruhe im Kopf','Bessere Entscheidungen','Mehr Zeit für dein Leben'], listeX:false
+  saeule:'loesung', chip:'Lösung',
+  titel:{ig:['In 3 Schritten','zu deinem','<em>Überblick.</em>'], x:['In 3 Schritten zu deinem','<em>Depot-Überblick.</em>']},
+  unter:'Ohne Excel-Chaos. Ein Blatt Papier reicht für den Anfang.',
+  liste:['Alle Depots und Konten auflisten','Aktuellen Wert je Position notieren','Anteile in Prozent ausrechnen'], nummeriert:true, listeX:false
  },
  '2026-10-27_Di':{
   saeule:'schmerz', chip:'Kennst du das?',
@@ -74,7 +74,7 @@ const POSTS={
   liste:['24 Stunden warten','Aufschreiben, warum sie passt','Anteil danach prüfen'], nummeriert:true, listeX:false
  },
  '2026-10-30_Fr':{
-  saeule:'gruender', chip:'Gründer',
+  saeule:'gruender', chip:'Gründer', cta:'Kostenlos starten',
   titel:{ig:['Eine Woche','depiq.','<em>Danke.</em>'], x:['Eine Woche depiq.','<em>Danke.</em>']},
   unter:'Jede Rückmeldung lese ich selbst – und baue daraus die nächste Version.'
  },

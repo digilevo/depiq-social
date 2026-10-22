@@ -39,6 +39,7 @@ body{font-family:'DM Sans',sans-serif;color:#fff;position:relative}
 <script src="reels.js"></script>
 <script>
 const GESCHENK='<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8s2-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>';
+const FOLGE='<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>';
 const R=REELS[location.hash.slice(1)];
 const leicht=x=>1-Math.pow(1-Math.min(Math.max(x,0),1),3);
 const zahlFmt=n=>Math.round(n).toLocaleString('de-DE');
@@ -62,7 +63,7 @@ function render(t){
   }
   if(s.cta){
     const e=leicht((lokal-0.4)/0.5), puls=1+Math.sin(Math.max(lokal-1,0)*4)*0.015;
-    html+='<div class="cta"><div class="knopf" style="opacity:'+e+';transform:scale('+(e*puls)+')">'+GESCHENK+s.cta+'</div><div class="bio" style="opacity:'+leicht((lokal-0.9)/0.5)+'">Link in der Bio <svg style="width:44px;height:44px;vertical-align:-6px" viewBox="0 0 24 24" fill="none" stroke="#7ee7d8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>';
+    html+='<div class="cta"><div class="knopf" style="opacity:'+e+';transform:scale('+(e*puls)+')">'+(s.cta.startsWith('Folge')?FOLGE:GESCHENK)+s.cta+'</div><div class="bio" style="opacity:'+leicht((lokal-0.9)/0.5)+'">'+(s.bio||'Link in der Bio')+' <svg style="width:44px;height:44px;vertical-align:-6px" viewBox="0 0 24 24" fill="none" stroke="#7ee7d8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>';
   }
   document.getElementById('szene').innerHTML=html;
 }
