@@ -5,7 +5,7 @@ Die Idee kam aus meinem eigenen Depot:
 📊 eine Excel-Liste, die nie aktuell war
 ❓ und nie ein klares Bild, wo ich insgesamt stehe
 
-Daraus ist in eineinhalb Jahren depiq entstanden – Schritt für Schritt, neben meinen Beratungsprojekten.
+Daraus ist in eineinhalb Jahren depiq entstanden – Schritt für Schritt.
 
 Was depiq macht:
 ✅ alle Depots an einem Ort
