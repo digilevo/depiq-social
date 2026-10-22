@@ -31,3 +31,10 @@ Wer uns folgt, soll etwas lernen, sich verstanden fühlen oder eine Lösung mitn
 7. **Pflicht:** „Keine Anlageberatung.“ bei Finanzinhalten. Beispiele immer als Beispielrechnung oder Beispieldepot kennzeichnen. Keine Kauf- oder Verkaufsempfehlung, keine Renditeversprechen.
 8. **Kommentare:** jede Woche Mischung aus Fragen; „Schreib INFO“ nur im depiq-Anteil.
 9. **Texte** für X und LinkedIn zusätzlich als Datei liefern (Leerzeilen bleiben erhalten). Dateinamen mit Kanal: `_Instagram`, `_X`, `_LinkedIn`.
+
+## Weg zur Registrierung (ergänzt 22.10.2026)
+- **Mehrwert-Posts** bringen Reichweite, Follower und Vertrauen.
+- **Köder (1 × pro Woche):** „Kommentiere CHECK, und ich schicke dir …“ mit echtem Nutzen (Checkliste, später das kostenlose Buch). Im Gespräch per Direktnachricht folgt der depiq-Link.
+- **depiq-Post (1 × pro Woche):** klarer Aufruf „Kostenlos starten“.
+- **Bio:** klares Angebot mit Link zur Landingpage `https://depiq.io/de/`.
+- **Messen bei jeder Auswertung:** Profilbesuche, Klicks auf den Bio-Link, Köder-Kommentare, Registrierungen in depiq.
