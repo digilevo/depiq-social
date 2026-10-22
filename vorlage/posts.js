@@ -10,12 +10,9 @@ const POSTS={
  },
  '2026-10-23_Fr':{
   saeule:'gruender', chip:'Gründer',
-  titel:{ig:['Mehrere Broker.','Eine Excel-Liste.','<em>Kein Überblick.</em>'], x:['Mehrere Broker. Eine Excel-Liste.','<em>Kein Überblick.</em>']},
+  titel:{ig:['Mehrere Broker.','Eine Excel-Liste.','<em>Kein Überblick.</em>'], x:['Mehrere Broker.','Eine Excel-Liste.','<em>Kein Überblick.</em>']},
   unter:'Also habe ich depiq gebaut. – Jürgen',
   liste:['Alle Depots an einem Ort','Streuung auf einen Blick','Deqo erklärt deine Zahlen'], listeX:false
- },
-  unter:'Also habe ich depiq gebaut. – Jürgen',
-  liste:['Alle Depots an einem Ort','Verständlich statt Fachchinesisch','Keine Kauf- oder Verkaufstipps'], listeX:false
  },
  '2026-10-24_Sa':{
   saeule:'tipp', chip:'Tipp',
