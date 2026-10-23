@@ -14,6 +14,11 @@ const POSTS={
   unter:'Genau dafür gibt es jetzt depiq.', cta:'Kostenlos starten',
   liste:['Alle Depots an einem Ort','Streuung auf einen Blick','Deqo erklärt deine Zahlen'], listeX:false
  },
+ '2026-10-23_Fr_v2':{
+  saeule:'gruender', chip:'Freitagsfrage',
+  titel:{ig:['Was war dein','größter <em>Fehler</em>','beim','Investieren?'], x:['Was war dein größter','<em>Fehler</em> beim Investieren?']},
+  unter:'Aus fremden Fehlern lernt man am günstigsten.'
+ },
  '2026-10-24_Sa':{
   saeule:'tipp', chip:'Tipp',
   titel:{ig:['Schreib dein','<em>Warum</em> auf.'], x:['Schreib bei jedem Kauf','dein <em>Warum</em> auf.']},
