@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'DM Sans';font-weight:400;src:url(../vorlage/schrift/dm-sans-400.woff2)}
+@font-face{font-family:'DM Sans';font-weight:500;src:url(../vorlage/schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(../vorlage/schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(../vorlage/schrift/dm-sans-800.woff2)}
+@font-face{font-family:'JB';font-weight:700;src:url(../vorlage/schrift/jetbrains-mono-700.woff2)}
+*{margin:0;box-sizing:border-box}
+body{width:1200px;height:630px;overflow:hidden;font-family:'DM Sans';background:#eef0f8;position:relative;color:#151a3a}
+.b1{position:absolute;left:-180px;bottom:-240px;width:640px;height:540px;border-radius:50%;background:radial-gradient(closest-side,rgba(20,184,166,.26),transparent)}
+.b2{position:absolute;right:60px;top:-200px;width:700px;height:560px;border-radius:50%;background:radial-gradient(closest-side,rgba(124,125,233,.32),transparent)}
+.logo{position:absolute;left:68px;top:66px;height:56px}
+.pille{position:absolute;left:68px;top:172px;background:#fff;border-radius:99px;padding:10px 20px;font-size:20px;font-weight:700;color:#4f46e5;box-shadow:0 6px 20px rgba(60,60,140,.10)}
+h1{position:absolute;left:68px;top:236px;width:600px;font-size:66px;font-weight:800;letter-spacing:-.035em;line-height:1.03}
+h1 em{font-style:normal;background:linear-gradient(90deg,#6366f1,#7c3aed 55%,#0f9e8f);-webkit-background-clip:text;color:transparent}
+.unter{position:absolute;left:68px;top:402px;width:640px;font-size:23px;font-weight:500;color:#4a5170;line-height:1.35}
+.punkte{position:absolute;left:68px;top:502px;display:flex;gap:10px}
+.punkte span{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.75);border:1px solid #dfe2f3;border-radius:12px;padding:8px 13px;font-size:17px;font-weight:700;color:#3f3fb8}
+.punkte i{font-style:normal;font-size:18px}
+/* App-Karten rechts, fiktive Beispieldaten */
+.app{position:absolute;right:46px;top:70px;width:440px;height:500px;transform:rotate(-3deg)}
+.k{position:absolute;background:linear-gradient(160deg,#1d1a55,#121438 60%,#0d2433);border:1px solid rgba(255,255,255,.12);border-radius:22px;box-shadow:0 22px 50px rgba(20,18,70,.35);color:#fff;padding:20px 22px}
+.k h4{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#a9adf0;font-weight:700;margin-bottom:12px}
+.k1{left:0;top:0;width:250px;height:230px}
+.k2{left:214px;top:56px;width:226px;height:204px}
+.k3{left:24px;top:262px;width:416px;height:200px}
+.zahl{font-family:'JB';font-size:44px;font-weight:700;text-align:center;margin-top:-62px}
+.von{text-align:center;color:#a9adf0;font-size:14px}
+.zeile{display:flex;align-items:center;justify-content:space-between;margin:9px 0;font-size:15px}
+.zeile b{font-weight:700}
+.kreis{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'JB';font-weight:700;font-size:15px;border:3px solid}
+.balken{height:10px;border-radius:6px;background:rgba(255,255,255,.1);margin:6px 0 12px;overflow:hidden}
+.balken div{height:100%;border-radius:6px}
+.hinweis{display:flex;gap:10px;align-items:center;background:rgba(240,120,149,.14);border:1px solid rgba(240,120,149,.4);border-radius:12px;padding:9px 12px;font-size:14px;color:#ffd5df}
+.deqo{position:absolute;left:-30px;top:484px;background:#fff;color:#151a3a;border-radius:16px 16px 16px 4px;padding:11px 15px;font-size:15px;font-weight:700;box-shadow:0 12px 30px rgba(20,18,70,.22);transform:rotate(3deg);display:flex;gap:8px;align-items:center}
+.deqo i{font-style:normal;width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#6366f1,#14b8a6);display:inline-block}
+</style></head><body><div class="b1"></div><div class="b2"></div>
+<img class="logo" src="../buch/bilder/logo-light.svg" alt="">
+<div class="pille" id="pille"></div>
+<h1 id="h"></h1>
+<p class="unter" id="u"></p>
+<div class="punkte" id="pk"></div>
+<div class="app">
+ <div class="k k1"><h4 id="t1"></h4>
+  <svg viewBox="0 0 200 110" width="206" style="display:block;margin:0 auto">
+   <path d="M20 100 A80 80 0 0 1 180 100" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="14" stroke-linecap="round"/>
+   <path d="M20 100 A80 80 0 0 1 128 25" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round"/>
+   <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs>
+  </svg>
+  <div class="zahl">62</div><div class="von" id="v1"></div>
+ </div>
+ <div class="k k2"><h4 id="t2"></h4>
+  <div class="zeile"><b>Alpha AG</b><span class="kreis" style="border-color:#14b8a6;color:#5eead4">9</span></div>
+  <div class="zeile"><b>Beta SE</b><span class="kreis" style="border-color:#14b8a6;color:#5eead4">8</span></div>
+  <div class="zeile"><b>Gamma Inc.</b><span class="kreis" style="border-color:#f59e0b;color:#fcd34d">5</span></div>
+ </div>
+ <div class="k k3"><h4 id="t3"></h4>
+  <div class="zeile"><span id="s1"></span><b>42 %</b></div><div class="balken"><div style="width:42%;background:linear-gradient(90deg,#f07895,#e11d48)"></div></div>
+  <div class="zeile"><span id="s2"></span><b>18 %</b></div><div class="balken"><div style="width:18%;background:linear-gradient(90deg,#6366f1,#7c7de9)"></div></div>
+  <div class="hinweis">⚠️ <span id="hw"></span></div>
+ </div>
+ <div class="deqo"><i></i><span id="dq"></span></div>
+</div>
+<script>
+const en=new URLSearchParams(location.search).get('lang')==='en';
+document.body.dataset.l=en?"en":"de";const T=en?{pille:'Free to start · no credit card',h:'How good is your portfolio <em>really?</em>',u:'Quality, diversification and market situation – clearly explained.',pk:[['⭐','Quality'],['🧩','Clusters'],['🌍','Market']],t1:'Diversification',v1:'out of 100',t2:'Quality score',t3:'Hidden cluster',s1:'Technology',s2:'Healthcare',hw:'3 ETFs hold the same stocks',dq:'Deqo explains it to you'}
+:{pille:'Kostenlos starten · ohne Karte',h:'Wie gut ist dein Depot <em>wirklich?</em>',u:'Qualität, Streuung und Marktlage – verständlich erklärt.',pk:[['⭐','Qualität'],['🧩','Klumpen'],['🌍','Marktlage']],t1:'Diversifikation',v1:'von 100',t2:'Qualitätsscore',t3:'Versteckter Klumpen',s1:'Technologie',s2:'Gesundheit',hw:'3 ETFs halten dieselben Aktien',dq:'Deqo erklärt es dir'};
+pille.textContent=T.pille;h.innerHTML=T.h;u.textContent=T.u;
+pk.innerHTML=T.pk.map(([i,t])=>`<span><i>${i}</i>${t}</span>`).join('');
+for(const k of ['t1','v1','t2','t3','s1','s2','hw','dq'])document.getElementById(k).textContent=T[k];
+</script></body></html>
