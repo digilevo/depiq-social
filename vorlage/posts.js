@@ -93,5 +93,50 @@ const POSTS={
   saeule:'frage', chip:'Frage',
   titel:{ig:['Was ist dir','beim Investieren','am <em>wichtigsten?</em>'], x:['Was ist dir beim Investieren','am <em>wichtigsten?</em>']},
   unter:'Dividende, Kursgewinn – oder einfach Ruhe im Kopf?'
+ },
+ '2026-11-02_Mo':{
+  saeule:'loesung', chip:'Lösung',
+  titel:{ig:['Dein','<em>Notgroschen</em>','in 3 Schritten.'], x:['Dein <em>Notgroschen</em>','in 3 Schritten.']},
+  unter:'Bevor du investierst, brauchst du ein Polster. Sonst wird die erste kaputte Waschmaschine zum Kredit.',
+  liste:['Monatsausgaben ausrechnen','3 bis 6 Monate zurücklegen','Auf ein eigenes Tagesgeldkonto'], nummeriert:true, listeX:false
+ },
+ '2026-11-04_Mi_1von4':{
+  saeule:'wissen', chip:'Wissen · 1/4', cta:false,
+  titel:{ig:['3 Geldfehler,','die <em>keiner</em>','bemerkt.']},
+  unter:'Sie fühlen sich normal an. Und kosten über die Jahre ein kleines Vermögen.'
+ },
+ '2026-11-04_Mi_2von4':{
+  saeule:'wissen', chip:'Wissen · 2/4', cta:false,
+  titel:{ig:['Fehler 1:','Konsum auf','<em>Pump.</em>']},
+  unter:'Dispo, Kreditkarte, Ratenkauf. 3.000 € im Minus kosten dich jedes Jahr rund 330 € Zinsen.',
+  balken:[{name:'Zinsen nach 1 Jahr',wert:10,anzeige:'330 €',rot:true},{name:'nach 10 Jahren',wert:100,anzeige:'3.300 €',rot:true}],
+  notiz:'Beispielrechnung: 3.000 € Dispokredit zu 10,99 % pro Jahr, ohne Tilgung.'
+ },
+ '2026-11-04_Mi_3von4':{
+  saeule:'wissen', chip:'Wissen · 3/4', cta:false,
+  titel:{ig:['Fehler 2 und 3:','<em>Neuwagen</em> und','volles Konto.']},
+  unter:'Ein Neuwagen verliert schnell an Wert. Und Geld, das nur rumliegt, verliert leise Kaufkraft.',
+  balken:[{name:'Neuwagen heute',wert:100,anzeige:'40.000 €'},{name:'nach 3 Jahren',wert:60,anzeige:'24.000 €',rot:true}],
+  notiz:'Beispielrechnung: angenommener Restwert 60 % nach 3 Jahren. Kaufkraft: 20.000 € bei 2,2 % Inflation sind nach 10 Jahren noch rund 16.100 € wert.'
+ },
+ '2026-11-04_Mi_4von4':{
+  saeule:'wissen', chip:'Wissen · 4/4',
+  titel:{ig:['Es gibt','noch <em>7 mehr.</em>']},
+  unter:'Alle 10 teuersten Geldfehler stehen in meinem Buch „Depot-IQ“. Das E-Book gibt es bald kostenlos.'
+ },
+ '2026-11-06_Fr':{
+  saeule:'gruender', chip:'Persönlich',
+  titel:{ig:['In der Schule','hat mir das','<em>niemand</em>','beigebracht.'], x:['In der Schule hat mir das','<em>niemand</em> beigebracht.']},
+  unter:'Aktien, ETFs, Gold? Hat mir als junger Mensch nichts gesagt. Deshalb schreibe ich das Buch, das ich damals gebraucht hätte.'
+ },
+ '2026-11-07_Sa':{
+  saeule:'tipp', chip:'Tipp',
+  titel:{ig:['Mehr Gehalt?','Die <em>Hälfte</em>','in den Sparplan.'], x:['Gehaltserhöhung? Die <em>Hälfte</em>','in den Sparplan.']},
+  unter:'Du spürst keinen Verzicht. Und dein Vermögen wächst mit jedem Gehaltssprung mit.'
+ },
+ '2026-11-08_So':{
+  saeule:'frage', chip:'Frage',
+  titel:{ig:['Wann hast du','zum ersten Mal','<em>investiert?</em>'], x:['Wann hast du zum ersten Mal','<em>investiert?</em>']},
+  unter:'Schule, erster Job, später? Oder noch gar nicht? Alles ist ein guter Startpunkt.'
  }
 };

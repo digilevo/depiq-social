@@ -21,5 +21,27 @@ const REELS={
    {von:8.2,bis:10.2,zeilen:[{text:'Zeit ist dein'},{text:'<em>stärkster</em>'},{text:'Hebel.'}],groesse:140},
    {von:10.2,bis:13,zeilen:[{text:'Fang heute an.'},{text:'Mit <em>Überblick.</em>'}],groesse:104,cta:'Folge für mehr', bio:'@depiq.io'}
   ]
+ },
+ '2026-11-03_Di_Reel':{
+  dauer:13, glow:'rgba(225,29,72,.55)',
+  szenen:[
+   {von:0,bis:2.2,zeilen:[{text:'Konto im Minus.',rot:true}],groesse:118},
+   {von:2.2,bis:4.2,zeilen:[{text:'Schon wieder.',rot:true}],groesse:130},
+   {von:4.2,bis:8.4,zeilen:[{text:'Was kostet das?'}],groesse:96,
+    balken:[{name:'nach 1 Jahr',betrag:330,wert:10},{name:'nach 10 Jahren',betrag:3300,wert:100}],
+    notiz:'Beispielrechnung: 3.000 € Dispokredit zu 10,99 % pro Jahr, ohne Tilgung.'},
+   {von:8.4,bis:10.4,zeilen:[{text:'Erst der Dispo.'},{text:'<em>Dann</em> das Depot.'}],groesse:120},
+   {von:10.4,bis:13,zeilen:[{text:'Teure Schulden'},{text:'<em>zuerst.</em>'}],groesse:120,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
+ '2026-11-05_Do_Reel':{
+  dauer:13,
+  szenen:[
+   {von:0,bis:2.6,zeilen:[{text:'100 € gefunden.'},{text:'<em>Schön.</em>'}],groesse:118},
+   {von:2.6,bis:5.2,zeilen:[{text:'100 € verloren.',rot:true},{text:'Ärgert dich',rot:true},{text:'doppelt.',rot:true}],groesse:110},
+   {von:5.2,bis:8,zeilen:[{text:'Verluste'},{text:'tun <em>doppelt</em>'},{text:'so weh.'}],groesse:130},
+   {von:8,bis:10.4,zeilen:[{text:'Deshalb verkaufen'},{text:'so viele'},{text:'im Crash.'}],groesse:110},
+   {von:10.4,bis:13,zeilen:[{text:'Ein Plan schlägt'},{text:'das <em>Bauchgefühl.</em>'}],groesse:110,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
  }
 };
