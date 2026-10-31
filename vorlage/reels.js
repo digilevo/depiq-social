@@ -1,5 +1,15 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
+ '2026-11-01_TikTok_Start':{
+  dauer:14,
+  szenen:[
+   {von:0,bis:2.6,zeilen:[{text:'Dein Depot'},{text:'ist für dich'},{text:'ein <em>Rätsel?</em>'}],groesse:124},
+   {von:2.6,bis:5.4,zeilen:[{text:'Einstandskurs?'},{text:'Klumpenrisiko?'},{text:'Thesaurierend?'}],groesse:116},
+   {von:5.4,bis:8.2,zeilen:[{text:'Hier erkläre ich'},{text:'Börse'},{text:'<em>einfach.</em>'}],groesse:118},
+   {von:8.2,bis:11,zeilen:[{text:'Ohne'},{text:'Fachchinesisch.'},{text:'Ohne Kauftipps.'}],groesse:112},
+   {von:11,bis:14,zeilen:[{text:'Depot verstehen'},{text:'<em>statt raten.</em>'}],groesse:112,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
  '2026-11-02_Mo_Reel':{
   dauer:13, glow:'rgba(225,29,72,.5)',
   szenen:[
