@@ -5,6 +5,8 @@ Täglicher Post an Börsentagen (Mo–Fr), vorbereitet von einer geplanten Aufga
 - Daten je Tag: `boersen/JJJJ-MM-TT.json` (Aufbau siehe `beispiel.json` und Kopf von `vorlage/boersen.html`)
 - Bild je Tag: `boersen/JJJJ-MM-TT_X.png`, gerendert mit `node vorlage/render-boersen.js <json> <png>`
 - Text je Tag: `boersen/JJJJ-MM-TT_X.txt` (unter 280 Zeichen)
+- Story je Tag (Instagram und Facebook, 1080 × 1920): `boersen/JJJJ-MM-TT_Story.png`, gerendert mit `node vorlage/render-boersen.js <json> <png> story`. Dieselbe Vorlage, nur Hochformat. Oben 130 px und unten 220 px bleiben frei für die Bedienelemente von Instagram.
+- Facebook-Beitrag je Tag: dasselbe Querformat-Bild wie für X, Text `boersen/JJJJ-MM-TT_FB.txt`
 
 Aufbau des Bildes:
 - oben: Indexleiste mit 6 Werten (DAX, S&P 500, Nasdaq 100, MSCI World, Gold, Bitcoin)
