@@ -1,17 +1,32 @@
-# Börsen-Frühstück (X)
+# Börsen-Frühstück (X, Facebook, Instagram-Story)
 
-Täglicher Post an Börsentagen (Mo–Fr), vorbereitet von einer geplanten Aufgabe um 6:45 Uhr.
+Täglich an Börsentagen (Montag bis Freitag), vorbereitet von einer geplanten Aufgabe um 6:45 Uhr.
 
-- Daten je Tag: `boersen/JJJJ-MM-TT.json` (Aufbau siehe `beispiel.json` und Kopf von `vorlage/boersen.html`)
-- Bild je Tag: `boersen/JJJJ-MM-TT_X.png`, gerendert mit `node vorlage/render-boersen.js <json> <png>`
-- Text je Tag: `boersen/JJJJ-MM-TT_X.txt` (unter 280 Zeichen)
-- Story je Tag (Instagram und Facebook, 1080 × 1920): `boersen/JJJJ-MM-TT_Story.png`, gerendert mit `node vorlage/render-boersen.js <json> <png> story`. Dieselbe Vorlage, nur Hochformat. Oben 130 px und unten 220 px bleiben frei für die Bedienelemente von Instagram.
-- Facebook-Beitrag je Tag: dasselbe Querformat-Bild wie für X, Text `boersen/JJJJ-MM-TT_FB.txt`
+## Aufbau: 3 Karten, gut lesbar am Handy
 
-Aufbau des Bildes:
-- oben: Indexleiste mit 6 Werten (DAX, S&P 500, Nasdaq 100, MSCI World, Gold, Bitcoin)
-- links: Top 5 Gewinner und Top 5 Verlierer weltweit, unabhängig von Indizes. Nur große, bekannte Aktien mit Börsenwert über 10 Milliarden US-Dollar (Feld `auswahl`), jede Zeile mit der Flagge des Firmensitzes (Feld `land`), reine Tagesveränderung in Prozent
-- rechts: 3 bis 4 Markt-News, jede mit Absender-Etikett (`wer`: EZB, Fed, USA, Firmenname …) und einem vollständigen Satz, der sagt, wer was getan hat. Nie „Notenbank“ ohne Namen, immer „Europäische Zentralbank“, „US-Notenbank Fed“ usw.
-- darunter: „Was heißt das für dich?“
+| Karte | Inhalt |
+|---|---|
+| 1/3 Die Märkte | DAX, S&P 500, Nasdaq 100, MSCI World, Gold, Bitcoin: Schlusskurs und Veränderung |
+| 2/3 Gewinner & Verlierer | Top 5 nach oben und unten, weltweit, nur große Aktien mit Börsenwert über 10 Milliarden US-Dollar, mit Flagge des Firmensitzes |
+| 3/3 Was die Märkte bewegt | 3 News mit Absender, „Was heißt das für dich?“, „Heute wichtig“ |
 
-Regeln: nur belegte Fakten vom selben Morgen, keine Prognosen, keine Kauf-/Verkaufsempfehlung, Gewinner und Verlierer nur als Fakt ohne Wertung, „Keine Anlageberatung.“ im Text und im Bild. Unsichere Werte lieber weglassen.
+Jede Karte gibt es in zwei Formaten aus derselben Vorlage `vorlage/boersen.html`:
+- Beitrag 1080 × 1350 (X, Facebook): `boersen/JJJJ-MM-TT_1.png` … `_3.png`
+- Story 1080 × 1920 (Instagram, Facebook): `boersen/JJJJ-MM-TT_Story_1.png` … `_3.png`, oben 170 px und unten 250 px frei für die Bedienelemente
+
+Erzeugen (bash, im Ordner depiq-social): `node vorlage/render-boersen.js boersen/JJJJ-MM-TT.json boersen/JJJJ-MM-TT`
+Das Skript meldet „ÜBERLAUF“ und endet mit Fehler, wenn ein Text nicht passt. Dann Texte kürzen.
+
+## Lesbarkeit am Handy (feste Regel)
+
+Ein 1080 px breites Bild erscheint am Handy etwa 390 px breit. Deshalb:
+- kleinste Schrift im Bild 34 px (Fußzeile), alle Inhalte ab 38 px, Werte und News ab 42 px
+- je News höchstens 75 Zeichen, genau 3 News
+- Firmennamen höchstens 16 Zeichen
+
+## Texte
+
+- `boersen/JJJJ-MM-TT_X.txt`: unter 280 Zeichen
+- `boersen/JJJJ-MM-TT_FB.txt`: höchstens 600 Zeichen
+
+Regeln: nur belegte Fakten vom selben Morgen (zwei übereinstimmende Quellen), keine Prognosen, keine Kauf- oder Verkaufsempfehlung, Gewinner und Verlierer nur als Fakt ohne Wertung, News immer mit klarem Absender („Europäische Zentralbank“, nie nur „Notenbank“), „Keine Anlageberatung“ im Text und im Bild. Unsichere Werte lieber weglassen.

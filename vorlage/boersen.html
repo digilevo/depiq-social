@@ -1,12 +1,18 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8">
-<!-- Börsen-Frühstück für X, 1600 × 900. Daten kommen aus einer JSON-Datei (siehe render-boersen.js):
+<!-- Börsen-Frühstück als 3 Karten, gut lesbar am Handy.
+     Aufruf: boersen.html?karte=1|2|3&format=feed|story
+       feed  = 1080 × 1350 (X, Facebook)   story = 1080 × 1920 (Instagram- und Facebook-Story)
+     Karte 1: Märkte (6 Werte) · Karte 2: Top 5 Gewinner und Verlierer · Karte 3: Was die Märkte bewegt + Was heißt das für dich?
+     Lesbarkeits-Regel: Ein 1080 px breites Bild erscheint am Handy etwa 390 px breit (Faktor 0,36).
+       Kleinste Schrift im Bild 38 px (am Handy etwa 14 px), Hauptwerte ab 44 px.
+     Daten (JSON, siehe render-boersen.js):
      { "datum":"Mo 02.11.2026", "stand":"Schlusskurse vom 30.10.2026",
-       "indizes":[{"name":"DAX","wert":"25.818","prozent":-0.85}, … bis 6: DAX, S&P 500, Nasdaq 100, MSCI World, Gold, Bitcoin],
+       "indizes":[{"name":"DAX","wert":"25.818","prozent":-0.85}, … 6: DAX, S&P 500, Nasdaq 100, MSCI World, Gold, Bitcoin],
        "auswahl":"Große Aktien weltweit",
        "gewinner":[{"name":"Siemens Energy","land":"🇩🇪","prozent":4.2}, … genau 5, land = Flagge des Firmensitzes],
-       "verlierer":[{"name":"Zalando","prozent":-6.1}, … genau 5],
-       "news":[{"wer":"EZB","text":"Europäische Zentralbank lässt den Leitzins bei 2,0 % unverändert"}, … 3 bis 4],
-       "heute":"14:30 Uhr: Arbeitsmarktdaten USA",
+       "verlierer":[… genau 5],
+       "news":[{"wer":"EZB","text":"Europäische Zentralbank lässt den Leitzins bei 2,0 % unverändert"}, … genau 3],
+       "heute":"Arbeitsmarktdaten USA um 14:30 Uhr",
        "einordnung":"Für Sparpläne: nichts tun. Ruhig bleiben." } -->
 <style>
 @font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
@@ -14,90 +20,82 @@
 @font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
 @font-face{font-family:'JB';font-weight:700;src:url(schrift/jetbrains-mono-700.woff2)}
 *{box-sizing:border-box;margin:0}
-html,body{width:1600px;height:900px;overflow:hidden}
-body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c;position:relative}
-.bg{position:absolute;inset:0;background:radial-gradient(ellipse 45% 70% at 10% 0%,rgba(124,92,230,.7),transparent 70%),radial-gradient(ellipse 40% 70% at 96% 100%,rgba(20,184,166,.42),transparent 70%),linear-gradient(120deg,#0a0d2c,#16134a 60%,#0a1c33)}
-.kopf{position:absolute;left:56px;right:56px;top:36px;display:flex;justify-content:space-between;align-items:center}
-.kopf h1{font-size:52px;font-weight:800;letter-spacing:-.02em;line-height:1}
+html,body{width:1080px;height:1350px;overflow:hidden}
+html.story,html.story body{height:1920px}
+body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 45% at 10% 0%,rgba(124,92,230,.7),transparent 70%),radial-gradient(ellipse 70% 40% at 96% 100%,rgba(20,184,166,.42),transparent 70%),linear-gradient(160deg,#0a0d2c,#16134a 60%,#0a1c33)}
+.seite{position:absolute;inset:0;padding:60px 60px 52px;display:flex;flex-direction:column;gap:30px;overflow:hidden}
+.story .seite{padding:170px 60px 250px;gap:44px}
+.kopf{display:flex;justify-content:space-between;align-items:flex-start}
+.kopf h1{font-size:64px;font-weight:800;letter-spacing:-.02em;line-height:1}
 .kopf h1 span{background:linear-gradient(90deg,#c4b5fd,#7ee7d8);-webkit-background-clip:text;color:transparent}
-.kopf .d{font-size:24px;color:#c7cbf2;font-weight:700;margin-top:8px}
-.kopf img{height:60px}
-/* Indexleiste */
-.idx{position:absolute;left:56px;right:56px;top:150px;display:grid;grid-template-columns:repeat(var(--n),1fr);gap:12px}
-.i{background:rgba(255,255,255,.07);border:1.5px solid rgba(255,255,255,.14);border-radius:16px;padding:12px 16px}
-.i .n{font-size:20px;color:#c7cbf2;font-weight:700;white-space:nowrap}
-.i .r{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-top:4px}
-.i .z{font-family:'JB';font-size:24px;white-space:nowrap}
-.pc{font-size:22px;font-weight:800;white-space:nowrap}
+.kopf .d{font-size:40px;color:#c7cbf2;font-weight:700;margin-top:12px}
+.kopf img{height:62px;margin-top:2px}
+.titel{display:flex;justify-content:space-between;align-items:baseline;font-size:52px;font-weight:800;padding-bottom:8px;border-bottom:3px solid rgba(255,255,255,.14)}
+.titel small{font-size:38px;color:#a9aed6;font-weight:700}
+.inhalt{flex:1;min-height:0;display:flex;flex-direction:column;gap:18px;overflow:hidden}
+.inhalt.news{justify-content:space-between;gap:14px}
+.fuss{display:flex;justify-content:space-between;gap:20px;font-size:34px;color:#a9aed6;font-weight:500;white-space:nowrap}
+.pc{font-weight:800;white-space:nowrap}
 .plus{color:#5eead4}.minus{color:#fda4af}.null{color:#c7cbf2}
-/* linke Hälfte: Gewinner / Verlierer */
-.links{position:absolute;left:56px;top:262px;width:720px;bottom:92px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.box{background:rgba(255,255,255,.05);border:1.5px solid rgba(255,255,255,.12);border-radius:22px;padding:18px 20px;display:flex;flex-direction:column}
-.box h2{font-size:24px;font-weight:800;white-space:nowrap;display:flex;align-items:center;gap:10px}
-.box .aus{font-size:18px;color:#a9aed6;font-weight:700;margin:2px 0 4px}
-.box h2 small{font-size:18px;color:#a9aed6;font-weight:700}
-.box.g h2 b{color:#5eead4}.box.v h2 b{color:#fda4af}
-.zeile{flex:1;display:flex;flex-direction:column;justify-content:center;border-top:1px solid rgba(255,255,255,.09)}
-.zeile:first-of-type{border-top:0}
-.zeile .o{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.zeile .a{font-size:24px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.zeile .pc{font-size:24px}
-.zeile .a em{font-style:normal;margin-right:10px}
-.bar{height:7px;border-radius:9px;background:rgba(255,255,255,.08);margin-top:7px;overflow:hidden}
-.bar i{display:block;height:100%;border-radius:9px}
-.g .bar i{background:linear-gradient(90deg,#14b8a6,#5eead4)}
-.v .bar i{background:linear-gradient(90deg,#e11d48,#fda4af);margin-left:auto}
-/* rechte Hälfte: News */
-.rechts{position:absolute;left:800px;right:56px;top:262px;bottom:92px;display:flex;flex-direction:column;gap:14px}
-.rechts h2{font-size:24px;font-weight:800;color:#e0e7ff}
-.news{display:flex;flex-direction:column;gap:12px;flex:1}
-.nw{flex:1;display:flex;gap:16px;align-items:center;background:rgba(255,255,255,.05);border:1.5px solid rgba(255,255,255,.12);border-radius:18px;padding:10px 18px}
-.nw .w{flex:none;min-width:92px;text-align:center;font-size:18px;font-weight:800;padding:6px 10px;border-radius:10px;background:linear-gradient(135deg,#6366f1,#14b8a6)}
-.nw p{font-size:24px;font-weight:700;line-height:1.25}
-.fuer{padding:14px 20px;border-radius:18px;background:linear-gradient(135deg,rgba(99,102,241,.55),rgba(20,184,166,.4));border:1.5px solid rgba(255,255,255,.22)}
-.fuer h3{font-size:17px;letter-spacing:.08em;text-transform:uppercase;color:#e0e7ff;margin-bottom:4px}
-.fuer p{font-size:24px;font-weight:700;line-height:1.25}
-.fuss{position:absolute;left:56px;right:56px;bottom:32px;display:flex;justify-content:space-between;align-items:center;font-size:20px;color:#a9aed6}
-.fuss .heute{color:#fff;font-weight:700;font-size:22px} .fuss .heute span{color:#7ee7d8}
-
-/* Hochformat für Instagram-Story und Facebook-Story (1080 × 1920), Aufruf mit ?story. Oben 140 px und unten 220 px frei für die Bedienelemente von Instagram */
-html.story,html.story body{width:1080px;height:1920px}
-.story .kopf{left:60px;right:60px;top:130px}
-.story .kopf h1{font-size:62px}.story .kopf .d{font-size:30px}.story .kopf img{height:64px}
-.story .idx{left:60px;right:60px;top:290px;grid-template-columns:repeat(3,1fr);gap:14px}
-.story .i{padding:14px 18px}.story .i .n{font-size:24px}.story .i .z{font-size:26px}.story .pc{font-size:24px}
-.story .links{left:60px;right:60px;width:auto;top:525px;bottom:auto;height:580px;gap:18px}
-.story .zeile .a,.story .zeile .pc{font-size:28px}.story .box h2{font-size:28px}.story .box .aus{font-size:21px}
-.story .rechts{left:60px;right:60px;top:1130px;bottom:345px;gap:10px}
-.story .news{gap:10px}
-.story .rechts h2{font-size:28px}
-.story .nw p{font-size:26px}.story .nw .w{font-size:20px}
-.story .fuer{padding:12px 20px}.story .fuer p{font-size:26px}
-.story .fuss{left:60px;right:60px;bottom:225px;flex-direction:column;align-items:flex-start;gap:6px}
+/* Karte 1: Märkte */
+.wert{flex:1;display:flex;align-items:center;justify-content:space-between;gap:24px;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.14);border-radius:28px;padding:0 36px}
+.wert .n{font-size:46px;font-weight:700}
+.wert .r{text-align:right}
+.wert .z{font-family:'JB';font-size:50px;line-height:1.15}
+.wert .pc{font-size:44px}
+/* Karte 2: Gewinner / Verlierer */
+.gv{flex:1;min-height:0;display:flex;flex-direction:column;gap:12px}
+.gv h2{font-size:44px;font-weight:800}
+.gv h2.g{color:#5eead4}.gv h2.v{color:#fda4af;margin-top:14px}
+.liste{flex:1;display:flex;flex-direction:column;gap:8px}
+.zeile{flex:1;display:flex;align-items:center;justify-content:space-between;gap:20px;border-radius:18px;padding:0 26px;position:relative;overflow:hidden;background:rgba(255,255,255,.05)}
+.zeile i{position:absolute;left:0;top:0;bottom:0;opacity:.32}
+.g .zeile i{background:linear-gradient(90deg,#14b8a6,rgba(20,184,166,.15))} .v .zeile i{background:linear-gradient(90deg,#e11d48,rgba(225,29,72,.15))}
+.zeile .a,.zeile .pc{position:relative;font-size:44px}
+.zeile .a{font-weight:700;white-space:nowrap}
+.zeile .a em{font-style:normal;margin-right:16px}
+/* Karte 3: News */
+.nw{display:flex;flex-direction:column;justify-content:center;gap:8px;background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.13);border-radius:28px;padding:16px 30px}
+.nw .w{display:inline-block;margin-right:14px;font-size:36px;font-weight:800;padding:0 14px;border-radius:12px;vertical-align:3px;background:linear-gradient(135deg,#6366f1,#14b8a6)}
+.nw p{font-size:42px;font-weight:700;line-height:1.2}
+.fuer{padding:20px 32px;border-radius:28px;background:linear-gradient(135deg,rgba(99,102,241,.6),rgba(20,184,166,.45));border:2px solid rgba(255,255,255,.22)}
+.fuer h3{font-size:38px;color:#e0e7ff;margin-bottom:6px}
+.fuer p{font-size:42px;font-weight:700;line-height:1.2}
+.heute{font-size:40px;font-weight:700}.heute span{color:#7ee7d8}
 </style></head><body><div class="bg"></div>
-<div class="kopf"><div><h1>☕ Börsen-<span>Frühstück</span></h1><div class="d" id="datum"></div></div><img src="logo-dark.svg" alt="depiq"></div>
-<div class="idx" id="idx"></div>
-<div class="links"><div class="box g" id="gew"></div><div class="box v" id="ver"></div></div>
-<div class="rechts"><h2>📰 Was die Märkte bewegt</h2><div class="news" id="news"></div>
-  <div class="fuer" id="fuer"><h3>Was heißt das für dich?</h3><p id="einordnung"></p></div></div>
-<div class="fuss"><div class="heute" id="heute"></div><div id="stand"></div></div>
+<div class="seite">
+  <div class="kopf"><div><h1>☕ Börsen-<span>Frühstück</span></h1><div class="d" id="datum"></div></div><img src="logo-dark.svg" alt="depiq"></div>
+  <div class="titel"><span id="titel"></span><small id="nr"></small></div>
+  <div class="inhalt" id="inhalt"></div>
+  <div class="fuss"><span id="stand"></span><span>Keine Anlageberatung</span></div>
+</div>
 <script>
-if (location.search.includes('story')) document.documentElement.classList.add('story');
+const q = new URLSearchParams(location.search), KARTE = +(q.get('karte') || 1);
+if (q.get('format') === 'story') document.documentElement.classList.add('story');
 window.zeichne = d => {
   const f = n => (n > 0 ? '+' : n < 0 ? '−' : '±') + Math.abs(n).toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + ' %';
   const k = n => n > 0.05 ? 'plus' : n < -0.05 ? 'minus' : 'null';
   const pf = n => ({ plus: '▲', minus: '▼', null: '■' })[k(n)];
+  const nbsp = t => t.replace(/ (%|\$|€|Uhr)/g, ' $1');
   document.getElementById('datum').textContent = d.datum;
-  const ix = document.getElementById('idx'); ix.style.setProperty('--n', d.indizes.length);
-  ix.innerHTML = d.indizes.map(x => `<div class="i"><div class="n">${x.name}</div><div class="r"><span class="z">${x.wert}</span><span class="pc ${k(x.prozent)}">${pf(x.prozent)} ${f(x.prozent)}</span></div></div>`).join('');
-  const max = Math.max(1, ...[...d.gewinner, ...d.verlierer].map(x => Math.abs(x.prozent)));
-  const liste = (a) => a.map(x => `<div class="zeile"><div class="o"><span class="a">${x.land ? `<em>${x.land}</em>` : ''}${x.name}</span><span class="pc ${k(x.prozent)}">${f(x.prozent)}</span></div><div class="bar"><i style="width:${Math.abs(x.prozent) / max * 100}%"></i></div></div>`).join('');
-  document.getElementById('gew').innerHTML = `<h2><b>▲</b> Top 5 Gewinner</h2><div class="aus">${d.auswahl}</div>` + liste(d.gewinner);
-  document.getElementById('ver').innerHTML = `<h2><b>▼</b> Top 5 Verlierer</h2><div class="aus">${d.auswahl}</div>` + liste(d.verlierer);
-  document.getElementById('news').innerHTML = d.news.map(n => `<div class="nw"><span class="w">${n.wer}</span><p>${n.text.replace(/ (%|\$|€|Uhr)/g, "\u00a0$1")}</p></div>`).join('');
-  document.getElementById('einordnung').textContent = d.einordnung || '';
-  document.getElementById('fuer').style.display = d.einordnung ? '' : 'none';
-  document.getElementById('heute').innerHTML = d.heute ? `<span>Heute wichtig:</span> ${d.heute}` : '';
-  document.getElementById('stand').textContent = (d.stand || '') + ' · Keine Anlageberatung';
+  document.getElementById('stand').textContent = d.stand || '';
+  document.getElementById('nr').textContent = KARTE + '/3';
+  const inh = document.getElementById('inhalt'), titel = document.getElementById('titel');
+  if (KARTE === 1) {
+    titel.textContent = '📊 Die Märkte';
+    inh.innerHTML = d.indizes.map(x => `<div class="wert"><span class="n">${x.name}</span><span class="r"><div class="z">${x.wert}</div><div class="pc ${k(x.prozent)}">${pf(x.prozent)} ${f(x.prozent)}</div></span></div>`).join('');
+  } else if (KARTE === 2) {
+    titel.innerHTML = '🏁 Gewinner &amp; Verlierer';
+    const max = Math.max(1, ...[...d.gewinner, ...d.verlierer].map(x => Math.abs(x.prozent)));
+    const liste = a => a.map(x => `<div class="zeile"><i style="width:${Math.abs(x.prozent) / max * 100}%"></i><span class="a">${x.land ? `<em>${x.land}</em>` : ''}${x.name}</span><span class="pc ${k(x.prozent)}">${f(x.prozent)}</span></div>`).join('');
+    inh.innerHTML = `<div class="gv"><h2 class="g">▲ Top 5 Gewinner</h2><div class="liste g">${liste(d.gewinner)}</div><h2 class="v">▼ Top 5 Verlierer</h2><div class="liste v">${liste(d.verlierer)}</div></div>`;
+    document.getElementById('stand').textContent = d.auswahl || '';
+  } else {
+    titel.textContent = '📰 Was die Märkte bewegt'; inh.classList.add('news');
+    inh.innerHTML = d.news.slice(0, 3).map(n => `<div class="nw"><p><span class="w">${n.wer}</span>${nbsp(n.text)}</p></div>`).join('')
+      + (d.einordnung ? `<div class="fuer"><h3>Was heißt das für dich?</h3><p>${nbsp(d.einordnung)}</p></div>` : '')
+      + (d.heute ? `<div class="heute"><span>Heute wichtig:</span> ${nbsp(d.heute)}</div>` : '');
+  }
 };
 </script></body></html>
