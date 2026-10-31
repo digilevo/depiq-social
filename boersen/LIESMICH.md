@@ -8,7 +8,7 @@ Täglicher Post an Börsentagen (Mo–Fr), vorbereitet von einer geplanten Aufga
 
 Aufbau des Bildes:
 - oben: Indexleiste mit 6 Werten (DAX, S&P 500, Nasdaq 100, MSCI World, Gold, Bitcoin)
-- links: Top 5 Gewinner und Top 5 Verlierer aus dem DAX 40 (Feld `auswahl`), reine Tagesveränderung in Prozent
+- links: Top 5 Gewinner und Top 5 Verlierer aus DAX 40 und Nasdaq 100 zusammen (Feld `auswahl`), jede Zeile mit Flagge 🇩🇪 oder 🇺🇸 (Feld `land`), reine Tagesveränderung in Prozent
 - rechts: 3 bis 4 Markt-News, jede mit Absender-Etikett (`wer`: EZB, Fed, USA, Firmenname …) und einem vollständigen Satz, der sagt, wer was getan hat. Nie „Notenbank“ ohne Namen, immer „Europäische Zentralbank“, „US-Notenbank Fed“ usw.
 - darunter: „Was heißt das für dich?“
 
