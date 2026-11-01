@@ -1,0 +1,71 @@
+# depiq Wissen – Themenliste der Grundlagenartikel
+
+Adressen: depiq.io/de/wissen/<slug> und depiq.io/en/learn/<slug>
+Quelle: Buch „Depot-IQ“, Kapitel in buch/kapitel/kNN.html. Das Buch ist noch nicht final: Kapitelnummern sind nur interne Verweise, nie im Artikel nennen. Vor jedem Artikel den aktuellen Stand des Kapitels lesen.
+Ablauf: KI-Entwurf DE + EN → Freigabe Jürgen → Veröffentlichung
+CTA DE: Registrierung (14 Tage alle Funktionen kostenlos, ohne Kreditkarte, jederzeit kündbar) + E-Book
+CTA EN: englisches E-Book + Warteliste englische App (App noch nur DE)
+
+## Welle 1 (zuerst, je 1 Artikel alle 2–3 Tage)
+
+| Nr | Titel DE | Hauptsuchbegriff DE | Kapitel | EN |
+|---|---|---|---|---|
+| 1 | ETF-Sparplan: So startest du in 5 Schritten | etf sparplan | k11, k13 | ja |
+| 2 | Notgroschen: Wie viel brauchst du wirklich? | notgroschen | k03, k10 | ja |
+| 3 | Zinseszins: Warum früh starten so viel bringt | zinseszins | k06 | ja |
+| 4 | Inflation einfach erklärt: Was dein Geld verliert | inflation erklärt | k05 | ja |
+| 5 | Rebalancing: Depot wieder ins Gleichgewicht bringen | rebalancing | k12, k15 | ja |
+| 6 | Depot eröffnen: Worauf du achten musst | depot eröffnen | k13 | angepasst |
+| 7 | KGV einfach erklärt: Ist die Aktie teuer? | kgv | k16 | ja |
+| 8 | Dividenden: Passives Einkommen realistisch gerechnet | dividenden | k18 | ja |
+
+## Welle 2
+
+| Nr | Titel DE | Hauptsuchbegriff DE | Kapitel | EN |
+|---|---|---|---|---|
+| 9 | Aktie oder ETF: Was passt zu dir? | aktie oder etf | k09, k11 | ja |
+| 10 | Risiko und Streuung: Nicht alles auf eine Karte | diversifikation | k12 | ja |
+| 11 | Versteckte Kosten im Depot erkennen | depot kosten | k14 | ja |
+| 12 | Tagesgeld, Festgeld, Anleihen im Vergleich | tagesgeld festgeld | k10 | angepasst |
+| 13 | Die 200-Tage-Linie einfach erklärt | 200 tage linie | k17 | ja |
+| 14 | Fair Value: Was ist eine Aktie wirklich wert? | fair value aktie | k16 | ja |
+| 15 | Börsencrash: Was du jetzt tun und lassen solltest | börsencrash | k07, k27 | ja |
+| 16 | Die 15 häufigsten Anfängerfehler beim Investieren | fehler beim investieren | k29 | ja |
+
+## Welle 3
+
+| Nr | Titel DE | Hauptsuchbegriff DE | Kapitel | EN |
+|---|---|---|---|---|
+| 17 | Vermögen aufbauen mit wenig Geld | vermögen aufbauen | k03 | ja |
+| 18 | Gold und Silber im Depot: Sinn oder Unsinn? | gold investieren | k20 | ja |
+| 19 | Kryptowährungen: Chancen und Risiken ehrlich erklärt | krypto investieren | k22 | ja |
+| 20 | Hebel, Derivate, Zertifikate: Finger weg? | hebelprodukte | k23 | ja |
+| 21 | Finanzbetrug erkennen: Die typischen Maschen | finanzbetrug | k28 | ja |
+| 22 | Psychologie beim Investieren: Die Gefühlsfallen | psychologie börse | k27 | ja |
+| 23 | Kapitalerträge und Steuern: Die Grundzüge (DE, AT, CH) | steuern aktien | k30 | nein |
+| 24 | Geförderte Altersvorsorge in DE, AT, CH | altersvorsorge | k24 | nein |
+| 25 | Finanzielle Freiheit: Die 4-Prozent-Regel erklärt | 4 prozent regel | k26 | ja |
+
+EN: „ja“ = gleicher Inhalt; „angepasst“ = ohne deutsche Sonderbegriffe; „nein“ = nur DACH-Thema.
+Suchbegriffe sind Annahmen. Vor dem Schreiben mit einem Suchvolumen-Werkzeug (zum Beispiel Google Search Console oder Ubersuggest) prüfen.
+
+## Laufende Artikel (ab Welle 1, 2–3 pro Woche)
+Aktuelle Themen zu festen Rubriken: Markt verstehen, Sparen & Sicherheit, Depot & Strategie, Fehler vermeiden.
+
+## Rechner (eigene Seiten + Widget in der rechten Spalte der Artikel)
+
+Eine Komponente je Rechner, zweimal benutzt: als eigene Seite (depiq.io/de/rechner/<slug>, depiq.io/en/calculators/<slug>) und als Widget in Artikeln. Nie zweimal gebaut. Von der Landingpage im Menü und in der Fußzeile erreichbar.
+
+| Nr | Rechner | Slug DE | passt zu Artikel |
+|---|---|---|---|
+| R1 | Notgroschen-Rechner | notgroschen | 2, 12 |
+| R2 | Sparplan- und Zinseszins-Rechner | sparplan | 1, 3, 17 |
+| R3 | Inflationsrechner (Kaufkraft) | inflation | 4 |
+| R4 | Dispo-Kosten-Rechner | dispo | laufende Artikel |
+| R5 | Rebalancing-Rechner | rebalancing | 5, 10 |
+| R6 | Kosten-Rechner (Fondskosten über die Jahre) | kosten | 11 |
+| R7 | Dividenden-Rechner | dividenden | 8 |
+| R8 | Entnahme-Rechner (4-Prozent-Regel) | entnahme | 25 |
+
+Reihenfolge: R1, R2, R3 zusammen mit Welle 1, danach R5, R6, R7, R4, R8.
+Jeder Rechner: Ergebnis als Balken/Skala, Annahmen sichtbar, „Werte gerundet, keine Anlageberatung“, darunter der Knopf zur Registrierung (DE) bzw. E-Book/Warteliste (EN).
