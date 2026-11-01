@@ -90,7 +90,7 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 - **Formate:** PDF-Dokument mit 6 bis 8 Seiten im hellen, ruhigen Design (Vorlage `vorlage/linkedin.html`), ein Diagramm mit einer Aussage, Textbeitrag mit Erkenntnis aus der Praxis.
 - **Rhythmus:** Dienstag und Donnerstag, 11:00 Uhr (laut Metricool die stärkste Zeit auf LinkedIn).
 - **Ziel:** kostenlose Registrierung bei depiq („Depot strukturiert verstehen – depiq.io“) und E-Book.
-- **Glaubwürdige Zahlen:** Zeitaufwand, Renditen und Ersparnisse großzügig und realistisch schätzen, nie geschönt. Lieber „etwa eine Stunde im Jahr“ als „15 Minuten“. Zu gute Zahlen wirken unseriös und kosten Vertrauen. Renditen eher vorsichtig ansetzen, Annahmen immer nennen.
+- **Glaubwürdige Zahlen:** Zeitaufwand, Renditen und Ersparnisse großzügig und realistisch schätzen, nie geschönt. Lieber „1 bis 2 Stunden im Jahr“ als „15 Minuten“. Gerundete Werte mit „rund“ oder „≈“ kennzeichnen, genauen Wert bei den Annahmen nennen. Aussagen über depiq nur, wenn die Funktion wirklich existiert. Zu gute Zahlen wirken unseriös und kosten Vertrauen. Renditen eher vorsichtig ansetzen, Annahmen immer nennen.
 - Kein Börsen-Frühstück, keine Emotions-Bilder, keine Reels auf LinkedIn.
 
 ## 5. Dateien und Namen
