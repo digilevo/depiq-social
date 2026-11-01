@@ -100,6 +100,7 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 - Bilder und Videos für Metricool als Raw-Link: `https://raw.githubusercontent.com/digilevo/depiq-social/main/<Pfad>`
 
 ## Prüfliste vor jedem Beitrag
+- [ ] In Metricool **alle Kanäle angehakt**: Instagram, Facebook und TikTok (später YouTube). Metricool überträgt nichts automatisch von Instagram auf Facebook.
 - [ ] Haken im ersten Satz und ersten Bild
 - [ ] Leser lernt genau eine Sache, mit Alltags-Vergleich
 - [ ] Zahlen nachgerechnet, Annahmen genannt
