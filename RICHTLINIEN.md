@@ -26,6 +26,11 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 2. **Eine Aussage pro Bild oder Szene.**
 3. **Speichern anregen** bei Karussells schon auf Bild 1 („🔖 Speichern“).
 4. **Letztes Bild:** weißer Kasten „📘 Mehr davon im kostenlosen E-Book Depot-IQ · Link im Profil · depiq.io/de/book“ (Link im Profil auf allen Kanälen = https://depiq.io/de/book/). **Bis das E-Book erscheint** (voraussichtlich Mitte bis Ende November 2026) lautet der Hinweis überall: „📘 Mein kostenloses E-Book „Depot-IQ“ erscheint bald. Jetzt vormerken: Link im Profil.“ Nie „sofort“ oder „jetzt herunterladen“ schreiben, solange es nicht erschienen ist. oder Verweis auf eine Vorlage depiq.io/v/NN.
+4b. **Zwei Ziele im Wechsel** – beide landen in Klick-Tipp und werden per E-Mail weiter betreut:
+   - **E-Book „Depot-IQ“** (Montag, Mittwoch): „📘 Mein kostenloses E-Book „Depot-IQ“ erscheint bald. Jetzt vormerken: Link im Profil.“
+   - **Kostenlos bei depiq registrieren** (Dienstag, Donnerstag, Freitag, Börsen-Frühstück): „📊 Dein Depot auf einen Blick: kostenlos bei depiq starten – depiq.io“
+   - Nur Funktionen nennen, die es in depiq wirklich gibt.
+   - Profil-Links: Instagram 2 Links (1. „E-Book vormerken“ https://depiq.io/de/book/, 2. „depiq kostenlos starten“ https://depiq.io). Facebook, X, TikTok: https://depiq.io/de/book/ (die Seite hat oben „Kostenlos starten“). YouTube: beide Links im Kanalprofil.
 5. **Frage am Ende**, in einem Wort beantwortbar („Acc oder Dist?“).
 6. **Hashtags:** 3 bis 5, kleingeschrieben, am Ende. Keine Hashtag-Blöcke.
 
