@@ -110,7 +110,14 @@ const deko = (ton) => ton === 'rot'
   ? `<g fill="#fb7185" opacity=".55"><path d="M610 300 l14 22 l-28 0z" transform="rotate(180 610 311)"/><path d="M1040 380 l12 20 l-24 0z" transform="rotate(180 1040 390)"/><path d="M560 470 l10 16 l-20 0z" transform="rotate(180 560 478)"/></g>`
   : `<g fill="#5eead4" opacity=".6"><circle cx="600" cy="320" r="8"/><circle cx="1050" cy="400" r="10"/><circle cx="570" cy="470" r="6"/></g>
      <g transform="translate(1000,560)"><rect x="-30" y="40" width="60" height="70" rx="10" fill="#4f46e5"/><path d="M0 40 Q-40 -10 -10 -60 Q0 -10 0 40 Q10 -30 40 -50 Q30 0 0 40" fill="#14b8a6"/></g>`;
+const emojiFigur = (e, farbe) => `
+  <g transform="translate(800,420)">
+    <circle r="230" fill="${farbe}" opacity=".18"/><circle r="170" fill="${farbe}" opacity=".18"/>
+    <text y="95" text-anchor="middle" font-size="280" font-family="Noto Color Emoji, Apple Color Emoji, sans-serif">${e}</text>
+  </g>`;
 const BILDER = {
+  panik_emoji: `<svg viewBox="0 0 1100 760">${DEFS}${deko('rot')}${laptop('rot')}${emojiFigur('😱','#fb7185')}${blase('VERKAUFEN?!','#e11d48')}</svg>`,
+  ruhe_emoji:  `<svg viewBox="0 0 1100 760">${DEFS}${deko('gruen')}${laptop('gruen')}${emojiFigur('😌','#5eead4')}${blase('Ich bleib dabei.','#0d9488')}</svg>`,
   panik: `<svg viewBox="0 0 1100 760">${DEFS}${deko('rot')}${laptop('rot')}${figur('panik')}${blase('VERKAUFEN?!','#e11d48')}</svg>`,
   ruhe:  `<svg viewBox="0 0 1100 760">${DEFS}${deko('gruen')}${laptop('gruen')}${figur('ruhe')}${blase('Ich bleib dabei.','#0d9488')}</svg>`
 };
