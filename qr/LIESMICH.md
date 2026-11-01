@@ -6,6 +6,6 @@ SVG = für Druck (Buch, Flyer), PNG = für Bildschirm/E-Book. Fehlerkorrektur M.
 - tiktok: https://www.tiktok.com/@depiq.io
 - youtube: https://www.youtube.com/@depiq
 - pinterest: https://www.pinterest.com/depiq_io
-- linkedin: https://www.linkedin.com/company/146585057
+- linkedin: https://www.linkedin.com/company/depiq
 - depiq-io: https://depiq.io/?utm_source=buch&utm_medium=qr&utm_campaign=depot-iq
-- X: fehlt noch (Handle offen)
+- x: https://x.com/depiq_io
