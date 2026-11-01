@@ -1,0 +1,47 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- LinkedIn-Dokument (PDF-Seiten 1080 × 1350): hell, ruhig, sachlich. Aufruf linkedin.html?seite=N, Daten per window.zeichne(d) = {reihe, seiten:[{html}]} -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+@font-face{font-family:'JB';font-weight:700;src:url(schrift/jetbrains-mono-700.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'DM Sans',sans-serif;color:#141a3a;background:#f7f8fc}
+.rand{position:absolute;left:0;top:0;bottom:0;width:14px;background:linear-gradient(#4f46e5,#14b8a6)}
+.seite{position:absolute;inset:0;padding:72px 84px 60px 98px;display:flex;flex-direction:column;gap:36px}
+.kopf{display:flex;justify-content:space-between;align-items:center}
+.reihe{font-size:30px;font-weight:700;color:#4f46e5;letter-spacing:.04em;text-transform:uppercase}
+.kopf img{height:52px}
+.inhalt{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:32px;overflow:hidden}
+h1{font-size:96px;font-weight:800;line-height:1.04;letter-spacing:-.025em}
+h2{font-size:64px;font-weight:800;line-height:1.1;letter-spacing:-.02em}
+h1 em,h2 em{font-style:normal;color:#4f46e5}
+p{font-size:42px;font-weight:500;line-height:1.35;color:#3b4266}
+p b{color:#141a3a;font-weight:700}
+.klein{font-size:32px;color:#6b7194}
+.kennzahl{display:flex;align-items:baseline;gap:24px;padding:34px 40px;border-radius:24px;background:#fff;border:2px solid #e3e6f3}
+.kennzahl b{font-family:'JB';font-size:96px;color:#4f46e5;white-space:nowrap}
+.kennzahl span{font-size:38px;font-weight:700;color:#3b4266;line-height:1.25}
+.liste{display:flex;flex-direction:column;gap:22px}
+.punkt{display:flex;gap:26px;align-items:flex-start;padding:26px 32px;border-radius:20px;background:#fff;border:2px solid #e3e6f3}
+.punkt i{flex:none;font-style:normal;width:56px;height:56px;border-radius:14px;display:grid;place-items:center;background:#eef0ff;color:#4f46e5;font-size:32px;font-weight:800}
+.punkt div{font-size:38px;line-height:1.3;color:#3b4266}.punkt div b{color:#141a3a}
+.diagramm{background:#fff;border:2px solid #e3e6f3;border-radius:24px;padding:28px}
+.legende{display:flex;gap:36px;font-size:32px;font-weight:700;margin-top:10px}
+.legende span::before{content:'';display:inline-block;width:34px;height:10px;border-radius:5px;margin-right:12px;vertical-align:middle;background:var(--c)}
+.cta{padding:34px 40px;border-radius:24px;background:#141a3a;color:#fff}
+.cta strong{display:block;font-size:44px;margin-bottom:8px}.cta span{font-size:36px;color:#a5b4fc;font-weight:700}
+.fuss{display:flex;justify-content:space-between;font-size:30px;color:#8a90b0}
+</style></head><body><div class="rand"></div>
+<div class="seite"><div class="kopf"><span class="reihe" id="reihe"></span><img src="logo-light.svg" alt="depiq"></div>
+<div class="inhalt" id="inhalt"></div>
+<div class="fuss"><span>depiq.io · Keine Anlageberatung</span><span id="nr"></span></div></div>
+<script>
+const N = +(new URLSearchParams(location.search).get('seite') || 1);
+window.zeichne = d => {
+  document.getElementById('reihe').textContent = d.reihe;
+  document.getElementById('inhalt').innerHTML = d.seiten[N-1].html;
+  document.getElementById('nr').textContent = `${N} / ${d.seiten.length}`;
+};
+</script></body></html>
