@@ -3,6 +3,14 @@
 Gilt für X, Instagram, Facebook und TikTok, für Menschen und für jede geplante Aufgabe. Vor jedem Beitrag lesen. Ein Beitrag geht erst raus, wenn die Prüfliste am Ende erfüllt ist.
 Stand: 01.11.2026 · Grundlage: Social-Media-Analyse https://claude.ai/artifact/FrxC7FabiDx99hZz5T9KMM
 
+## Grundregeln (gelten immer, ohne Ausnahme)
+Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestellt, auf einen Blick erkennbar, um was es geht.“
+1. **Einfach:** Kurze Sätze mit höchstens 12 Wörtern, Alltagswörter. Jeder Fachbegriff wird sofort erklärt oder weggelassen.
+2. **Logisch:** Eine klare Reihenfolge: Frage → Beispiel → Ergebnis → was du tun kannst. Kein Gedankensprung.
+3. **Auf einen Blick:** Worum es geht, steht groß im ersten Bild. Wer nur 2 Sekunden hinschaut, weiß das Thema.
+4. **Gut dargestellt:** Zahlen mit Balken, Gegensätze nebeneinander, Symbole statt Text, wo es geht.
+5. **Zu kompliziert = nicht posten.** Im Zweifel streichen statt erklären. Weniger Inhalt, dafür verstanden.
+
 ## 1. Inhalt und Mehrwert
 0. **Verständlich ohne Vorwissen (wichtigste Regel):** Ein Laie versteht jedes Bild und jede Szene ohne Rückfrage. Jede Rechnung in drei Schritten erzählen: 1) „Beispiel: Du legst 10.000 € an und wartest 30 Jahre.“ 2) die Annahme in einem Satz („Beide wachsen 6 % pro Jahr, nur die Kosten sind verschieden.“) 3) das Ergebnis mit Balken und klarer Beschriftung („Du gibst die Dividenden aus“ statt „ausgeschüttet, ausgegeben“). Keine nackten Zahlen ohne Satz. In Reels mindestens 3,5 Sekunden pro Szene mit Zahl.
 1. **Eine Sache lernen:** Nach dem Beitrag kann der Leser genau einen Begriff, Zusammenhang oder Fehler selbst erklären.
