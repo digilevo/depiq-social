@@ -93,6 +93,10 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 - **Glaubwürdige Zahlen:** Zeitaufwand, Renditen und Ersparnisse großzügig und realistisch schätzen, nie geschönt. Lieber „1 bis 2 Stunden im Jahr“ als „15 Minuten“. Gerundete Werte mit „rund“ oder „≈“ kennzeichnen, genauen Wert bei den Annahmen nennen. Aussagen über depiq nur, wenn die Funktion wirklich existiert. Zu gute Zahlen wirken unseriös und kosten Vertrauen. Renditen eher vorsichtig ansetzen, Annahmen immer nennen.
 - Kein Börsen-Frühstück, keine Emotions-Bilder, keine Reels auf LinkedIn.
 
+## 4e. depiq-Funktionen, die genannt werden dürfen (von Jürgen bestätigt)
+Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jürgen aufnehmen. Nie behaupten, eine Funktion sei kostenlos, solange der Tarif nicht bestätigt ist; „kostenlos registrieren“ ist immer richtig.
+- **Rebalancing** (bestätigt 01.11.2026): Ziel-Aufteilung je Bereich einstellen (Aktien, ETFs, Währungen, Länder), grafische Anzeige von Über- und Untergewichtung samt erhöhtem Risiko, Hinweis per Benachrichtigung, eigene Seite und Widgets. Wird noch ausgebaut.
+
 ## 5. Dateien und Namen
 - Reels: `reels/JJJJ-MM-TT_<Tag>_Reel.mp4`, Text `texte/JJJJ-MM-TT_<Tag>_Reel.txt`
 - Karussells: `karussell/JJJJ-MM-TT_<Tag>_<thema>.json` → `_1.png` … `_5.png`, Text `.txt`
