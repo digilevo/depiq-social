@@ -1,7 +1,7 @@
 # depiq Social Media: Richtlinien (verbindlich für jeden Beitrag)
 
 Gilt für X, Instagram, Facebook und TikTok, für Menschen und für jede geplante Aufgabe. Vor jedem Beitrag lesen. Ein Beitrag geht erst raus, wenn die Prüfliste am Ende erfüllt ist.
-Stand: 01.11.2026 · Grundlage: Social-Media-Analyse https://claude.ai/artifact/FrxC7FabiDx99hZz5T9KMM
+Stand: 01.11.2026 · E-Book-Seite: https://depiq.io/de/book/ · Grundlage: Social-Media-Analyse https://claude.ai/artifact/FrxC7FabiDx99hZz5T9KMM
 
 ## Grundregeln (gelten immer, ohne Ausnahme)
 Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestellt, auf einen Blick erkennbar, um was es geht.“
@@ -25,7 +25,7 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 1. **Haken im ersten Satz und ersten Bild:** eine konkrete Zahl, ein Widerspruch oder eine Frage. Keine Begrüßung, kein Intro. Nie ein Alter im Haken.
 2. **Eine Aussage pro Bild oder Szene.**
 3. **Speichern anregen** bei Karussells schon auf Bild 1 („🔖 Speichern“).
-4. **Letztes Bild:** weißer Kasten „📘 Mehr davon im kostenlosen E-Book Depot-IQ · Link im Profil · depiq.io“ oder Verweis auf eine Vorlage depiq.io/v/NN.
+4. **Letztes Bild:** weißer Kasten „📘 Mehr davon im kostenlosen E-Book Depot-IQ · Link im Profil · depiq.io/de/book“ (Link im Profil auf allen Kanälen = https://depiq.io/de/book/) oder Verweis auf eine Vorlage depiq.io/v/NN.
 5. **Frage am Ende**, in einem Wort beantwortbar („Acc oder Dist?“).
 6. **Hashtags:** 3 bis 5, kleingeschrieben, am Ende. Keine Hashtag-Blöcke.
 
@@ -54,12 +54,12 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 - **Beschreibung** (Vorlage):
   <Haken-Satz aus dem Reel>
   <2 bis 3 Sätze: die Erklärung in einfachen Worten>
-  📘 Kostenloses E-Book „Depot-IQ“: Link im Kanal, oder depiq.io eingeben
+  📘 Kostenloses E-Book „Depot-IQ“: Link im Kanal, oder depiq.io/de/book eingeben
   📊 depiq: Dein Depot verstehen statt raten – depiq.io
   Keine Anlageberatung.
   #<thema> #geldanlage #shorts
 - **Erster Kommentar** (über Metricool firstCommentText, danach in YouTube anheften):
-  „Mehr dazu, einfach erklärt: im kostenlosen E-Book „Depot-IQ“. Den Link findest du oben in meinem Kanal (auf @depiq tippen) oder unter depiq.io 📘 Welche Frage soll ich als Nächstes erklären?“
+  „Mehr dazu, einfach erklärt: im kostenlosen E-Book „Depot-IQ“. Den Link findest du oben in meinem Kanal (auf @depiq tippen) oder unter depiq.io/de/book 📘 Welche Frage soll ich als Nächstes erklären?“
 
 ## 5. Dateien und Namen
 - Reels: `reels/JJJJ-MM-TT_<Tag>_Reel.mp4`, Text `texte/JJJJ-MM-TT_<Tag>_Reel.txt`
