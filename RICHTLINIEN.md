@@ -47,6 +47,20 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
+## 4a. YouTube Shorts
+- Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).
+- **Titel** (höchstens 70 Zeichen) = das Suchwort zuerst, dann „einfach erklärt“. Beispiel: „Thesaurierend oder ausschüttend? Einfach erklärt“.
+- **Wichtig:** Links in Short-Beschreibungen und Kommentaren sind bei YouTube seit 2023 nicht klickbar. Deshalb: Links stehen klickbar im Kanalprofil (oberster Link: E-Book-Seite). In Beschreibung und Kommentar steht die Adresse als Text und „Link im Kanal“.
+- **Beschreibung** (Vorlage):
+  <Haken-Satz aus dem Reel>
+  <2 bis 3 Sätze: die Erklärung in einfachen Worten>
+  📘 Kostenloses E-Book „Depot-IQ“: Link im Kanal, oder depiq.io eingeben
+  📊 depiq: Dein Depot verstehen statt raten – depiq.io
+  Keine Anlageberatung.
+  #<thema> #geldanlage #shorts
+- **Erster Kommentar** (über Metricool firstCommentText, danach in YouTube anheften):
+  „Mehr dazu, einfach erklärt: im kostenlosen E-Book „Depot-IQ“. Den Link findest du oben in meinem Kanal (auf @depiq tippen) oder unter depiq.io 📘 Welche Frage soll ich als Nächstes erklären?“
+
 ## 5. Dateien und Namen
 - Reels: `reels/JJJJ-MM-TT_<Tag>_Reel.mp4`, Text `texte/JJJJ-MM-TT_<Tag>_Reel.txt`
 - Karussells: `karussell/JJJJ-MM-TT_<Tag>_<thema>.json` → `_1.png` … `_5.png`, Text `.txt`
