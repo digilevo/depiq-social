@@ -69,3 +69,19 @@ Eine Komponente je Rechner, zweimal benutzt: als eigene Seite (depiq.io/de/rechn
 
 Reihenfolge: R1, R2, R3 zusammen mit Welle 1, danach R5, R6, R7, R4, R8.
 Jeder Rechner: Ergebnis als Balken/Skala, Annahmen sichtbar, „Werte gerundet, keine Anlageberatung“, darunter der Knopf zur Registrierung (DE) bzw. E-Book/Warteliste (EN).
+
+## Vorlagen zum Download (aus dem Download-Center)
+
+Artikel verlinken passende Vorlagen (PDF, A4) aus dem geplanten Download-Center. Eine Komponente „Vorlagen-Box“, im Artikeltext nach dem passenden Abschnitt und als Widget in der rechten Spalte.
+- Buchvorlagen: frei herunterladbar, ohne Registrierung.
+- Alle weiteren Vorlagen und Extras: im kostenlosen depiq-Konto → Knopf führt zur Registrierung (DE). EN: nur Vorlagen, die es auf Englisch gibt; sonst E-Book/Warteliste.
+- Vorlagen nie im Artikel kopieren, immer auf die aktuelle Version im Download-Center verlinken (Jürgen lädt neue Versionen selbst hoch).
+
+| Artikel | passende Vorlage |
+|---|---|
+| 2 Notgroschen | Notgroschen-Planer |
+| 1 ETF-Sparplan, 3 Zinseszins | Sparplan-Übersicht |
+| 5 Rebalancing | Rebalancing-Blatt (Soll/Ist) |
+| 11 Kosten | Kosten-Check Depot |
+| 16 Anfängerfehler | Checkliste vor dem Kauf |
+Namen vorläufig, an die tatsächlichen Arbeitsblätter im Buch anpassen.
