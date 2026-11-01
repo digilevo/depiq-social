@@ -1,6 +1,7 @@
 # Pinterest – erledigte Themen (nicht wiederholen, frühestens nach 8 Wochen neu aufbereiten)
 | Datum | Thema | Pinnwand |
 |---|---|---|
+| 02.11.2026 | Inflation: Kaufkraft von 1.000 € in 20 Jahren | Altersvorsorge & finanzielle Freiheit |
 | 03.11.2026 | Notgroschen: 3- bis 6-fache Monatsausgaben | Geld sparen & Notgroschen |
 | 04.11.2026 | ETF-Kosten 0,2 % gegen 1,5 % | ETF für Anfänger |
 | 05.11.2026 | Zinseszins: 100 € im Monat, 30 Jahre | Zinseszins & Vermögensaufbau |
