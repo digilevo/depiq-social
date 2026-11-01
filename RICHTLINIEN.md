@@ -25,7 +25,7 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 1. **Haken im ersten Satz und ersten Bild:** eine konkrete Zahl, ein Widerspruch oder eine Frage. Keine Begrüßung, kein Intro. Nie ein Alter im Haken.
 2. **Eine Aussage pro Bild oder Szene.**
 3. **Speichern anregen** bei Karussells schon auf Bild 1 („🔖 Speichern“).
-4. **Letztes Bild:** weißer Kasten „📘 Mehr davon im kostenlosen E-Book Depot-IQ · Link im Profil · depiq.io/de/book“ (Link im Profil auf allen Kanälen = https://depiq.io/de/book/) oder Verweis auf eine Vorlage depiq.io/v/NN.
+4. **Letztes Bild:** weißer Kasten „📘 Mehr davon im kostenlosen E-Book Depot-IQ · Link im Profil · depiq.io/de/book“ (Link im Profil auf allen Kanälen = https://depiq.io/de/book/). **Bis das E-Book erscheint** (voraussichtlich Mitte bis Ende November 2026) lautet der Hinweis überall: „📘 Mein kostenloses E-Book „Depot-IQ“ erscheint bald. Jetzt vormerken: Link im Profil.“ Nie „sofort“ oder „jetzt herunterladen“ schreiben, solange es nicht erschienen ist. oder Verweis auf eine Vorlage depiq.io/v/NN.
 5. **Frage am Ende**, in einem Wort beantwortbar („Acc oder Dist?“).
 6. **Hashtags:** 3 bis 5, kleingeschrieben, am Ende. Keine Hashtag-Blöcke.
 
