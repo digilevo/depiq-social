@@ -65,6 +65,8 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 
 ## 4a. YouTube Shorts
 - Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).
+- **Häufigkeit (ab 02.11.2026): rund 10 Shorts pro Woche, kein Spam.** Mo–Fr 8:00 das Börsen-Frühstück als Short (die 3 Story-Karten, je 4 Sekunden, Musik heiter, Titel „Börse heute TT.MM.: Gewinner, Verlierer, News“), abends das Reel bzw. mittwochs das Karussell als Short (je Seite 5 Sekunden). Wochenende: kein Short.
+- Bilder zu Video: `bash vorlage/bilder-video.sh <ziel.mp4> <stimmung> <sekunden> bild1 bild2 …` (setzt Hochformat, Übergänge und Musik).
 - **Titel** (höchstens 70 Zeichen) = das Suchwort zuerst, dann „einfach erklärt“. Beispiel: „Thesaurierend oder ausschüttend? Einfach erklärt“.
 - **Wichtig:** Links in Short-Beschreibungen und Kommentaren sind bei YouTube seit 2023 nicht klickbar. Deshalb: Links stehen klickbar im Kanalprofil (oberster Link: E-Book-Seite). In Beschreibung und Kommentar steht die Adresse als Text und „Link im Kanal“.
 - **Beschreibung** (Vorlage):
