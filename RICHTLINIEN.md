@@ -45,7 +45,7 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 ## 4. Serien und Wochenplan
 | Serie | Tag | Format | Kanäle |
 |---|---|---|---|
-| Börsen-Frühstück | Mo–Fr 7:30 | 3 Karten 1080 × 1350, Story 1080 × 1920 | X (Jürgen), Facebook, Instagram-Story, TikTok-Fotostrecke |
+| Börsen-Frühstück | Mo–Fr: X und Instagram-Story 7:30, Facebook und TikTok 10:00 | 3 Karten 1080 × 1350, Story 1080 × 1920 | X (Jürgen), Facebook, Instagram-Story, TikTok-Fotostrecke |
 | Mythos-Check | Montag 18:00 | Reel | Instagram, Facebook, TikTok, X (Video) |
 | Depot-Check in 30 Sekunden | Dienstag 18:00 | Reel | Instagram, Facebook, TikTok, X |
 | Börsenwort einfach erklärt | Mittwoch 18:00 | Karussell 5 Bilder | Instagram, Facebook, TikTok-Fotostrecke, X (Bild 1 + Text) |
@@ -65,6 +65,15 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
   #<thema> #geldanlage #shorts
 - **Erster Kommentar** (über Metricool firstCommentText, danach in YouTube anheften):
   „Mehr dazu, einfach erklärt: im kostenlosen E-Book „Depot-IQ“. Den Link findest du oben in meinem Kanal (auf @depiq tippen) oder unter depiq.io/de/book 📘 Welche Frage soll ich als Nächstes erklären?“
+
+## 4b. Uhrzeiten (Grundlage: Metricool-Auswertung beste Zeiten, 01.11.2026)
+- Instagram, TikTok, Facebook: Spitzen um 10 Uhr und um 18 Uhr an Werktagen. Samstag und Sonntag deutlich schwächer (etwa halb so viel).
+- Reels und Karussells: 18:00 Uhr (Freitag 17:00). Börsen-Frühstück: Story und X früh, Facebook und TikTok 10:00.
+- Nach 4 Wochen mit den eigenen Zahlen in Metricool prüfen und anpassen.
+
+## 4c. Pflicht in jedem Profil
+- Impressum: Link oder Hinweis „Impressum: depiq.io/impressum“ (Pflicht für geschäftliche Profile in Deutschland).
+- „Keine Anlageberatung“ in der Biografie.
 
 ## 5. Dateien und Namen
 - Reels: `reels/JJJJ-MM-TT_<Tag>_Reel.mp4`, Text `texte/JJJJ-MM-TT_<Tag>_Reel.txt`
