@@ -1,5 +1,37 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
+ '2026-11-09_Mo_Reel':{
+  dauer:14,
+  szenen:[
+   {von:0,bis:2.4,zeilen:[{text:'„Dividenden sind'},{text:'geschenktes Geld.“'}],groesse:112},
+   {von:2.4,bis:4,zeilen:[{text:'<em>Falsch.</em>',rot:true}],groesse:170},
+   {von:4,bis:7.4,zeilen:[{text:'Vorher: <em>100 €</em>'},{text:'Nachher: 98 €'},{text:'+ 2 € Dividende.'}],groesse:112},
+   {von:7.4,bis:10.6,zeilen:[{text:'Der Kurs fällt'},{text:'um die Dividende.'},{text:'Dein Geld: <em>gleich.</em>'}],groesse:104},
+   {von:10.6,bis:14,zeilen:[{text:'Dividende ist'},{text:'<em>Auszahlung,</em>'},{text:'kein Geschenk.'}],groesse:116,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
+ '2026-11-10_Di_Reel':{
+  dauer:14,
+  szenen:[
+   {von:0,bis:2.6,zeilen:[{text:'Du hast 3 ETFs?'},{text:'<em>Gut gestreut?</em>'}],groesse:118},
+   {von:2.6,bis:5.2,zeilen:[{text:'MSCI World.'},{text:'S&P 500.'},{text:'Nasdaq 100.'}],groesse:124},
+   {von:5.2,bis:8,zeilen:[{text:'In allen dreien:'},{text:'<em>Apple, Microsoft,</em>'},{text:'<em>Nvidia.</em>'}],groesse:104},
+   {von:8,bis:10.8,zeilen:[{text:'Drei ETFs.'},{text:'Oft dieselben'},{text:'<em>Firmen.</em>'}],groesse:124},
+   {von:10.8,bis:14,zeilen:[{text:'Prüf die Top 10'},{text:'jedes ETFs.'},{text:'<em>Heute noch.</em>'}],groesse:112,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
+ '2026-11-12_Do_Reel':{
+  dauer:14,
+  szenen:[
+   {von:0,bis:2.4,zeilen:[{text:'0,2 % Kosten'},{text:'oder 1,5 %?'}],groesse:124},
+   {von:2.4,bis:4.2,zeilen:[{text:'Klingt nach'},{text:'<em>fast nichts.</em>'}],groesse:124},
+   {von:4.2,bis:9,zeilen:[{text:'10.000 €, 30 Jahre'}],groesse:96,
+    balken:[{name:'1,5 % Kosten',betrag:37453,wert:69},{name:'0,2 % Kosten',betrag:54271,wert:100}],
+    notiz:'Beispielrechnung: 6 % Wachstum pro Jahr vor Kosten, ohne Steuern. Keine Garantie – Kurse schwanken.'},
+   {von:9,bis:11.4,zeilen:[{text:'Fast'},{text:'<em>17.000 €</em>'},{text:'Unterschied.'}],groesse:130},
+   {von:11.4,bis:14,zeilen:[{text:'Schau auf die'},{text:'<em>Kosten.</em>'},{text:'Jedes Jahr.'}],groesse:120,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
  '2026-11-01_TikTok_Start':{
   dauer:14,
   szenen:[

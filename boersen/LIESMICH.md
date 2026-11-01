@@ -1,5 +1,7 @@
 # Börsen-Frühstück (X, Facebook, Instagram-Story)
 
+Verbindliche Regeln für Inhalt, Aufbau und Design: siehe `../RICHTLINIEN.md`.
+
 Täglich an Börsentagen (Montag bis Freitag), vorbereitet von einer geplanten Aufgabe um 6:45 Uhr.
 
 ## Aufbau: 3 Karten, gut lesbar am Handy
