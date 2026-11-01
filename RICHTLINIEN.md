@@ -82,6 +82,16 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 - Impressum: Link oder Hinweis „Impressum: depiq.io/impressum“ (Pflicht für geschäftliche Profile in Deutschland).
 - „Keine Anlageberatung“ in der Biografie.
 
+## 4d. LinkedIn (eigene Strategie, Firmenseite depiq)
+LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und TikTok. Keine Figuren, keine Emojis in Bildern, keine Spielereien.
+- **Zielgruppe:** Berufstätige, Führungskräfte, Selbstständige, 35 bis 60 Jahre, mit bestehendem Depot und wenig Zeit. Denken in Zahlen, wollen Struktur und Klarheit.
+- **Themen:** Depot-Struktur und Streuung, Kosten im Depot, Klumpenrisiko, Rebalancing, Altersvorsorge mit Depot, Entscheidungen unter Unsicherheit (Verhaltensökonomie), was Studien zeigen.
+- **Ton:** sachlich, ruhig, datenbasiert. Du-Form wie überall bei depiq. Erster Satz eine klare These oder Zahl. Studien mit Quelle nennen.
+- **Formate:** PDF-Dokument mit 6 bis 8 Seiten im hellen, ruhigen Design (Vorlage `vorlage/linkedin.html`, folgt), ein Diagramm mit einer Aussage, Textbeitrag mit Erkenntnis aus der Praxis.
+- **Rhythmus:** Dienstag und Donnerstag, 11:00 Uhr (laut Metricool die stärkste Zeit auf LinkedIn).
+- **Ziel:** kostenlose Registrierung bei depiq („Depot strukturiert verstehen – depiq.io“) und E-Book.
+- Kein Börsen-Frühstück, keine Emotions-Bilder, keine Reels auf LinkedIn.
+
 ## 5. Dateien und Namen
 - Reels: `reels/JJJJ-MM-TT_<Tag>_Reel.mp4`, Text `texte/JJJJ-MM-TT_<Tag>_Reel.txt`
 - Karussells: `karussell/JJJJ-MM-TT_<Tag>_<thema>.json` → `_1.png` … `_5.png`, Text `.txt`
