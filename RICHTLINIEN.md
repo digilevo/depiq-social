@@ -87,9 +87,10 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 - **Zielgruppe:** Berufstätige, Führungskräfte, Selbstständige, 35 bis 60 Jahre, mit bestehendem Depot und wenig Zeit. Denken in Zahlen, wollen Struktur und Klarheit.
 - **Themen:** Depot-Struktur und Streuung, Kosten im Depot, Klumpenrisiko, Rebalancing, Altersvorsorge mit Depot, Entscheidungen unter Unsicherheit (Verhaltensökonomie), was Studien zeigen.
 - **Ton:** sachlich, ruhig, datenbasiert. Du-Form wie überall bei depiq. Erster Satz eine klare These oder Zahl. Studien mit Quelle nennen.
-- **Formate:** PDF-Dokument mit 6 bis 8 Seiten im hellen, ruhigen Design (Vorlage `vorlage/linkedin.html`, folgt), ein Diagramm mit einer Aussage, Textbeitrag mit Erkenntnis aus der Praxis.
+- **Formate:** PDF-Dokument mit 6 bis 8 Seiten im hellen, ruhigen Design (Vorlage `vorlage/linkedin.html`), ein Diagramm mit einer Aussage, Textbeitrag mit Erkenntnis aus der Praxis.
 - **Rhythmus:** Dienstag und Donnerstag, 11:00 Uhr (laut Metricool die stärkste Zeit auf LinkedIn).
 - **Ziel:** kostenlose Registrierung bei depiq („Depot strukturiert verstehen – depiq.io“) und E-Book.
+- **Glaubwürdige Zahlen:** Zeitaufwand, Renditen und Ersparnisse großzügig und realistisch schätzen, nie geschönt. Lieber „etwa eine Stunde im Jahr“ als „15 Minuten“. Zu gute Zahlen wirken unseriös und kosten Vertrauen. Renditen eher vorsichtig ansetzen, Annahmen immer nennen.
 - Kein Börsen-Frühstück, keine Emotions-Bilder, keine Reels auf LinkedIn.
 
 ## 5. Dateien und Namen
