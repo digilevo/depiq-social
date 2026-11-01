@@ -30,7 +30,10 @@ p b{color:#141a3a;font-weight:700}
 .diagramm{background:#fff;border:2px solid #e3e6f3;border-radius:24px;padding:28px}
 .legende{display:flex;gap:36px;font-size:32px;font-weight:700;margin-top:10px}
 .legende span::before{content:'';display:inline-block;width:34px;height:10px;border-radius:5px;margin-right:12px;vertical-align:middle;background:var(--c)}
-.cta{padding:34px 40px;border-radius:24px;background:#141a3a;color:#fff}
+.cta{padding:34px 40px;border-radius:24px;background:#141a3a;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.cta .qr{flex:none;width:170px;height:170px;border-radius:14px;background:#fff;padding:8px}
+.cta .qr img{width:100%;height:100%;display:block}
+.cta small{display:block;font-size:26px;color:#c7cbf2;margin-top:10px;font-weight:500}
 .cta strong{display:block;font-size:44px;margin-bottom:8px}.cta span{font-size:36px;color:#a5b4fc;font-weight:700}
 .fuss{display:flex;justify-content:space-between;font-size:30px;color:#8a90b0}
 </style></head><body><div class="rand"></div>
@@ -43,5 +46,10 @@ window.zeichne = d => {
   document.getElementById('reihe').textContent = d.reihe;
   document.getElementById('inhalt').innerHTML = d.seiten[N-1].html;
   document.getElementById('nr').textContent = `${N} / ${d.seiten.length}`;
+  // Zentral: Jede CTA-Box bekommt rechts den QR-Code zu depiq.io (mit Kampagnen-Markierung linkedin/dokument)
+  document.querySelectorAll('.cta').forEach(c => { if (c.querySelector('.qr')) return;
+    const t = document.createElement('div'); while (c.firstChild) t.appendChild(c.firstChild);
+    t.insertAdjacentHTML('beforeend', '<small>QR-Code mit dem Handy scannen</small>');
+    c.appendChild(t); c.insertAdjacentHTML('beforeend', '<div class="qr"><img src="qr-linkedin.png" alt="QR-Code depiq.io"></div>'); });
 };
 </script></body></html>

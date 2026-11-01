@@ -91,6 +91,7 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 - **Rhythmus:** Dienstag und Donnerstag, 11:00 Uhr (laut Metricool die stärkste Zeit auf LinkedIn).
 - **Ziel:** kostenlose Registrierung bei depiq („Depot strukturiert verstehen – depiq.io“) und E-Book.
 - **Glaubwürdige Zahlen:** Zeitaufwand, Renditen und Ersparnisse großzügig und realistisch schätzen, nie geschönt. Lieber „1 bis 2 Stunden im Jahr“ als „15 Minuten“. Gerundete Werte mit „rund“ oder „≈“ kennzeichnen, genauen Wert bei den Annahmen nennen. Aussagen über depiq nur, wenn die Funktion wirklich existiert. Zu gute Zahlen wirken unseriös und kosten Vertrauen. Renditen eher vorsichtig ansetzen, Annahmen immer nennen.
+- **QR-Code:** Die CTA-Box auf der letzten Seite bekommt automatisch einen QR-Code zu depiq.io (Markierung utm_source=linkedin, utm_campaign=dokument). Auf Instagram, Facebook und TikTok keinen QR-Code, dort wird am Handy gelesen.
 - Kein Börsen-Frühstück, keine Emotions-Bilder, keine Reels auf LinkedIn.
 
 ## 4e. depiq-Funktionen, die genannt werden dürfen (von Jürgen bestätigt)
