@@ -1,4 +1,5 @@
-// Aufruf: node render-reel.js <reelId> → ../reels/<reelId>.mp4 (1080 × 1920, 30 Bilder pro Sekunde, H.264, stille Tonspur)
+// Aufruf: node render-reel.js <reelId> [ruhig|heiter|inspirierend] → ../reels/<reelId>.mp4 (1080 × 1920, 30 Bilder pro Sekunde, H.264)
+// Danach wird automatisch Musik aus musik/ untergelegt (vorlage/musik.sh). Stimmung: 2. Argument, sonst Freitag inspirierend, sonst heiter.
 const { chromium } = require('playwright'); const path = require('path'); const fs = require('fs'); const { execFileSync } = require('child_process');
 const FPS = 30;
 (async () => {
@@ -20,4 +21,6 @@ const FPS = 30;
     '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-crf', '18', '-r', String(FPS),
     '-c:a', 'aac', '-b:a', '128k', '-shortest', '-movflags', '+faststart', path.join(ziel, id + '.mp4')]);
   fs.rmSync(tmp, { recursive: true });
+  const stimmung = process.argv[3] || (/_Fr_/.test(id) ? 'inspirierend' : 'heiter');
+  execFileSync('bash', [path.join(__dirname, 'musik.sh'), path.join(ziel, id + '.mp4'), stimmung], { stdio: 'inherit' });
 })();

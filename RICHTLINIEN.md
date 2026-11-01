@@ -59,6 +59,10 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
+## 4a0. Musik in Reels
+- Jedes Reel bekommt leise Hintergrundmusik aus `musik/` (YouTube Audio-Mediathek, „Keine Namensnennung erforderlich“, Künstler Jesse Gallagher): `ruhig` = The Inner Sound (ernste Themen: Crash, Dispo, Notgroschen, Psychologie), `heiter` = Mer-Ka-Ba (Erklär-Reels: ETFs, Kosten, Dividende), `inspirierend` = Satya Yuga (Wochen-Reel, persönliche Geschichten).
+- `render-reel.js` legt die Musik automatisch unter (2. Argument = Stimmung). Nachträglich: `bash vorlage/musik.sh reels/<datei>.mp4 <stimmung>`.
+
 ## 4a. YouTube Shorts
 - Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).
 - **Titel** (höchstens 70 Zeichen) = das Suchwort zuerst, dann „einfach erklärt“. Beispiel: „Thesaurierend oder ausschüttend? Einfach erklärt“.
