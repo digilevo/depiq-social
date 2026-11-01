@@ -1,0 +1,41 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- Pinterest-Pin 1000 × 1500 (Hochformat 2:3). Hell und warm (Pinterest-Zielgruppe: Sparen, Vorsorge, Einsteiger), depiq-Farben als Akzent.
+     Aufruf: pin.html?seite=N ; Daten per window.zeichne(d) = {seiten:[{html}], ziel:"depiq.io/…"} – siehe render-pin.js.
+     Aufbau: oben Such-Überschrift (wird auf Pinterest gelesen und gefunden), Mitte Grafik, unten Logo und Ziel-Adresse. Kleinste Schrift 30 px. -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+@font-face{font-family:'JB';font-weight:700;src:url(schrift/jetbrains-mono-700.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1000px;height:1500px;overflow:hidden}
+body{font-family:'DM Sans',sans-serif;color:#1c1f3a;background:#fbf7f1}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 35% at 0% 0%,rgba(196,181,253,.45),transparent 70%),radial-gradient(ellipse 70% 30% at 100% 100%,rgba(94,234,212,.35),transparent 70%)}
+.seite{position:absolute;inset:0;padding:70px 70px 56px;display:flex;flex-direction:column;gap:40px}
+.etikett{align-self:flex-start;font-size:30px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#4f46e5;background:#eef0ff;padding:10px 22px;border-radius:999px}
+.inhalt{flex:1;min-height:0;display:flex;flex-direction:column;gap:34px;overflow:hidden}
+h1{font-size:92px;font-weight:800;line-height:1.02;letter-spacing:-.025em}
+h1 em{font-style:normal;color:#4f46e5}
+.unter{font-size:42px;font-weight:500;color:#4a4f72;line-height:1.3}
+.karte{background:#fff;border-radius:34px;padding:36px 40px;box-shadow:0 18px 50px rgba(28,31,58,.10);display:flex;flex-direction:column;gap:26px}
+.zahl{font-family:'JB';font-size:120px;color:#4f46e5;line-height:1}
+.zahl small{font-family:'DM Sans';font-size:40px;font-weight:700;color:#4a4f72;display:block;margin-top:10px}
+.bz .l{display:flex;justify-content:space-between;font-size:38px;font-weight:700;margin-bottom:10px}
+.bz .l span:last-child{font-family:'JB'}
+.bz .s{height:46px;border-radius:14px;background:#eef0f7;overflow:hidden}
+.bz .s i{display:block;height:100%;border-radius:14px}
+.schritt{display:flex;gap:24px;align-items:center;font-size:38px;line-height:1.3}
+.schritt i{flex:none;font-style:normal;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,#6366f1,#14b8a6);color:#fff;font-weight:800;font-size:36px}
+.schritt b{font-weight:800}
+.klein{font-size:30px;color:#6b7194}
+.fuss{display:flex;justify-content:space-between;align-items:center}
+.fuss img{height:60px}
+.ziel{font-size:36px;font-weight:800;color:#fff;background:#1c1f3a;padding:16px 28px;border-radius:999px}
+</style></head><body><div class="bg"></div>
+<div class="seite"><span class="etikett" id="etikett"></span><div class="inhalt" id="inhalt"></div>
+<div class="fuss"><img src="logo-light.svg" alt="depiq"><span class="ziel" id="ziel"></span></div></div>
+<script>
+const N=+(new URLSearchParams(location.search).get('seite')||1);
+window.zeichne=d=>{const s=d.seiten[N-1];document.getElementById('etikett').textContent=s.etikett||d.etikett||'Finanzwissen';
+document.getElementById('inhalt').innerHTML=s.html;document.getElementById('ziel').textContent='👉 '+(s.ziel||d.ziel||'depiq.io');};
+</script></body></html>

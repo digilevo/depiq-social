@@ -105,6 +105,14 @@ Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jü
 - **Rebalancing** (bestätigt 01.11.2026): Ziel-Aufteilung je Bereich einstellen (Aktien, ETFs, Währungen, Länder), grafische Anzeige von Über- und Untergewichtung samt erhöhtem Risiko, Hinweis per Benachrichtigung, eigene Seite und Widgets. Wird noch ausgebaut. **Erst ab Tarif Pro** – in jedem Beitrag „Tarif Pro“ dazuschreiben.
 - **Testphase** (bestätigt 01.11.2026): Nach der Registrierung sind **14 Tage alle Funktionen kostenlos** freigeschaltet. Bei Pro-Funktionen so formulieren: „Teil von depiq Pro, 14 Tage kostenlos testen“.
 
+## 4f. Pinterest (eigene Zielgruppe, Konto @depiq_io)
+- **Zielgruppe:** vor allem Frauen und Einsteiger, 25–45 Jahre, die gezielt suchen: Sparen, Notgroschen, Budget, erstes Depot, ETF für Anfänger, Zinseszins, Vorsorge. Weniger Börse, mehr Alltag und Sicherheit.
+- **Pinterest ist eine Suchmaschine:** Überschrift im Bild = Suchbegriff („Wie viel Notgroschen brauchst du?“). Pin-Titel und Beschreibung mit Suchwörtern. Nur zeitlose Inhalte, kein Börsen-Frühstück.
+- **Design:** eigene helle, warme Vorlage `vorlage/pin.html` (1000 × 1500), depiq-Farben als Akzent, Logo unten links, Ziel-Adresse unten rechts. Rendern: `node vorlage/render-pin.js <json> <ziel>`.
+- **Formate:** Faustregel mit Schritten, eine große Zahl mit Balken, Vergleich A gegen B, Checkliste. Annahmen immer klein im Bild.
+- **Link:** jeder Pin mit Ziel-Link und Markierung `?utm_source=pinterest&utm_medium=social&utm_campaign=<thema>`. Bis zum E-Book-Start auf depiq.io bzw. depiq.io/de/book („vormerken“), danach auf den E-Book-Download.
+- **Rhythmus:** 1 Pin pro Tag, auch am Wochenende (Pinterest belohnt Regelmäßigkeit, nicht Menge).
+
 ## 5. Dateien und Namen
 - Reels: `reels/JJJJ-MM-TT_<Tag>_Reel.mp4`, Text `texte/JJJJ-MM-TT_<Tag>_Reel.txt`
 - Karussells: `karussell/JJJJ-MM-TT_<Tag>_<thema>.json` → `_1.png` … `_5.png`, Text `.txt`
