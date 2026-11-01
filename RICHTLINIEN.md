@@ -4,6 +4,7 @@ Gilt für X, Instagram, Facebook und TikTok, für Menschen und für jede geplant
 Stand: 01.11.2026 · Grundlage: Social-Media-Analyse https://claude.ai/artifact/FrxC7FabiDx99hZz5T9KMM
 
 ## 1. Inhalt und Mehrwert
+0. **Verständlich ohne Vorwissen (wichtigste Regel):** Ein Laie versteht jedes Bild und jede Szene ohne Rückfrage. Jede Rechnung in drei Schritten erzählen: 1) „Beispiel: Du legst 10.000 € an und wartest 30 Jahre.“ 2) die Annahme in einem Satz („Beide wachsen 6 % pro Jahr, nur die Kosten sind verschieden.“) 3) das Ergebnis mit Balken und klarer Beschriftung („Du gibst die Dividenden aus“ statt „ausgeschüttet, ausgegeben“). Keine nackten Zahlen ohne Satz. In Reels mindestens 3,5 Sekunden pro Szene mit Zahl.
 1. **Eine Sache lernen:** Nach dem Beitrag kann der Leser genau einen Begriff, Zusammenhang oder Fehler selbst erklären.
 2. **Alltags-Vergleich:** Jeder Fachbegriff bekommt ein Bild aus dem Alltag (Apfelbaum für Zinseszins).
 3. **Zahlenbeispiel mit Balken:** Wo es um Geld geht, eine nachgerechnete Zahl mit Balken. Annahmen offen nennen („Beispielrechnung: 6 % pro Jahr, ohne Steuern und Kosten. Keine Garantie.“).

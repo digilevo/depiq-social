@@ -1,13 +1,14 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
  '2026-11-09_Mo_Reel':{
-  dauer:14,
+  dauer:22,
   szenen:[
-   {von:0,bis:2.4,zeilen:[{text:'„Dividenden sind'},{text:'geschenktes Geld.“'}],groesse:112},
-   {von:2.4,bis:4,zeilen:[{text:'<em>Falsch.</em>',rot:true}],groesse:170},
-   {von:4,bis:7.4,zeilen:[{text:'Vorher: <em>100 €</em>'},{text:'Nachher: 98 €'},{text:'+ 2 € Dividende.'}],groesse:112},
-   {von:7.4,bis:10.6,zeilen:[{text:'Der Kurs fällt'},{text:'um die Dividende.'},{text:'Dein Geld: <em>gleich.</em>'}],groesse:104},
-   {von:10.6,bis:14,zeilen:[{text:'Dividende ist'},{text:'<em>Auszahlung,</em>'},{text:'kein Geschenk.'}],groesse:116,cta:'Folge für mehr', bio:'@depiq.io'}
+   {von:0,bis:2.8,zeilen:[{text:'Dividende ='},{text:'geschenktes Geld?'}],groesse:116},
+   {von:2.8,bis:6.6,zeilen:[{text:'Beispiel:'},{text:'Deine Aktie ist'},{text:'<em>100 € wert.</em>'}],groesse:112},
+   {von:6.6,bis:10.4,zeilen:[{text:'Sie zahlt dir'},{text:'<em>2 € Dividende</em>'},{text:'aufs Konto.'}],groesse:112},
+   {von:10.4,bis:14.2,zeilen:[{text:'Am selben Tag'},{text:'sinkt die Aktie'},{text:'auf <em>98 €.</em>',rot:false}],groesse:112},
+   {von:14.2,bis:18.2,zeilen:[{text:'98 € Aktie'},{text:'+ 2 € Konto'},{text:'= <em>100 €.</em>'},{text:'Wie vorher.'}],groesse:112},
+   {von:18.2,bis:22,zeilen:[{text:'Dividende ist'},{text:'<em>kein Geschenk.</em>'}],groesse:116,cta:'Folge für mehr', bio:'@depiq.io'}
   ]
  },
  '2026-11-10_Di_Reel':{
@@ -21,15 +22,15 @@ const REELS={
   ]
  },
  '2026-11-12_Do_Reel':{
-  dauer:14,
+  dauer:21,
   szenen:[
-   {von:0,bis:2.4,zeilen:[{text:'0,2 % Kosten'},{text:'oder 1,5 %?'}],groesse:124},
-   {von:2.4,bis:4.2,zeilen:[{text:'Klingt nach'},{text:'<em>fast nichts.</em>'}],groesse:124},
-   {von:4.2,bis:9,zeilen:[{text:'10.000 €, 30 Jahre'}],groesse:96,
-    balken:[{name:'1,5 % Kosten',betrag:37453,wert:69},{name:'0,2 % Kosten',betrag:54271,wert:100}],
-    notiz:'Beispielrechnung: 6 % Wachstum pro Jahr vor Kosten, ohne Steuern. Keine Garantie – Kurse schwanken.'},
-   {von:9,bis:11.4,zeilen:[{text:'Fast'},{text:'<em>17.000 €</em>'},{text:'Unterschied.'}],groesse:130},
-   {von:11.4,bis:14,zeilen:[{text:'Schau auf die'},{text:'<em>Kosten.</em>'},{text:'Jedes Jahr.'}],groesse:120,cta:'Folge für mehr', bio:'@depiq.io'}
+   {von:0,bis:3,zeilen:[{text:'Dein Fonds kostet'},{text:'<em>1,5 % im Jahr?</em>'}],groesse:108},
+   {von:3,bis:7,zeilen:[{text:'Beispiel:'},{text:'10.000 € anlegen.'},{text:'30 Jahre warten.'}],groesse:108},
+   {von:7,bis:13,zeilen:[{text:'Was am Ende bleibt:'}],groesse:90,
+    balken:[{name:'Fonds, 1,5 % Kosten',betrag:37453,wert:69},{name:'ETF, 0,2 % Kosten',betrag:54271,wert:100}],
+    notiz:'Annahme: Beide wachsen 6 % pro Jahr. Nur die Kosten sind verschieden. Ohne Steuern, keine Garantie.'},
+   {von:13,bis:17,zeilen:[{text:'Fast <em>17.000 €</em>'},{text:'weniger.'},{text:'Nur wegen Kosten.'}],groesse:112},
+   {von:17,bis:21,zeilen:[{text:'Die Kosten stehen'},{text:'im <em>Factsheet.</em>'},{text:'Prüf sie.'}],groesse:112,cta:'Folge für mehr', bio:'@depiq.io'}
   ]
  },
  '2026-11-01_TikTok_Start':{
