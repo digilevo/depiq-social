@@ -11,6 +11,13 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 4. **Gut dargestellt:** Zahlen mit Balken, Gegensätze nebeneinander, Symbole statt Text, wo es geht.
 5. **Zu kompliziert = nicht posten.** Im Zweifel streichen statt erklären. Weniger Inhalt, dafür verstanden.
 
+## Emotion vor Erklärung (Rückmeldung eines Nutzers, 01.11.2026)
+Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem Bogen **Gefühl → Schmerz → Lösung**:
+1. **Bild zuerst:** Eine Illustration zeigt die Situation als Gefühl (Panik beim Kurssturz, Ärger über Kosten, Erleichterung mit Plan). Vorlage `vorlage/szene.html`, eigene Illustrationen in depiq-Farben, nie fremde Figuren oder Marken.
+2. **Wenig Text:** Überschrift plus höchstens ein Satz pro Bild.
+3. **Dann die Lösung:** Das nächste Bild zeigt den ruhigen Weg und den Merksatz.
+**Mischung pro Woche:** etwa 40 % Emotions-Bilder (Gefühl → Lösung), 30 % Wissen (Karussell, Zahl mit Balken), 30 % Börsen-Frühstück und Rückblick. Nie zwei gleiche Formate hintereinander.
+
 ## 1. Inhalt und Mehrwert
 0. **Verständlich ohne Vorwissen (wichtigste Regel):** Ein Laie versteht jedes Bild und jede Szene ohne Rückfrage. Jede Rechnung in drei Schritten erzählen: 1) „Beispiel: Du legst 10.000 € an und wartest 30 Jahre.“ 2) die Annahme in einem Satz („Beide wachsen 6 % pro Jahr, nur die Kosten sind verschieden.“) 3) das Ergebnis mit Balken und klarer Beschriftung („Du gibst die Dividenden aus“ statt „ausgeschüttet, ausgegeben“). Keine nackten Zahlen ohne Satz. In Reels mindestens 3,5 Sekunden pro Szene mit Zahl.
 1. **Eine Sache lernen:** Nach dem Beitrag kann der Leser genau einen Begriff, Zusammenhang oder Fehler selbst erklären.
@@ -35,7 +42,7 @@ Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestel
 6. **Hashtags:** 3 bis 5, kleingeschrieben, am Ende. Keine Hashtag-Blöcke.
 
 ## 3. Design
-1. **Vorlagen benutzen, nie neu bauen:** Börsen-Frühstück `vorlage/boersen.html`, Karussell `vorlage/karussell.html`, Reel `vorlage/reels.js` + `vorlage/render-reel.js`.
+1. **Vorlagen benutzen, nie neu bauen:** Börsen-Frühstück `vorlage/boersen.html`, Karussell `vorlage/karussell.html`, Emotions-Bild `vorlage/szene.html` (+ `render-szene.js`), Reel `vorlage/reels.js` + `vorlage/render-reel.js`.
 2. **Farben:** Hintergrund Dunkelblau mit Verlauf (#0a0d2c → #16134a), Akzente Lila #c4b5fd und Türkis #7ee7d8/#5eead4, Plus grün #5eead4, Minus rot #fda4af. Einzige helle Fläche ist der E-Book-Kasten.
 3. **Lesbarkeit am Handy:** Bild 1080 px breit erscheint etwa 390 px breit. Kleinste Schrift 34 px (Fußzeile), Fließtext ab 40 px, Werte ab 44 px, Titel ab 64 px. Kontrast mindestens 7 : 1.
 4. **depiq-Logo** auf jedem Bild gut sichtbar, oben rechts.

@@ -1,0 +1,103 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- Emotions-Beitrag (1080 × 1350): großes Bild oben (Gefühl/Schmerz), kurzer Text unten (Lösung).
+     Aufruf: szene.html?seite=N, Daten per window.zeichne(d): {serie, seiten:[{bild:'panik'|'ruhe'|..., titel, text, ton:'rot'|'gruen'}]} -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
+.bg{position:absolute;inset:0;background:linear-gradient(160deg,#0a0d2c,#16134a 60%,#0a1c33)}
+.rot .bg{background:radial-gradient(ellipse 80% 55% at 50% 30%,rgba(225,29,72,.38),transparent 70%),linear-gradient(160deg,#1a0b1f,#16134a 60%,#0a0d2c)}
+.gruen .bg{background:radial-gradient(ellipse 80% 55% at 50% 30%,rgba(20,184,166,.35),transparent 70%),linear-gradient(160deg,#0a0d2c,#16134a 60%,#0a1c33)}
+.seite{position:absolute;inset:0;padding:56px 64px 52px;display:flex;flex-direction:column}
+.kopf{display:flex;justify-content:space-between;align-items:center}
+.serie{font-size:34px;font-weight:800;letter-spacing:.03em}
+.rot .serie{color:#fda4af}.gruen .serie{color:#7ee7d8}
+.kopf img{height:56px}
+.bild{flex:1;display:flex;align-items:center;justify-content:center;min-height:0}
+.bild svg{width:960px;height:auto;max-height:100%}
+.text{display:flex;flex-direction:column;gap:18px}
+h1{font-size:84px;font-weight:800;line-height:1.02;letter-spacing:-.02em}
+.rot h1 em{color:#fb7185;font-style:normal}.gruen h1 em{color:#5eead4;font-style:normal}
+p{font-size:44px;font-weight:600;line-height:1.25;color:#e3e6ff}
+.fuss{display:flex;justify-content:space-between;font-size:34px;color:#a9aed6;margin-top:26px}
+.fuss b{color:#fff}
+</style></head><body><div class="bg"></div>
+<div class="seite"><div class="kopf"><span class="serie" id="serie"></span><img src="logo-dark.svg" alt="depiq"></div>
+<div class="bild" id="bild"></div>
+<div class="text"><h1 id="titel"></h1><p id="text"></p></div>
+<div class="fuss"><span>Keine Anlageberatung</span><span id="nr"></span></div></div>
+<script>
+// Eigene Illustrationen (flach, in depiq-Farben). Figur: Person mit Handy.
+const haut='#f2c9a5', haar='#3b2a4d', hemd='#6366f1';
+const figur = (stimmung) => {
+  const panik = stimmung==='panik';
+  return `
+  <g transform="translate(800,300) scale(1.05)">
+    <!-- Körper -->
+    <path d="M-120 420 Q-120 250 0 240 Q120 250 120 420 Z" fill="${hemd}"/>
+    <!-- Hals/Kopf -->
+    <rect x="-22" y="190" width="44" height="60" rx="16" fill="${haut}"/>
+    <circle cx="0" cy="120" r="95" fill="${haut}"/>
+    <path d="M-95 110 Q-90 20 0 22 Q95 20 98 105 Q60 60 0 62 Q-55 62 -95 110Z" fill="${haar}"/>
+    ${panik ? `
+      <!-- Augen weit offen -->
+      <circle cx="-34" cy="118" r="22" fill="#fff"/><circle cx="34" cy="118" r="22" fill="#fff"/>
+      <circle cx="-34" cy="120" r="9" fill="#1e1b4b"/><circle cx="34" cy="120" r="9" fill="#1e1b4b"/>
+      <path d="M-58 86 L-14 96 M58 86 L14 96" stroke="${haar}" stroke-width="8" stroke-linecap="round"/>
+      <!-- Mund offen -->
+      <ellipse cx="0" cy="178" rx="22" ry="28" fill="#7f1d1d"/>
+      <!-- Schweißtropfen -->
+      <path d="M92 70 q14 26 0 34 q-14 -8 0 -34Z" fill="#93c5fd"/>
+      <path d="M-104 96 q12 22 0 29 q-12 -7 0 -29Z" fill="#93c5fd"/>
+      <!-- Hände am Kopf -->
+      <circle cx="-110" cy="150" r="30" fill="${haut}"/><circle cx="110" cy="150" r="30" fill="${haut}"/>
+      <path d="M-110 175 Q-130 260 -100 300" stroke="${hemd}" stroke-width="44" fill="none" stroke-linecap="round"/>
+      <path d="M110 175 Q130 260 100 300" stroke="${hemd}" stroke-width="44" fill="none" stroke-linecap="round"/>
+    ` : `
+      <!-- entspannte Augen -->
+      <path d="M-50 122 q16 -14 32 0 M18 122 q16 -14 32 0" stroke="#1e1b4b" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M-26 168 q26 22 52 0" stroke="#7f1d1d" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <!-- Tasse -->
+      <rect x="70" y="300" width="70" height="80" rx="12" fill="#fff"/>
+      <path d="M140 318 q30 8 0 40" stroke="#fff" stroke-width="10" fill="none"/>
+      <path d="M90 280 q10 -20 0 -40 M115 280 q10 -20 0 -40" stroke="#c7cbf2" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <circle cx="100" cy="350" r="28" fill="${haut}"/>
+    `}
+  </g>`;
+};
+const BILDER = {
+  panik: `<svg viewBox="0 0 1100 760">
+    <!-- Bildschirm mit Kurssturz -->
+    <rect x="20" y="230" width="440" height="330" rx="28" fill="#1e1b4b" stroke="#fb7185" stroke-width="6"/>
+    <polyline points="60,300 140,320 200,295 270,390 320,370 380,480 420,510" fill="none" stroke="#fb7185" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M400 480 l30 40 l12 -50" fill="none" stroke="#fb7185" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="540" font-family="DM Sans" font-weight="800" font-size="58" fill="#fb7185">−20 %</text>
+    ${figur('panik')}
+    <!-- Sprechblase -->
+    <path d="M590 20 h440 a30 30 0 0 1 30 30 v80 a30 30 0 0 1 -30 30 h-180 l-40 45 v-45 h-220 a30 30 0 0 1 -30 -30 v-80 a30 30 0 0 1 30 -30Z" fill="#fff"/>
+    <text x="810" y="108" text-anchor="middle" font-family="DM Sans" font-weight="800" font-size="56" fill="#e11d48">VERKAUFEN?!</text>
+  </svg>`,
+  ruhe: `<svg viewBox="0 0 1100 760">
+    <rect x="20" y="230" width="440" height="330" rx="28" fill="#1e1b4b" stroke="#5eead4" stroke-width="6"/>
+    <polyline points="60,490 120,440 170,480 230,390 280,420 340,330 420,280" fill="none" stroke="#5eead4" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M385 270 l40 8 l-12 40" fill="none" stroke="#5eead4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60" y="540" font-family="DM Sans" font-weight="800" font-size="52" fill="#5eead4">Und wieder ↑</text>
+    ${figur('ruhe')}
+    <path d="M590 20 h440 a30 30 0 0 1 30 30 v80 a30 30 0 0 1 -30 30 h-180 l-40 45 v-45 h-220 a30 30 0 0 1 -30 -30 v-80 a30 30 0 0 1 30 -30Z" fill="#fff"/>
+    <text x="810" y="108" text-anchor="middle" font-family="DM Sans" font-weight="800" font-size="52" fill="#0d9488">Ich bleib dabei.</text>
+  </svg>`
+};
+const N = +(new URLSearchParams(location.search).get('seite') || 1);
+window.zeichne = d => {
+  const s = d.seiten[N-1];
+  document.body.className = s.ton || '';
+  document.getElementById('serie').textContent = s.serie || d.serie;
+  document.getElementById('bild').innerHTML = BILDER[s.bild] || '';
+  document.getElementById('titel').innerHTML = s.titel;
+  document.getElementById('text').innerHTML = s.text;
+  document.getElementById('nr').innerHTML = N < d.seiten.length ? `<b>Wischen ➜</b> ${N}/${d.seiten.length}` : `${N}/${d.seiten.length}`;
+};
+</script></body></html>
