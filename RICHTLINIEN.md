@@ -19,7 +19,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 **Mischung pro Woche:** etwa 40 % Emotions-Bilder (Gefühl → Lösung), 30 % Wissen (Karussell, Zahl mit Balken), 30 % Börsen-Frühstück und Rückblick. Nie zwei gleiche Formate hintereinander.
 
 ## 1. Inhalt und Mehrwert
-0. **Verständlich ohne Vorwissen (wichtigste Regel):** Ein Laie versteht jedes Bild und jede Szene ohne Rückfrage. Jede Rechnung in drei Schritten erzählen: 1) „Beispiel: Du legst 10.000 € an und wartest 30 Jahre.“ 2) die Annahme in einem Satz („Beide wachsen 6 % pro Jahr, nur die Kosten sind verschieden.“) 3) das Ergebnis mit Balken und klarer Beschriftung („Du gibst die Dividenden aus“ statt „ausgeschüttet, ausgegeben“). Keine nackten Zahlen ohne Satz. In Reels mindestens 3,5 Sekunden pro Szene mit Zahl.
+0. **Verständlich ohne Vorwissen (wichtigste Regel):** Ein Laie versteht jedes Bild und jede Szene ohne Rückfrage. Jede Rechnung in drei Schritten erzählen: 1) „Beispiel: Du legst 10.000 € an und wartest 30 Jahre.“ 2) die Annahme in einem Satz („Beide wachsen 6 % pro Jahr, nur die Kosten sind verschieden.“) 3) das Ergebnis mit Balken und klarer Beschriftung („Du gibst die Dividenden aus“ statt „ausgeschüttet, ausgegeben“). Keine nackten Zahlen ohne Satz. **Lesezeit (ab 02.11.2026):** Jede Szene bzw. jedes Bild bleibt so lange stehen, dass man den Text in Ruhe lesen kann: Faustregel 2 Sekunden + 1 Sekunde je 3 Wörter, mindestens 6 Sekunden pro Reel-Szene mit Text oder Zahl, mindestens 7 Sekunden je Bild in Shorts aus Bildern (`bilder-video.sh` hebt kleinere Werte automatisch an). Lieber weniger Text je Szene als schnellere Wechsel.
 1. **Eine Sache lernen:** Nach dem Beitrag kann der Leser genau einen Begriff, Zusammenhang oder Fehler selbst erklären.
 2. **Alltags-Vergleich:** Jeder Fachbegriff bekommt ein Bild aus dem Alltag (Apfelbaum für Zinseszins).
 3. **Zahlenbeispiel mit Balken:** Wo es um Geld geht, eine nachgerechnete Zahl mit Balken. Annahmen offen nennen („Beispielrechnung: 6 % pro Jahr, ohne Steuern und Kosten. Keine Garantie.“).
@@ -65,7 +65,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 
 ## 4a. YouTube Shorts
 - Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).
-- **Häufigkeit (ab 02.11.2026): rund 10 Shorts pro Woche, kein Spam.** Mo–Fr 8:00 das Börsen-Frühstück als Short (die 3 Story-Karten, je 4 Sekunden, Musik heiter, Titel „Börse heute TT.MM.: Gewinner, Verlierer, News“), abends das Reel bzw. mittwochs das Karussell als Short (je Seite 5 Sekunden). Wochenende: kein Short.
+- **Häufigkeit (ab 02.11.2026): rund 10 Shorts pro Woche, kein Spam.** Mo–Fr 8:00 das Börsen-Frühstück als Short (die 3 Story-Karten, je 7 Sekunden, Musik heiter, Titel „Börse heute TT.MM.: Gewinner, Verlierer, News“), abends das Reel bzw. mittwochs das Karussell als Short (je Seite 7 Sekunden). Wochenende: kein Short.
 - Bilder zu Video: `bash vorlage/bilder-video.sh <ziel.mp4> <stimmung> <sekunden> bild1 bild2 …` (setzt Hochformat, Übergänge und Musik).
 - **Titel** (höchstens 70 Zeichen) = das Suchwort zuerst, dann „einfach erklärt“. Beispiel: „Thesaurierend oder ausschüttend? Einfach erklärt“.
 - **Wichtig:** Links in Short-Beschreibungen und Kommentaren sind bei YouTube seit 2023 nicht klickbar. Deshalb: Links stehen klickbar im Kanalprofil (oberster Link: E-Book-Seite). In Beschreibung und Kommentar steht die Adresse als Text und „Link im Kanal“.

@@ -2,10 +2,12 @@
 # Macht aus Bildern ein Hochkant-Video 1080 × 1920 mit sanften Übergängen und Musik (für YouTube Shorts).
 # Aufruf: bash vorlage/bilder-video.sh <ziel.mp4> <ruhig|heiter|inspirierend> <sekunden_je_bild> bild1.png [bild2.png …]
 # Bilder kleiner als 1080 × 1920 (z. B. Karussell 1080 × 1350) werden mittig auf dunkelblauen depiq-Hintergrund gesetzt.
-# Regel aus RICHTLINIEN §0: mindestens 3,5 Sekunden je Bild mit Zahlen – Standard hier 4 Sekunden.
+# Regel aus RICHTLINIEN §0 (ab 02.11.2026): mindestens 7 Sekunden je Bild, damit man den Text in Ruhe lesen kann.
+# Kleinere Werte werden automatisch auf 7 Sekunden angehoben.
 set -e
 cd "$(dirname "$0")/.."
 ziel="$1"; stimmung="$2"; s="$3"; shift 3
+MIN=7; s=$(python3 -c "print(max(float('$s'), $MIN))")
 n=$#; [ "$n" -ge 1 ] || { echo "keine Bilder"; exit 1; }
 ue=0.4; args=(); filt=""; i=0
 for b in "$@"; do
