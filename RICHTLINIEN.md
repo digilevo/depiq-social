@@ -66,6 +66,17 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 - `bilder-video.sh` (Shorts aus Bildern) legt Musik unter und ist nur für YouTube.
 - Musik für Instagram, Facebook, TikTok erst wieder mit einer Lizenz, die diese Plattformen und gewerbliche Nutzung ausdrücklich nennt (zum Beispiel Epidemic Sound), nach Freigabe durch Jürgen.
 
+## 4a1. Gebaut für „ohne Ton“ (ab 02.11.2026, gilt für alle Reels und Videos)
+Die Botschaft muss stumm vollständig ankommen. Prüffrage vor jedem Reel: Versteht man alles bei ausgeschaltetem Ton in 3 Sekunden pro Bild?
+1. **Haken in der ersten Sekunde als Text im Bild:** groß, oben im sicheren Bereich, eine Frage oder eine überraschende Zahl („3.000 € Dispo = 330 € im Jahr“).
+2. **Bewegung ersetzt Musik:** Balken wachsen, Zahlen zählen hoch, Häkchen erscheinen nacheinander, sanfte Übergänge. Jede Szene hat mindestens eine Bewegung, damit das Video nicht wie ein Standbild wirkt.
+3. **Ein Gedanke pro Szene:** höchstens 12 Wörter, große Schrift (mindestens 60 px bei 1080 Breite), hoher Kontrast, keine Schrift im unteren Fünftel (dort liegen Plattform-Knöpfe und Beschreibung).
+4. **Fortschritt sichtbar:** kleine Schrittanzeige („1/3“, „2/3“) oder Fortschrittsbalken, damit man bis zum Ende schaut.
+5. **Visuell vor Text:** Wo eine Zahl im Verhältnis steht, gehört ein Balken oder eine Skala dazu.
+6. **Letzte Szene = Handlung:** klarer Aufruf als Text plus depiq-Logo („Speichern 📌“, „Kostenlos starten: depiq.io“), mindestens 3 Sekunden stehen lassen.
+7. **Gesprochenes nur mit eingebrannten Untertiteln.** Spricht Jürgen später selbst, laufen Untertitel immer mit.
+8. **Titelbild (Cover) mit Text:** Das Startbild nennt das Thema, auch im Raster des Profils lesbar.
+
 ## 4a. YouTube Shorts
 - Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).
 - **Häufigkeit (ab 02.11.2026): rund 10 Shorts pro Woche, kein Spam.** Mo–Fr 8:00 das Börsen-Frühstück als Short (die 3 Story-Karten, je 7 Sekunden, Musik heiter, Titel „Börse heute TT.MM.: Gewinner, Verlierer, News“), abends das Reel bzw. mittwochs das Karussell als Short (je Seite 7 Sekunden). Wochenende: kein Short.
