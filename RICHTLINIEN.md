@@ -59,6 +59,17 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
+## 4g. Themenspeicher (von Jürgen gewünscht, 02.11.2026) – regelmäßig einplanen
+Jede Woche mindestens ein Beitrag aus dieser Liste (Reel, Karussell oder Short). Bereits verwendete Themen unten mit Datum abhaken, nicht wiederholen innerhalb von 8 Wochen.
+- **Fair Value:** Was ist eine Aktie wirklich wert? Preis gegen Wert mit Balken, ein bekanntes Beispiel, Annahmen sichtbar. Nie „kaufen/verkaufen“.
+- **KGV einfach erklärt:** „Wie viele Jahre Gewinn zahlst du?“, Vergleich zweier Unternehmen mit Balken, Grenzen des KGV (Wachstum, Branche).
+- **Chart-Beispiele:** 50- und 200-Tage-Linie, Trend, Unterstützung; immer als Lernbeispiel mit historischem Chart, nie als Signal oder Prognose.
+- **Wem gehört das Geld auf deinem Girokonto?** Rechtlich bist du Gläubiger: Das Guthaben ist eine Forderung gegen die Bank (die Bank wird Eigentümerin des eingezahlten Geldes, du hast Anspruch auf Rückzahlung). Eigentümer von Geldscheinen bist du erst nach dem Abheben. Pflicht im selben Beitrag, sonst schürt es Angst: Einlagensicherung bis 100.000 € je Person und Bank (EU), und Wertpapiere im Depot sind Sondervermögen und bleiben bei einer Bankpleite deine. Ruhig erklären, keine Panikmache.
+- **Weitere Wissens-Tipps:** Was passiert mit meinem Depot, wenn der Broker pleitegeht? · Warum Inflation Ersparnisse auf dem Konto leise kleiner macht · Woher kommt Geld eigentlich (Geldschöpfung durch Kredite) · Zinseszins an einem Beispiel.
+- **Prüfpflicht:** Rechtliche und steuerliche Aussagen (Länder DE, AT, CH unterscheiden) vor dem Planen gegen eine verlässliche Quelle prüfen und die Quelle im Arbeitsordner notieren. Im Zweifel allgemeiner formulieren.
+
+Verwendet: (noch keine)
+
 ## 4a0. Musik in Reels (ab 02.11.2026 nur noch auf YouTube)
 - **Instagram, Facebook, TikTok: keine Musik, keine Sounds.** Weder Plattform-Sounds (deren Bibliotheken sind für Unternehmenskonten nicht lizenziert, Abmahnrisiko im vier- bis fünfstelligen Bereich) noch Musik aus der YouTube Audio-Mediathek (deren Lizenz gilt nur auf YouTube). Videos laufen mit stiller Tonspur; die Texte im Bild tragen die Botschaft.
 - **YouTube (Shorts): Musik aus `musik/` erlaubt** (YouTube Audio-Mediathek, „Keine Namensnennung erforderlich“, Künstler Jesse Gallagher): `ruhig` = The Inner Sound, `heiter` = Mer-Ka-Ba, `inspirierend` = Satya Yuga.
