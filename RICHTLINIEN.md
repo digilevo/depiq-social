@@ -23,6 +23,8 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 - **depiq erst am Ende, als natürlicher nächster Schritt, in einem Satz und als Nutzen formuliert** („Dein Depot auf einen Blick: kostenlos bei depiq starten“). **Nie Funktionen aufzählen** (keine Listen wie „Rebalancing, Widgets, Benachrichtigungen …“), das interessiert niemanden. Höchstens eine Funktion nennen, und nur wenn sie genau den gezeigten Schmerz löst.
 - **Prüffrage vor jedem Beitrag:** Würde ich das speichern oder teilen, auch wenn depiq nicht drinstünde? Wenn nein: neu schreiben.
 - Ton: interessant, spannend, informativ, einfach, verständlich; gute Grafik vor viel Text.
+- **Nie das Gefühl von Verkauf (Jürgen, 02.11.2026):** Kein Drängen, keine künstliche Knappheit, keine Werbesprache. Die Entscheidung für depiq soll von selbst entstehen, weil der Leser merkt: Hier gibt es echte Lösungen.
+- **Optimieren:** wöchentlich (Zahlen je Kanal, beste und schwächste Beiträge, eine Anpassung) und monatlich (Rückblick, Formate und Uhrzeiten neu festlegen). Änderungen hier in den Richtlinien festhalten.
 
 **Mischung pro Woche:** etwa 40 % Emotions-Bilder (Gefühl → Lösung), 30 % Wissen (Karussell, Zahl mit Balken), 30 % Börsen-Frühstück und Rückblick. Nie zwei gleiche Formate hintereinander.
 
