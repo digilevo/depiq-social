@@ -59,6 +59,11 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
+## 4h. Lehren aus den ersten Zahlen (02.11.2026, von Jürgen freigegeben)
+- **Instagram: Reels vor Einzelbildern.** Reels erreichen bei neuen Konten auch Nicht-Follower (Reels 26–79 Aufrufe, Einzelbilder 8–10). Das Mittwochs-Karussell zusätzlich als Reel veröffentlichen (`bilder-video.sh` ohne Musik-Fassung für Instagram, 7 Sekunden je Seite; die Musik-Fassung nur für YouTube). Einzelbilder bleiben Ergänzung, nicht Hauptformat.
+- **Zur Reaktion auffordern, mit Zahl als Antwort:** Jede letzte Szene bzw. letzte Karussellseite stellt eine Frage, die man mit einer Zahl oder JA/NEIN beantworten kann („Wie viele Monatsausgaben hast du als Polster? Schreib die Zahl 👇“), zusätzlich zur Frage im ersten Kommentar. Gilt vor allem für TikTok (viele Aufrufe, kaum Reaktionen).
+- **Titelbild immer mit Thema als Text** (siehe 4a1 Punkt 8); beim Börsen-Frühstück-Short ist das Titelbild die Titelkarte „Börse heute“ mit Datum.
+
 ## 4g. Themenspeicher (von Jürgen gewünscht, 02.11.2026) – regelmäßig einplanen
 Jede Woche mindestens ein Beitrag aus dieser Liste (Reel, Karussell oder Short). Bereits verwendete Themen unten mit Datum abhaken, nicht wiederholen innerhalb von 8 Wochen.
 - **Fair Value:** Was ist eine Aktie wirklich wert? Preis gegen Wert mit Balken, ein bekanntes Beispiel, Annahmen sichtbar. Nie „kaufen/verkaufen“.
