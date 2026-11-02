@@ -1,6 +1,6 @@
 #!/bin/bash
 # Macht aus Bildern ein Hochkant-Video 1080 × 1920 mit sanften Übergängen und Musik (für YouTube Shorts).
-# Aufruf: bash vorlage/bilder-video.sh <ziel.mp4> <ruhig|heiter|inspirierend> <sekunden_je_bild> bild1.png [bild2.png …]
+# Aufruf: bash vorlage/bilder-video.sh <ziel.mp4> <ruhig|heiter|inspirierend|keine> <sekunden_je_bild> bild1.png [bild2.png …]
 # Bilder kleiner als 1080 × 1920 (z. B. Karussell 1080 × 1350) werden mittig auf dunkelblauen depiq-Hintergrund gesetzt.
 # Regel aus RICHTLINIEN §0 (ab 02.11.2026): mindestens 7 Sekunden je Bild, damit man den Text in Ruhe lesen kann.
 # Kleinere Werte werden automatisch auf 7 Sekunden angehoben.
@@ -24,4 +24,6 @@ dauer=$(python3 -c "print(round($n*$s-($n-1)*$ue,2))")
 ffmpeg -y -loglevel error "${args[@]}" -f lavfi -t "$dauer" -i anullsrc=channel_layout=stereo:sample_rate=44100 \
   -filter_complex "${filt%;}" -map "[$letzte]" -map "$n:a" -c:v libx264 -crf 20 -pix_fmt yuv420p -r 30 \
   -c:a aac -t "$dauer" -movflags +faststart "$ziel"
+# Stimmung "keine" = ohne Musik (Pflicht für Instagram, Facebook, TikTok, RICHTLINIEN 4a0)
+[ "$stimmung" = "keine" ] && { echo "ohne Musik: $ziel"; exit 0; }
 bash vorlage/musik.sh "$ziel" "$stimmung"
