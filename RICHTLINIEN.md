@@ -66,7 +66,8 @@ Jede Woche mindestens ein Beitrag aus dieser Liste (Reel, Karussell oder Short).
 - **Chart-Beispiele:** 50- und 200-Tage-Linie, Trend, Unterstützung; immer als Lernbeispiel mit historischem Chart, nie als Signal oder Prognose.
 - **Wem gehört das Geld auf deinem Girokonto?** Rechtlich bist du Gläubiger: Das Guthaben ist eine Forderung gegen die Bank (die Bank wird Eigentümerin des eingezahlten Geldes, du hast Anspruch auf Rückzahlung). Eigentümer von Geldscheinen bist du erst nach dem Abheben. Pflicht im selben Beitrag, sonst schürt es Angst: Einlagensicherung bis 100.000 € je Person und Bank (EU), und Wertpapiere im Depot sind Sondervermögen und bleiben bei einer Bankpleite deine. Ruhig erklären, keine Panikmache.
 - **Weitere Wissens-Tipps:** Was passiert mit meinem Depot, wenn der Broker pleitegeht? · Warum Inflation Ersparnisse auf dem Konto leise kleiner macht · Woher kommt Geld eigentlich (Geldschöpfung durch Kredite) · Zinseszins an einem Beispiel.
-- **Prüfpflicht:** Rechtliche und steuerliche Aussagen (Länder DE, AT, CH unterscheiden) vor dem Planen gegen eine verlässliche Quelle prüfen und die Quelle im Arbeitsordner notieren. Im Zweifel allgemeiner formulieren.
+- **Recherchepflicht (Jürgen, 02.11.2026): JEDES Thema vor dem Beitrag recherchieren**, auch wenn die Aussage bekannt scheint. Zahlen, rechtliche und steuerliche Aussagen (DE, AT, CH unterscheiden) gegen mindestens eine verlässliche Quelle prüfen (Gesetz, Behörde, Verbraucherzentrale, seriöse Fachpresse). Ergebnis und Quellen in `texte/recherche/<datum>_<thema>.md` ablegen. Im Zweifel allgemeiner formulieren oder das Thema verschieben.
+- Bereits recherchiert: Girokonto-Eigentum → `texte/recherche/2026-11-02_girokonto-eigentum.md`
 
 Verwendet: (noch keine)
 
