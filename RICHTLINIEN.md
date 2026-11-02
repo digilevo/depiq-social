@@ -52,7 +52,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 ## 4. Serien und Wochenplan
 | Serie | Tag | Format | Kanäle |
 |---|---|---|---|
-| Börsen-Frühstück | Mo–Fr: X und Instagram-Story 7:30, Facebook und TikTok 10:00 | 3 Karten 1080 × 1350, Story 1080 × 1920 | X (Jürgen), Facebook, Instagram-Story, TikTok-Fotostrecke |
+| Börsen-Frühstück | Mo–Fr: alle Kanäle 7:30 (X, Instagram-Story, Facebook, TikTok), YouTube Short 8:00 | 3 Karten 1080 × 1350, Story 1080 × 1920 | X (Jürgen), Facebook, Instagram-Story, TikTok-Fotostrecke |
 | Mythos-Check | Montag 18:00 | Reel | Instagram, Facebook, TikTok, X (Video) |
 | Depot-Check in 30 Sekunden | Dienstag 18:00 | Reel | Instagram, Facebook, TikTok, X |
 | Börsenwort einfach erklärt | Mittwoch 18:00 | Karussell 5 Bilder | Instagram, Facebook, TikTok-Fotostrecke, X (Bild 1 + Text) |
@@ -81,7 +81,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 
 ## 4b. Uhrzeiten (Grundlage: Metricool-Auswertung beste Zeiten, 01.11.2026)
 - Instagram, TikTok, Facebook: Spitzen um 10 Uhr und um 18 Uhr an Werktagen. Samstag und Sonntag deutlich schwächer (etwa halb so viel).
-- Reels und Karussells: 18:00 Uhr (Freitag 17:00). Börsen-Frühstück: Story und X früh, Facebook und TikTok 10:00.
+- Reels und Karussells: 18:00 Uhr (Freitag 17:00). Börsen-Frühstück (ab 03.11.2026): alle Kanäle 7:30, YouTube Short 8:00. Nie später, sonst passt der Name „Frühstück“ nicht.
 - Nach 4 Wochen mit den eigenen Zahlen in Metricool prüfen und anpassen.
 
 ## 4c. Pflicht in jedem Profil
