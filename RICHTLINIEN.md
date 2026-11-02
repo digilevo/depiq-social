@@ -16,6 +16,14 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 1. **Bild zuerst:** Eine Illustration zeigt die Situation als Gefühl (Panik beim Kurssturz, Ärger über Kosten, Erleichterung mit Plan). Vorlage `vorlage/szene.html`, eigene Illustrationen in depiq-Farben, nie fremde Figuren oder Marken.
 2. **Wenig Text:** Überschrift plus höchstens ein Satz pro Bild.
 3. **Dann die Lösung:** Das nächste Bild zeigt den ruhigen Weg und den Merksatz.
+**Schärfung (Jürgen, 02.11.2026): Schmerz → Bedürfnis → Lösung → depiq. Keine Funktionslisten.**
+- **Schmerz zuerst, konkret und alltäglich:** eine Situation, die der Leser selbst kennt („Plötzlich fehlen 800 €.“, „Du weißt nicht, ob du zu viel zahlst.“, „Drei Depots, keine Ahnung, wo du stehst.“). Kein Fachbegriff im Haken.
+- **Bedürfnis benennen:** was der Leser eigentlich will (Ruhe, Überblick, Sicherheit, nicht mehr raten müssen).
+- **Lösung mit Mehrwert, auch ohne depiq nutzbar:** ein Schritt, eine Faustregel, eine Rechnung, die sofort hilft. Der Beitrag muss auch für jemanden wertvoll sein, der depiq nie öffnet.
+- **depiq erst am Ende, als natürlicher nächster Schritt, in einem Satz und als Nutzen formuliert** („Dein Depot auf einen Blick: kostenlos bei depiq starten“). **Nie Funktionen aufzählen** (keine Listen wie „Rebalancing, Widgets, Benachrichtigungen …“), das interessiert niemanden. Höchstens eine Funktion nennen, und nur wenn sie genau den gezeigten Schmerz löst.
+- **Prüffrage vor jedem Beitrag:** Würde ich das speichern oder teilen, auch wenn depiq nicht drinstünde? Wenn nein: neu schreiben.
+- Ton: interessant, spannend, informativ, einfach, verständlich; gute Grafik vor viel Text.
+
 **Mischung pro Woche:** etwa 40 % Emotions-Bilder (Gefühl → Lösung), 30 % Wissen (Karussell, Zahl mit Balken), 30 % Börsen-Frühstück und Rückblick. Nie zwei gleiche Formate hintereinander.
 
 ## 1. Inhalt und Mehrwert
@@ -158,4 +166,5 @@ Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jü
 - [ ] Ein Handgriff zum Selbstprüfen
 - [ ] Logo sichtbar, Schrift am Handy lesbar, kein Überlauf
 - [ ] E-Book- oder Vorlagen-Hinweis, Frage am Ende
+- [ ] Schmerz im Haken, Lösung mit Mehrwert, depiq nur am Ende als Nutzen, keine Funktionsliste
 - [ ] Keine Prognose, kein Kauftipp, „Keine Anlageberatung“
