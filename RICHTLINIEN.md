@@ -59,9 +59,12 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
-## 4a0. Musik in Reels
-- Jedes Reel bekommt leise Hintergrundmusik aus `musik/` (YouTube Audio-Mediathek, „Keine Namensnennung erforderlich“, Künstler Jesse Gallagher): `ruhig` = The Inner Sound (ernste Themen: Crash, Dispo, Notgroschen, Psychologie), `heiter` = Mer-Ka-Ba (Erklär-Reels: ETFs, Kosten, Dividende), `inspirierend` = Satya Yuga (Wochen-Reel, persönliche Geschichten).
-- `render-reel.js` legt die Musik automatisch unter (2. Argument = Stimmung). Nachträglich: `bash vorlage/musik.sh reels/<datei>.mp4 <stimmung>`.
+## 4a0. Musik in Reels (ab 02.11.2026 nur noch auf YouTube)
+- **Instagram, Facebook, TikTok: keine Musik, keine Sounds.** Weder Plattform-Sounds (deren Bibliotheken sind für Unternehmenskonten nicht lizenziert, Abmahnrisiko im vier- bis fünfstelligen Bereich) noch Musik aus der YouTube Audio-Mediathek (deren Lizenz gilt nur auf YouTube). Videos laufen mit stiller Tonspur; die Texte im Bild tragen die Botschaft.
+- **YouTube (Shorts): Musik aus `musik/` erlaubt** (YouTube Audio-Mediathek, „Keine Namensnennung erforderlich“, Künstler Jesse Gallagher): `ruhig` = The Inner Sound, `heiter` = Mer-Ka-Ba, `inspirierend` = Satya Yuga.
+- `render-reel.js` erzeugt automatisch beide Fassungen: `<id>.mp4` ohne Musik für Instagram, Facebook, TikTok und `<id>_YouTube.mp4` mit Musik. In Metricool nie die YouTube-Fassung für andere Netzwerke verwenden.
+- `bilder-video.sh` (Shorts aus Bildern) legt Musik unter und ist nur für YouTube.
+- Musik für Instagram, Facebook, TikTok erst wieder mit einer Lizenz, die diese Plattformen und gewerbliche Nutzung ausdrücklich nennt (zum Beispiel Epidemic Sound), nach Freigabe durch Jürgen.
 
 ## 4a. YouTube Shorts
 - Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).

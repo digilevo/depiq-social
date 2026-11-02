@@ -1,5 +1,5 @@
 // Aufruf: node render-reel.js <reelId> [ruhig|heiter|inspirierend] → ../reels/<reelId>.mp4 (1080 × 1920, 30 Bilder pro Sekunde, H.264)
-// Danach wird automatisch Musik aus musik/ untergelegt (vorlage/musik.sh). Stimmung: 2. Argument, sonst Freitag inspirierend, sonst heiter.
+// Ergebnis: <id>.mp4 ohne Musik (Instagram, Facebook, TikTok) und <id>_YouTube.mp4 mit Musik aus musik/ (nur YouTube). Stimmung: 2. Argument, sonst Freitag inspirierend, sonst heiter.
 const { chromium } = require('playwright'); const path = require('path'); const fs = require('fs'); const { execFileSync } = require('child_process');
 const FPS = 30;
 (async () => {
@@ -22,5 +22,9 @@ const FPS = 30;
     '-c:a', 'aac', '-b:a', '128k', '-shortest', '-movflags', '+faststart', path.join(ziel, id + '.mp4')]);
   fs.rmSync(tmp, { recursive: true });
   const stimmung = process.argv[3] || (/_Fr_/.test(id) ? 'inspirierend' : 'heiter');
-  execFileSync('bash', [path.join(__dirname, 'musik.sh'), path.join(ziel, id + '.mp4'), stimmung], { stdio: 'inherit' });
+  // Ab 02.11.2026: Musik NUR für YouTube (Lizenz der YouTube Audio-Mediathek gilt nur dort).
+  // <id>.mp4 = ohne Musik (Instagram, Facebook, TikTok), <id>_YouTube.mp4 = mit Musik.
+  const ohne = path.join(ziel, id + '.mp4'), yt = path.join(ziel, id + '_YouTube.mp4');
+  require('fs').copyFileSync(ohne, yt);
+  execFileSync('bash', [path.join(__dirname, 'musik.sh'), yt, stimmung], { stdio: 'inherit' });
 })();
