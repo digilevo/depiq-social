@@ -3,6 +3,9 @@
 Adressen: depiq.io/de/wissen/<slug> und depiq.io/en/learn/<slug>
 Quelle: Buch „Depot-IQ“, Kapitel in buch/kapitel/kNN.html. Das Buch ist noch nicht final: Kapitelnummern sind nur interne Verweise, nie im Artikel nennen. Vor jedem Artikel den aktuellen Stand des Kapitels lesen.
 Ablauf: KI-Entwurf DE + EN → Freigabe Jürgen → Veröffentlichung
+Takt (entschieden 02.11.2026): 3 Artikel pro Woche, Montag, Mittwoch, Freitag. Läuft die Freigabe nicht hinterher, auf 2 pro Woche (Dienstag, Freitag) zurückgehen.
+Weg online (Ziel): freigegebener Artikel → Repository digilevo/depiq-wissen (nur Artikel und Bilder) → Job auf Hetzner baut früh morgens nur die Wissensseiten neu; Feld veroeffentlicht steuert das Erscheinungsdatum. Am Erscheinungstag ein Post in Metricool mit Link.
+Entwürfe: geplante Aufgabe sonntagabends bereitet die Artikel der Woche vor (einrichten, sobald depiq-wissen existiert). Bilder aus Canva.
 CTA DE: Registrierung (14 Tage alle Funktionen kostenlos, ohne Kreditkarte, jederzeit kündbar) + E-Book
 CTA EN: englisches E-Book + Warteliste englische App (App noch nur DE)
 
