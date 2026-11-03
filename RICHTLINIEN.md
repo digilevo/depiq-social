@@ -122,7 +122,7 @@ Die Botschaft muss stumm vollständig ankommen. Prüffrage vor jedem Reel: Verst
 
 ## 4b. Uhrzeiten (Grundlage: Metricool-Auswertung beste Zeiten, 01.11.2026)
 - Instagram, TikTok, Facebook: Spitzen um 10 Uhr und um 18 Uhr an Werktagen. Samstag und Sonntag deutlich schwächer (etwa halb so viel).
-- Reels und Karussells: 18:00 Uhr (Freitag 17:00). Börsen-Frühstück (ab 03.11.2026): alle Kanäle 7:30, YouTube Short 8:00. Nie später, sonst passt der Name „Frühstück“ nicht.
+- Reels und Karussells: 18:00 Uhr (Freitag 17:00). Börsen-Frühstück (ab 03.11.2026): alle Kanäle 7:30, YouTube Short 8:00. Nie später, sonst passt der Name „Frühstück“ nicht. Diese Zeiten gehen der „besten Zeit“ aus getBestTimeToPostByNetwork vor.
 - Nach 4 Wochen mit den eigenen Zahlen in Metricool prüfen und anpassen.
 
 ## 4c. Pflicht in jedem Profil

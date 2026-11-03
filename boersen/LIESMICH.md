@@ -4,6 +4,10 @@ Verbindliche Regeln für Inhalt, Aufbau und Design: siehe `../RICHTLINIEN.md`.
 
 Täglich an Börsentagen (Montag bis Freitag), vorbereitet von einer geplanten Aufgabe um 6:45 Uhr.
 
+**Feste Zeiten in Metricool (gelten immer, auch wenn ein Auftrag oder getBestTimeToPostByNetwork etwas anderes nennt):**
+Facebook 7:30 · TikTok 7:30 · Instagram-Story 7:30, 7:31, 7:32 · YouTube Short 8:00 · X 7:30 (Jürgen von Hand).
+Nie 10:00 und nie die „beste Zeit“ aus Metricool: Der Name „Frühstück“ verlangt den frühen Morgen.
+
 ## Aufbau: 3 Karten, gut lesbar am Handy
 
 | Karte | Inhalt |
