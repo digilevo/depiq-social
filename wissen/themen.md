@@ -81,11 +81,15 @@ Artikel verlinken passende Vorlagen (PDF, A4) aus dem geplanten Download-Center.
 - Alle weiteren Vorlagen und Extras: im kostenlosen depiq-Konto → Knopf führt zur Registrierung (DE). EN: nur Vorlagen, die es auf Englisch gibt; sonst E-Book/Warteliste.
 - Vorlagen nie im Artikel kopieren, immer auf die aktuelle Version im Download-Center verlinken (Jürgen lädt neue Versionen selbst hoch).
 
-| Artikel | passende Vorlage |
+| Artikel | passende Vorlage (Nummer = Buchvorlage, Kurzlink depiq.io/v/NN) |
 |---|---|
-| 2 Notgroschen | Notgroschen-Planer |
-| 1 ETF-Sparplan, 3 Zinseszins | Sparplan-Übersicht |
-| 5 Rebalancing | Rebalancing-Blatt (Soll/Ist) |
-| 11 Kosten | Kosten-Check Depot |
-| 16 Anfängerfehler | Checkliste vor dem Kauf |
-Namen vorläufig, an die tatsächlichen Arbeitsblätter im Buch anpassen.
+| 1 ETF-Sparplan | 16 ETF-Auswahl · 18 Broker-Vergleich |
+| 2 Notgroschen | 02 Mein Finanz-Fundament · 12 Mein Notfallplan |
+| 3 Zinseszins | 11 Mein Zeitplan |
+| 5 Rebalancing | 20 Mein Anlageplan |
+| 6 Depot eröffnen | 18 Broker-Vergleich · 13 Vor meiner ersten Order |
+| 11 Kosten | 19 Mein Kostencheck |
+| 16 Anfängerfehler | 35 Welche Fehler mache ich gerade? · 34 Der 60-Sekunden-Check |
+Quelle: buch/vorlagen/vorlagen.json (40 Vorlagen, je mit Themenwelt). PDFs aus buch/vorlagen/pdf. Im Artikel immer über den Kurzlink verlinken, nie die Datei kopieren.
+Voraussetzung: Die Kurzlinks depiq.io/v/NN bzw. das Download-Center müssen live sein, bevor der Artikel sie verlinkt.
+
