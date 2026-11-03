@@ -75,7 +75,8 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 
 ## 4h. Lehren aus den ersten Zahlen (02.11.2026, von Jürgen freigegeben)
 - **Instagram: Reels vor Einzelbildern.** Reels erreichen bei neuen Konten auch Nicht-Follower (Reels 26–79 Aufrufe, Einzelbilder 8–10). Das Mittwochs-Karussell zusätzlich als Reel veröffentlichen (`bash vorlage/bilder-video.sh <ziel.mp4> keine 7 seite1.png …` für Instagram ohne Musik; die Fassung mit Musik nur für YouTube). Einzelbilder bleiben Ergänzung, nicht Hauptformat.
-- **Zur Reaktion auffordern, mit Zahl als Antwort:** Jede letzte Szene bzw. letzte Karussellseite stellt eine Frage, die man mit einer Zahl oder JA/NEIN beantworten kann („Wie viele Monatsausgaben hast du als Polster? Schreib die Zahl 👇“), zusätzlich zur Frage im ersten Kommentar. Gilt vor allem für TikTok (viele Aufrufe, kaum Reaktionen).
+- ⛔ **Keine privaten Fragen (03.11.2026, Jürgen):** Nie nach der eigenen Lage des Lesers fragen, die man öffentlich nicht zugibt: Schulden, Dispo, Kredite, Einkommen, Gehalt, Kontostand, Vermögen, Sparsumme, Geldsorgen, Streit ums Geld, Gesundheit. Beispiel verboten: „Warst du schon mal im Dispo? JA oder NEIN“, „Wie viel hast du auf dem Konto?“, „Wie viele Monatsausgaben hast du als Polster?“. Erlaubt sind Fragen zu Wissen, Meinung, Vorlieben oder Einschätzung: „Was schätzt du: Wie viel kostet 3.000 € Dispo im Jahr? Schreib die Zahl 👇“, „Acc oder Dist?“, „Welches Thema als Nächstes?“, „Hättest du das gedacht? JA oder NEIN“. Prüffrage: Würde ich das unter meinem Namen öffentlich beantworten?
+- **Zur Reaktion auffordern, mit Zahl als Antwort:** Jede letzte Szene bzw. letzte Karussellseite stellt eine Frage, die man mit einer Zahl oder JA/NEIN beantworten kann („Was schätzt du: Wie viel Zinsen kostet 3.000 € Dispo im Jahr? Schreib die Zahl 👇“, keine Frage nach der eigenen Lage, siehe Regel davor), zusätzlich zur Frage im ersten Kommentar. Gilt vor allem für TikTok (viele Aufrufe, kaum Reaktionen).
 - **Titelbild immer mit Thema als Text** (siehe 4a1 Punkt 8); beim Börsen-Frühstück-Short ist das Titelbild die Titelkarte „Börse heute“ mit Datum.
 
 ## 4g. Themenspeicher (von Jürgen gewünscht, 02.11.2026) – regelmäßig einplanen
@@ -173,5 +174,6 @@ Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jü
 - [ ] Ein Handgriff zum Selbstprüfen
 - [ ] Logo sichtbar, Schrift am Handy lesbar, kein Überlauf
 - [ ] E-Book- oder Vorlagen-Hinweis, Frage am Ende
+- [ ] Frage ist öffentlich beantwortbar: keine Frage nach Schulden, Dispo, Einkommen, Kontostand, Vermögen oder Gesundheit des Lesers
 - [ ] Schmerz im Haken, Lösung mit Mehrwert, depiq nur am Ende als Nutzen, keine Funktionsliste
 - [ ] Keine Prognose, kein Kauftipp, „Keine Anlageberatung“
