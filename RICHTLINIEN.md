@@ -4,6 +4,7 @@ Gilt für X, Instagram, Facebook und TikTok, für Menschen und für jede geplant
 Stand: 01.11.2026 · E-Book-Seite: https://depiq.io/de/book/ · Grundlage: Social-Media-Analyse https://claude.ai/artifact/FrxC7FabiDx99hZz5T9KMM
 
 ## Grundregeln (gelten immer, ohne Ausnahme)
+- **Themenwelten überall gleich (03.11.2026):** Jeder Beitrag gehört zu genau einer Themenwelt aus `wissen/themenwelten.md` und zeigt deren Farbe und Symbol (zum Beispiel als Ecke oder Band mit Symbol). Dieselbe Zuordnung wie im Buch, auf der Website, in der App und in der Academy. Keine eigenen Farben oder Rubriken erfinden.
 Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestellt, auf einen Blick erkennbar, um was es geht.“
 1. **Einfach:** Kurze Sätze mit höchstens 12 Wörtern, Alltagswörter. Jeder Fachbegriff wird sofort erklärt oder weggelassen.
 2. **Logisch:** Eine klare Reihenfolge: Frage → Beispiel → Ergebnis → was du tun kannst. Kein Gedankensprung.
