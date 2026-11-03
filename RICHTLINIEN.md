@@ -59,6 +59,9 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 4. **depiq-Logo** auf jedem Bild gut sichtbar, oben rechts.
 5. **Keine großen Leerflächen**, keine überlaufenden Texte. Die Render-Skripte melden „ÜBERLAUF“; dann Text kürzen.
 6. **Symbole** lockern Überschriften und Etiketten auf (📊 🏁 📰 🔖 📘).
+7. **Themenwelt sichtbar (ab 03.11.2026, Jürgen):** Jedes Bild, jede Karussellseite und jedes Reel-Titelbild trägt die Themenwelt aus `wissen/themenwelten.md`: oben links eine Pille mit Symbol und Themenname in Themenfarbe, dazu eine dünne Akzentlinie in Themenfarbe. Die Themenfarbe ist Akzent, der dunkle depiq-Hintergrund bleibt. Zuordnung nach Buchkapitel des Inhalts.
+   Feste Zuordnung der Serien: **Börsen-Frühstück → Aktien & Börse** · **Börsenwort einfach erklärt → je Begriff** (zum Beispiel KGV → Aktien & Börse, TER → ETFs & Fonds) · **Mythos-Check, Zahl der Woche, Depot-Check → je Inhalt** · Pinterest-Pins → je Inhalt. Im Zweifel: Thema des Buchkapitels, aus dem der Inhalt kommt.
+   Die Vorlagen bekommen dafür einen Parameter `thema` (Kennung). Bis eine Vorlage ihn hat, beim nächsten Bau dieser Serie nachrüsten, nie von Hand pro Bild.
 
 ## 4. Serien und Wochenplan
 | Serie | Tag | Format | Kanäle |
@@ -162,6 +165,7 @@ Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jü
 - Bilder und Videos für Metricool als Raw-Link: `https://raw.githubusercontent.com/digilevo/depiq-social/main/<Pfad>`
 
 ## Prüfliste vor jedem Beitrag
+- [ ] **Themenwelt** gesetzt (Pille mit Symbol und Akzentlinie in Themenfarbe), passend zum Buchkapitel
 - [ ] In Metricool **alle Kanäle angehakt**: Instagram, Facebook und TikTok (später YouTube). Metricool überträgt nichts automatisch von Instagram auf Facebook.
 - [ ] Haken im ersten Satz und ersten Bild
 - [ ] Leser lernt genau eine Sache, mit Alltags-Vergleich
