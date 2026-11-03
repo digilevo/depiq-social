@@ -22,7 +22,8 @@ Festgelegt von Jürgen am 03.11.2026: Artikel sollen **conversion-optimiert, SEO
 
 ## SEO
 - **Vor dem Schreiben recherchieren, wonach Leute suchen:** Websuche zum Hauptbegriff und zu Varianten (wie viel, wo, für wen, Fehler, Rechner, Österreich/Schweiz). Notieren, welche Fragen die oberen Treffer beantworten, und eine Liste der Suchbegriffe (Haupt- und Nebenbegriffe) im Frontmatter ablegen. Jede dieser Fragen bekommt einen Abschnitt oder eine Antwort in den häufigen Fragen.
-- **Überschriften-Hierarchie:** Genau eine H1 = Titel aus dem Frontmatter (setzt die Seite, nie im Text). Hauptabschnitte H2 (`##`), Unterpunkte H3 (`###`), keine Ebene überspringen, keine H4 nötig. 7–10 H2 pro Artikel, H3 nur, wo ein Abschnitt drei oder mehr Teile hat.
+- **Überschriften-Hierarchie:** Genau eine H1 = Titel aus dem Frontmatter (setzt die Seite, nie im Text). Hauptabschnitte H2 (`##`), Unterpunkte H3 (`###`), keine Ebene überspringen, keine H4 nötig. 8–14 H2 pro Artikel, H3 nur, wo ein Abschnitt drei oder mehr Teile hat.
+- Titel höchstens 60 Zeichen (sonst bricht der Build ab).
 - Hauptsuchbegriff in Titel, Adresse, ersten 100 Wörtern, Beschreibung (höchstens 160 Zeichen) und in 2–3 Zwischenüberschriften.
 - 5 Nebenbegriffe natürlich einbauen, Dichte des Hauptbegriffs etwa 1 bis 1,5 %.
 - Fragen-Überschriften und kurze Antwortsätze direkt darunter (für Antwortboxen bei Google).
