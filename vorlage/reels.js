@@ -1,5 +1,17 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
+ '2026-11-14_Sa_Reel':{
+  dauer:23, glow:'rgba(225,29,72,.45)',
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'Dein Depot:'},{text:'−20 %.',rot:true}],groesse:136},
+   {von:3.5,bis:7.5,zeilen:[{text:'Der Daumen'},{text:'schwebt über'},{text:'<em>„Verkaufen“.</em>'}],groesse:116},
+   {von:7.5,bis:13.5,zeilen:[{text:'So läuft es oft:'}],groesse:92,
+    linie:{punkte:[100,96,88,80,84,92,99,106],min:70,max:112,marken:[{i:3,text:'−20 %',rot:true,unten:true},{i:7,text:'wieder oben'}]},
+    notiz:'Vereinfachtes Beispiel, kein echter Kursverlauf. Keine Garantie, dass es immer so kommt.'},
+   {von:13.5,bis:18.5,zeilen:[{text:'Wer unten'},{text:'verkauft, ist'},{text:'beim Anstieg'},{text:'<em>nicht dabei.</em>'}],groesse:108},
+   {von:18.5,bis:23,zeilen:[{text:'Dein Plan'},{text:'bei −20 %?'},{text:'<em>Schreib ihn auf.</em>'}],groesse:112,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
  '2026-11-07_Sa_Abend':{
   dauer:24,
   szenen:[
