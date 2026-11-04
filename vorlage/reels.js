@@ -1,5 +1,42 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
+ '2026-11-07_Sa_TikTok':{
+  dauer:26,
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'Mehr Gehalt?'},{text:'<em>Glückwunsch!</em>'}],groesse:124},
+   {von:3.5,bis:7.5,zeilen:[{text:'Beispiel:'},{text:'<em>200 € mehr</em>'},{text:'im Monat.'}],groesse:118},
+   {von:7.5,bis:12.5,zeilen:[{text:'So teilst du auf:'}],groesse:96,
+    balken:[{name:'📈 In den Sparplan',betrag:100,wert:50},{name:'🎉 Zum Genießen',betrag:100,wert:50}]},
+   {von:12.5,bis:18.5,zeilen:[{text:'Nach 20 Jahren:'}],groesse:96,
+    balken:[{name:'Eingezahlt',betrag:24000,wert:52},{name:'Im Depot',betrag:46200,wert:100}],
+    notiz:'Beispielrechnung: 100 € im Monat, 6 % pro Jahr, ohne Kosten und Steuern. Keine Garantie.'},
+   {von:18.5,bis:22,zeilen:[{text:'Kein Verzicht.'},{text:'Das Geld hattest'},{text:'du vorher <em>nicht.</em>'}],groesse:108},
+   {von:22,bis:26,zeilen:[{text:'Sparplan umstellen,'},{text:'<em>bevor</em> das'},{text:'Geld kommt.'}],groesse:104,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
+ '2026-11-08_So_TikTok':{
+  dauer:21,
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'Frage zum'},{text:'<em>Sonntag</em> ☕'}],groesse:130},
+   {von:3.5,bis:8,zeilen:[{text:'Wann hast du'},{text:'zum ersten Mal'},{text:'<em>investiert?</em>'}],groesse:116},
+   {von:8,bis:13.5,zeilen:[{text:'🎒 in der Schule'},{text:'💼 erster Job'},{text:'⏳ deutlich später'},{text:'🌱 noch gar nicht'}],groesse:92},
+   {von:13.5,bis:17,zeilen:[{text:'Schreib dein'},{text:'<em>Emoji</em> 👇'}],groesse:130},
+   {von:17,bis:21,zeilen:[{text:'Bester Zeitpunkt:'},{text:'gestern.'},{text:'Zweitbester:'},{text:'<em>heute.</em>'}],groesse:100,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
+ '2026-11-11_Mi_TikTok':{
+  dauer:26,
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'Thesaurierend'},{text:'oder'},{text:'<em>ausschüttend?</em>'}],groesse:108},
+   {von:3.5,bis:7.5,zeilen:[{text:'Ausschüttend:'},{text:'Dividenden'},{text:'aufs <em>Konto.</em>'}],groesse:116},
+   {von:7.5,bis:11.5,zeilen:[{text:'Thesaurierend:'},{text:'Sie bleiben'},{text:'im ETF und'},{text:'<em>wachsen mit.</em>'}],groesse:108},
+   {von:11.5,bis:17.5,zeilen:[{text:'10.000 €, 25 Jahre:'}],groesse:88,
+    balken:[{name:'💸 Dividenden ausgegeben',betrag:32000,wert:74},{name:'🌱 Im ETF gelassen',betrag:43000,wert:100}],
+    notiz:'Beispiel: 6 % pro Jahr, davon 1,2 % Ausschüttung, ohne Steuern. Keine Garantie.'},
+   {von:17.5,bis:21.5,zeilen:[{text:'Rund'},{text:'<em>11.000 €</em>'},{text:'Unterschied.'}],groesse:124},
+   {von:21.5,bis:26,zeilen:[{text:'<em>Acc</em> im Namen:'},{text:'thesaurierend.'},{text:'<em>Dist</em>: ausschüttend.'}],groesse:100,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
  '2026-11-09_Mo_Reel':{
   dauer:22,
   szenen:[
