@@ -74,7 +74,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
 ## 4i. Serie „Aktie im Check“ (ab 04.11.2026, von Jürgen freigegeben, 1 × pro Woche)
-Aktuelle Aktie, über die gerade geredet wird (Quartalszahlen, starker Kursrückgang). Themenwelt „Aktien & Börse“. Kanäle: X (Jürgen manuell), Instagram- und Facebook-Karussell, TikTok-Fotostrecke, LinkedIn-Dokument bei passenden Themen.
+Aktuelle Aktie, über die gerade geredet wird (Quartalszahlen, starker Kursrückgang). Themenwelt „Aktien & Börse“. Kanäle: X (Jürgen manuell, Bild 1–4), Instagram- und Facebook-Karussell, TikTok-Fotostrecke, YouTube Short aus den Karussellbildern (bilder-video.sh, 7 s je Bild, Musik ruhig), LinkedIn-Dokument bei passenden Themen. Nicht auf Pinterest (zeitgebunden, Einzelaktie).
 Aufbau: 1) Haken mit echter Zahl („minus X % in einem Jahr. Was ist da los?“) 2) Warum gefallen/gestiegen: 2–3 geprüfte Fakten mit Quelle 3) Kennzahlen einfach erklärt (Kurs-Gewinn-Verhältnis als „Du zahlst N Jahresgewinne“, Dividendenrendite) und warum niedrig günstig sein kann, aber nicht muss 4) eine Aha-Rechnung (z. B. −60 % braucht +150 %) 5) „So prüfst du das selbst“: 3 Fragen 6) öffentlich beantwortbare Frage (Einschätzung, nie die eigene Finanzlage).
 Verboten: Kauf-/Verkaufsempfehlung, Wertungen wie „günstig“, „Schnäppchen“, „du wirst fürs Warten bezahlt“, Kursziele, Prognosen. X erlaubt höchstens 4 Bilder: dort Bild 1–4, die Frage und die Offenlegung stehen im X-Text. Pflicht: „Keine Anlageberatung.“ und Offenlegung, ob Jürgen die Aktie hält („Offenlegung: Ich halte die Aktie (nicht).“). Zahlen aus zwei Quellen, Stand-Datum nennen.
 
