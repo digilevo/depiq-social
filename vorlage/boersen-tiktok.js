@@ -14,7 +14,7 @@ const umbruch = (s) => { const w = s.split(' '); const z = []; let akt = '';
   if (akt) z.push(akt); return z.slice(0, 4); };
 const n = d.news[0];
 const szenen = [
-  { von: 0, bis: 3.5, zeilen: [{ text: '☕ Börse heute' }, { text: `<em>${kurz}</em>` }], groesse: 128 },
+  { von: 0, bis: 3.5, zeilen: [{ text: '☕ Börse heute' }, { text: `<em>${kurz}</em>` }], groesse: 112 },
 ];
 let t0 = 3.5;
 if (d.gewinner && d.gewinner.length >= 3) { szenen.push({ von: t0, bis: t0 + 5.5, zeilen: [{ text: 'Top 3 Gewinner 🚀' }], groesse: 92, balken: top(d.gewinner) }); t0 += 5.5;

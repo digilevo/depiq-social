@@ -31,7 +31,7 @@ const REELS={
    {von:3.5,bis:7.5,zeilen:[{text:'Ausschüttend:'},{text:'Dividenden'},{text:'aufs <em>Konto.</em>'}],groesse:116},
    {von:7.5,bis:11.5,zeilen:[{text:'Thesaurierend:'},{text:'Sie bleiben'},{text:'im ETF und'},{text:'<em>wachsen mit.</em>'}],groesse:108},
    {von:11.5,bis:17.5,zeilen:[{text:'10.000 €, 25 Jahre:'}],groesse:88,
-    balken:[{name:'💸 Dividenden ausgegeben',betrag:32000,wert:74},{name:'🌱 Im ETF gelassen',betrag:43000,wert:100}],
+    balken:[{name:'💸 Ausgegeben',betrag:32000,wert:74},{name:'🌱 Im ETF gelassen',betrag:43000,wert:100}],
     notiz:'Beispiel: 6 % pro Jahr, davon 1,2 % Ausschüttung, ohne Steuern. Keine Garantie.'},
    {von:17.5,bis:21.5,zeilen:[{text:'Rund'},{text:'<em>11.000 €</em>'},{text:'Unterschied.'}],groesse:124},
    {von:21.5,bis:26,zeilen:[{text:'<em>Acc</em> im Namen:'},{text:'thesaurierend.'},{text:'<em>Dist</em>: ausschüttend.'}],groesse:100,cta:'Folge für mehr', bio:'@depiq.io'}
