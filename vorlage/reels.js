@@ -1,5 +1,31 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
+ '2026-11-07_Sa_Abend':{
+  dauer:24,
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'Deine Aktie fällt'},{text:'um 50 %.',rot:true}],groesse:116},
+   {von:3.5,bis:10,zeilen:[{text:'Was dann passiert:'}],groesse:88,
+    linie:{punkte:[100,94,82,66,50,56,68,84,100],min:35,max:112,marken:[{i:0,text:'100 €'},{i:4,text:'50 €',rot:true,unten:true},{i:8,text:'100 €'}]}},
+   {von:10,bis:14,zeilen:[{text:'Zurück auf 100 €?'},{text:'Dafür brauchst du'},{text:'<em>+100 %.</em>'}],groesse:104},
+   {von:14,bis:19.5,zeilen:[{text:'Verlust → nötig:'}],groesse:88,
+    balken:[{name:'📉 −10 % Verlust',betrag:11,einheit:'%',vorz:true,wert:11},{name:'📉 −25 % Verlust',betrag:33,einheit:'%',vorz:true,wert:33},{name:'📉 −50 % Verlust',betrag:100,einheit:'%',vorz:true,wert:100}],
+    notiz:'Gewinn, den du danach brauchst, um wieder beim Startwert zu sein. Gerundet.'},
+   {von:19.5,bis:24,zeilen:[{text:'Verluste wiegen'},{text:'<em>schwerer</em>'},{text:'als gedacht.'}],groesse:112,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
+ '2026-11-08_So_Abend':{
+  dauer:22,
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'100 € im Monat.'},{text:'<em>30 Jahre lang.</em>'}],groesse:116},
+   {von:3.5,bis:9,zeilen:[{text:'Am Ende:'}],groesse:96,
+    balken:[{name:'💶 Eingezahlt',betrag:36000,wert:37},{name:'🌱 Im Depot',betrag:97000,wert:100}],
+    notiz:'Beispielrechnung: 6 % pro Jahr, ohne Kosten und Steuern. Keine Garantie.'},
+   {von:9,bis:14.5,zeilen:[{text:'Davon sind'}],groesse:96,
+    kreis:{anteil:63,text:'Erträge, die du<br>nicht selbst<br>eingezahlt hast.'}},
+   {von:14.5,bis:18,zeilen:[{text:'Das ist der'},{text:'<em>Zinseszins.</em>'}],groesse:124},
+   {von:18,bis:22,zeilen:[{text:'Je früher,'},{text:'desto <em>stärker.</em>'}],groesse:124,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
  '2026-11-07_Sa_TikTok':{
   dauer:26,
   szenen:[

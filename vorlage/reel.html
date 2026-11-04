@@ -27,6 +27,11 @@ body{font-family:'DM Sans',sans-serif;color:#fff;position:relative}
 .bz .spur b{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#6366f1,#14b8a6)}
 .bz .spur b.rotb{background:linear-gradient(90deg,#be123c,#fb7185)}
 .rotz{color:#fb7185}
+.linie{background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.14);border-radius:32px;padding:30px 30px 20px}
+.linie svg{width:100%;height:auto;display:block}
+.kreis{display:flex;align-items:center;gap:44px}
+.kreis svg{width:420px;height:420px;flex:none}
+.kreis .ktext{font-size:50px;font-weight:700;line-height:1.25;color:#e6e7ff}
 .notiz{font-size:32px;color:#c3c6f2;line-height:1.35}
 .cta{display:flex;flex-direction:column;gap:26px;align-items:flex-start}
 .knopf{display:flex;align-items:center;gap:20px;font-size:54px;font-weight:800;padding:34px 44px;border-radius:32px;background:linear-gradient(90deg,#6d5ef5,#4f7be8 50%,#14b8a6);box-shadow:0 20px 70px rgba(20,184,166,.35)}
@@ -62,6 +67,25 @@ function render(t){
   if(s.balken){
     const e=leicht((lokal-0.3)/(dauer*0.6));
     html+='<div class="balken" style="opacity:'+aus+'">'+s.balken.map(b=>'<div class="bz"><div class="kopfz"><span>'+b.name+'</span><span class="zahl'+(b.rot?' rotz':'')+'">'+(b.vorz&&b.betrag>0?'+':'')+(b.nk?(b.betrag*e).toLocaleString('de-DE',{minimumFractionDigits:b.nk,maximumFractionDigits:b.nk}):zahlFmt(b.betrag*e))+' '+(b.einheit||'€')+'</span></div><div class="spur"><b class="'+(b.rot?'rotb':'')+'" style="width:'+(b.wert*e)+'%"></b></div></div>').join('')+'</div>';
+    if(s.notiz) html+='<div class="notiz" style="opacity:'+aus+'">'+s.notiz+'</div>';
+  }
+  if(s.linie){
+    const L=s.linie, e=leicht((lokal-0.3)/(dauer*0.65)), W=880, H=520, P=40;
+    const n=L.punkte.length, mn=L.min??Math.min(...L.punkte), mx=L.max??Math.max(...L.punkte);
+    const xy=L.punkte.map((v,i)=>[P+i*(W-2*P)/(n-1), H-P-(v-mn)/(mx-mn)*(H-2*P)]);
+    let len=0; for(let i=1;i<n;i++) len+=Math.hypot(xy[i][0]-xy[i-1][0],xy[i][1]-xy[i-1][1]);
+    // Punkt, bis zu dem die Linie gezeichnet ist
+    let rest=len*e, kx=xy[0][0], ky=xy[0][1], k=0;
+    for(let i=1;i<n;i++){const d=Math.hypot(xy[i][0]-xy[i-1][0],xy[i][1]-xy[i-1][1]); if(rest<=d){const f=d?rest/d:0;kx=xy[i-1][0]+f*(xy[i][0]-xy[i-1][0]);ky=xy[i-1][1]+f*(xy[i][1]-xy[i-1][1]);k=i-1;break;} rest-=d;kx=xy[i][0];ky=xy[i][1];k=i;}
+    const pts=xy.map(p=>p.join(',')).join(' ');
+    const fl='M'+xy[0].join(',')+' '+xy.slice(1).map(p=>'L'+p.join(',')).join(' ')+' L'+xy[n-1][0]+','+(H-P)+' L'+xy[0][0]+','+(H-P)+' Z';
+    const marken=(L.marken||[]).map(m=>{const p=xy[m.i]; const sicht=e>=m.i/(n-1)-0.001; return sicht?'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="14" fill="'+(m.rot?'#fb7185':'#7ee7d8')+'"/><text x="'+(p[0]<W*0.15?p[0]-14:p[0]>W*0.85?p[0]+14:p[0])+'" y="'+(p[1]+(m.unten?62:-28))+'" fill="'+(m.rot?'#fb7185':'#e6e7ff')+'" font-size="44" font-weight="800" text-anchor="'+(p[0]<W*0.15?'start':p[0]>W*0.85?'end':'middle')+'" font-family="JB">'+m.text+'</text>':'';}).join('');
+    html+='<div class="linie" style="opacity:'+aus+'"><svg viewBox="0 0 '+W+' '+H+'"><defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#14b8a6"/></linearGradient><linearGradient id="lf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#14b8a6" stop-opacity=".35"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></linearGradient><clipPath id="cl"><rect x="0" y="0" width="'+kx+'" height="'+H+'"/></clipPath></defs><path d="'+fl+'" fill="url(#lf)" clip-path="url(#cl)"/><polyline points="'+pts+'" fill="none" stroke="url(#lg)" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="'+len+'" stroke-dashoffset="'+(len*(1-e))+'"/><circle cx="'+kx+'" cy="'+ky+'" r="18" fill="#fff"/>'+marken+'</svg></div>';
+    if(s.notiz) html+='<div class="notiz" style="opacity:'+aus+'">'+s.notiz+'</div>';
+  }
+  if(s.kreis){
+    const K=s.kreis, e=leicht((lokal-0.3)/(dauer*0.6)), r=170, u=2*Math.PI*r, a=K.anteil/100*e;
+    html+='<div class="kreis" style="opacity:'+aus+'"><svg viewBox="0 0 420 420"><circle cx="210" cy="210" r="'+r+'" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="52"/><circle cx="210" cy="210" r="'+r+'" fill="none" stroke="'+(K.rot?'#fb7185':'url(#kg)')+'" stroke-width="52" stroke-linecap="round" stroke-dasharray="'+(u*a)+' '+u+'" transform="rotate(-90 210 210)"/><defs><linearGradient id="kg" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs><text x="210" y="232" fill="#fff" font-size="88" font-weight="800" text-anchor="middle" font-family="JB">'+Math.round(K.anteil*e)+' %</text></svg><div class="ktext">'+(K.text||'')+'</div></div>';
     if(s.notiz) html+='<div class="notiz" style="opacity:'+aus+'">'+s.notiz+'</div>';
   }
   if(s.cta){
