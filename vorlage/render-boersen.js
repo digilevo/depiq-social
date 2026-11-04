@@ -2,6 +2,7 @@
 // Rendert die 3 Karten des Börsen-Frühstücks aus vorlage/boersen.html, je als Beitrag (1080 × 1350) und Story (1080 × 1920):
 //   <ziel>_1.png … _3.png         Beitrag für X, Facebook
 //   <ziel>_Story_1.png … _3.png   Story für Instagram und Facebook
+//   dazu je eine .jpg-Fassung (TikTok-Fotostrecken: nur JPEG oder WebP erlaubt)
 // Prüft dabei, dass kein Text über den Rand läuft (Ausgabe „ÜBERLAUF“ + Exit-Code 2).
 const { chromium } = require('playwright'); const path = require('path'); const fs = require('fs');
 (async () => {
@@ -18,7 +19,9 @@ const { chromium } = require('playwright'); const path = require('path'); const 
       const inh = document.querySelector('.inhalt'); if (inh.scrollHeight > inh.clientHeight + 1) r.push('Inhalt zu hoch');
       const fu = document.querySelector('.fuss'); if (fu.scrollWidth > fu.clientWidth + 1) r.push('Fußzeile zu breit'); return r; });
     const datei = `${ziel}${format === 'story' ? '_Story' : ''}_${karte}.png`;
-    await p.screenshot({ path: datei }); await p.close();
+    await p.screenshot({ path: datei });
+    // TikTok-Fotostrecken nehmen kein PNG an (04.11.2026): zusätzlich JPEG speichern
+    await p.screenshot({ path: datei.replace(/\.png$/, '.jpg'), type: 'jpeg', quality: 92 }); await p.close();
     console.log('Bild:', datei, ueber.length ? 'ÜBERLAUF: ' + ueber.join(', ') : '');
     if (ueber.length) fehler = 2;
   }
