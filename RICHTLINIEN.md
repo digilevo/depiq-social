@@ -100,6 +100,7 @@ Jede Woche mindestens ein Beitrag aus dieser Liste (Reel, Karussell oder Short).
 Verwendet: (noch keine)
 
 ## 4a0. Musik in Reels (ab 02.11.2026 nur noch auf YouTube)
+- **Eigener depiq-Sound (ab 04.11.2026, von Jürgen freigegeben, Erkennungston Variante B):** `musik/depiq-sound/` (hintergrund.mp3 + logo.mp3), rein synthetisch erzeugt, Rechte bei depiq. Darf auf ALLEN Kanälen laufen, auch Instagram, Facebook, TikTok. Anlegen mit `bash vorlage/depiq-sound.sh <eingabe.mp4> <ausgabe.mp4>`; render-reel.js erzeugt automatisch `<id>_Ton.mp4`. Für Instagram, Facebook, TikTok die `_Ton`-Fassung verwenden; die Regeln unten gelten weiter für jede FREMDE Musik und Plattform-Sounds (autoAddMusic immer false).
 - **Instagram, Facebook, TikTok: keine Musik, keine Sounds.** Weder Plattform-Sounds (deren Bibliotheken sind für Unternehmenskonten nicht lizenziert, Abmahnrisiko im vier- bis fünfstelligen Bereich) noch Musik aus der YouTube Audio-Mediathek (deren Lizenz gilt nur auf YouTube). Videos laufen mit stiller Tonspur; die Texte im Bild tragen die Botschaft.
 - **YouTube (Shorts): Musik aus `musik/` erlaubt** (YouTube Audio-Mediathek, „Keine Namensnennung erforderlich“, Künstler Jesse Gallagher): `ruhig` = The Inner Sound, `heiter` = Mer-Ka-Ba, `inspirierend` = Satya Yuga.
 - `render-reel.js` erzeugt automatisch beide Fassungen: `<id>.mp4` ohne Musik für Instagram, Facebook, TikTok und `<id>_YouTube.mp4` mit Musik. In Metricool nie die YouTube-Fassung für andere Netzwerke verwenden.

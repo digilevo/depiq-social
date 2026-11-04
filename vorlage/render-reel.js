@@ -27,4 +27,6 @@ const FPS = 30;
   const ohne = path.join(ziel, id + '.mp4'), yt = path.join(ziel, id + '_YouTube.mp4');
   require('fs').copyFileSync(ohne, yt);
   execFileSync('bash', [path.join(__dirname, 'musik.sh'), yt, stimmung], { stdio: 'inherit' });
+  // Ab 04.11.2026: zusätzlich <id>_Ton.mp4 mit dem eigenen depiq-Sound (für Instagram, Facebook, TikTok erlaubt).
+  execFileSync('bash', [path.join(__dirname, 'depiq-sound.sh'), ohne, path.join(ziel, id + '_Ton.mp4')], { stdio: 'inherit' });
 })();

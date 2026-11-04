@@ -3,4 +3,4 @@
 Erzeugt mit erzeuge.py (numpy), ohne Samples, ohne fremde Musik, ohne KI-Musikdienst. Rechte: komplett depiq/Jürgen Puhm.
 - logo.mp3: Erkennungston, 4 aufsteigende Töne wie die 4 Balken im Logo, dann C-Dur-Akkord (3,2 s)
 - hintergrund.mp3: ruhige Akkordflächen mit leisem Glockenmotiv (32 s)
-Status: ENTWURF 04.11.2026, wartet auf Jürgens Freigabe. Erst nach Freigabe in RICHTLINIEN §4a0 für Instagram, Facebook, TikTok erlauben.
+Status: FREIGEGEBEN 04.11.2026 (Jürgen): Hintergrund + Erkennungston Variante B (logo.mp3 = logo-B-drei-toene.mp3). Erzeugung: erzeuge.py (Hintergrund), logo-varianten.py (Logo). Verworfen: logo-alt-verworfen.mp3, Varianten A und C.
