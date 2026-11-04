@@ -15,6 +15,10 @@ body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
 .kopf{display:flex;justify-content:space-between;align-items:center}
 .serie{font-size:36px;font-weight:800;color:#7ee7d8;letter-spacing:.02em}
 .kopf img{height:58px}
+.links{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.pille{display:none;align-items:center;gap:12px;font-size:32px;font-weight:800;padding:10px 22px;border-radius:999px;border:2px solid var(--tf);background:color-mix(in srgb,var(--tf) 22%,transparent);color:#fff}
+.pille svg{width:34px;height:34px}
+.akzent{display:none;position:absolute;left:0;right:0;top:0;height:8px;background:var(--tf)}
 .inhalt{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:30px;overflow:hidden}
 h1{font-size:118px;font-weight:800;line-height:1.02;letter-spacing:-.02em}
 h2{font-size:64px;font-weight:800;line-height:1.08;letter-spacing:-.01em}
@@ -42,7 +46,7 @@ p b{color:#fff;font-weight:800}
 .zahl{display:flex;align-items:center;gap:26px;padding:26px 32px;border-radius:28px;background:rgba(20,184,166,.14);border:2px solid rgba(94,234,212,.45)}.zahl b{font-family:'JB';font-size:76px;color:#5eead4;white-space:nowrap}.zahl span{font-size:40px;font-weight:700;line-height:1.2}
 .cta{display:flex;flex-direction:column;gap:10px;padding:26px 32px;border-radius:28px;background:#fff;color:#16134a}.cta strong{font-size:44px;font-weight:800}.cta span{font-size:38px;font-weight:700;color:#4f46e5}
 </style></head><body><div class="bg"></div>
-<div class="seite"><div class="kopf"><span class="serie" id="serie"></span><img src="logo-dark.svg" alt="depiq"></div>
+<div class="akzent" id="akzent"></div><div class="seite"><div class="kopf"><div class="links"><span class="pille" id="pille"></span><span class="serie" id="serie"></span></div><img src="logo-dark.svg" alt="depiq"></div>
 <div class="inhalt" id="inhalt"></div>
 <div class="fuss"><span id="links">Keine Anlageberatung</span><span id="rechts"></span></div></div>
 <script>
@@ -50,6 +54,12 @@ const N = +(new URLSearchParams(location.search).get('seite') || 1);
 window.zeichne = d => {
   const s = d.seiten[N - 1];
   document.getElementById('serie').textContent = d.serie;
+  if (d.thema) { // Themenwelt (RICHTLINIEN §7): {name, farbe, symbol(svg-Pfad)}
+    document.documentElement.style.setProperty('--tf', d.thema.farbe);
+    const pi = document.getElementById('pille'); pi.style.display = 'inline-flex';
+    pi.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="${d.thema.symbol}"/></svg>${d.thema.name}`;
+    document.getElementById('akzent').style.display = 'block';
+  }
   document.getElementById('inhalt').innerHTML = s.html;
   document.getElementById('rechts').innerHTML = N < d.seiten.length ? `<span class="weiter">Wischen ➜</span> ${N}/${d.seiten.length}` : `${N}/${d.seiten.length}`;
 };
