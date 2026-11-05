@@ -128,7 +128,7 @@ Ohne ihn behält der Broker auf jede Ausschüttung und jeden Gewinn sofort rund 
 
 ## Depot eröffnen in Österreich und der Schweiz: Was anders ist
 
-### Österreich: steuereinfach oder nicht?
+### 🇦🇹 Österreich: steuereinfach oder nicht?
 
 In Österreich zahlst du auf Gewinne, Zinsen und Ausschüttungen 27,5 % Kapitalertragsteuer. Für die Wahl deines Anbieters zählt vor allem eine Frage: Ist er „steuereinfach“?
 
@@ -138,7 +138,7 @@ Bei einem Broker, der nicht steuereinfach ist, musst du alle Erträge selbst erm
 
 Für dich heißt das: Achte beim Vergleich auf den Hinweis „steuereinfach“ in der Beschreibung des Anbieters. Und prüfe vor dem Kauf eines ETFs, ob er ein Meldefonds ist. Wie das geht, steht im Artikel [ETF-Sparplan für Anfänger](/de/wissen/etf-sparplan/).
 
-### Schweiz: Stempelsteuer und Steuererklärung
+### 🇨🇭 Schweiz: Stempelsteuer und Steuererklärung
 
 In der Schweiz sind Kursgewinne für Privatanleger in der Regel steuerfrei. Dividenden und Zinsen zählen dagegen zum Einkommen und werden versteuert.
 

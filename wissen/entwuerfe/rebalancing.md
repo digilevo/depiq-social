@@ -132,19 +132,19 @@ Wer im Crash aus Angst den Aktienanteil senkt, verkauft zum schlechtesten Preis 
 
 Steuern fallen nur an, wenn du mit Gewinn verkaufst. Beim Rebalancing über die Sparrate ist das nie der Fall. Wenn du doch umschichtest, gilt grob:
 
-### Deutschland
+### 🇩🇪 Deutschland
 
 Gewinne bleiben bis 1.000 € pro Person und Jahr steuerfrei, bei Ehepaaren bis 2.000 €. Dafür stellst du bei deinem Broker, also der Bank oder App mit deinem Depot, einen Freistellungsauftrag ein. Darüber hinaus gehen rund 26 % vom Gewinn ans Finanzamt.
 
 Für dich heißt das: Kleine Umschichtungen sind oft steuerfrei. Prüfe vor einem Verkauf in deiner Depot-Übersicht, wie viel von deinem Freibetrag in diesem Jahr schon verbraucht ist.
 
-### Österreich
+### 🇦🇹 Österreich
 
 Auf Gewinne fallen 27,5 % Kapitalertragsteuer an, einen Freibetrag wie in Deutschland gibt es nicht. Bei einem steuereinfachen Broker, also einem mit Sitz oder Niederlassung in Österreich, zieht er sie automatisch ab.
 
 Für dich heißt das: Jeder Verkauf mit Gewinn kostet Steuern. Rebalancing über die Sparrate ist in Österreich deshalb besonders sinnvoll.
 
-### Schweiz
+### 🇨🇭 Schweiz
 
 Kursgewinne im Privatvermögen sind in der Regel steuerfrei. Erträge wie Zinsen und Ausschüttungen zählen dagegen zum Einkommen.
 

@@ -10,6 +10,7 @@ Anlass: Die ersten Artikel lasen sich „sehr schlecht und KI-lastig ohne klare 
 2. **Pro Artikel höchstens 8 neue Fachbegriffe.** Was darüber hinausgeht, gehört in einen eigenen Artikel und wird nur verlinkt.
 3. **Ein Artikel beantwortet eine Frage.** Nebenthemen (Steuern, Brokerwahl, Einmalanlage) bekommen höchstens einen kurzen Absatz und einen Link, keinen eigenen Mini-Kurs.
 4. **Länderhinweise ganz oder gar nicht.** Entweder 3 bis 6 Sätze je Land mit „Was heißt das für dich?“ und „Was musst du tun?“ (mit Prüfweg, z. B. Webseite), oder ein Satz mit Link auf einen eigenen Länder-Artikel. Keine Einzeiler mit Fachwort.
+   Länderabschnitte beginnen mit der Flagge: „### 🇩🇪 Deutschland“, „### 🇦🇹 Österreich“, „### 🇨🇭 Schweiz“ (05.11.2026, Jürgen). Die Landingpage zeigt die Flaggen als Grafik.
 5. **Länge folgt dem Inhalt, nicht der Wortzahl.** Richtwert 1.200 bis 2.000 Wörter. Lieber kürzer und klar als lang und dicht. 6 bis 10 H2.
 6. **Erklären wie am Küchentisch:** zuerst das Bild oder Beispiel („ein Korb mit Aktien“), dann der Fachbegriff, nie umgekehrt. Ganze Sätze, keine Aneinanderreihung von Satzfetzen und Mini-Absätzen.
 7. **Zusätzliche KI-Muster verboten:** „Die Antwort beruhigt.“ · „Viele sind überrascht“ · „Hier verlieren sich die meisten“ · „Jetzt kommt der schwierigste Teil“ · „Er stimmt nicht, und …“ · Sätze, die nur eine Behauptung umdrehen · Listen, deren Punkte alle gleich gebaut sind.

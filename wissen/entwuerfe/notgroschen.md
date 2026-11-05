@@ -123,11 +123,11 @@ Börsenkrisen und persönliche Krisen kommen oft zusammen. Wenn die Wirtschaft s
 
 Das Geld auf deinem Konto gehört rechtlich der Bank, du hast einen Anspruch darauf, es zurückzubekommen. Damit dieser Anspruch auch gilt, wenn eine Bank pleitegeht, gibt es die Einlagensicherung. Das ist ein gesetzlicher Schutz: Geht deine Bank in die Insolvenz, bekommst du dein Guthaben bis zu einer festen Grenze aus einem Sicherungstopf zurück, den die Banken gemeinsam füllen.
 
-Deutschland: Geschützt sind bis zu 100.000 € pro Person und Bank. Für dich heißt das: Mit einem Notgroschen bis 100.000 € bei einer Bank in Deutschland musst du dir keine Sorgen machen.
+🇩🇪 Deutschland: Geschützt sind bis zu 100.000 € pro Person und Bank. Für dich heißt das: Mit einem Notgroschen bis 100.000 € bei einer Bank in Deutschland musst du dir keine Sorgen machen.
 
-Österreich: Auch hier sind bis zu 100.000 € pro Person und Bank geschützt, über die Einlagensicherung Austria. Für dich heißt das: Achte nur darauf, dass deine Bank in der Europäischen Union sitzt. Dann gilt derselbe Schutz von 100.000 €.
+🇦🇹 Österreich: Auch hier sind bis zu 100.000 € pro Person und Bank geschützt, über die Einlagensicherung Austria. Für dich heißt das: Achte nur darauf, dass deine Bank in der Europäischen Union sitzt. Dann gilt derselbe Schutz von 100.000 €.
 
-Schweiz: Geschützt sind bis zu 100.000 Franken pro Kunde und Bank, über die Einlagensicherung esisuisse. Für dich heißt das: Ein Sparkonto bei einer Schweizer Bank ist der richtige Platz. Was du in der Säule 3a sparst, ist für die Altersvorsorge gedacht und kein Notgroschen, weil du nur in Ausnahmefällen vorzeitig herankommst.
+🇨🇭 Schweiz: Geschützt sind bis zu 100.000 Franken pro Kunde und Bank, über die Einlagensicherung esisuisse. Für dich heißt das: Ein Sparkonto bei einer Schweizer Bank ist der richtige Platz. Was du in der Säule 3a sparst, ist für die Altersvorsorge gedacht und kein Notgroschen, weil du nur in Ausnahmefällen vorzeitig herankommst.
 
 In allen drei Ländern gilt die Grenze pro Bank, nicht pro Konto.
 

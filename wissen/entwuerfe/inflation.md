@@ -142,15 +142,15 @@ Es fühlt sich sicher an, ist es aber nur für den Betrag, nicht für die Kaufkr
 
 ## Was heißt Inflation für dich in Deutschland, Österreich und der Schweiz?
 
-### Deutschland
+### 🇩🇪 Deutschland
 
 Die Inflation lag im Oktober 2026 nach der ersten Schätzung bei 2,8 %, nach 3,3 % im September. Für dich heißt das: Ein Tagesgeld- oder Festgeldangebot muss mindestens in dieser Höhe liegen, damit dein Geld real nicht schrumpft. Was du tun kannst: Schau auf deinen Kontoauszug, welchen Zins du gerade bekommst, und vergleiche ihn mit der aktuellen Rate. Das Statistische Bundesamt veröffentlicht sie jeden Monat, meist Ende des Monats als Schätzung.
 
-### Österreich
+### 🇦🇹 Österreich
 
 In Österreich war die Inflation zuletzt höher als in Deutschland, im September 2026 nach der ersten Schätzung 3,6 %. Für dich heißt das: Selbst ein gutes Tagesgeld mit 2 bis 3 % Zinsen gleicht die Teuerung im Moment nicht aus, nach Abzug der Kapitalertragsteuer, die auf Bankzinsen 25 % beträgt, erst recht nicht. Was du tun kannst: Halte auf dem Konto nur deinen Notgroschen und prüfe einmal im Jahr, ob dein Einkommen mit den Preisen mitgewachsen ist. Die aktuellen Werte findest du bei Statistik Austria unter „Verbraucherpreisindex“.
 
-### Schweiz
+### 🇨🇭 Schweiz
 
 Die Schweiz hat seit Jahren deutlich weniger Inflation, im September 2026 lag sie bei 1,0 %. Für dich heißt das: Der Kaufkraftverlust ist kleiner, aber auch die Zinsen auf Sparkonten sind niedrig. Liegt dein Zins unter 1 %, verlierst du trotzdem real. Was du tun kannst: Vergleiche auch hier den Zins mit der Teuerung, die das Bundesamt für Statistik jeden Monat veröffentlicht.
 

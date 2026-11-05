@@ -152,19 +152,19 @@ Wer bei fallenden Kursen aussteigt, macht aus einer Schwankung einen echten Verl
 
 Steuern sollten dich nicht vom Start abhalten. Meist erledigt sie der Broker für dich. Das Wichtigste je Land:
 
-### Deutschland
+### 🇩🇪 Deutschland
 
 Gewinne und Ausschüttungen bis 1.000 € im Jahr bleiben steuerfrei, bei Ehepaaren bis 2.000 €. Damit dein Broker das berücksichtigt, erteilst du ihm einen Freistellungsauftrag. Das ist ein kurzes Formular in der App, mit dem du sagst: Bis zu diesem Betrag bitte keine Steuer abziehen. Was darüber liegt, versteuert der Broker automatisch mit rund 26 %, plus Kirchensteuer, falls du sie zahlst. Bei Aktien-ETFs bleibt dabei ein Teil der Erträge von vornherein steuerfrei.
 
 Bei thesaurierenden ETFs zieht der Broker jedes Jahr im Januar oft einen kleinen Steuerbetrag ab, auch wenn du nichts verkauft hast. Lass deshalb ein paar Euro auf dem Verrechnungskonto liegen.
 
-### Österreich
+### 🇦🇹 Österreich
 
 In Österreich zahlst du auf Gewinne und Ausschüttungen 27,5 % Kapitalertragsteuer. Bei einem „steuereinfachen“ Broker, also einem mit Sitz oder Niederlassung in Österreich, zieht er sie automatisch für dich ab, und du musst nichts weiter tun. Bei anderen Brokern trägst du die Erträge selbst in die Steuererklärung ein.
 
 Einen Punkt solltest du vor dem Kauf prüfen: ob dein ETF ein „Meldefonds“ ist. Das heißt nur, dass die Fondsgesellschaft ihre Erträge jedes Jahr an die Österreichische Kontrollbank meldet, damit richtig besteuert werden kann. Fehlt diese Meldung, schätzt das Finanzamt die Erträge pauschal, und das wird fast immer teurer. Das Prüfen dauert eine Minute: Auf [my.oekb.at](https://my.oekb.at) gibst du die ISIN des ETFs ein. Die großen Welt-ETFs sind praktisch alle Meldefonds.
 
-### Schweiz
+### 🇨🇭 Schweiz
 
 In der Schweiz sind Kursgewinne für Privatanleger in der Regel steuerfrei. Dividenden und Zinsen, die der ETF einnimmt, zählen dagegen zum Einkommen, und zwar auch dann, wenn ein thesaurierender ETF sie wieder anlegt, statt sie auszuzahlen. Du gibst sie in der Steuererklärung an, die Werte stehen auf dem Steuerauszug deiner Bank. Außerdem zählt dein Depot zum Vermögen und fällt unter die Vermögenssteuer deines Kantons.
 
