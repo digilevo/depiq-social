@@ -196,3 +196,7 @@ Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jü
 - [ ] Frage ist öffentlich beantwortbar: keine Frage nach Schulden, Dispo, Einkommen, Kontostand, Vermögen oder Gesundheit des Lesers
 - [ ] Schmerz im Haken, Lösung mit Mehrwert, depiq nur am Ende als Nutzen, keine Funktionsliste
 - [ ] Keine Prognose, kein Kauftipp, „Keine Anlageberatung“
+
+## Instagram: keine Testreels (Trial Reels), bis die Mindest-Followerzahl erreicht ist (05.11.2026)
+- Fehler am 05.11.: „The instagram account does not meet the trial reel follower requirement to create trial reels.“
+- Instagram-Typ immer REEL, nie TRIAL_REEL. Testreels erst wieder, wenn Instagram sie im Konto freischaltet (in der App prüfen).
