@@ -26,6 +26,7 @@ Anlass: Die ersten Artikel lasen sich „sehr schlecht und KI-lastig ohne klare 
 3. **Versprechen nach dem Einstieg:** in einem Satz, was der Leser danach kann („In zehn Minuten kennst du deine Zahl.“).
 4. **Zwischenüberschriften als Fragen oder Versprechen**, nicht als Schlagworte („Was ist ein Notfall – und was nicht?“ statt „Definition“).
 5. **Ein Beispiel mit einer erfundenen Person** pro Artikel, als Beispiel gekennzeichnet, mit einer kleinen Entwicklung (vorher, nachher).
+   ⛔ Namen der Beispielpersonen (05.11.2026, Jürgen): nur im deutschsprachigen Raum gebräuchliche Vornamen (z. B. Anna, Florina, Lena, Sophie, Tobias, Tim, Lukas). Jeder Name nur einmal über alle Artikel.
 6. **Aha-Momente:** pro Abschnitt eine Zahl oder Erkenntnis, die überrascht. Kurze und lange Sätze abwechseln, Absätze höchstens vier Zeilen.
 7. **Motivierender Ton:** Mut machen, kleine erste Schritte zeigen, nie belehren oder Angst machen. Schmerz benennen, dann sofort den Ausweg.
 8. **Abschnitt „In 10 Minuten erledigt“:** drei bis fünf konkrete Handgriffe, die man heute macht.
