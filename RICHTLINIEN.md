@@ -3,6 +3,8 @@
 Gilt für X, Instagram, Facebook und TikTok, für Menschen und für jede geplante Aufgabe. Vor jedem Beitrag lesen. Ein Beitrag geht erst raus, wenn die Prüfliste am Ende erfüllt ist.
 Stand: 01.11.2026 · E-Book-Seite: https://depiq.io/de/book/ · Grundlage: Social-Media-Analyse https://claude.ai/artifact/FrxC7FabiDx99hZz5T9KMM
 
+> **Ziel (05.11.2026, Jürgen): die ersten 1.000 Follower auf allen Kanälen.** Ausgangswerte 05.11.: TikTok 176 (davon rund 165 aus dem früheren Privatkonto), YouTube 1, Instagram, Facebook, Pinterest, X jeweils im niedrigen Bereich. Maßstab bei jeder Auswertung: neue Follower pro Woche und Aufrufe pro Beitrag je Kanal.
+
 ## Grundregeln (gelten immer, ohne Ausnahme)
 - **Themenwelten überall gleich (03.11.2026):** Jeder Beitrag gehört zu genau einer Themenwelt aus `wissen/themenwelten.md` und zeigt deren Farbe und Symbol (zum Beispiel als Ecke oder Band mit Symbol). Dieselbe Zuordnung wie im Buch, auf der Website, in der App und in der Academy. Keine eigenen Farben oder Rubriken erfinden.
 Festgelegt von Jürgen am 01.11.2026: „Einfach, simpel, logisch, gut dargestellt, auf einen Blick erkennbar, um was es geht.“
