@@ -19,7 +19,8 @@ Gilt, wenn am letzten Handelstag DAX, S&P 500 oder Nasdaq 100 um 2 % oder mehr g
 2. **Haken** in X-, TikTok- und Facebook-Text: die Bewegung mit echter Zahl, sachlich, ohne Drama-Wörter („Absturz“, „Crash“, „Panik“ nicht verwenden).
 3. **Begriff erklären:** Fällt „Korrektur“ oder „Bärenmarkt“, in einem kurzen Satz sagen, was das heißt.
 4. **Einordnung** (höchstens 80 Zeichen): ruhig und ehrlich, was das für langfristige Anleger mit Sparplan bedeutet. Historische Vergleiche nur mit Quelle (zwei Quellen). Keine Prognose, kein „jetzt kaufen“, kein „das Schlimmste ist vorbei“.
-5. **Wochen-Reel (freitags):** Die Bewegung ist Kandidat für die wichtigste News der Woche.
+5. **Dein Warum:** In der Einordnung oder im Text die Frage „Hat sich dein Grund für die Aktie geändert oder nur der Kurs?“. Im Facebook-Text statt der üblichen depiq-Zeile: „📝 Halte dein Warum zu jeder Aktie fest: kostenlos bei depiq starten – depiq.io“. Aufbau und Fakten wie in RICHTLINIEN.md 4j.
+6. **Wochen-Reel (freitags):** Die Bewegung ist Kandidat für die wichtigste News der Woche.
 Nur Schlusskurse, nie Zwischenstände aus dem laufenden Handel.
 
 ## Aufbau: 3 Karten, gut lesbar am Handy

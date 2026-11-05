@@ -73,6 +73,15 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
 | Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
+## 4j. Marktlage: bei starken Bewegungen darauf eingehen (Jürgen, 05.11.2026)
+Fällt oder steigt die Börse stark (Index ±2 % an einem Tag, Korrektur ab −10 %, Bärenmarkt ab −20 %), gehen die Beiträge darauf ein, nicht nur das Börsen-Frühstück. Aufbau in dieser Reihenfolge:
+1. **Marktlage:** was passiert ist, mit Schlusskurs-Zahl (zwei Quellen), ohne Drama-Wörter („Crash“, „Panik“, „Absturz“).
+2. **Gründe:** die belegten Auslöser in einfachen Worten. Unklare Gründe weglassen statt raten.
+3. **Ruhig bleiben, mit Fakten:** Rücksetzer sind normal. Belegt: Seit 1980 fiel der S&P 500 im Schnitt jedes Jahr zwischendurch um rund 14 %, trotzdem endeten etwa 3 von 4 Jahren im Plus (LPL Research, Raymond James).
+4. **Mindset:** Entscheide nach Plan, nicht nach Bauch. Regeln vorher festlegen. Verluste fühlen sich etwa doppelt so stark an wie Gewinne.
+5. **Dein Warum:** „Warum hast du die Aktie gekauft? Hat sich der Grund geändert oder nur der Kurs?“ Danach depiq als Nutzen: „Halte dein Warum zu jeder Aktie fest: kostenlos bei depiq starten – depiq.io“.
+Verboten bleibt: Prognosen („es geht noch weiter runter“), „jetzt günstig“, „jetzt kaufen“, „das Schlimmste ist vorbei“. Tranchen-Kauf darf Jürgen als eigenes Vorgehen in Ich-Form schildern (selbst gesprochenes Video, ohne Beträge), nie als Empfehlung an den Leser.
+
 ## 4i. Serie „Aktie im Check“ (ab 04.11.2026, von Jürgen freigegeben; ab 05.11.2026 automatisch, höchstens 1 × pro Tag, siehe `aktie-im-check/LIESMICH.md`)
 Aktuelle Aktie, über die gerade geredet wird (Quartalszahlen, starker Kursrückgang). Themenwelt „Aktien & Börse“. Kanäle: X (Jürgen manuell, Bild 1–4), Instagram- und Facebook-Karussell, TikTok-Fotostrecke, YouTube Short aus den Karussellbildern (bilder-video.sh, 7 s je Bild, Musik ruhig), LinkedIn-Dokument bei passenden Themen. Nicht auf Pinterest (zeitgebunden, Einzelaktie).
 Aufbau: 1) Haken mit echter Zahl („minus X % in einem Jahr. Was ist da los?“) 2) Warum gefallen/gestiegen: 2–3 geprüfte Fakten mit Quelle 3) Kennzahlen einfach erklärt (Kurs-Gewinn-Verhältnis als „Du zahlst N Jahresgewinne“, Dividendenrendite) und warum niedrig günstig sein kann, aber nicht muss 4) eine Aha-Rechnung (z. B. −60 % braucht +150 %) 5) „So prüfst du das selbst“: 3 Fragen 6) öffentlich beantwortbare Frage (Einschätzung, nie die eigene Finanzlage).
@@ -168,6 +177,7 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 ## 4e. depiq-Funktionen, die genannt werden dürfen (von Jürgen bestätigt)
 Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jürgen aufnehmen. Nie behaupten, eine Funktion sei kostenlos, solange der Tarif nicht bestätigt ist; „kostenlos registrieren“ ist immer richtig.
 - **Rebalancing** (bestätigt 01.11.2026): Ziel-Aufteilung je Bereich einstellen (Aktien, ETFs, Währungen, Länder), grafische Anzeige von Über- und Untergewichtung samt erhöhtem Risiko, Hinweis per Benachrichtigung, eigene Seite und Widgets. Wird noch ausgebaut. **Erst ab Tarif Pro** – in jedem Beitrag „Tarif Pro“ dazuschreiben.
+- **Kaufgrund notieren** (bestätigt 05.11.2026): Zu jeder Aktie das eigene „Warum“ in depiq (depiq.app) dokumentieren. Tarif nicht bestätigt, deshalb nie „kostenlos“ für diese Funktion schreiben; „kostenlos bei depiq starten“ ist erlaubt.
 - **Testphase** (bestätigt 01.11.2026): Nach der Registrierung sind **14 Tage alle Funktionen kostenlos** freigeschaltet. Bei Pro-Funktionen so formulieren: „Teil von depiq Pro, 14 Tage kostenlos testen“.
 
 ## 4f. Pinterest (eigene Zielgruppe, Konto @depiq_io)
