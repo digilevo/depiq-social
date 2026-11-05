@@ -1,5 +1,5 @@
-<!-- Übrige Felder (kennung, slug, thema, bild, bildalt, teilenbild, rechner, academy, noindex, autor, veroeffentlicht) aus der bestehenden Datei übernehmen. -->
 ---
+# Übrige Felder (kennung, slug, thema, bild, bildalt, teilenbild, rechner, academy, noindex, autor, veroeffentlicht) aus der bestehenden Datei übernehmen.
 titel: "Zinseszins einfach erklärt: Formel, 72er-Regel, Beispiele"
 beschreibung: "Zinseszins einfach erklärt: wie dein Geld von selbst wächst, die Formel in Worten, die 72er-Regel und was dich jedes Jahr Warten kostet. Mit Tabellen."
 suchbegriff: "zinseszins"
@@ -67,7 +67,7 @@ So sieht das Jahr für Jahr aus, wieder mit 10.000 € und 6 %:
 | 2 | 10.600 € × 1,06 | 11.236 € |
 | 3 | 11.236 € × 1,06 | 11.910 € |
 
-Im ersten Jahr kommen 600 € dazu, im dritten schon 674 €. Das sind die Zinsen auf die Zinsen. Als Formel geschrieben heißt das: Endbetrag = Startbetrag × 1,06 hoch Anzahl der Jahre. Für 30 Jahre tippst du in den Taschenrechner 10.000 × 1,06^30 und bekommst rund 57.400 €.
+Im ersten Jahr kommen 600 € dazu, im dritten schon 674 €: Das sind die Zinsen auf die Zinsen. Als Formel geschrieben heißt das: Endbetrag = Startbetrag × 1,06 hoch Anzahl der Jahre. Für 30 Jahre tippst du in den Taschenrechner 10.000 × 1,06^30 und bekommst rund 57.400 €.
 
 ### Mit monatlicher Sparrate
 
@@ -94,8 +94,6 @@ Die 72er-Regel ist ein Trick zum Kopfrechnen. Du teilst 72 durch die Rendite in 
 | 8 % | 72 ÷ 8 | 9 Jahren |
 
 Die Regel ist eine Näherung, liegt aber nie weiter als ein Jahr daneben. Spannend wird sie, wenn du sie auf dein Alter anwendest. Wer mit 31 Geld anlegt, erlebt bei 6 % bis 67 drei Verdopplungen: Aus 1 € werden 8 €. Wer erst mit 43 anfängt, schafft nur noch zwei Verdopplungen, und aus 1 € werden 4 €. Zwölf Jahre früher heißt also: doppelt so viel aus jedem Euro.
-
-Die Regel funktioniert übrigens auch rückwärts. Bei 2 % Teuerung im Jahr ist dein Geld auf dem Sparbuch nach rund 36 Jahren nur noch die Hälfte wert.
 
 ## Greta und Ben: Früh anfangen schlägt lange zahlen
 
@@ -132,7 +130,7 @@ Nach 40 Jahren: 398298
 
 In den ersten zehn Jahren hat der Zinseszins nur knapp 9.000 € beigesteuert. Nach rund 22 Jahren dreht sich das Verhältnis: Ab da hat der Zinseszins mehr gebracht als alle deine Einzahlungen zusammen. Und in den letzten zehn Jahren wächst das Depot fast so stark wie in den 30 Jahren davor.
 
-Genau deshalb geben so viele in den ersten Jahren auf. Der Lohn kommt spät. Wer das vorher weiß, hält leichter durch.
+Deshalb geben viele in den ersten Jahren auf. Wer vorher weiß, dass der Lohn spät kommt, hält leichter durch.
 
 ## Was kostet dich Warten?
 
@@ -159,27 +157,17 @@ Mit jedem Jahrfünft wird der Sprung größer. Mit 25 reichen rund 130 € im Mo
 
 ### Und wenn du schon 45 oder 55 bist?
 
-Dann hast du weniger Zeit, aber oft andere Vorteile: ein höheres Einkommen, weniger Ausgaben für Kinder, vielleicht eine abbezahlte Wohnung.
-
-| Situation | Eingezahlt | Mit 67 (6 % im Jahr) |
-|---|---|---|
-| Ab 45: 300 € im Monat | 79.200 € | rund 163.900 € |
-| Ab 55: 300 € im Monat | 43.200 € | rund 63.000 € |
-| Ab 55: einmalig 20.000 € | 20.000 € | rund 40.200 € |
-
-*Beispielrechnungen ohne Kosten und Steuern, keine Garantie.*
-
-Bei einem späten Start helfen vor allem eine höhere Rate, etwa indem du Gehaltserhöhungen oder eine abbezahlte Kreditrate direkt in den Sparplan umleitest, und Geld, das ungenutzt auf dem Girokonto liegt. Denk auch über 67 hinaus: Ein großer Teil deines Geldes bleibt oft noch viele Jahre angelegt und wächst weiter, während du nach und nach etwas entnimmst. Je näher dein Ziel rückt, desto wichtiger wird allerdings die Frage, wie gut du Schwankungen aushältst.
+Dann hast du weniger Zeit, aber oft ein höheres Einkommen und weniger Ausgaben. 300 € im Monat ab 45 können bis 67 bei angenommen 6 % im Jahr auf rund 164.000 € wachsen, bei 79.200 € Einzahlung. Spät anfangen ist immer noch viel besser als gar nicht.
 
 ## Was den Zinseszins bremst
 
-Drei Dinge arbeiten gegen deinen Schneeball. Wer sie kennt, holt deutlich mehr heraus.
+Drei Dinge arbeiten gegen deinen Schneeball.
 
 ### Inflation: Was dein Geld wirklich wert ist
 
 Inflation heißt, dass die Preise steigen und du dir für denselben Euro mit der Zeit weniger kaufen kannst. 6 % Rendite bedeuten deshalb nicht, dass du dir 6 % mehr leisten kannst. Bei rund 2 % Inflation im Jahr bleiben dir unterm Strich etwa 4 %. Fachleute nennen die Zahl vor Abzug der Inflation „nominal“ und die nach Abzug „real“.
 
-Was das konkret heißt: Die rund 200.900 € aus 30 Jahren mit 200 € im Monat sind in der Kaufkraft von heute nur noch etwa 111.000 € wert. Das ist immer noch viel Geld bei 72.000 € Einzahlung, aber ehrlicher gerechnet. Wenn du deine Rate jedes Jahr ein wenig erhöhst, hältst du mit der Inflation Schritt. Wie hoch die Teuerung gerade ist, veröffentlicht das [Statistische Bundesamt](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html) jeden Monat.
+Was das konkret heißt: Die rund 200.900 € aus 30 Jahren mit 200 € im Monat sind in der Kaufkraft von heute nur noch etwa 111.000 € wert. Das ist immer noch deutlich mehr als die 72.000 €, die du eingezahlt hast. Wenn du deine Rate jedes Jahr ein wenig erhöhst, hältst du mit der Inflation Schritt. Wie hoch die Teuerung gerade ist, veröffentlicht das [Statistische Bundesamt](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html) jeden Monat.
 
 ### Kosten: der stille Rendite-Fresser
 
@@ -195,16 +183,9 @@ Der Zinseszins wirkt auch gegen dich. Ein Beispiel: 3.000 € im Dispo, also im 
 
 Ein breit gestreuter Korb mit Aktien aus aller Welt hat über die vergangenen rund 50 Jahre im Schnitt etwa 7 bis 8 % im Jahr gebracht, wenn man die Dividenden wieder angelegt hat. Nach Abzug von rund 2 % Inflation bleiben etwa 5 bis 6 %. Deshalb rechne ich in den Beispielen mit 6 %, einer eher vorsichtigen Annahme für Aktien über lange Zeit.
 
-| 200 € im Monat über 30 Jahre | Ergebnis | Eingezahlt |
-|---|---|---|
-| bei 2 % im Jahr | rund 98.500 € | 72.000 € |
-| bei 4 % im Jahr | rund 138.800 € | 72.000 € |
-| bei 6 % im Jahr | rund 200.900 € | 72.000 € |
-| bei 8 % im Jahr | rund 298.100 € | 72.000 € |
+Wie stark die Annahme das Ergebnis verändert: 200 € im Monat über 30 Jahre werden bei 4 % im Jahr zu rund 138.800 €, bei 6 % zu rund 200.900 € und bei 8 % zu rund 298.100 €. Eingezahlt sind jedes Mal 72.000 €.
 
-*Beispielrechnung, keine Garantie.*
-
-Ein Durchschnitt über viele Jahre heißt aber nicht, dass es jedes Jahr so viel gibt. Es gibt Jahre mit 30 % plus und Jahre mit deutlichem Minus. Viele denken deshalb: „Ich warte, bis die Kurse fallen, und steige dann günstig ein.“ In der Praxis klappt das fast nie, weil die besten Börsentage oft mitten in oder kurz nach einem Einbruch liegen, genau dann, wenn die Angst am größten ist. Wer an diesen Tagen nicht investiert ist, verpasst einen großen Teil des Ertrags. Der Zinseszins braucht keinen perfekten Einstieg. Er braucht Zeit, in der du dabeibleibst.
+Ein Durchschnitt über viele Jahre heißt aber nicht, dass es jedes Jahr so viel gibt. Es gibt Jahre mit 30 % plus und Jahre mit deutlichem Minus. Auf den perfekten Einstieg zu warten, klappt trotzdem fast nie, denn die besten Börsentage liegen oft mitten in oder kurz nach einem Einbruch. Der Zinseszins braucht keinen perfekten Zeitpunkt, sondern Zeit, in der du dabeibleibst.
 
 ## In 10 Minuten erledigt
 
