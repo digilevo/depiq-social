@@ -75,9 +75,9 @@ Nach 20 Jahren liegen also 83 % in Aktien statt 70 %. Kommt dann ein Kurssturz, 
 
 ## Rebalancing im Beispiel: So geht es Schritt für Schritt
 
-Murat ist 34 und ein erfundenes Beispiel. Er hat 20.000 € angelegt: 14.000 € in einem Welt-ETF und 6.000 € auf dem Tagesgeldkonto, also 70 zu 30. Jeden Monat spart er 300 € dazu.
+Florina ist 34 und ein erfundenes Beispiel. Sie hat 20.000 € angelegt: 14.000 € in einem Welt-ETF und 6.000 € auf dem Tagesgeldkonto, also 70 zu 30. Jeden Monat spart sie 300 € dazu.
 
-Nach einem guten Börsenjahr sind seine Aktien um 20 % gestiegen, das Tagesgeld hat 2 % Zinsen gebracht.
+Nach einem guten Börsenjahr sind ihre Aktien um 20 % gestiegen, das Tagesgeld hat 2 % Zinsen gebracht.
 
 | | Aktien-ETF | Tagesgeld | Gesamt | Aktienanteil |
 |---|---|---|---|---|
@@ -87,15 +87,15 @@ Nach einem guten Börsenjahr sind seine Aktien um 20 % gestiegen, das Tagesgeld 
 
 *Beispielrechnung, Werte gerundet, keine Garantie.*
 
-Um wieder bei 70 zu 30 zu landen, müsste Murat rund 760 € vom ETF aufs Tagesgeld verschieben. Er hat zwei Wege.
+Um wieder bei 70 zu 30 zu landen, müsste Florina rund 760 € vom ETF aufs Tagesgeld verschieben. Sie hat zwei Wege.
 
 ### Weg 1: Umschichten
 
-Er verkauft ETF-Anteile für rund 760 € und legt das Geld aufs Tagesgeldkonto. Das geht schnell, kann aber Gebühren und Steuern kosten, weil er mit Gewinn verkauft.
+Sie verkauft ETF-Anteile für rund 760 € und legt das Geld aufs Tagesgeldkonto. Das geht schnell, kann aber Gebühren und Steuern kosten, weil sie mit Gewinn verkauft.
 
 ### Weg 2: Über die Sparrate
 
-Er lässt seinen ETF in Ruhe und spart seine 300 € im Monat ein paar Monate lang nur aufs Tagesgeld. Ohne neue Kursbewegungen wäre die Aufteilung nach etwa vier Monaten wieder bei 70 zu 30. Danach läuft sein ETF-Sparplan wie gewohnt weiter. Verkauft hat er nichts, Steuern und Verkaufsgebühren fallen also nicht an.
+Sie lässt ihren ETF in Ruhe und spart ihre 300 € im Monat ein paar Monate lang nur aufs Tagesgeld. Ohne neue Kursbewegungen wäre die Aufteilung nach etwa vier Monaten wieder bei 70 zu 30. Danach läuft ihr ETF-Sparplan wie gewohnt weiter. Verkauft hat sie nichts, Steuern und Verkaufsgebühren fallen also nicht an.
 
 :::merke
 Rebalancing über die Sparrate ist für die meisten der beste Weg. Du verkaufst nichts, zahlst keine Steuern auf Gewinne und musst nur festlegen, wohin dein neues Geld fließt.
@@ -103,7 +103,7 @@ Rebalancing über die Sparrate ist für die meisten der beste Weg. Du verkaufst 
 
 ## Und wenn die Kurse fallen?
 
-Jetzt der umgekehrte Fall. Angenommen, Murats Aktien fallen in einem schlechten Jahr um 30 %. Aus 14.000 € werden 9.800 €, das Tagesgeld steht bei 6.120 €. Sein Aktienanteil liegt nur noch bei rund 62 %.
+Jetzt der umgekehrte Fall. Angenommen, Florinas Aktien fallen in einem schlechten Jahr um 30 %. Aus 14.000 € werden 9.800 €, das Tagesgeld steht bei 6.120 €. Ihr Aktienanteil liegt nur noch bei rund 62 %.
 
 Rebalancing heißt jetzt: rund 1.340 € vom Tagesgeld in den ETF umschichten, also Aktien nachkaufen, während alle anderen verkaufen. Das fühlt sich mitten in der Krise falsch an. Es ist aber genau der Sinn der Übung: Du kaufst, wenn die Kurse unten sind, und nimmst etwas Gewinn mit, wenn sie oben sind. Rebalancing zwingt dich zu dem, was Bauchgefühl und Angst dir ausreden wollen.
 
@@ -121,7 +121,7 @@ Häufiger ist nicht besser. Wer jeden Monat umschichtet, zahlt vor allem Gebühr
 
 Die Grenze bei der zweiten Regel nennt man auch Toleranzband. Gemeint ist der Spielraum, in dem du nichts tust. Ein Prozentpunkt ist dabei einfach der Abstand zwischen zwei Prozentzahlen: Von 70 % auf 73 % sind es 3 Prozentpunkte.
 
-In Murats Beispiel heißt das: Nach dem guten Jahr liegt er mit 73 % nur 3 Prozentpunkte über seinem Ziel. Nach der 5-Punkte-Regel muss er noch gar nichts tun. Nach dem schlechten Jahr sind es mit 62 % rund 8 Prozentpunkte unter dem Ziel. Jetzt lohnt sich das Nachkaufen.
+In Florinas Beispiel heißt das: Nach dem guten Jahr liegt sie mit 73 % nur 3 Prozentpunkte über seinem Ziel. Nach der 5-Punkte-Regel muss sie noch gar nichts tun. Nach dem schlechten Jahr sind es mit 62 % rund 8 Prozentpunkte unter dem Ziel. Jetzt lohnt sich das Nachkaufen.
 
 :::fehler
 **Die Aufteilung ändern, weil die Börse gerade fällt.**
