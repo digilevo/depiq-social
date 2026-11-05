@@ -172,6 +172,6 @@ Und es wird wichtiger, je näher du an den Zeitpunkt kommst, an dem du das Geld 
 
 Oft liegt das Geld an mehreren Stellen: ein Depot hier, ein Tagesgeldkonto dort, dazu ein alter Fondssparplan. Dann weiß kaum jemand, wie die Waage gerade wirklich steht, und Rebalancing wird zur Schätzerei.
 
-In depiq siehst du dein ganzes Depot an einem Ort und erkennst auf einen Blick, wo dein Geld steckt. So wird aus dem jährlichen Termin ein Blick von zwei Minuten statt eines Abends mit Taschenrechner. Und im Demo-Depot probierst du aus, wie sich deine Aufteilung entwickelt, ganz ohne echtes Geld.
+Genau dabei hilft dir depiq: Du siehst dein ganzes Depot an einem Ort, legst deine Wunsch-Aufteilung fest, und depiq zeigt dir beim Rebalancing, wie weit du davon abweichst und wie viel du umschichten oder über die Sparrate nachkaufen müsstest. So wird aus dem jährlichen Termin ein Blick von zwei Minuten statt eines Abends mit Taschenrechner. Im Demo-Depot probierst du das vorher aus, ganz ohne echtes Geld.
 
 *Dieser Artikel ist keine Anlageberatung. Er erklärt Grundlagen und ersetzt keine persönliche Beratung. Alle Zahlen sind Beispielrechnungen, vergangene Entwicklungen sind keine Garantie für die Zukunft. Quellen: [Finanztip, Rebalancing](https://www.finanztip.de/geldanlage/rebalancing/), [VZ Vermögenszentrum, Was ist Rebalancing](https://www.vermoegenszentrum.ch/wissen/rebalancing-was-ist-das).*
