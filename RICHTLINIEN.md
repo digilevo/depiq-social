@@ -177,6 +177,7 @@ LinkedIn bekommt **eigene Inhalte**, nicht dieselben Beiträge wie Instagram und
 ## 4e. depiq-Funktionen, die genannt werden dürfen (von Jürgen bestätigt)
 Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jürgen aufnehmen. Nie behaupten, eine Funktion sei kostenlos, solange der Tarif nicht bestätigt ist; „kostenlos registrieren“ ist immer richtig.
 - **Rebalancing** (bestätigt 01.11.2026): Ziel-Aufteilung je Bereich einstellen (Aktien, ETFs, Währungen, Länder), grafische Anzeige von Über- und Untergewichtung samt erhöhtem Risiko, Hinweis per Benachrichtigung, eigene Seite und Widgets. Wird noch ausgebaut. **Erst ab Tarif Pro** – in jedem Beitrag „Tarif Pro“ dazuschreiben.
+- **Aktien bewerten und Streuung prüfen** (bestätigt 05.11.2026, Jürgen: „alles das ist in depiq möglich“): Unternehmen und Aktienkurse bewerten, Streuung (Diversifikation) des Depots sehen. Zusammen mit Rebalancing der Grund, warum Jürgen depiq entwickelt hat; Ich-Satz erlaubt: „Genau dafür habe ich depiq entwickelt.“ Als Nutzen in einem Satz nennen, nicht als Liste.
 - **Kaufgrund notieren** (bestätigt 05.11.2026): Zu jeder Aktie das eigene „Warum“ in depiq (depiq.app) dokumentieren. Tarif nicht bestätigt, deshalb nie „kostenlos“ für diese Funktion schreiben; „kostenlos bei depiq starten“ ist erlaubt.
 - **Testphase** (bestätigt 01.11.2026): Nach der Registrierung sind **14 Tage alle Funktionen kostenlos** freigeschaltet. Bei Pro-Funktionen so formulieren: „Teil von depiq Pro, 14 Tage kostenlos testen“.
 

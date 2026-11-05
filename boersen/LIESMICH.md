@@ -10,7 +10,19 @@ Nie 10:00 und nie die „beste Zeit“ aus Metricool: Der Name „Frühstück“
 
 ## Hinweis für Fr 06.11.2026 (Wunsch von Jürgen, nach Gebrauch löschen)
 
-Am 05.11.2026 sind KI- und Chipaktien stark gefallen (Nasdaq im Handel rund −5 %, Nvidia rund −7 %, laut Meldungen Korrektur). Die Regel „Große Marktbewegung“ unten greift: Lage als Hauptthema, Schlusskurse vom 05.11. aus zwei Quellen. Danach diesen Abschnitt löschen.
+Am 05.11.2026 sind KI- und Chipaktien stark gefallen (Nasdaq im Handel rund −5 %, Nvidia rund −7 %, laut Meldungen Korrektur). Die Regel „Große Marktbewegung“ unten greift: Lage als Hauptthema, Schlusskurse vom 05.11. aus zwei Quellen.
+
+**Zusätzliche Botschaft von Jürgen für den 06.11.: Streuung.** Getroffen hat es vor allem KI-Aktien. Deshalb (vorher mit zwei Quellen prüfen, dass vor allem KI- und Chipaktien gefallen sind):
+- **Einordnung (Karte 3, ≤ 80 Zeichen):** „Vor allem KI-Aktien fielen. Wer breit streut, trifft so ein Tag weniger.“ (oder ähnlich, ruhig)
+- **X:** Einordnung-Satz wie oben, Rest wie immer (unter 280 Zeichen).
+- **Facebook (heute bis 900 Zeichen erlaubt), nach den News:**
+  „Getroffen hat es vor allem KI-Aktien. Genau deshalb ist es wichtig, nicht alles auf eine Branche zu setzen. Wer zu Höchstkursen gekauft hat und nur in einer Branche steckt, trifft so ein Tag besonders hart.
+  Was hilft: Unternehmen und Kurse bewerten, breit streuen und regelmäßig neu ausrichten (Rebalancing). Genau dafür habe ich depiq entwickelt.
+  📊 Dein Depot auf einen Blick: kostenlos bei depiq starten – depiq.io (Rebalancing: Teil von depiq Pro, 14 Tage kostenlos testen)“
+  Diese depiq-Zeile ersetzt am 06.11. die Warum-Zeile.
+- **TikTok und YouTube:** ein Satz „Vor allem KI-Aktien fielen. Breit streuen hilft.“ vor dem depiq-Hinweis.
+- **Ton:** sachlich. Nie über Betroffene lustig machen, keine derben Wörter, kein „jetzt günstig“, keine Prognose.
+Danach diesen Abschnitt löschen.
 
 ## Große Marktbewegung: darauf eingehen (feste Regel, Jürgen 05.11.2026)
 
