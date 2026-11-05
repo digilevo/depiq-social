@@ -10,7 +10,17 @@ Nie 10:00 und nie die „beste Zeit“ aus Metricool: Der Name „Frühstück“
 
 ## Hinweis für Fr 06.11.2026 (Wunsch von Jürgen, nach Gebrauch löschen)
 
-Am 05.11.2026 sind KI- und Chipaktien stark gefallen (Nasdaq zeitweise rund −5 %, Nvidia rund −7 %, laut Meldungen Korrektur: mehr als 10 % unter dem Rekordhoch). Das ist am 06.11. die **wichtigste News (news[0], kommt ins TikTok-Video)** und gern der Haken. Regeln bleiben: nur **Schlusskurse vom 05.11.**, keine Zwischenstände, jede Zahl aus zwei Quellen. „Korrektur“ in einfachen Worten erklären (mehr als 10 % unter dem Höchststand). Einordnung ruhig, ohne Panik und ohne Prognose. Auch für das Wochen-Reel „Die Woche in 15 Sekunden“ als Kandidat für die wichtigste News der Woche prüfen. Nach dem 06.11. diesen Abschnitt löschen.
+Am 05.11.2026 sind KI- und Chipaktien stark gefallen (Nasdaq im Handel rund −5 %, Nvidia rund −7 %, laut Meldungen Korrektur). Die Regel „Große Marktbewegung“ unten greift: Lage als Hauptthema, Schlusskurse vom 05.11. aus zwei Quellen. Danach diesen Abschnitt löschen.
+
+## Große Marktbewegung: darauf eingehen (feste Regel, Jürgen 05.11.2026)
+
+Gilt, wenn am letzten Handelstag DAX, S&P 500 oder Nasdaq 100 um 2 % oder mehr gefallen oder gestiegen sind, oder wenn ein Index laut zwei Quellen in eine Korrektur (mehr als 10 % unter dem Höchststand) oder einen Bärenmarkt (mehr als 20 % darunter) gerutscht ist. Dann ist die Lage das Hauptthema des Tages:
+1. **news[0]** = die Bewegung mit Absender und Grund („Nasdaq 100 fällt um 4,9 %, Chip- und KI-Aktien verlieren stark“). Die anderen zwei News erklären sie, wo möglich (Auslöser, betroffene Firmen).
+2. **Haken** in X-, TikTok- und Facebook-Text: die Bewegung mit echter Zahl, sachlich, ohne Drama-Wörter („Absturz“, „Crash“, „Panik“ nicht verwenden).
+3. **Begriff erklären:** Fällt „Korrektur“ oder „Bärenmarkt“, in einem kurzen Satz sagen, was das heißt.
+4. **Einordnung** (höchstens 80 Zeichen): ruhig und ehrlich, was das für langfristige Anleger mit Sparplan bedeutet. Historische Vergleiche nur mit Quelle (zwei Quellen). Keine Prognose, kein „jetzt kaufen“, kein „das Schlimmste ist vorbei“.
+5. **Wochen-Reel (freitags):** Die Bewegung ist Kandidat für die wichtigste News der Woche.
+Nur Schlusskurse, nie Zwischenstände aus dem laufenden Handel.
 
 ## Aufbau: 3 Karten, gut lesbar am Handy
 
