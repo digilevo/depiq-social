@@ -182,6 +182,6 @@ In der Schweiz sind Kursgewinne für Privatanleger in der Regel steuerfrei. Divi
 
 Mit dem ersten Sparplan hast du das Schwerste geschafft: den Anfang. Mit der Zeit kommt meist mehr dazu: ein zweiter ETF, ein Tagesgeldkonto, ein altes Depot bei einer anderen Bank. Dann fragen sich viele: Wo stehe ich eigentlich insgesamt?
 
-Genau dafür gibt es depiq. Du siehst dein ganzes Depot an einem Ort und kannst durchrechnen, wohin sich dein Vermögen bei deiner Sparrate entwickeln könnte, als Rechnung, nicht als Versprechen. Wer sich noch unsicher ist, probiert den ersten Sparplan vorher im Demo-Depot aus, ganz ohne echtes Geld.
+Genau dafür gibt es depiq. Du siehst dein ganzes Depot an einem Ort und siehst in der Vorschau „Wenn du hältst“, wohin sich dein heutiges Depot in 3, 5 und 10 Jahren entwickeln könnte, als Rechnung, nicht als Versprechen. Wer sich noch unsicher ist, probiert den ersten Sparplan vorher im Demo-Depot aus, ganz ohne echtes Geld.
 
 *Dieser Artikel ist keine Anlageberatung. Quellen: [Verbraucherzentrale: ETF-Kauf, darauf sollten Sie bei der Auswahl achten](https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/etfkauf-auf-diese-kriterien-sollten-sie-bei-der-auswahl-achten-16605), [Österreichische Kontrollbank: Fondsdaten und Meldefonds](https://my.oekb.at), [VZ Vermögenszentrum: So werden ETF besteuert](https://www.vermoegenszentrum.ch/wissen/wie-etf-besteuert-werden).*

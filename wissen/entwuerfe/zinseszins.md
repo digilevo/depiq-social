@@ -148,7 +148,7 @@ Dreh die Frage einmal um: Du möchtest mit 67 ein Polster von 300.000 € haben.
 
 *Angenommen 6 % im Jahr, ohne Kosten und Steuern, Werte gerundet, keine Garantie.*
 
-Mit jedem Jahrfünft wird der Sprung größer. Mit 25 reichen rund 130 € im Monat, mit 55 ist es für viele mehr als eine Monatsmiete. Ich habe mich selbst erst später mit dem Thema befasst, denn in der Schule hatte ich nie gelernt, warum man so früh wie möglich Geld anspart. Heute rate ich jedem, früh anzufangen, auch mit kleinen Beträgen.
+Mit jedem Jahrfünft wird der Sprung größer. Mit 25 reichen rund 130 € im Monat, mit 55 ist es für viele mehr als eine Monatsmiete. Ich habe mich selbst erst später mit dem Thema befasst, denn in der Schule hatte ich nie gelernt, warum man so früh wie möglich Geld anspart. Für dich heißt das: Fang früh an, auch mit kleinen Beträgen.
 
 :::fehler
 **Warten, bis „der richtige Zeitpunkt“ kommt.**
@@ -171,11 +171,11 @@ Was das konkret heißt: Die rund 200.900 € aus 30 Jahren mit 200 € im Monat 
 
 ### Kosten: der stille Rendite-Fresser
 
-Jedes Prozent Gebühren fehlt dem Zinseszins, Jahr für Jahr. Breite ETFs kosten oft nur 0,1 bis 0,3 % im Jahr, viele klassische Fonds mit Fondsmanager um die 1,5 %. Bei 200 € im Monat über 30 Jahre und 6 % vor Kosten macht dieser Unterschied rund 41.500 € aus: Mit 0,2 % Kosten bleiben rund 193.400 €, mit 1,5 % Kosten rund 151.900 €. Die [Verbraucherzentrale](https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/fondsgebuehren-4-tipps-mit-denen-sie-sparen-koennen-16621) rät deshalb, genau auf die Gebühren zu schauen. Wie du einen günstigen ETF findest, steht in [ETF-Sparplan: So startest du in 5 Schritten](/de/wissen/etf-sparplan/).
+Jedes Prozent Gebühren fehlt dem Zinseszins, Jahr für Jahr. Breite ETFs kosten oft nur 0,1 bis 0,3 % im Jahr, viele klassische Fonds mit Fondsmanager um die 1,5 %. Bei 200 € im Monat über 30 Jahre und 6 % vor Kosten macht dieser Unterschied rund 41.500 € aus: Mit 0,2 % Kosten bleiben rund 193.400 €, mit 1,5 % Kosten rund 151.900 €. Die [Verbraucherzentrale](https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/etfkauf-auf-diese-kriterien-sollten-sie-bei-der-auswahl-achten-16605) rät deshalb, genau auf die Gebühren zu schauen. Wie du einen günstigen ETF findest, steht in [ETF-Sparplan: So startest du in 5 Schritten](/de/wissen/etf-sparplan/).
 
 ### Schulden: der Zinseszins rückwärts
 
-Der Zinseszins wirkt auch gegen dich. Ein Beispiel: 3.000 € im Dispo, also im Minus auf dem Girokonto, bei angenommen 11 % Zinsen im Jahr. Zahlst du weder etwas zurück noch die Zinsen, wachsen daraus in fünf Jahren rund 5.050 € und in zehn Jahren rund 8.500 €. Deshalb kommt der Abbau teurer Schulden vor dem Investieren. Kein Depot bringt dir sicher 11 % im Jahr, der Abbau des Dispos schon. Und bevor du anlegst, sollte dein [Notgroschen](/de/wissen/notgroschen/) stehen, damit du gar nicht erst ins Minus rutschst.
+Der Zinseszins wirkt auch gegen dich. Ein Beispiel: 3.000 € im Dispo, also im Minus auf dem Girokonto, bei angenommen 11 % Zinsen im Jahr. Zahlst du weder etwas zurück noch die Zinsen, wachsen daraus in fünf Jahren rund 5.050 € und in zehn Jahren rund 8.500 €. Deshalb kommt der Abbau teurer Schulden vor dem Investieren. Jeder Euro, mit dem du den Dispo abbaust, spart dir sicher die 11 % Zinsen. Diese Sicherheit bietet dir kein Depot. Und bevor du anlegst, sollte dein [Notgroschen](/de/wissen/notgroschen/) stehen, damit du gar nicht erst ins Minus rutschst.
 
 *Beispielrechnungen, Werte gerundet. Der tatsächliche Dispozins hängt von deiner Bank ab.*
 
@@ -199,6 +199,6 @@ Ein Durchschnitt über viele Jahre heißt aber nicht, dass es jedes Jahr so viel
 
 Der Lohn des Zinseszinses kommt spät, und dazwischen liegen Jahre, in denen scheinbar wenig passiert. Was dabei hilft, ist zu sehen, dass es vorangeht, ohne jeden Tag auf Kurse zu starren.
 
-In depiq zeigt dir die Vorschau „Wenn du hältst“, wohin sich dein Depot bei gleicher Sparrate entwickeln könnte, als Rechnung und nicht als Versprechen. So siehst du die Kurve, bevor sie steil wird, und bleibst dabei, wenn es darauf ankommt.
+In depiq zeigt dir die Vorschau „Wenn du hältst“, wohin sich dein heutiges Depot in 3, 5 und 10 Jahren entwickeln könnte, bei angenommenen 4 bis 10 % im Jahr, als Rechnung und nicht als Versprechen. So siehst du die Kurve, bevor sie steil wird, und bleibst dabei, wenn es darauf ankommt.
 
-*Dieser Artikel ist keine Anlageberatung. Alle Zahlen sind Beispielrechnungen, vergangene Entwicklungen sind keine Garantie für die Zukunft. Quellen: [Statistisches Bundesamt, Verbraucherpreisindex](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html), [Verbraucherzentrale, Fondsgebühren](https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/fondsgebuehren-4-tipps-mit-denen-sie-sparen-koennen-16621).*
+*Dieser Artikel ist keine Anlageberatung. Alle Zahlen sind Beispielrechnungen, vergangene Entwicklungen sind keine Garantie für die Zukunft. Quellen: [Statistisches Bundesamt, Verbraucherpreisindex](https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html), [Verbraucherzentrale, Kriterien bei der ETF-Auswahl](https://www.verbraucherzentrale.de/wissen/geld-versicherungen/sparen-und-anlegen/etfkauf-auf-diese-kriterien-sollten-sie-bei-der-auswahl-achten-16605).*
