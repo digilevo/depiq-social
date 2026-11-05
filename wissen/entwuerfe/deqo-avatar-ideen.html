@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deqo-Avatar Ideen</title>
+<style>
+:root{--bg:#0b0f2a;--karte:#141a3c;--text:#e6e8ff;--leise:#a3a8d6;--i1:#818cf8;--i2:#a5b4fc;--tuerkis:#2dd4bf}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#232a6b 0,var(--bg) 60%);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;padding:32px 16px}
+h1{font-size:26px;margin:0 0 6px}p.sub{color:var(--leise);margin:0 0 28px}
+.raster{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;max-width:1100px}
+.karte{background:linear-gradient(160deg,#1a2150,#111538);border:1px solid #2a3170;border-radius:22px;padding:24px;position:relative;overflow:hidden}
+.karte h2{font-size:19px;margin:16px 0 6px}.karte p{color:var(--leise);font-size:15px;line-height:1.45;margin:0}
+.buehne{height:220px;display:grid;place-items:center;border-radius:16px;background:radial-gradient(circle at 50% 60%,#232b72 0,#10143a 70%)}
+.klein{position:absolute;right:16px;top:16px;display:flex;align-items:center;gap:8px;color:var(--leise);font-size:13px}
+.klein svg{width:56px;height:56px;filter:drop-shadow(0 6px 16px rgba(129,140,248,.45))}
+/* 1 Balken-Wesen */
+.b1 .bar{transform-origin:bottom;transform-box:fill-box;animation:hops 2.4s ease-in-out infinite}
+.b1 .bar:nth-of-type(2){animation-delay:.15s}.b1 .bar:nth-of-type(3){animation-delay:.3s}
+@keyframes hops{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.12)}}
+.auge{transform-origin:center;transform-box:fill-box;animation:blinzeln 4.5s infinite}
+@keyframes blinzeln{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+/* 2 Sprechblase */
+.b2 .blase{transform-origin:center;transform-box:fill-box;animation:atmen 3.2s ease-in-out infinite}
+@keyframes atmen{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.funke{transform-origin:center;transform-box:fill-box;animation:funkeln 2.6s ease-in-out infinite}
+@keyframes funkeln{0%,100%{opacity:.35;transform:scale(.8) rotate(0)}50%{opacity:1;transform:scale(1.1) rotate(20deg)}}
+.linie{stroke-dasharray:160;stroke-dashoffset:160;animation:zeichnen 3.2s ease-in-out infinite}
+@keyframes zeichnen{0%{stroke-dashoffset:160}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-160}}
+/* 3 Lupe q */
+.pupille{animation:schauen 5s ease-in-out infinite}
+@keyframes schauen{0%,100%{transform:translate(0,0)}30%{transform:translate(5px,-2px)}60%{transform:translate(-4px,2px)}}
+.ring{transform-origin:center;transform-box:fill-box;animation:drehen 9s linear infinite}
+@keyframes drehen{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></head><body>
+<h1>Deqo – drei eigene Avatar-Ideen</h1>
+<p class="sub">Aus dem depiq-Logo abgeleitet (Punkt + drei Balken, Indigo-Verlauf #818cf8 → #a5b4fc, Türkis als Akzent). Groß = Entwurf, oben rechts = so klein wie unten rechts auf der Website (56 px). Animation läuft dezent.</p>
+<div class="raster">
+
+<div class="karte"><div class="klein">56 px<svg viewBox="0 0 120 120" class="b1"><use href="#a1"/></svg></div>
+<div class="buehne"><svg width="170" height="170" viewBox="0 0 120 120" class="b1" id="g1">
+<defs><linearGradient id="v1" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+<linearGradient id="h1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f2766"/><stop offset="1" stop-color="#0f1338"/></linearGradient></defs>
+<g id="a1"><rect x="4" y="4" width="112" height="112" rx="34" fill="url(#h1)" stroke="#3b44a8" stroke-width="2"/>
+<circle cx="30" cy="88" r="8" fill="url(#v1)"/>
+<rect class="bar" x="44" y="66" width="15" height="30" rx="7.5" fill="url(#v1)"/>
+<rect class="bar" x="65" y="50" width="15" height="46" rx="7.5" fill="url(#v1)"/>
+<rect class="bar" x="86" y="30" width="15" height="66" rx="7.5" fill="url(#v1)"/>
+<ellipse class="auge" cx="90.5" cy="44" rx="2.6" ry="3.6" fill="#0f1338"/><ellipse class="auge" cx="96.5" cy="44" rx="2.6" ry="3.6" fill="#0f1338"/>
+<path d="M89.5 52 q4 3 8 0" stroke="#0f1338" stroke-width="2" fill="none" stroke-linecap="round"/></g></svg></div>
+<h2>1 · Der große Balken lebt</h2><p>Das Logo selbst wird zur Figur: Der höchste Balken bekommt Augen und ein Lächeln. Die Balken wippen leicht wie ein Equalizer, beim Antworten schneller. Sofort als depiq erkennbar.</p></div>
+
+<div class="karte"><div class="klein">56 px<svg viewBox="0 0 120 120" class="b2"><use href="#a2"/></svg></div>
+<div class="buehne"><svg width="170" height="170" viewBox="0 0 120 120" class="b2">
+<defs><linearGradient id="v2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#5b5bd6"/></linearGradient></defs>
+<g id="a2"><path class="blase" d="M60 10c28 0 50 19 50 44s-22 44-50 44c-6 0-12-1-17-3L18 108l6-22C14 78 10 67 10 54 10 29 32 10 60 10z" fill="url(#v2)"/>
+<circle cx="36" cy="72" r="5" fill="#e0e7ff"/><rect x="46" y="60" width="9" height="17" rx="4.5" fill="#e0e7ff"/><rect x="59" y="50" width="9" height="27" rx="4.5" fill="#e0e7ff"/><rect x="72" y="38" width="9" height="39" rx="4.5" fill="#e0e7ff"/>
+<path class="linie" d="M30 50 L48 40 L62 44 L84 26" stroke="#2dd4bf" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="funke" d="M96 22 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" fill="#2dd4bf"/></g></svg></div>
+<h2>2 · Sprechblase mit Logo</h2><p>Eine runde Sprechblase im Indigo-Verlauf, darin Punkt und Balken. Eine türkise Kurve zeichnet sich immer wieder nach oben, ein KI-Funke blinkt. Sagt ohne Worte: „Hier kannst du fragen.“</p></div>
+
+<div class="karte"><div class="klein">56 px<svg viewBox="0 0 120 120"><use href="#a3"/></svg></div>
+<div class="buehne"><svg width="170" height="170" viewBox="0 0 120 120">
+<defs><linearGradient id="v3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
+<g id="a3"><circle cx="52" cy="50" r="36" fill="#141a4a" stroke="url(#v3)" stroke-width="12"/>
+<circle class="ring" cx="52" cy="50" r="44" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="6 10" opacity=".7"/>
+<rect x="76" y="70" width="15" height="40" rx="7.5" fill="url(#v3)" transform="rotate(-40 83 90)"/>
+<g class="pupille"><circle cx="52" cy="50" r="15" fill="#e0e7ff"/><circle cx="55" cy="47" r="7" fill="#1f2766"/><circle cx="57.5" cy="44.5" r="2.2" fill="#fff"/></g></g></svg></div>
+<h2>3 · Das „q“ als Lupe</h2><p>Das „q“ aus depiq wird zur Lupe mit einem neugierigen Auge, das sich umschaut. Ein türkiser Ring dreht sich langsam, wenn Deqo „nachdenkt“. Steht für: Deqo schaut für dich genauer hin.</p></div>
+
+</div></body></html>
