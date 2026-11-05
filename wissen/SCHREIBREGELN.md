@@ -2,8 +2,21 @@
 
 Festgelegt von Jürgen am 03.11.2026: Artikel sollen **conversion-optimiert, SEO-optimiert und ausführlich verständlich** sein, mit Spannung gelesen werden und **anziehend und motivierend** wirken. Nicht „schon wieder das Gleiche wie bei den anderen“.
 
+## ⛔ Verständlich vor allem anderen (05.11.2026, nach Jürgens Lesetest)
+Anlass: Die ersten Artikel lasen sich „sehr schlecht und KI-lastig ohne klare Info“. Beispiel: „In Österreich: Meldefonds?“ – Jürgen ist Österreicher und kannte den Begriff nicht.
+
+1. **Jeder Fachbegriff wird beim ersten Vorkommen in Alltagssprache erklärt**, in einem eigenen Satz oder Halbsatz: was es ist und was es für dich bedeutet. Test: Versteht es jemand, der noch nie ein Depot hatte? Wenn nein, erklären oder weglassen.
+   Begriffe, die nie ohne Erklärung stehen dürfen (Auswahl): ETF, Index, MSCI World/ACWI/FTSE All-World, TER/laufende Kosten, ISIN, thesaurierend/ausschüttend, Sondervermögen, Verwahrstelle, ETC/ETN, physisch/synthetisch, Neobroker, Verrechnungskonto, Vorabpauschale, Teilfreistellung, Freistellungsauftrag, Sparerpauschbetrag, Meldefonds, Kapitalertragsteuer, steuereinfacher Broker, Einlagensicherung, Geldmarkt-ETF, Durchschnittskosteneffekt, nominal/real, SPIVA.
+2. **Pro Artikel höchstens 8 neue Fachbegriffe.** Was darüber hinausgeht, gehört in einen eigenen Artikel und wird nur verlinkt.
+3. **Ein Artikel beantwortet eine Frage.** Nebenthemen (Steuern, Brokerwahl, Einmalanlage) bekommen höchstens einen kurzen Absatz und einen Link, keinen eigenen Mini-Kurs.
+4. **Länderhinweise ganz oder gar nicht.** Entweder 3 bis 6 Sätze je Land mit „Was heißt das für dich?“ und „Was musst du tun?“ (mit Prüfweg, z. B. Webseite), oder ein Satz mit Link auf einen eigenen Länder-Artikel. Keine Einzeiler mit Fachwort.
+5. **Länge folgt dem Inhalt, nicht der Wortzahl.** Richtwert 1.200 bis 2.000 Wörter. Lieber kürzer und klar als lang und dicht. 6 bis 10 H2.
+6. **Erklären wie am Küchentisch:** zuerst das Bild oder Beispiel („ein Korb mit Aktien“), dann der Fachbegriff, nie umgekehrt. Ganze Sätze, keine Aneinanderreihung von Satzfetzen und Mini-Absätzen.
+7. **Zusätzliche KI-Muster verboten:** „Die Antwort beruhigt.“ · „Viele sind überrascht“ · „Hier verlieren sich die meisten“ · „Jetzt kommt der schwierigste Teil“ · „Er stimmt nicht, und …“ · Sätze, die nur eine Behauptung umdrehen · Listen, deren Punkte alle gleich gebaut sind.
+8. **Prüfung vor der Abgabe:** Skript listet alle Begriffe aus Punkt 1, die vorkommen, und ob im selben oder nächsten Satz eine Erklärung steht (Wörter wie „heißt“, „bedeutet“, „also“, „das ist“, Klammer). Jeder Treffer ohne Erklärung = nicht fertig. Dazu einmal laut lesen: Wo man stolpert, umschreiben.
+
 ## Länge und Tiefe
-- 1.800 bis 2.500 Wörter je Sprache. Kein Fülltext: Jeder Abschnitt beantwortet eine Frage, die Leser wirklich suchen.
+- Länge siehe „Verständlich vor allem anderen“ Punkt 5 (ersetzt die alte Vorgabe 1.800–2.500 Wörter). Kein Fülltext: Jeder Abschnitt beantwortet eine Frage, die Leser wirklich suchen.
 - Material zuerst aus dem Buchkapitel holen, dann aktuelle Zahlen recherchieren (texte/recherche/).
 - Mindestens ein Schaubild (`:::balken`), eine Tabelle, ein Merke-Kasten, ein Fehler-Kasten, 5–7 häufige Fragen.
 
@@ -29,7 +42,7 @@ Festgelegt von Jürgen am 03.11.2026: Artikel sollen **conversion-optimiert, SEO
 
 ## SEO
 - **Vor dem Schreiben recherchieren, wonach Leute suchen:** Websuche zum Hauptbegriff und zu Varianten (wie viel, wo, für wen, Fehler, Rechner, Österreich/Schweiz). Notieren, welche Fragen die oberen Treffer beantworten, und eine Liste der Suchbegriffe (Haupt- und Nebenbegriffe) im Frontmatter ablegen. Jede dieser Fragen bekommt einen Abschnitt oder eine Antwort in den häufigen Fragen.
-- **Überschriften-Hierarchie:** Genau eine H1 = Titel aus dem Frontmatter (setzt die Seite, nie im Text). Hauptabschnitte H2 (`##`), Unterpunkte H3 (`###`), keine Ebene überspringen, keine H4 nötig. 8–14 H2 pro Artikel, H3 nur, wo ein Abschnitt drei oder mehr Teile hat.
+- **Überschriften-Hierarchie:** Genau eine H1 = Titel aus dem Frontmatter (setzt die Seite, nie im Text). Hauptabschnitte H2 (`##`), Unterpunkte H3 (`###`), keine Ebene überspringen, keine H4 nötig. 6–10 H2 pro Artikel, H3 nur, wo ein Abschnitt drei oder mehr Teile hat.
 - Titel höchstens 60 Zeichen (sonst bricht der Build ab).
 - Hauptsuchbegriff in Titel, Adresse, ersten 100 Wörtern, Beschreibung (höchstens 160 Zeichen) und in 2–3 Zwischenüberschriften.
 - 5 Nebenbegriffe natürlich einbauen, Dichte des Hauptbegriffs etwa 1 bis 1,5 %.
