@@ -8,6 +8,10 @@ Täglich an Börsentagen (Montag bis Freitag), vorbereitet von einer geplanten A
 Facebook 7:30 · TikTok 7:30 · Instagram-Story 7:30, 7:31, 7:32 · YouTube Short 8:00 · X 7:30 (Jürgen von Hand).
 Nie 10:00 und nie die „beste Zeit“ aus Metricool: Der Name „Frühstück“ verlangt den frühen Morgen.
 
+## Hinweis für Fr 06.11.2026 (Wunsch von Jürgen, nach Gebrauch löschen)
+
+Am 05.11.2026 sind KI- und Chipaktien stark gefallen (Nasdaq zeitweise rund −5 %, Nvidia rund −7 %, laut Meldungen Korrektur: mehr als 10 % unter dem Rekordhoch). Das ist am 06.11. die **wichtigste News (news[0], kommt ins TikTok-Video)** und gern der Haken. Regeln bleiben: nur **Schlusskurse vom 05.11.**, keine Zwischenstände, jede Zahl aus zwei Quellen. „Korrektur“ in einfachen Worten erklären (mehr als 10 % unter dem Höchststand). Einordnung ruhig, ohne Panik und ohne Prognose. Auch für das Wochen-Reel „Die Woche in 15 Sekunden“ als Kandidat für die wichtigste News der Woche prüfen. Nach dem 06.11. diesen Abschnitt löschen.
+
 ## Aufbau: 3 Karten, gut lesbar am Handy
 
 | Karte | Inhalt |
