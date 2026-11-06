@@ -22,3 +22,8 @@ Instagram- und Facebook-Karussell, TikTok-Fotostrecke (ohne Musik), YouTube Shor
 | 04.11.2026 | McDonald's | Zahlen 3. Quartal 2026 |
 | 05.11.2026 | Rheinmetall | Zahlen 3. Quartal 2026, Prognose gesenkt |
 | 06.11.2026 | Daimler Truck | Zahlen 3. Quartal 2026, Bestellungen unter Erwartung |
+
+## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
+Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
+`node vorlage/render-wertlinie.js <daten.json> <ziel>`; Beispiel: `aktie-im-check/vorlage-beispiel/wertlinie_beispiel.json`.
+Regeln: Jahresschlusskurse und Gewinne je Aktie aus zwei Quellen, Stand nennen, Linie endet beim letzten echten Jahr (keine Prognose), nie „Kauflimit“, „kaufenswert“, „Schnäppchen“, „Renditepotenzial“.

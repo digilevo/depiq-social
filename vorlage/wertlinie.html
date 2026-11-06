@@ -58,7 +58,7 @@ window.zeichne = d => {
   const kursHeute = d.kursHeute ?? d.kurs[n - 1], wertHeute = wert[n - 1];
   const abstand = (kursHeute / wertHeute - 1) * 100;
   // Diagramm
-  const W = 940, H = 440, L = 96, R = 56, O = 24, U = 58;
+  const W = 940, H = 405, L = 96, R = 56, O = 24, U = 58;
   const alle = d.kurs.concat(wert, [kursHeute]);
   const max = Math.max(...alle) * 1.08, min = 0;
   const x = i => L + i * (W - L - R) / (n - 1), y = v => O + (1 - (v - min) / (max - min)) * (H - O - U);
