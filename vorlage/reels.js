@@ -1,5 +1,17 @@
 // Reels: Szenen mit Zeitfenster in Sekunden. Die letzte Szene bleibt bis zum Ende stehen.
 const REELS={
+ '2026-11-06_Fr_Woche':{
+  dauer:18,
+  szenen:[
+   {von:0,bis:3.5,zeilen:[{text:'Die Woche in'},{text:'<em>15 Sekunden</em>'}],groesse:124},
+   {von:3.5,bis:7.5,zeilen:[{text:'Die Woche:'}],groesse:96,
+    balken:[{name:'🇩🇪 DAX',betrag:2.0,einheit:'%',nk:1,vorz:true,wert:67},{name:'🇺🇸 S&P 500',betrag:-3.0,einheit:'%',nk:1,vorz:true,wert:100,rot:true}],
+    notiz:'Schlusskurse 30.10. bis 05.11.'},
+   {von:7.5,bis:11,zeilen:[{text:'Bester Tag'},{text:'der Woche:'},{text:'AppLovin'},{text:'<em>+31,0 %</em>'}],groesse:112},
+   {von:11,bis:14.5,zeilen:[{text:'Schwächster Tag'},{text:'der Woche:'},{text:'FIS (Zahlungen)'},{text:'−23,7 %',rot:true}],groesse:104},
+   {von:14.5,bis:18,zeilen:[{text:'Nasdaq 100'},{text:'an einem Tag:'},{text:'−6,4 %',rot:true}],groesse:116,cta:'Folge für mehr', bio:'@depiq.io'}
+  ]
+ },
  '2026-11-14_Sa_Reel':{
   dauer:23, glow:'rgba(225,29,72,.45)',
   szenen:[

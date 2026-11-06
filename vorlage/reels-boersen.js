@@ -1,6 +1,6 @@
 // automatisch erzeugt von boersen-tiktok.js
 Object.assign(REELS, {
- "2026-11-05_Boerse_TikTok": {
+ "2026-11-06_Boerse_TikTok": {
   "dauer": 23.5,
   "szenen": [
    {
@@ -11,7 +11,7 @@ Object.assign(REELS, {
       "text": "☕ Börse heute"
      },
      {
-      "text": "<em>05.11.</em>"
+      "text": "<em>06.11.</em>"
      }
     ],
     "groesse": 112
@@ -27,8 +27,8 @@ Object.assign(REELS, {
     "groesse": 92,
     "balken": [
      {
-      "name": "🇺🇸 Block",
-      "betrag": 15.3,
+      "name": "🇺🇸 AppLovin",
+      "betrag": 31.04,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
@@ -36,21 +36,21 @@ Object.assign(REELS, {
       "rot": false
      },
      {
-      "name": "🇺🇸 AppLovin",
-      "betrag": 10.69,
+      "name": "🇨🇳 NetEase",
+      "betrag": 9.07,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 70,
+      "wert": 29,
       "rot": false
      },
      {
-      "name": "🇺🇸 Booking",
-      "betrag": 9.83,
+      "name": "🇨🇳 Li Auto",
+      "betrag": 8.94,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 64,
+      "wert": 29,
       "rot": false
      }
     ]
@@ -67,8 +67,8 @@ Object.assign(REELS, {
     "groesse": 92,
     "balken": [
      {
-      "name": "🇺🇸 FIS",
-      "betrag": -23.67,
+      "name": "🇺🇸 Sandisk",
+      "betrag": -22.26,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
@@ -76,21 +76,21 @@ Object.assign(REELS, {
       "rot": true
      },
      {
-      "name": "🇺🇸 Trimble",
-      "betrag": -17.31,
+      "name": "🇺🇸 Lumentum",
+      "betrag": -18.68,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 73,
+      "wert": 84,
       "rot": true
      },
      {
-      "name": "🇺🇸 Comfort Systems",
-      "betrag": -15.08,
+      "name": "🇺🇸 Micron",
+      "betrag": -17.46,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 64,
+      "wert": 78,
       "rot": true
      }
     ]
@@ -100,19 +100,19 @@ Object.assign(REELS, {
     "bis": 19.5,
     "zeilen": [
      {
-      "text": "<em>USA</em>"
+      "text": "<em>Nasdaq</em>"
      },
      {
-      "text": "Demokraten"
+      "text": "Nasdaq 100 fällt"
      },
      {
-      "text": "gewinnen den"
+      "text": "um 6,4 %, Chip-"
      },
      {
-      "text": "US-Kongress, Dow"
+      "text": "und KI-Aktien"
      },
      {
-      "text": "steigt um 3 %"
+      "text": "verlieren stark"
      }
     ],
     "groesse": 88
