@@ -1,0 +1,87 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- „Kurs gegen Gewinn“: Kurs einer Aktie neben einer einfachen Wertlinie (Gewinn je Aktie × durchschnittliches KGV).
+     Für „Aktie im Check“ (Bild 1080 × 1350, Karussell, X). Bewusst KEINE Kaufempfehlung, kein „Kauflimit“, keine Prognose:
+     Die Linie endet im letzten Jahr mit echten Zahlen. Daten per window.zeichne(d), siehe render-wertlinie.js.
+     Lesbarkeit: kleinste Schrift 34 px (Fußzeile, Annahmen), Inhalte ab 40 px, Werte ab 44 px, Titel ab 64 px. -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+@font-face{font-family:'JB';font-weight:700;src:url(schrift/jetbrains-mono-700.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 45% at 10% 0%,rgba(124,92,230,.7),transparent 70%),radial-gradient(ellipse 70% 40% at 96% 100%,rgba(20,184,166,.42),transparent 70%),linear-gradient(160deg,#0a0d2c,#16134a 60%,#0a1c33)}
+.akzent{position:absolute;left:0;right:0;top:0;height:8px;background:var(--tf)}
+.seite{position:absolute;inset:0;padding:52px 64px 44px;display:flex;flex-direction:column;gap:22px}
+.kopf{display:flex;justify-content:space-between;align-items:center}
+.links{display:flex;align-items:center;gap:18px}
+.pille{display:inline-flex;align-items:center;gap:12px;font-size:32px;font-weight:800;padding:10px 22px;border-radius:999px;border:2px solid var(--tf);background:color-mix(in srgb,var(--tf) 22%,transparent)}
+.pille svg{width:34px;height:34px}
+.serie{font-size:34px;font-weight:800;color:#7ee7d8}
+.kopf img{height:58px}
+.inhalt{flex:1;min-height:0;display:flex;flex-direction:column;gap:18px;overflow:hidden}
+h1{font-size:68px;font-weight:800;line-height:1.04;letter-spacing:-.02em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#c4b5fd,#7ee7d8);-webkit-background-clip:text;color:transparent}
+.unter{font-size:42px;color:#c7cbf2;font-weight:700;margin-top:-8px}
+.legende{display:flex;gap:34px;font-size:38px;font-weight:700}
+.legende span{display:flex;align-items:center;gap:12px}
+.legende i{display:inline-block;width:54px;height:8px;border-radius:4px}
+.chart{border-radius:28px;background:rgba(255,255,255,.05);border:2px solid rgba(255,255,255,.12);padding:16px 10px 6px}
+.chart svg{display:block;width:100%}
+.werte{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.w{border-radius:24px;padding:12px 20px;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.15)}
+.w small{display:block;font-size:34px;color:#c7cbf2;font-weight:700}
+.w b{font-size:52px;font-weight:800;white-space:nowrap}
+.w.k b{color:#fff}.w.l b{color:#7ee7d8}.w.a b{color:#c4b5fd}
+.hinweis{border-radius:24px;padding:16px 26px;background:linear-gradient(135deg,rgba(99,102,241,.6),rgba(20,184,166,.45));border:2px solid rgba(255,255,255,.22);font-size:40px;font-weight:700;line-height:1.25}
+.annahme{font-size:34px;color:#a9aed6;font-weight:500;line-height:1.25}
+.fuss{display:flex;justify-content:space-between;font-size:34px;color:#a9aed6;font-weight:500}
+</style></head><body><div class="bg"></div><div class="akzent"></div>
+<div class="seite">
+ <div class="kopf"><div class="links"><span class="pille" id="pille"></span><span class="serie" id="serie"></span></div><img src="logo-dark.svg" alt="depiq"></div>
+ <div class="inhalt" id="inhalt"></div>
+ <div class="fuss"><span>Keine Anlageberatung</span><span id="stand"></span></div>
+</div>
+<script>
+const zahl = (x, nk = 0) => x.toLocaleString('de-DE', { minimumFractionDigits: nk, maximumFractionDigits: nk });
+window.zeichne = d => {
+  const t = d.thema || { name: 'Aktien & Börse', farbe: '#2563eb', symbol: 'M3 17l6-6 4 4 8-8M14 7h7v7' };
+  document.documentElement.style.setProperty('--tf', t.farbe);
+  document.getElementById('pille').innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="${t.symbol}"/></svg>${t.name}`;
+  document.getElementById('serie').textContent = d.serie || 'Aktie im Check';
+  document.getElementById('stand').textContent = d.stand || '';
+  const n = d.jahre.length, w = d.waehrung || '€';
+  // Durchschnitts-KGV: vorgegeben oder aus den Jahreswerten (Kurs / Gewinn je Aktie) gemittelt
+  const kgv = d.kgv || d.kurs.reduce((s, k, i) => s + k / d.gewinn[i], 0) / n;
+  const wert = d.gewinn.map(g => g * kgv);
+  const kursHeute = d.kursHeute ?? d.kurs[n - 1], wertHeute = wert[n - 1];
+  const abstand = (kursHeute / wertHeute - 1) * 100;
+  // Diagramm
+  const W = 940, H = 440, L = 96, R = 56, O = 24, U = 58;
+  const alle = d.kurs.concat(wert, [kursHeute]);
+  const max = Math.max(...alle) * 1.08, min = 0;
+  const x = i => L + i * (W - L - R) / (n - 1), y = v => O + (1 - (v - min) / (max - min)) * (H - O - U);
+  const pfad = a => a.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1)).join(' ');
+  const schritt = [10, 20, 25, 50, 100, 200, 250, 500, 1000].find(s => max / s <= 5) || 2000;
+  let gitter = '';
+  for (let v = 0; v <= max; v += schritt) gitter += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="rgba(255,255,255,.12)" stroke-width="2"/><text x="${L - 14}" y="${y(v) + 12}" text-anchor="end" fill="#a9aed6" font-size="34" font-weight="700">${zahl(v)}</text>`;
+  const jede = n > 6 ? 3 : 1;
+  const achse = d.jahre.map((j, i) => (i % jede === 0 || i === n - 1) ? `<text x="${x(i)}" y="${H - 14}" text-anchor="${i === n - 1 ? 'end' : 'middle'}" fill="#a9aed6" font-size="34" font-weight="700">${j}</text>` : '').join('');
+  const flaeche = pfad(d.kurs) + ' ' + wert.slice().reverse().map((v, i) => 'L' + x(n - 1 - i).toFixed(1) + ' ' + y(v).toFixed(1)).join(' ') + ' Z';
+  const svg = `<svg viewBox="0 0 ${W} ${H}">${gitter}${achse}
+    <path d="${flaeche}" fill="rgba(196,181,253,.13)"/>
+    <path d="${pfad(wert)}" fill="none" stroke="#7ee7d8" stroke-width="7" stroke-dasharray="18 12" stroke-linecap="round"/>
+    <path d="${pfad(d.kurs)}" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${x(n - 1)}" cy="${y(kursHeute)}" r="13" fill="#fff"/><circle cx="${x(n - 1)}" cy="${y(wertHeute)}" r="13" fill="#7ee7d8"/></svg>`;
+  const vorz = abstand > 0 ? '+' : abstand < 0 ? '−' : '';
+  document.getElementById('inhalt').innerHTML = `
+    <h1>${d.flagge || ''} ${d.firma}<br><em>Kurs gegen Gewinn</em></h1>
+    ${d.unter ? `<div class="unter">${d.unter}</div>` : ''}
+    <div class="legende"><span><i style="background:#fff"></i>Kurs ${d.jahre[0]}–${d.jahre[n - 1]}</span><span><i style="background:#7ee7d8"></i>Wertlinie (Gewinn × ${zahl(kgv, 0)})</span></div>
+    <div class="chart">${svg}</div>
+    <div class="werte"><div class="w k"><small>Kurs</small><b>${zahl(kursHeute)} ${w}</b></div><div class="w l"><small>Wertlinie</small><b>${zahl(wertHeute)} ${w}</b></div><div class="w a"><small>Abstand</small><b>${vorz}${zahl(Math.abs(abstand), 0)} %</b></div></div>
+    <div class="hinweis">${d.hinweis || 'Unter der Linie heißt nicht automatisch günstig. Sinkt der Gewinn, sinkt die Linie mit.'}</div>
+    <div class="annahme">${d.annahmen || `Wertlinie = Gewinn je Aktie × Ø-KGV (${zahl(kgv, 0)}). Vereinfachung, keine Prognose.`}</div>`;
+};
+</script></body></html>
