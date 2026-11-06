@@ -21,3 +21,4 @@ Instagram- und Facebook-Karussell, TikTok-Fotostrecke (ohne Musik), YouTube Shor
 | 04.11.2026 | Novo Nordisk | Zahlen 3. Quartal 2026 |
 | 04.11.2026 | McDonald's | Zahlen 3. Quartal 2026 |
 | 05.11.2026 | Rheinmetall | Zahlen 3. Quartal 2026, Prognose gesenkt |
+| 06.11.2026 | Daimler Truck | Zahlen 3. Quartal 2026, Bestellungen unter Erwartung |
