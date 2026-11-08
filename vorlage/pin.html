@@ -1,6 +1,6 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8">
 <!-- Pinterest-Pin 1000 × 1500 (Hochformat 2:3). Hell und warm (Pinterest-Zielgruppe: Sparen, Vorsorge, Einsteiger), depiq-Farben als Akzent.
-     Aufruf: pin.html?seite=N ; Daten per window.zeichne(d) = {seiten:[{html}], ziel:"depiq.io/…"} – siehe render-pin.js.
+     Aufruf: pin.html?seite=N ; Daten per window.zeichne(d) = {seiten:[{html}], ziel:"depiq.io/…", thema:{name,farbe,symbol} (optional, Themenwelt)} – siehe render-pin.js.
      Aufbau: oben Such-Überschrift (wird auf Pinterest gelesen und gefunden), Mitte Grafik, unten Logo und Ziel-Adresse. Kleinste Schrift 30 px. -->
 <style>
 @font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
@@ -28,14 +28,20 @@ h1 em{font-style:normal;color:#4f46e5}
 .schritt i{flex:none;font-style:normal;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,#6366f1,#14b8a6);color:#fff;font-weight:800;font-size:36px}
 .schritt b{font-weight:800}
 .klein{font-size:30px;color:#6b7194}
+.akzent{display:none;position:absolute;left:0;right:0;top:0;height:12px;background:var(--tf)}
+.etikett.tw{display:inline-flex;align-items:center;gap:12px;color:var(--tf);background:color-mix(in srgb,var(--tf) 12%,#fff);border:2px solid var(--tf)}
+.etikett.tw svg{width:34px;height:34px}
 .fuss{display:flex;justify-content:space-between;align-items:center}
 .fuss img{height:60px}
 .ziel{font-size:36px;font-weight:800;color:#fff;background:#1c1f3a;padding:16px 28px;border-radius:999px}
-</style></head><body><div class="bg"></div>
+</style></head><body><div class="bg"></div><div class="akzent" id="akzent"></div>
 <div class="seite"><span class="etikett" id="etikett"></span><div class="inhalt" id="inhalt"></div>
 <div class="fuss"><img src="logo-light.svg" alt="depiq"><span class="ziel" id="ziel"></span></div></div>
 <script>
 const N=+(new URLSearchParams(location.search).get('seite')||1);
 window.zeichne=d=>{const s=d.seiten[N-1];document.getElementById('etikett').textContent=s.etikett||d.etikett||'Finanzwissen';
-document.getElementById('inhalt').innerHTML=s.html;document.getElementById('ziel').textContent='👉 '+(s.ziel||d.ziel||'depiq.io');};
+document.getElementById('inhalt').innerHTML=s.html;
+if(d.thema){/* Themenwelt (RICHTLINIEN §3.7): {name, farbe, symbol(svg-Pfad)} – Pille mit Symbol + Akzentlinie */
+document.documentElement.style.setProperty('--tf',d.thema.farbe);document.getElementById('akzent').style.display='block';
+const e=document.getElementById('etikett');e.classList.add('tw');e.innerHTML=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="${d.thema.symbol}"/></svg>${d.thema.name}`;}document.getElementById('ziel').textContent='👉 '+(s.ziel||d.ziel||'depiq.io');};
 </script></body></html>
