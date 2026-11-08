@@ -73,6 +73,7 @@ Eine Komponente je Rechner, zweimal benutzt: als eigene Seite (depiq.io/de/rechn
 | R8 | Entnahme-Rechner (4-Prozent-Regel) | entnahme | 25 |
 
 Reihenfolge: R1, R2, R3 zusammen mit Welle 1, danach R5, R6, R7, R4, R8.
+Stand 08.11.2026 (Jürgen): R1 Notgroschen und R2 Sparplan/Zinseszins (mit 72er-Regel) sind live. Als Nächstes R3 Inflation.
 Jeder Rechner: Ergebnis als Balken/Skala, Annahmen sichtbar, „Werte gerundet, keine Anlageberatung“, darunter der Knopf zur Registrierung (DE) bzw. E-Book/Warteliste (EN).
 
 ## Vorlagen zum Download (aus dem Download-Center)
@@ -82,7 +83,7 @@ Artikel verlinken passende Vorlagen (PDF, A4) aus dem geplanten Download-Center.
 - Alle weiteren Vorlagen und Extras: im kostenlosen depiq-Konto → Knopf führt zur Registrierung (DE). EN: nur Vorlagen, die es auf Englisch gibt; sonst E-Book/Warteliste.
 - Vorlagen nie im Artikel kopieren, immer auf die aktuelle Version im Download-Center verlinken (Jürgen lädt neue Versionen selbst hoch).
 
-| Artikel | passende Vorlage (Nummer = Buchvorlage, Kurzlink depiq.io/v/NN) |
+| Artikel | passende Vorlage (Nummer = Buchvorlage, Kurzlink depiq.io/de/v/NN) |
 |---|---|
 | 1 ETF-Sparplan | 16 ETF-Auswahl · 18 Broker-Vergleich |
 | 2 Notgroschen | 02 Mein Finanz-Fundament · 12 Mein Notfallplan |
@@ -91,6 +92,6 @@ Artikel verlinken passende Vorlagen (PDF, A4) aus dem geplanten Download-Center.
 | 6 Depot eröffnen | 18 Broker-Vergleich · 13 Vor meiner ersten Order |
 | 11 Kosten | 19 Mein Kostencheck |
 | 16 Anfängerfehler | 35 Welche Fehler mache ich gerade? · 34 Der 60-Sekunden-Check |
-Quelle: buch/vorlagen/vorlagen.json (40 Vorlagen, je mit Themenwelt). PDFs aus buch/vorlagen/pdf. Im Artikel immer über den Kurzlink verlinken, nie die Datei kopieren.
-Voraussetzung: Die Kurzlinks depiq.io/v/NN bzw. das Download-Center müssen live sein, bevor der Artikel sie verlinkt.
+Quelle: Downloadcenter depiq.io/de/templates/ (42 Vorlagen, live ab KW 46). PDFs aus buch/vorlagen/pdf. Im Artikel immer über den Kurzlink verlinken, nie die Datei kopieren.
+Voraussetzung: Die Kurzlinks depiq.io/de/v/NN bzw. das Download-Center depiq.io/de/templates/ müssen live sein, bevor der Artikel sie verlinkt (vorher per WebFetch prüfen; nicht live → Vorlagen-Hinweis weglassen).
 
