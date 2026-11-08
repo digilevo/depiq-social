@@ -1,0 +1,54 @@
+<!doctype html><html><head><meta charset="utf-8">
+
+<style>@font-face{font-family:DMS;src:url(dm-sans-700.ttf);font-weight:700 900}@font-face{font-family:DMS;src:url(dm-sans-400.ttf);font-weight:400}
+*{box-sizing:border-box;margin:0}
+body{width:1280px;height:720px;overflow:hidden;font-family:DMS,sans-serif;color:#fff}
+.b{position:relative;width:1280px;height:720px;background:
+ radial-gradient(620px 520px at 78% 38%,color-mix(in srgb,var(--f) 55%,transparent),transparent 70%),
+ radial-gradient(520px 380px at 8% 105%,#0d948855,transparent 70%),
+ linear-gradient(135deg,#0b1030 0%,#10164a 60%,#0b1030 100%)}
+.b::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff0a 1px,transparent 1px),linear-gradient(90deg,#ffffff0a 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(800px 600px at 70% 40%,#000,transparent)}
+.logo{position:absolute;left:64px;top:52px;height:62px}
+.inhalt{position:absolute;left:64px;top:170px;width:640px}
+.pille{display:inline-flex;align-items:center;gap:12px;background:var(--f);border-radius:999px;padding:10px 22px 10px 14px;font-weight:800;font-size:28px;letter-spacing:.04em;box-shadow:0 10px 30px -8px var(--f)}
+.pille i{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#ffffff33;font-style:normal}
+.pille svg{width:20px;height:20px}
+h1{font-family:Poppins,sans-serif;font-weight:700;font-size:96px;line-height:1.0;letter-spacing:-.02em;margin-top:30px;text-shadow:0 6px 30px #0008}
+h1 em{font-style:normal;background:linear-gradient(90deg,#a5b4fc,#5eead4);-webkit-background-clip:text;background-clip:text;color:transparent}
+.unter{margin-top:26px;font-size:40px;font-weight:800;color:#e0e4ff;line-height:1.2}
+.unter b{color:#fde047}
+/* Handy */
+.handy{position:absolute;right:300px;top:120px;width:270px;height:540px;border-radius:44px;padding:12px;background:linear-gradient(145deg,#c7cce0,#5b6280 40%,#2a2f4a);box-shadow:0 40px 80px -20px #000d,0 0 0 2px #ffffff22;transform:rotate(-8deg)}
+.schirm{width:100%;height:100%;border-radius:34px;background:#0e1440;padding:30px 18px;display:flex;flex-direction:column;gap:14px;overflow:hidden}
+.k{display:flex;align-items:center;gap:6px;font-family:Poppins;font-weight:800;font-size:20px}
+.k span{display:flex;gap:3px;align-items:flex-end}.k span i{display:block;width:5px;border-radius:2px;background:#818cf8}
+.wert small{display:block;color:#a5abd6;font-weight:700;font-size:13px}
+.wert b{font-family:Poppins;font-size:34px}
+.plus{display:inline-block;background:#22c55e26;color:#4ade80;font-weight:800;font-size:14px;border-radius:999px;padding:4px 10px;margin-top:4px}
+.donut{align-self:center;width:130px;height:130px;border-radius:50%;background:conic-gradient(#2563eb 0 42%,#0d9488 42% 70%,#c99a06 70% 82%,#16a34a 82% 93%,#ea7a12 93% 100%);display:grid;place-items:center}
+.donut::after{content:"";width:78px;height:78px;border-radius:50%;background:#0e1440}
+.zeile{display:flex;justify-content:space-between;align-items:center;background:#ffffff0d;border-radius:12px;padding:10px 12px;font-weight:700;font-size:14px}
+.zeile i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:8px}
+/* Person */
+.person{position:absolute;right:-6px;bottom:0;height:610px;filter:drop-shadow(0 20px 40px #000a)}
+.ecke{position:absolute;right:30px;top:40px;display:flex;align-items:center;gap:10px;background:#0b1030cc;border:2px solid #ffffff22;border-radius:16px;padding:10px 16px;font-weight:800;font-size:22px}
+.ecke svg{width:28px;height:28px;color:#f87171}
+</style></head><body>
+<div class="b" style="--f:{{farbe}}">
+ <img class="logo" src="logo-dark.svg" alt="">
+ <div class="ecke"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.5s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C16.6 4 12 4 12 4s-4.6 0-7.8.2c-.4.1-1.4.1-2.3 1C1.2 5.9 1 7.5 1 7.5S.8 9.4.8 11.2v1.6c0 1.9.2 3.7.2 3.7s.2 1.6.9 2.3c.9.9 2 .9 2.5 1 1.8.2 7.6.2 7.6.2s4.6 0 7.8-.2c.4-.1 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.7v-1.6c0-1.8-.2-3.7-.2-3.7zM9.7 15V8.4l6 3.3z"/></svg>{{dauer}}</div>
+ <div class="inhalt">
+  <span class="pille"><i><svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></i>{{reihe}}</span>
+  <h1>{{titel}}</h1>
+  <p class="unter">{{unter}}</p>
+ </div>
+ <div class="handy"><div class="schirm">
+  <div class="k"><span><i style="height:8px"></i><i style="height:13px"></i><i style="height:18px"></i></span>depiq</div>
+  <div class="wert"><small>Gesamtwert</small><b>48.250 €</b><br><span class="plus">▲ +12,4 % in 1 Jahr</span></div>
+  <div class="donut"></div>
+  <div class="zeile"><span><i style="background:#2563eb"></i>Aktien</span>42 %</div>
+  <div class="zeile"><span><i style="background:#0d9488"></i>ETFs</span>28 %</div>
+  <div class="zeile"><span><i style="background:#c99a06"></i>Edelmetalle</span>12 %</div>
+ </div></div>
+ <img class="person" src="juergen-glatt.png" alt="">
+</div></body></html>
