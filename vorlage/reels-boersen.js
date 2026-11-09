@@ -1,6 +1,6 @@
 // automatisch erzeugt von boersen-tiktok.js
 Object.assign(REELS, {
- "2026-11-06_Boerse_TikTok": {
+ "2026-11-09_Boerse_TikTok": {
   "dauer": 23.5,
   "szenen": [
    {
@@ -11,7 +11,7 @@ Object.assign(REELS, {
       "text": "☕ Börse heute"
      },
      {
-      "text": "<em>06.11.</em>"
+      "text": "<em>09.11.</em>"
      }
     ],
     "groesse": 112
@@ -27,8 +27,8 @@ Object.assign(REELS, {
     "groesse": 92,
     "balken": [
      {
-      "name": "🇺🇸 AppLovin",
-      "betrag": 31.04,
+      "name": "🇺🇸 Coherent",
+      "betrag": 13.58,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
@@ -36,21 +36,21 @@ Object.assign(REELS, {
       "rot": false
      },
      {
-      "name": "🇨🇳 NetEase",
-      "betrag": 9.07,
+      "name": "🇺🇸 Airbnb",
+      "betrag": 11.67,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 29,
+      "wert": 86,
       "rot": false
      },
      {
-      "name": "🇨🇳 Li Auto",
-      "betrag": 8.94,
+      "name": "🇺🇸 AMD",
+      "betrag": 11.04,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 29,
+      "wert": 81,
       "rot": false
      }
     ]
@@ -67,8 +67,8 @@ Object.assign(REELS, {
     "groesse": 92,
     "balken": [
      {
-      "name": "🇺🇸 Sandisk",
-      "betrag": -22.26,
+      "name": "🇯🇵 Japan Tobacco",
+      "betrag": -19.31,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
@@ -76,21 +76,21 @@ Object.assign(REELS, {
       "rot": true
      },
      {
-      "name": "🇺🇸 Lumentum",
-      "betrag": -18.68,
+      "name": "🇺🇸 Axon",
+      "betrag": -18.18,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 84,
+      "wert": 94,
       "rot": true
      },
      {
-      "name": "🇺🇸 Micron",
-      "betrag": -17.46,
+      "name": "🇯🇵 SoftBank",
+      "betrag": -10.83,
       "einheit": "%",
       "nk": 1,
       "vorz": true,
-      "wert": 78,
+      "wert": 56,
       "rot": true
      }
     ]
@@ -100,19 +100,19 @@ Object.assign(REELS, {
     "bis": 19.5,
     "zeilen": [
      {
-      "text": "<em>Nasdaq</em>"
+      "text": "<em>Japan</em>"
      },
      {
-      "text": "Nasdaq 100 fällt"
+      "text": "Japans Leitindex"
      },
      {
-      "text": "um 6,4 %, Chip-"
+      "text": "Nikkei fällt um"
      },
      {
-      "text": "und KI-Aktien"
+      "text": "6,0 %, KI-Aktien"
      },
      {
-      "text": "verlieren stark"
+      "text": "verlieren"
      }
     ],
     "groesse": 88
