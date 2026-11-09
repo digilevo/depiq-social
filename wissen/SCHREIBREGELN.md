@@ -57,6 +57,12 @@ Anlass: Die ersten Artikel lasen sich „sehr schlecht und KI-lastig ohne klare 
 - Buch und Testphase stehen in den Widgets, nicht im Text. Der Satz „14 Tage kostenlos“ steht nie im Artikeltext.
 - Passende Vorlage und passender Rechner werden verlinkt (siehe wissen/themen.md).
 
+## Academy-Hinweis (09.11.2026, Jürgen)
+Zu vielen Artikelthemen entstehen Erklärvideos in der depiq Academy. Jeder Artikel bekommt deshalb:
+- im Ordner `<kennung>/academy.yml` die Daten für das Academy-Widget rechts neben dem Artikel (Titel, Text, Knopf, Bild, Ziel-Adresse je Sprache), Bild `bilder/academy.png` (1200 × 675). Aufbau siehe `wissen/ACADEMY-WIDGET.md`.
+- im Text höchstens einen Satz zur Academy, am Ende vor dem depiq-Schluss. Solange die Academy nicht live ist: „Zu diesem Thema entsteht gerade ein Erklärvideo für die depiq Academy.“ ohne Link. Ist das Video online: Link auf das Video und Frontmatter `academy: true`.
+- Nie auf eine Academy-Adresse verlinken, die nicht live ist (vorher per WebFetch prüfen).
+
 ## Zahlen und Ehrlichkeit
 - Jede Rechnung nachgerechnet, gerundet, als Beispielrechnung gekennzeichnet. Quellen verlinkt.
 - „Keine Anlageberatung“ am Ende. Ich-Form für Jürgen nur mit Aussagen aus dem Buch, Du-Form für den Leser. Keine Abkürzungen.

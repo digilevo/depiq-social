@@ -11,6 +11,10 @@ Entwürfe: geplante Aufgabe sonntagabends bereitet die Artikel der Woche vor (ei
 CTA DE: Registrierung (14 Tage alle Funktionen kostenlos, ohne Kreditkarte, jederzeit kündbar) + E-Book
 CTA EN: englisches E-Book + Warteliste englische App (App noch nur DE)
 
+## Plan KW 47 (Jürgen, 09.11.2026)
+Reihenfolge für die Themenwelten im Wechsel: Mo 16.11. KGV (aktien) · Mi 18.11. Aktie oder ETF (etfs) · Fr 20.11. Dividenden (aktien).
+Welle 1 ist damit abgeschlossen; danach weiter mit Welle 2 ab Nr. 10. Grundsatz: nie drei Artikel derselben Themenwelt in einer Woche, bei Bedarf innerhalb der Welle umsortieren.
+
 ## Welle 1 (zuerst, je 1 Artikel alle 2–3 Tage)
 
 | Nr | Titel DE | Hauptsuchbegriff DE | Kapitel | EN |
@@ -28,7 +32,7 @@ CTA EN: englisches E-Book + Warteliste englische App (App noch nur DE)
 
 | Nr | Titel DE | Hauptsuchbegriff DE | Kapitel | EN |
 |---|---|---|---|---|
-| 9 | Aktie oder ETF: Was passt zu dir? | aktie oder etf | k09, k11 | ja |
+| 9 | Aktie oder ETF: Was passt zu dir? | aktie oder etf | k09, k11 (Themenwelt etfs) | ja |
 | 10 | Risiko und Streuung: Nicht alles auf eine Karte | diversifikation | k12 | ja |
 | 11 | Versteckte Kosten im Depot erkennen | depot kosten | k14 | ja |
 | 12 | Tagesgeld, Festgeld, Anleihen im Vergleich | tagesgeld festgeld | k10 | angepasst |
