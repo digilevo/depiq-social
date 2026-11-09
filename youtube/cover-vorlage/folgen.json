@@ -1,4 +1,7 @@
 [
- {"datei":"depiq-erklaert-01","farbe":"#6366f1","reihe":"DEPIQ ERKLÄRT · FOLGE 1","titel":"So funktioniert <em>depiq</em>","unter":"Dein Depot in <b>5 Minuten</b> einrichten","dauer":"Erklärvideo"},
- {"datei":"depiq-erklaert-02","farbe":"#2563eb","reihe":"DEPIQ ERKLÄRT · FOLGE 2","titel":"Aktie prüfen in <em>30 Sekunden</em>","unter":"Das Aktien-Cockpit mit <b>Ampeln</b>","dauer":"Erklärvideo"}
+ {"datei":"depiq-erklaert-01","farbe":"#6366f1","reihe":"DEPIQ ERKLÄRT · FOLGE 1","titel":"So funktioniert <em>depiq</em>","unter":"Der Rundgang in <b>5 Minuten</b>","dauer":"Erklärvideo"},
+ {"datei":"depiq-erklaert-02","farbe":"#16a34a","reihe":"DEPIQ ERKLÄRT · FOLGE 2","titel":"Dein erstes <em>Depot</em> anlegen","unter":"Positionen eintragen in <b>3 Minuten</b>","dauer":"Erklärvideo"},
+ {"datei":"depiq-erklaert-03","farbe":"#0d9488","reihe":"DEPIQ ERKLÄRT · FOLGE 3","titel":"Broker-Auszug <em>importieren</em>","unter":"Alle Käufe auf einmal, <b>ohne Abtippen</b>","dauer":"Erklärvideo"},
+ {"datei":"depiq-erklaert-04","farbe":"#2563eb","reihe":"DEPIQ ERKLÄRT · FOLGE 4","titel":"Aktie prüfen in <em>30 Sekunden</em>","unter":"Das neue <b>Aktien-Cockpit</b>","dauer":"Erklärvideo"},
+ {"datei":"depiq-erklaert-05","farbe":"#7c3aed","reihe":"DEPIQ ERKLÄRT · FOLGE 5","titel":"Frag <em>Deqo</em>","unter":"Dein <b>KI-Coach</b> fürs Depot","dauer":"Erklärvideo"}
 ]
