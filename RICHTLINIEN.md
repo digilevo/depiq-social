@@ -12,7 +12,7 @@ Stand: 01.11.2026 · E-Book-Seite: https://depiq.io/de/book/ · Grundlage: Socia
 > 3. **Gesicht: 2 selbst gesprochene Videos pro Woche** (Dienstag und Donnerstag, rund 30 Sekunden, Handy reicht, eingebrannte Untertitel). Thema: die Aktie des Tages aus „Aktie im Check“, in Jürgens Worten. Die Aufgabe „Aktie im Check“ legt dienstags und donnerstags einen Sprechtext in `selbst/` ab. Gesprochenes in Ich-Form, ohne Empfehlung, ohne Prognose.
 > 4. **Schwerpunkt TikTok und YouTube.** Instagram und Facebook laufen mit denselben Videos mit (eigener depiq-Sound), ohne eigene Arbeit.
 > 5. **Weniger, dafür stärker:** 1–2 Beiträge pro Tag und Kanal. Allgemeine Erklär-Reels höchstens 1 pro Woche und nur mit Aha-Zahl im Haken. Bereits geplante Beiträge bis 15.11. bleiben.
-> 6. **Messen:** neue Follower pro Woche je Kanal und Aufrufe pro Beitrag je Format. Wöchentliche Kurzauswertung montags (geplante Aufgabe „depiq Wochenauswertung“, Ablage `auswertung/`), große Auswertung und Entscheidung am 01.12.2026. Vorher nichts Grundlegendes ändern, damit der Test sauber bleibt.
+> 6. **Messen:** neue Follower pro Woche je Kanal und Aufrufe pro Beitrag je Format. Wöchentliche Kurzauswertung montags (geplante Aufgabe „depiq Wochenauswertung“, Ablage `auswertung/`), große Auswertung am Montag, 30.11.2026, Entscheidung bis 01.12.2026. Vorher nichts Grundlegendes ändern, damit der Test sauber bleibt.
 
 > **Beispielpersonen (05.11.2026, Jürgen):** In Posts, Reels, Artikeln und im Buch nur im deutschsprachigen Raum gebräuchliche Vornamen verwenden.
 
