@@ -4,6 +4,8 @@ Verbindliche Regeln für Inhalt, Aufbau und Design: siehe `../RICHTLINIEN.md`.
 
 Täglich an Börsentagen (Montag bis Freitag), vorbereitet von einer geplanten Aufgabe um 6:45 Uhr.
 
+**Ab 11.11.2026 (Test-Strategie, RICHTLINIEN.md oben):** nur noch Instagram-Story, Facebook-Beitrag und X. Kein TikTok-Video, kein YouTube-Short, kein Wochen-Reel bis zur Auswertung am 01.12.2026.
+
 **Feste Zeiten in Metricool (gelten immer, auch wenn ein Auftrag oder getBestTimeToPostByNetwork etwas anderes nennt):**
 Facebook 7:30 · TikTok 7:30 · Instagram-Story 7:30, 7:31, 7:32 · YouTube Short 8:00 · X 7:30 (Jürgen von Hand).
 Nie 10:00 und nie die „beste Zeit“ aus Metricool: Der Name „Frühstück“ verlangt den frühen Morgen.

@@ -5,6 +5,15 @@ Stand: 01.11.2026 · E-Book-Seite: https://depiq.io/de/book/ · Grundlage: Socia
 
 > **Ziel (05.11.2026, Jürgen): die ersten 1.000 Follower auf allen Kanälen.** Ausgangswerte 05.11.: TikTok 176 (davon rund 165 aus dem früheren Privatkonto), YouTube 1, Instagram, Facebook, Pinterest, X jeweils im niedrigen Bereich. Maßstab bei jeder Auswertung: neue Follower pro Woche und Aufrufe pro Beitrag je Kanal.
 
+> ⭐ **Test-Strategie 11.11.–01.12.2026 (Jürgen, 10.11.2026: „testen und auswerten, optimieren, testen und wieder auswerten, Schritt für Schritt“).** Grundlage: Auswertung Metricool 20.10.–10.11. Gilt vor allen anderen Regeln in dieser Datei, wo sie sich widersprechen.
+> - **Befund:** Auf TikTok bekommt fast jedes Video rund 250 Aufrufe (Testgruppe), keines geht weiter, weil kaum jemand reagiert (0–3 Likes, fast keine Kommentare und Shares). Stärkstes Format „Aktie im Check“ (TikTok 418–494, YouTube 304–892), dann Aha-Rechnungen („−50 % braucht +100 %“: YouTube 516, Instagram 134). Börsen-Frühstück auf YouTube von 234 auf 58 gefallen, auf TikTok nur Grundrauschen. YouTube stärkster Kanal (rund 3.600 Aufrufe 02.–07.11.), aber kaum Abonnenten. Instagram 9, Facebook 18 Follower.
+> 1. **„Aktie im Check“ jeden Werktag (Mo–Fr)** statt Mo/Mi/Fr. Hauptformat auf TikTok (Fotostrecke) und YouTube (Short); Instagram und Facebook bekommen es als Reel.
+> 2. **Börsen-Frühstück verkleinert:** nur noch Instagram-Story, Facebook-Beitrag und X. Kein TikTok-Video, kein YouTube-Short, kein Wochen-Reel „Die Woche in 15 Sekunden“ während des Tests.
+> 3. **Gesicht: 2 selbst gesprochene Videos pro Woche** (Dienstag und Donnerstag, rund 30 Sekunden, Handy reicht, eingebrannte Untertitel). Thema: die Aktie des Tages aus „Aktie im Check“, in Jürgens Worten. Die Aufgabe „Aktie im Check“ legt dienstags und donnerstags einen Sprechtext in `selbst/` ab. Gesprochenes in Ich-Form, ohne Empfehlung, ohne Prognose.
+> 4. **Schwerpunkt TikTok und YouTube.** Instagram und Facebook laufen mit denselben Videos mit (eigener depiq-Sound), ohne eigene Arbeit.
+> 5. **Weniger, dafür stärker:** 1–2 Beiträge pro Tag und Kanal. Allgemeine Erklär-Reels höchstens 1 pro Woche und nur mit Aha-Zahl im Haken. Bereits geplante Beiträge bis 15.11. bleiben.
+> 6. **Messen:** neue Follower pro Woche je Kanal und Aufrufe pro Beitrag je Format. Wöchentliche Kurzauswertung montags (geplante Aufgabe „depiq Wochenauswertung“, Ablage `auswertung/`), große Auswertung und Entscheidung am 01.12.2026. Vorher nichts Grundlegendes ändern, damit der Test sauber bleibt.
+
 > **Beispielpersonen (05.11.2026, Jürgen):** In Posts, Reels, Artikeln und im Buch nur im deutschsprachigen Raum gebräuchliche Vornamen verwenden.
 
 ## Grundregeln (gelten immer, ohne Ausnahme)
@@ -70,12 +79,14 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 ## 4. Serien und Wochenplan
 | Serie | Tag | Format | Kanäle |
 |---|---|---|---|
-| Börsen-Frühstück | Mo–Fr: alle Kanäle 7:30 (X, Instagram-Story, Facebook, TikTok), YouTube Short 8:00 | 3 Karten 1080 × 1350, Story 1080 × 1920 | X (Jürgen), Facebook, Instagram-Story, TikTok-Fotostrecke |
+| Börsen-Frühstück | Mo–Fr 7:30 (ab 11.11.2026 Test: nur X, Instagram-Story, Facebook) | 3 Karten 1080 × 1350, Story 1080 × 1920 | X (Jürgen), Facebook, Instagram-Story |
+| Aktie im Check | Mo–Fr 16:00 (ab 11.11.2026) | Karussell 5 Bilder + Short | TikTok-Fotostrecke, YouTube Short, Instagram- und Facebook-Reel, X (Jürgen) |
+| Selbst gesprochen | Di und Do (ab 11.11.2026) | Video rund 30 s mit Untertiteln | TikTok, YouTube, Instagram, Facebook |
 | Mythos-Check | Montag 18:00 | Reel | Instagram, Facebook, TikTok, X (Video) |
 | Depot-Check in 30 Sekunden | Dienstag 18:00 | Reel | Instagram, Facebook, TikTok, X |
 | Börsenwort einfach erklärt | Mittwoch 18:00 | Karussell 5 Bilder | Instagram, Facebook, TikTok-Fotostrecke, X (Bild 1 + Text) |
 | Zahl der Woche | Donnerstag 18:00 | Reel mit Balken | Instagram, Facebook, TikTok, X |
-| Die Woche in 15 Sekunden | Freitag 17:00 | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
+| Die Woche in 15 Sekunden | Freitag 17:00 (pausiert während des Tests 11.11.–01.12.2026) | Reel aus den 5 Börsen-Frühstücken | Instagram, Facebook, TikTok, X |
 
 ## 4j. Marktlage: bei starken Bewegungen darauf eingehen (Jürgen, 05.11.2026)
 Fällt oder steigt die Börse stark (Index ±2 % an einem Tag, Korrektur ab −10 %, Bärenmarkt ab −20 %), gehen die Beiträge darauf ein, nicht nur das Börsen-Frühstück. Aufbau in dieser Reihenfolge:
@@ -90,7 +101,7 @@ Verboten bleibt: Prognosen („es geht noch weiter runter“), „jetzt günstig
 Aktuelle Aktie, über die gerade geredet wird (Quartalszahlen, starker Kursrückgang). Themenwelt „Aktien & Börse“. Kanäle: X (Jürgen manuell, Bild 1–4), Instagram- und Facebook-Karussell, TikTok-Fotostrecke, YouTube Short aus den Karussellbildern (bilder-video.sh, 7 s je Bild, Musik ruhig), LinkedIn-Dokument bei passenden Themen. Nicht auf Pinterest (zeitgebunden, Einzelaktie).
 Aufbau: 1) Haken mit echter Zahl („minus X % in einem Jahr. Was ist da los?“) 2) Warum gefallen/gestiegen: 2–3 geprüfte Fakten mit Quelle 3) Kennzahlen einfach erklärt (Kurs-Gewinn-Verhältnis als „Du zahlst N Jahresgewinne“, Dividendenrendite) und warum niedrig günstig sein kann, aber nicht muss 4) eine Aha-Rechnung (z. B. −60 % braucht +150 %) 5) „So prüfst du das selbst“: 3 Fragen 6) öffentlich beantwortbare Frage (Einschätzung, nie die eigene Finanzlage).
 Verboten: Kauf-/Verkaufsempfehlung, Wertungen wie „günstig“, „Schnäppchen“, „du wirst fürs Warten bezahlt“, Kursziele, Prognosen. X erlaubt höchstens 4 Bilder: dort Bild 1–4, die Frage und die Offenlegung stehen im X-Text. Pflicht: „Keine Anlageberatung.“ und Offenlegung, ob Jürgen die Aktie hält („Offenlegung: Ich halte die Aktie (nicht).“). Zahlen aus zwei Quellen, Stand-Datum nennen.
-Fester Termin (05.11.2026, Jürgen): Die Serie ist das stärkste Format auf TikTok (229–493 Aufrufe) und YouTube (301–461), allgemeine Erklär-Reels ohne Anlass liegen bei 79–92. Deshalb Montag, Mittwoch, Freitag, je 1 Beitrag. Gibt es keine frischen Quartalszahlen, eine bekannte Aktie mit starker Bewegung oder großer Nachricht der letzten Tage. Jede Folge nennt den nächsten Termin: letzte Seite und Text „Folge @depiq.io – <Wochentag> kommt der nächste Check“, auf YouTube „Abonnieren für den nächsten Check am <Wochentag>“. Allgemeine Erklär-Reels ohne aktuellen Anlass werden ab der Woche vom 16.11. seltener (höchstens 1 pro Woche); bereits geplante bleiben.
+Fester Termin (05.11.2026, Jürgen): Die Serie ist das stärkste Format auf TikTok (229–493 Aufrufe) und YouTube (301–461), allgemeine Erklär-Reels ohne Anlass liegen bei 79–92. Deshalb Montag, Mittwoch, Freitag, je 1 Beitrag. **Ab 11.11.2026 (Test-Strategie): Montag bis Freitag, je 1 Beitrag**; Instagram und Facebook als Reel (Bilder-Video mit depiq-Sound) statt Karussell, TikTok bleibt Fotostrecke. Gibt es keine frischen Quartalszahlen, eine bekannte Aktie mit starker Bewegung oder großer Nachricht der letzten Tage. Jede Folge nennt den nächsten Termin: letzte Seite und Text „Folge @depiq.io – <Wochentag> kommt der nächste Check“, auf YouTube „Abonnieren für den nächsten Check am <Wochentag>“. Allgemeine Erklär-Reels ohne aktuellen Anlass werden ab der Woche vom 16.11. seltener (höchstens 1 pro Woche); bereits geplante bleiben.
 
 ## 4h. Lehren aus den ersten Zahlen (02.11.2026, von Jürgen freigegeben)
 - **Instagram: Reels vor Einzelbildern.** Reels erreichen bei neuen Konten auch Nicht-Follower (Reels 26–79 Aufrufe, Einzelbilder 8–10). Das Mittwochs-Karussell zusätzlich als Reel veröffentlichen (`bash vorlage/bilder-video.sh <ziel.mp4> keine 7 seite1.png …` für Instagram ohne Musik; die Fassung mit Musik nur für YouTube). Einzelbilder bleiben Ergänzung, nicht Hauptformat.
@@ -144,7 +155,8 @@ Die Botschaft muss stumm vollständig ankommen. Prüffrage vor jedem Reel: Verst
 
 ## 4a. YouTube Shorts
 - Jedes Reel (Mo, Di, Do, Fr) und das Mittwochs-Karussell (als Video) zusätzlich als YouTube Short, über Metricool (youtubeData type "short", madeForKids false, isAiGeneratedContent false).
-- **Häufigkeit (ab 02.11.2026): rund 10 Shorts pro Woche, kein Spam.** Mo–Fr 8:00 das Börsen-Frühstück als Short (die 3 Story-Karten, je 7 Sekunden, Musik heiter, Titel „Börse heute TT.MM.: Gewinner, Verlierer, News“), abends das Reel bzw. mittwochs das Karussell als Short (je Seite 7 Sekunden). Wochenende: kein Short.
+- **Ab 11.11.2026 (Test-Strategie):** kein Börsen-Frühstück-Short mehr; Mo–Fr „Aktie im Check“ als Short um 16:00, dazu Di/Do das selbst gesprochene Video.
+- **Häufigkeit (02.–10.11.2026): rund 10 Shorts pro Woche, kein Spam.** Mo–Fr 8:00 das Börsen-Frühstück als Short (die 3 Story-Karten, je 7 Sekunden, Musik heiter, Titel „Börse heute TT.MM.: Gewinner, Verlierer, News“), abends das Reel bzw. mittwochs das Karussell als Short (je Seite 7 Sekunden). Wochenende: kein Short.
 - Bilder zu Video: `bash vorlage/bilder-video.sh <ziel.mp4> <stimmung> <sekunden> bild1 bild2 …` (setzt Hochformat, Übergänge und Musik).
 - **Titel** (höchstens 70 Zeichen) = das Suchwort zuerst, dann „einfach erklärt“. Beispiel: „Thesaurierend oder ausschüttend? Einfach erklärt“.
 - **Wichtig:** Links in Short-Beschreibungen und Kommentaren sind bei YouTube seit 2023 nicht klickbar. Deshalb: Links stehen klickbar im Kanalprofil (oberster Link: E-Book-Seite). In Beschreibung und Kommentar steht die Adresse als Text und „Link im Kanal“.

@@ -13,7 +13,8 @@ Geplante Aufgabe „depiq Aktie im Check“ läuft Mo–Fr gegen 14:30 Uhr. Rege
 Pflicht in jedem Beitrag. Grundlage ist `offenlegung.md`. Steht die Firma nicht dort: „Offenlegung: Ich halte die Aktie nicht.“ und in der Nachricht an Jürgen deutlich „Offenlegung bitte prüfen“ schreiben.
 
 ## Veröffentlichung
-Instagram- und Facebook-Karussell, TikTok-Fotostrecke (ohne Musik), YouTube Short (Musik ruhig) um 16:00 Uhr als Entwurf in Metricool. Jürgen gibt frei und postet X selbst (Bild 1–4).
+Ab 11.11.2026 (Test-Strategie): Montag bis Freitag. TikTok-Fotostrecke (JPEG, ohne Musik), YouTube Short (Musik ruhig), Instagram- und Facebook-Reel (Bilder-Video mit depiq-Sound, `_Ton.mp4`) um 16:00 Uhr als Entwurf in Metricool. Jürgen gibt frei und postet X selbst (Bild 1–4).
+Dienstags und donnerstags zusätzlich ein Sprechtext für Jürgen in `selbst/JJJJ-MM-TT_sprechtext-<firma>.md` (rund 30 Sekunden, 70–80 Wörter, Ich-Form, Haken im ersten Satz, keine Empfehlung, keine Prognose, Offenlegung am Ende).
 
 ## Bereits behandelt
 | Datum | Firma | Anlass |
