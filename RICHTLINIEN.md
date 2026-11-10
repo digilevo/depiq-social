@@ -22,6 +22,14 @@ Stand: 01.11.2026 · E-Book-Seite: https://depiq.io/de/book/ · Grundlage: Socia
 > - **Erste geplante Tests (Jürgen, 10.11.2026: „mehr auf den Schmerz eingehen, mehr Geschichten erzählen, keine trockenen Zahlen“, „eventuell wirkt das Design nicht so anziehend“):** 1) Schmerz- bzw. Geschichten-Haken gegen Zahl-Haken bei „Aktie im Check“ (Geschichte mit Beispielperson, deutschsprachiger Vorname, klar als Beispiel erkennbar, Zahl erst danach als Auflösung). 2) Design-Variante: größere, kürzere Überschrift (höchstens 6 Wörter), weniger Text pro Bild, ein Gefühl im ersten Bild (Illustration oder Gesicht) statt Zahlentabelle.
 > - **Notbremse:** Schreibt Jürgen in irgendeiner Sitzung „Autopilot stoppen“, legt diese Sitzung die Datei `auswertung/autopilot-stopp.md` (Datum, Grund) an und pusht sie. Solange sie existiert, ändert der Autopilot nichts, und alle Aufgaben planen wieder als Entwurf (draft true). „Autopilot starten“ löscht die Datei.
 
+> 💜 **Markengefühl: „Bei depiq fühle ich mich zuhause. depiq fühlt mit mir und versteht mich.“ (Jürgen, 10.11.2026, gilt ab sofort für alle Beiträge)**
+> - **Erst das Gefühl, dann die Zahl.** Jeder Beitrag beginnt bei dem, was der Leser fühlt, nicht bei dem, was der Markt macht. Statt „Aktie −16 %“ zuerst: „Kennst du das Gefühl, wenn deine Aktie plötzlich fällt?“ Die Zahl kommt danach als Auflösung.
+> - **Leute aktiv einbeziehen:** in jedem Beitrag mindestens eine Frage zum Gefühl oder zur Einschätzung, leicht zu beantworten („Kennst du das? JA oder NEIN 👇“, „Was war dein erster Gedanke: halten oder raus? 👇“, „Welches Emoji passt zu deinem Depot heute? 📉😬😌“). Fragen nach Gefühlen und Einschätzungen sind erlaubt; Fragen nach Geldbeträgen, Schulden oder Vermögen bleiben verboten (§4h).
+> - **Wiedererkennen:** typische Momente aus dem Alltag beschreiben, in denen sich der Leser sieht (nachts aufs Depot schauen, der Daumen über „Verkaufen“, der Kollege, der mit seiner Aktie angibt, das schlechte Gewissen, noch nicht angefangen zu haben). Beispielpersonen mit deutschsprachigen Vornamen, klar als Beispiel.
+> - **Verstanden statt belehrt:** Ton wie ein ruhiger Freund, der das selbst kennt: „Das ist völlig normal.“, „Dem Kopf geht es da allen gleich.“ Nie von oben herab, nie Angst machen, nie über Fehler lustig machen. Jürgen darf in Ich-Form sagen, dass er Gefühle wie Unruhe bei fallenden Kursen kennt (allgemein, ohne erfundene Einzelerlebnisse, ohne Beträge).
+> - **depiq als Zuhause:** depiq am Ende als Ort, an dem man Ruhe und Überblick findet, nicht als Werkzeug: „Bei depiq siehst du dein Depot in Ruhe, ohne Panik.“ Weiter ohne Funktionslisten (§ Emotion vor Erklärung).
+> - **Antworten auf Kommentare** sind Teil davon: jede Reaktion ist willkommen, freundlich und persönlich beantworten.
+
 > **Beispielpersonen (05.11.2026, Jürgen):** In Posts, Reels, Artikeln und im Buch nur im deutschsprachigen Raum gebräuchliche Vornamen verwenden.
 
 ## Grundregeln (gelten immer, ohne Ausnahme)
