@@ -1,7 +1,7 @@
 // automatisch erzeugt von boersen-tiktok.js
 Object.assign(REELS, {
- "2026-11-09_Boerse_TikTok": {
-  "dauer": 23.5,
+ "2026-11-10_Boerse_TikTok": {
+  "dauer": 12.5,
   "szenen": [
    {
     "von": 0,
@@ -11,115 +11,36 @@ Object.assign(REELS, {
       "text": "☕ Börse heute"
      },
      {
-      "text": "<em>09.11.</em>"
+      "text": "<em>10.11.</em>"
      }
     ],
     "groesse": 112
    },
    {
     "von": 3.5,
-    "bis": 9,
+    "bis": 8.5,
     "zeilen": [
      {
-      "text": "Top 3 Gewinner 🚀"
-     }
-    ],
-    "groesse": 92,
-    "balken": [
-     {
-      "name": "🇺🇸 Coherent",
-      "betrag": 13.58,
-      "einheit": "%",
-      "nk": 1,
-      "vorz": true,
-      "wert": 100,
-      "rot": false
+      "text": "<em>USA</em>"
      },
      {
-      "name": "🇺🇸 Airbnb",
-      "betrag": 11.67,
-      "einheit": "%",
-      "nk": 1,
-      "vorz": true,
-      "wert": 86,
-      "rot": false
+      "text": "US-Index S&P 500"
      },
      {
-      "name": "🇺🇸 AMD",
-      "betrag": 11.04,
-      "einheit": "%",
-      "nk": 1,
-      "vorz": true,
-      "wert": 81,
-      "rot": false
-     }
-    ]
-   },
-   {
-    "von": 9,
-    "bis": 14.5,
-    "zeilen": [
-     {
-      "text": "Top 3 Verlierer 📉",
-      "rot": true
-     }
-    ],
-    "groesse": 92,
-    "balken": [
-     {
-      "name": "🇯🇵 Japan Tobacco",
-      "betrag": -19.31,
-      "einheit": "%",
-      "nk": 1,
-      "vorz": true,
-      "wert": 100,
-      "rot": true
+      "text": "steigt um 2,3 %,"
      },
      {
-      "name": "🇺🇸 Axon",
-      "betrag": -18.18,
-      "einheit": "%",
-      "nk": 1,
-      "vorz": true,
-      "wert": 94,
-      "rot": true
+      "text": "der Ölpreis Brent"
      },
      {
-      "name": "🇯🇵 SoftBank",
-      "betrag": -10.83,
-      "einheit": "%",
-      "nk": 1,
-      "vorz": true,
-      "wert": 56,
-      "rot": true
-     }
-    ]
-   },
-   {
-    "von": 14.5,
-    "bis": 19.5,
-    "zeilen": [
-     {
-      "text": "<em>Japan</em>"
-     },
-     {
-      "text": "Japans Leitindex"
-     },
-     {
-      "text": "Nikkei fällt um"
-     },
-     {
-      "text": "6,0 %, KI-Aktien"
-     },
-     {
-      "text": "verlieren"
+      "text": "fällt um über 5 %"
      }
     ],
     "groesse": 88
    },
    {
-    "von": 19.5,
-    "bis": 23.5,
+    "von": 8.5,
+    "bis": 12.5,
     "zeilen": [
      {
       "text": "Jeden Morgen"
