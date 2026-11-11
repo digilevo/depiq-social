@@ -45,14 +45,37 @@ p b{color:#fff;font-weight:800}
 .marken{display:flex;gap:18px;flex-wrap:wrap}.marken span{font-size:40px;font-weight:800;padding:14px 26px;border-radius:999px;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.18)}
 .zahl{display:flex;align-items:center;gap:26px;padding:26px 32px;border-radius:28px;background:rgba(20,184,166,.14);border:2px solid rgba(94,234,212,.45)}.zahl b{font-family:'JB';font-size:76px;color:#5eead4;white-space:nowrap}.zahl span{font-size:40px;font-weight:700;line-height:1.2}
 .cta{display:flex;flex-direction:column;gap:10px;padding:26px 32px;border-radius:28px;background:#fff;color:#16134a}.cta strong{font-size:44px;font-weight:800}.cta span{font-size:38px;font-weight:700;color:#4f46e5}
+/* Design-Variante „hell“ (Test ab 16.11.2026, Jürgen 11.11.: „Pinterest liest sich besser“). Aktiv mit "design":"hell" im JSON. Grundvorlage bleibt dunkel. */
+html.hell body{color:#1c1f3a;background:#fbf7f1}
+html.hell .bg{background:radial-gradient(ellipse 80% 35% at 0% 0%,rgba(196,181,253,.45),transparent 70%),radial-gradient(ellipse 70% 30% at 100% 100%,rgba(94,234,212,.35),transparent 70%),#fbf7f1}
+html.hell .serie{color:#0f766e}
+html.hell .pille svg{stroke:var(--tf)}
+html.hell .pille{color:var(--tf);background:color-mix(in srgb,var(--tf) 12%,#fff)}
+html.hell h1 em,html.hell h2 em{background:none;-webkit-background-clip:initial;color:#4f46e5}
+html.hell p{color:#33385c} html.hell p b{color:#1c1f3a}
+html.hell .unter{color:#4a4f72}
+html.hell .box{background:#fff;border-color:rgba(28,31,58,.08);box-shadow:0 14px 40px rgba(28,31,58,.08)}
+html.hell .box.a{border-color:rgba(13,148,136,.45)} html.hell .box.a h3{color:#0f766e}
+html.hell .box.b{border-color:rgba(79,70,229,.4)} html.hell .box.b h3{color:#4f46e5}
+html.hell .hinweis{background:linear-gradient(135deg,#4f46e5,#0f766e);border-color:transparent}
+html.hell .hinweis p{color:#fff}
+html.hell .bz .s{background:#e7e9f3}
+html.hell .fuss{color:#4a4f72} html.hell .weiter{color:#1c1f3a}
+html.hell .marken span{background:#fff;border-color:rgba(28,31,58,.12)}
+html.hell .zahl{background:#e6f7f4;border-color:rgba(13,148,136,.45)} html.hell .zahl b{color:#0f766e}
+html.hell .cta{background:#1c1f3a;color:#fff} html.hell .cta span{color:#5eead4}
+html.hell [style*="color:#c7cbf2"],html.hell [style*="color: #c7cbf2"],html.hell [style*="color:#a9aed6"]{color:#4a4f72!important}
+html.hell [style*="color:#fff"]{color:#1c1f3a!important}
+html.hell [style*="color:#5eead4"],html.hell [style*="color:#7ee7d8"]{color:#0f766e!important}
 </style></head><body><div class="bg"></div>
-<div class="akzent" id="akzent"></div><div class="seite"><div class="kopf"><div class="links"><span class="pille" id="pille"></span><span class="serie" id="serie"></span></div><img src="logo-dark.svg" alt="depiq"></div>
+<div class="akzent" id="akzent"></div><div class="seite"><div class="kopf"><div class="links"><span class="pille" id="pille"></span><span class="serie" id="serie"></span></div><img id="logo" src="logo-dark.svg" alt="depiq"></div>
 <div class="inhalt" id="inhalt"></div>
 <div class="fuss"><span id="links">Keine Anlageberatung</span><span id="rechts"></span></div></div>
 <script>
 const N = +(new URLSearchParams(location.search).get('seite') || 1);
 window.zeichne = d => {
   const s = d.seiten[N - 1];
+  if (d.design === 'hell') { document.documentElement.classList.add('hell'); document.getElementById('logo').src = 'logo-light.svg'; }
   document.getElementById('serie').textContent = d.serie;
   if (d.thema) { // Themenwelt (RICHTLINIEN §7): {name, farbe, symbol(svg-Pfad)}
     document.documentElement.style.setProperty('--tf', d.thema.farbe);

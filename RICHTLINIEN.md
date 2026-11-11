@@ -83,7 +83,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 
 ## 3. Design
 1. **Vorlagen benutzen, nie neu bauen:** Börsen-Frühstück `vorlage/boersen.html`, Karussell `vorlage/karussell.html`, Emotions-Bild `vorlage/szene.html` (+ `render-szene.js`), Reel `vorlage/reels.js` + `vorlage/render-reel.js`.
-2. **Farben:** Hintergrund Dunkelblau mit Verlauf (#0a0d2c → #16134a), Akzente Lila #c4b5fd und Türkis #7ee7d8/#5eead4, Plus grün #5eead4, Minus rot #fda4af. Einzige helle Fläche ist der E-Book-Kasten.
+2. **Farben:** (Test 16.11.–27.11.2026: helle Variante für „Aktie im Check“ im Wechsel, siehe `auswertung/protokoll.md`; danach Entscheidung) Hintergrund Dunkelblau mit Verlauf (#0a0d2c → #16134a), Akzente Lila #c4b5fd und Türkis #7ee7d8/#5eead4, Plus grün #5eead4, Minus rot #fda4af. Einzige helle Fläche ist der E-Book-Kasten.
 3. **Lesbarkeit am Handy:** Bild 1080 px breit erscheint etwa 390 px breit. Kleinste Schrift 34 px (Fußzeile), Fließtext ab 40 px, Werte ab 44 px, Titel ab 64 px. Kontrast mindestens 7 : 1.
 4. **depiq-Logo** auf jedem Bild gut sichtbar, oben rechts.
 5. **Keine großen Leerflächen**, keine überlaufenden Texte. Die Render-Skripte melden „ÜBERLAUF“; dann Text kürzen.
