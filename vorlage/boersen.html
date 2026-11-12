@@ -80,7 +80,9 @@ window.zeichne = d => {
   const nbsp = t => t.replace(/ (%|\$|€|Uhr)/g, ' $1');
   document.getElementById('datum').textContent = d.datum;
   document.getElementById('stand').textContent = d.stand || '';
-  document.getElementById('nr').textContent = KARTE + '/3';
+  // Ohne Gewinner/Verlierer entfällt Karte 2: dann 1/2 und 2/2
+  const ohne2 = !(d.gewinner && d.gewinner.length) && !(d.verlierer && d.verlierer.length);
+  document.getElementById('nr').textContent = ohne2 ? (KARTE === 1 ? '1/2' : '2/2') : KARTE + '/3';
   const inh = document.getElementById('inhalt'), titel = document.getElementById('titel');
   if (KARTE === 1) {
     titel.textContent = '📊 Die Märkte';
