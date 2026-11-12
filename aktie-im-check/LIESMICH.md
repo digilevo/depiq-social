@@ -28,6 +28,7 @@ Welche Variante an welchem Tag dran ist, steht in `auswertung/protokoll.md`. Hel
 | 06.11.2026 | Daimler Truck | Zahlen 3. Quartal 2026, Bestellungen unter Erwartung |
 | 09.11.2026 | UniCredit | Zahlen 3. Quartal 2026, Plan zur Commerzbank-Kontrolle |
 | 11.11.2026 | Siemens Energy | Zahlen Geschäftsjahr 2025/26, Rekordjahr, Aktie +9 % (kein Haken-Test aktiv, Standard-Vorlage) |
+| 12.11.2026 | Siemens | Zahlen Geschäftsjahr 2025/26, Rekordaufträge 108 Mrd. €, Aktie rund +4 % nahe Rekordhoch (dunkel, kein Haken-Test aktiv, Sprechtext Do) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
