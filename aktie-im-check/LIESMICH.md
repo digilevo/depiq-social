@@ -29,6 +29,7 @@ Welche Variante an welchem Tag dran ist, steht in `auswertung/protokoll.md`. Hel
 | 09.11.2026 | UniCredit | Zahlen 3. Quartal 2026, Plan zur Commerzbank-Kontrolle |
 | 11.11.2026 | Siemens Energy | Zahlen Geschäftsjahr 2025/26, Rekordjahr, Aktie +9 % (kein Haken-Test aktiv, Standard-Vorlage) |
 | 12.11.2026 | Siemens | Zahlen Geschäftsjahr 2025/26, Rekordaufträge 108 Mrd. €, Aktie rund +4 % nahe Rekordhoch (dunkel, kein Haken-Test aktiv, Sprechtext Do) |
+| 13.11.2026 | Richemont | Halbjahreszahlen 2026/27, Gewinn +39 %, Aktie zeitweise rund −7 %, am Nachmittag rund −4,5 % (dunkel, kein Haken-Test aktiv) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
