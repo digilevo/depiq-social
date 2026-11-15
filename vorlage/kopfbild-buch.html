@@ -21,6 +21,15 @@ p{white-space:nowrap;font-size:calc(var(--H)*.062);color:#4a4f72;font-weight:500
 .buch{flex:none;height:calc(var(--H)*.96);margin-left:calc(var(--H)*.12);filter:drop-shadow(0 calc(var(--H)*.05) calc(var(--H)*.07) rgba(28,31,90,.35))}
 .kurz p{display:none}
 p b{color:#0f9f8f;font-weight:800}
+/* Aufbau X: Profilbild liegt links unten (Kreis bis etwa x 400, ab y 310). Logo und Überschrift nutzen die Fläche links oben,
+   Untertitel und Knopf stehen rechts neben dem Profilbild. */
+.lay-x .sicher{display:block}
+.lay-x .txt{position:absolute;inset:0;display:block}
+.lay-x .txt img{position:absolute;left:0;top:0;height:78px;margin:0}
+.lay-x h1{position:absolute;left:0;top:105px;font-size:76px;width:900px}
+.lay-x p{position:absolute;left:350px;top:300px;font-size:30px;margin:0}
+.lay-x .pill{position:absolute;left:350px;top:352px;margin:0;font-size:30px}
+.lay-x .buch{position:absolute;right:0;top:-10px;height:450px;margin:0}
 </style></head><body><div class="bg"></div>
 <div class="sicher" id="s"><div class="txt"><img src="logo-light.svg" alt="depiq">
 <h1>Finanzielle Freiheit ist <em>kein Zufall.</em></h1>
@@ -30,5 +39,5 @@ p b{color:#0f9f8f;font-weight:800}
 <script>
 window.zeichne=k=>{document.body.style.width=k.w+'px';document.body.style.height=k.h+'px';
 const s=document.getElementById('s');Object.assign(s.style,{left:k.s[0]+'px',top:k.s[1]+'px',width:k.s[2]+'px',height:k.s[3]+'px'});
-s.style.setProperty('--H',k.s[3]+'px');if(k.fs)s.style.setProperty('--fs',k.fs);if(k.kurz)document.body.classList.add('kurz');};
+s.style.setProperty('--H',k.s[3]+'px');if(k.fs)s.style.setProperty('--fs',k.fs);if(k.kurz)document.body.classList.add('kurz');if(k.lay)document.body.classList.add('lay-'+k.lay);};
 </script></body></html>
