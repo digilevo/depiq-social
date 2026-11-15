@@ -40,6 +40,19 @@ p b{color:#0f9f8f;font-weight:800}
 .deko-seiten .seiten{display:block;position:absolute;left:0;top:0;width:470px;height:500px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,#000 45%,transparent 92%);mask-image:linear-gradient(90deg,#000 45%,transparent 92%)}
 .seiten img{position:absolute;width:210px;border-radius:8px;box-shadow:0 10px 24px rgba(28,31,90,.22);opacity:.9}
 .seiten img{opacity:.75}
+/* Aufbau „frei“ (Facebook, LinkedIn, YouTube, Pinterest): gleicher Stil wie X, Positionen je Kanal aus render-kopfbild-buch.js.
+   k.t = Textfeld [x, y, H], k.b = Buch [x, y, Höhe], k.d = Buchseiten [x, y, Höhe] (optional). Schriftgrößen relativ zu H wie bei X. */
+.lay-frei .sicher{display:block;left:0!important;top:0!important;width:100%!important;height:100%!important}
+.lay-frei .txt{position:absolute;display:flex;flex-direction:column;align-items:flex-start;left:var(--tx);top:var(--ty)}
+.lay-frei .txt img{height:calc(var(--H)*.175);margin:0}
+.lay-frei h1{font-size:calc(var(--H)*.175);margin-top:calc(var(--H)*.06);white-space:nowrap}
+.lay-frei h1 br{display:block}
+.lay-frei p{font-size:calc(var(--H)*.08);margin-top:calc(var(--H)*.07)}
+.lay-frei .pill{font-size:calc(var(--H)*.082);margin-top:calc(var(--H)*.06)}
+.lay-frei .buch{position:absolute;left:var(--bx);top:var(--by);height:var(--bh);margin:0}
+.lay-frei.deko-seiten .seiten{left:var(--dx);top:var(--dy);width:470px;height:500px;transform-origin:0 0;transform:scale(var(--ds))}
+br.umbruch{display:none}
+.lay-frei br.umbruch{display:block}
 </style></head><body><div class="bg"></div>
 <svg class="deko" viewBox="0 0 1500 500" aria-hidden="true"><defs><linearGradient id="kv" x1="0" x2="1"><stop offset="0" stop-color="#6366f1" stop-opacity=".15"/><stop offset="1" stop-color="#14b8a6" stop-opacity=".55"/></linearGradient>
 <linearGradient id="kf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#14b8a6" stop-opacity=".16"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></linearGradient></defs>
@@ -48,12 +61,14 @@ p b{color:#0f9f8f;font-weight:800}
 <g fill="#6366f1" opacity=".16"><rect x="60" y="230" width="40" height="70" rx="10"/><rect x="130" y="200" width="40" height="100" rx="10"/><rect x="200" y="160" width="40" height="140" rx="10"/><rect x="270" y="110" width="40" height="190" rx="10"/></g></svg>
 <div class="seiten"><img src="../buch/umschlag/seite-007.png" style="left:-30px;top:40px;transform:rotate(-8deg)"><img src="../buch/umschlag/seite-113.png" style="left:110px;top:10px;transform:rotate(4deg)"><img src="../buch/umschlag/seite-434.png" style="left:230px;top:70px;transform:rotate(-3deg)"></div>
 <div class="sicher" id="s"><div class="txt"><img src="logo-light.svg" alt="depiq">
-<h1>Finanzielle Freiheit ist <em>kein Zufall.</em></h1>
+<h1>Finanzielle Freiheit ist<br class="umbruch"> <em>kein Zufall.</em></h1>
 <p>Mein Buch · 586 Seiten · <b>als E-Book kostenlos</b></p>
 <span class="pill">📘 depiq.io/de/book</span></div>
 <img class="buch" src="../buch/umschlag/buch-3d-ebook-zugeschnitten.png" alt=""></div>
 <script>
 window.zeichne=k=>{document.body.style.width=k.w+'px';document.body.style.height=k.h+'px';
 const s=document.getElementById('s');Object.assign(s.style,{left:k.s[0]+'px',top:k.s[1]+'px',width:k.s[2]+'px',height:k.s[3]+'px'});
-s.style.setProperty('--H',k.s[3]+'px');if(k.fs)s.style.setProperty('--fs',k.fs);if(k.kurz)document.body.classList.add('kurz');if(k.lay)document.body.classList.add('lay-'+k.lay);if(k.deko)document.body.classList.add('deko-'+k.deko);};
+s.style.setProperty('--H',k.s[3]+'px');if(k.fs)s.style.setProperty('--fs',k.fs);if(k.kurz)document.body.classList.add('kurz');if(k.lay)document.body.classList.add('lay-'+k.lay);if(k.deko)document.body.classList.add('deko-'+k.deko);if(k.lay==='frei'){const r=document.documentElement.style;r.setProperty('--tx',k.t[0]+'px');r.setProperty('--ty',k.t[1]+'px');s.style.setProperty('--H',k.t[2]+'px');
+r.setProperty('--bx',k.b[0]+'px');r.setProperty('--by',k.b[1]+'px');r.setProperty('--bh',k.b[2]+'px');
+if(k.d){r.setProperty('--dx',k.d[0]+'px');r.setProperty('--dy',k.d[1]+'px');r.setProperty('--ds',k.d[2]/500);}}};
 </script></body></html>
