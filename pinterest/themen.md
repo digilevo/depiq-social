@@ -15,3 +15,10 @@
 | 13.11.2026 20:00 | Erster ETF-Sparplan in 4 Schritten → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=etf-sparplan | ETF für Anfänger |
 | 14.11.2026 20:00 | 4-Prozent-Regel: 150.000 € für 500 €/Monat → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=4-prozent-regel | Altersvorsorge & finanzielle Freiheit |
 | 15.11.2026 20:00 | 5 € am Tag: 1.825 € im Jahr → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=5-euro-am-tag | Geld sparen & Notgroschen |
+| 16.11.2026 20:00 | Rentenlücke in 3 Schritten (Beispiel 620 €/Monat) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=rentenluecke | Altersvorsorge & finanzielle Freiheit |
+| 17.11.2026 20:00 | Verlustangst: Verluste tun rund doppelt so weh → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=verlustangst | Börsenpsychologie: Denkfehler beim Investieren |
+| 18.11.2026 20:00 | Zuerst sparen, dann ausgeben (Dauerauftrag, 1.200 €/Jahr) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=zuerst-sparen | Geld sparen & Notgroschen |
+| 19.11.2026 20:00 | Was ist ein ETF? Korb mit über 1.000 Firmen → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=was-ist-ein-etf | ETF für Anfänger |
+| 20.11.2026 20:00 | 72er-Regel: Verdopplung in ≈ 12 Jahren bei 6 % → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=72er-regel | Zinseszins & Vermögensaufbau |
+| 21.11.2026 20:00 | Spartöpfe: 3 Töpfe statt einem Konto (100 € für 1.200 € Urlaub) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=spartoepfe | Geld sparen & Notgroschen |
+| 22.11.2026 20:00 | Sparrate jährlich +3 %: ≈ 90.800 € statt ≈ 68.000 € (25 Jahre) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=sparplan-dynamik | Zinseszins & Vermögensaufbau |
