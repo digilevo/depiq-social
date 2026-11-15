@@ -4,7 +4,7 @@
 // Meldet „ÜBERLAUF“ (Exit-Code 2), wenn Text oder Buch über den sicheren Bereich hinausragen.
 const { chromium } = require('playwright'); const path = require('path'); const fs = require('fs');
 const KANAELE = [
-  { name: 'X', w: 1500, h: 500, s: [80, 40, 1340, 420], lay: 'x' }, // eigener Aufbau: Profilbild links unten (Kreis bis etwa x 400, ab y 310)
+  { name: 'X', w: 1500, h: 500, s: [0, 0, 1500, 500], lay: 'x' }, // eigener Aufbau für Desktop und Handy, Maße in kopfbild-buch.html
   { name: 'Facebook', w: 1640, h: 624, s: [420, 70, 1060, 470] },                // mobil werden die Seiten beschnitten
   { name: 'LinkedIn', w: 1128, h: 191, s: [270, 18, 820, 155], kurz: true, fs: .2 }, // Logo der Seite links unten
   { name: 'YouTube', w: 2560, h: 1440, s: [507, 509, 1546, 423] },               // sicherer Bereich auf allen Geräten

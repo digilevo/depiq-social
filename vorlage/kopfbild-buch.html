@@ -21,16 +21,27 @@ p{white-space:nowrap;font-size:calc(var(--H)*.062);color:#4a4f72;font-weight:500
 .buch{flex:none;height:calc(var(--H)*.96);margin-left:calc(var(--H)*.12);filter:drop-shadow(0 calc(var(--H)*.05) calc(var(--H)*.07) rgba(28,31,90,.35))}
 .kurz p{display:none}
 p b{color:#0f9f8f;font-weight:800}
-/* Aufbau X: Profilbild liegt links unten (Kreis bis etwa x 400, ab y 310). Logo und Überschrift nutzen die Fläche links oben,
-   Untertitel und Knopf stehen rechts neben dem Profilbild. */
+/* Aufbau X (16.11.2026, an echten Ausschnitten gemessen):
+   Desktop: Profilbild links unten (Kreis bis etwa x 400, ab y 310).
+   Handy: X schneidet links und rechts je etwa 125 px ab, oben liegt die Statusleiste (bis y 120),
+   dazu Zurück-Knopf (x 170–290, y 195–310) und Suche (x 1205–1330, y 195–310).
+   Daher: Inhalt nur im Feld x 430–1195, y 125–490. Links füllt eine Zinseszins-Kurve als Schmuck die Fläche;
+   sie darf abgeschnitten oder verdeckt werden. */
 .lay-x .sicher{display:block}
 .lay-x .txt{position:absolute;inset:0;display:block}
-.lay-x .txt img{position:absolute;left:0;top:0;height:78px;margin:0}
-.lay-x h1{position:absolute;left:0;top:105px;font-size:76px;width:900px}
-.lay-x p{position:absolute;left:350px;top:300px;font-size:30px;margin:0}
-.lay-x .pill{position:absolute;left:350px;top:352px;margin:0;font-size:30px}
-.lay-x .buch{position:absolute;right:0;top:-10px;height:450px;margin:0}
+.lay-x .txt img{position:absolute;left:430px;top:128px;height:56px;margin:0}
+.lay-x h1{position:absolute;left:430px;top:200px;font-size:50px;width:500px}
+.lay-x p{position:absolute;left:430px;top:340px;font-size:23px;margin:0}
+.lay-x .pill{position:absolute;left:430px;top:388px;margin:0;font-size:25px}
+.lay-x .buch{position:absolute;left:930px;top:122px;height:372px;margin:0}
+.deko{display:none}
+.lay-x .deko{display:block;position:absolute;left:0;top:0;width:1500px;height:500px}
 </style></head><body><div class="bg"></div>
+<svg class="deko" viewBox="0 0 1500 500" aria-hidden="true"><defs><linearGradient id="kv" x1="0" x2="1"><stop offset="0" stop-color="#6366f1" stop-opacity=".15"/><stop offset="1" stop-color="#14b8a6" stop-opacity=".55"/></linearGradient>
+<linearGradient id="kf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#14b8a6" stop-opacity=".16"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></linearGradient></defs>
+<path d="M-20 300 C 120 295, 260 270, 360 215 S 395 110, 390 60 L 390 500 L -20 500 Z" fill="url(#kf)"/>
+<path d="M-20 300 C 120 295, 260 270, 360 215 S 395 110, 390 60" fill="none" stroke="url(#kv)" stroke-width="10" stroke-linecap="round"/>
+<g fill="#6366f1" opacity=".16"><rect x="60" y="230" width="40" height="70" rx="10"/><rect x="130" y="200" width="40" height="100" rx="10"/><rect x="200" y="160" width="40" height="140" rx="10"/><rect x="270" y="110" width="40" height="190" rx="10"/></g></svg>
 <div class="sicher" id="s"><div class="txt"><img src="logo-light.svg" alt="depiq">
 <h1>Finanzielle Freiheit ist <em>kein Zufall.</em></h1>
 <p>Mein Buch · 586 Seiten · <b>als E-Book kostenlos</b></p>
