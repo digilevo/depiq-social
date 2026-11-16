@@ -21,6 +21,8 @@ Gilt, wenn am letzten Handelstag DAX, S&P 500 oder Nasdaq 100 um 2 % oder mehr g
 6. **Wochen-Reel (freitags):** Die Bewegung ist Kandidat für die wichtigste News der Woche.
 Nur Schlusskurse, nie Zwischenstände aus dem laufenden Handel.
 
+**Design hell (ab 16.11.2026, Jürgen):** In der Tages-JSON `"design": "hell"` setzen. Die Grundvorlage `vorlage/boersen.html` bleibt dunkel, die helle Fassung ist eine Variante.
+
 ## Aufbau: 3 Karten, gut lesbar am Handy
 
 | Karte | Inhalt |

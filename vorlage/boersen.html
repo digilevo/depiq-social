@@ -63,9 +63,25 @@ body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
 .fuer h3{font-size:38px;color:#e0e7ff;margin-bottom:6px}
 .fuer p{font-size:42px;font-weight:700;line-height:1.2}
 .heute{font-size:40px;font-weight:700}.heute span{color:#7ee7d8}
+/* Design-Variante „hell“ (16.11.2026, Jürgen: Börsen-Frühstück auch hell). Aktiv mit "design":"hell" im JSON. Grundvorlage bleibt dunkel. Farben wie karussell.html hell. */
+html.hell body{color:#1c1f3a;background:#fbf7f1}
+html.hell .bg{background:radial-gradient(ellipse 80% 35% at 0% 0%,rgba(196,181,253,.45),transparent 70%),radial-gradient(ellipse 70% 30% at 100% 100%,rgba(94,234,212,.35),transparent 70%),#fbf7f1}
+html.hell .kopf h1 span{background:none;-webkit-background-clip:initial;color:#4f46e5}
+html.hell .kopf .d,html.hell .titel small,html.hell .fuss{color:#4a4f72}
+html.hell .titel{border-bottom-color:rgba(28,31,58,.14)}
+html.hell .plus{color:#0f766e} html.hell .minus{color:#be123c} html.hell .null{color:#4a4f72}
+html.hell .wert,html.hell .nw{background:#fff;border-color:rgba(28,31,58,.08);box-shadow:0 10px 30px rgba(28,31,58,.07)}
+html.hell .gv h2.g{color:#0f766e} html.hell .gv h2.v{color:#be123c}
+html.hell .zeile{background:#fff;box-shadow:0 6px 18px rgba(28,31,58,.06)}
+html.hell .g .zeile i{background:linear-gradient(90deg,#5eead4,rgba(94,234,212,.2));opacity:.55}
+html.hell .v .zeile i{background:linear-gradient(90deg,#fda4af,rgba(253,164,175,.2));opacity:.6}
+html.hell .nw .w{color:#fff}
+html.hell .fuer{background:linear-gradient(135deg,#4f46e5,#0f766e);border-color:transparent;color:#fff}
+html.hell .fuer h3{color:#e0e7ff}
+html.hell .heute span{color:#0f766e}
 </style></head><body><div class="bg"></div>
 <div class="seite">
-  <div class="kopf"><div><h1>☕ Börsen-<span>Frühstück</span></h1><div class="d" id="datum"></div></div><img src="logo-dark.svg" alt="depiq"></div>
+  <div class="kopf"><div><h1>☕ Börsen-<span>Frühstück</span></h1><div class="d" id="datum"></div></div><img id="logo" src="logo-dark.svg" alt="depiq"></div>
   <div class="titel"><span id="titel"></span><small id="nr"></small></div>
   <div class="inhalt" id="inhalt"></div>
   <div class="fuss"><span id="stand"></span><span>Keine Anlageberatung</span></div>
@@ -74,6 +90,7 @@ body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
 const q = new URLSearchParams(location.search), KARTE = +(q.get('karte') || 1);
 if (q.get('format') === 'story') document.documentElement.classList.add('story');
 window.zeichne = d => {
+  if (d.design === 'hell') { document.documentElement.classList.add('hell'); document.getElementById('logo').src = 'logo-light.svg'; }
   const f = n => (n > 0 ? '+' : n < 0 ? '−' : '±') + Math.abs(n).toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + ' %';
   const k = n => n > 0.05 ? 'plus' : n < -0.05 ? 'minus' : 'null';
   const pf = n => ({ plus: '▲', minus: '▼', null: '■' })[k(n)];
