@@ -16,8 +16,8 @@ Pflicht in jedem Beitrag. Grundlage ist `offenlegung.md`. Steht die Firma nicht 
 Ab 11.11.2026 (Test-Strategie): Montag bis Freitag. TikTok-Fotostrecke (JPEG, ohne Musik), YouTube Short (Musik ruhig), Instagram- und Facebook-Reel (Bilder-Video mit depiq-Sound, `_Ton.mp4`) um 16:00 Uhr als Entwurf in Metricool. Jürgen gibt frei und postet X selbst (Bild 1–4).
 Dienstags und donnerstags zusätzlich ein Sprechtext für Jürgen in `selbst/JJJJ-MM-TT_sprechtext-<firma>.md` (rund 30 Sekunden, 70–80 Wörter, Ich-Form, Haken im ersten Satz, keine Empfehlung, keine Prognose, Offenlegung am Ende).
 
-## Design-Test hell/dunkel (16.11.–27.11.2026, Jürgen 11.11.2026)
-Welche Variante an welchem Tag dran ist, steht in `auswertung/protokoll.md`. Helle Variante: in der JSON `"design": "hell"` ergänzen, sonst nichts ändern (gleiches Rendern mit `render-karussell.js`). In „Bereits behandelt“ die Variante (hell/dunkel) mit eintragen.
+## Design: immer hell (ab 17.11.2026, Jürgen: „wir haben definiert, alles im hell-modus umzustellen“)
+Jede Folge im hellen Design: in der JSON `"design": "hell"` setzen (gleiches Rendern mit `render-karussell.js`). Kein Wechsel hell/dunkel mehr; der Test 16.11.–27.11. ist beendet. Die dunkle Grundvorlage bleibt nur als Rückfall erhalten.
 
 ## Bereits behandelt
 | Datum | Firma | Anlass |
@@ -31,7 +31,7 @@ Welche Variante an welchem Tag dran ist, steht in `auswertung/protokoll.md`. Hel
 | 12.11.2026 | Siemens | Zahlen Geschäftsjahr 2025/26, Rekordaufträge 108 Mrd. €, Aktie rund +4 % nahe Rekordhoch (dunkel, kein Haken-Test aktiv, Sprechtext Do) |
 | 13.11.2026 | Richemont | Halbjahreszahlen 2026/27, Gewinn +39 %, Aktie zeitweise rund −7 %, am Nachmittag rund −4,5 % (dunkel, kein Haken-Test aktiv) |
 | 16.11.2026 | AMD | Kursbewegung: rund +30 % in vier Tagen nach Nvidia-Chefrücktritt, dann Fr −8,75 %, Mo vorbörslich erneut Minus (keine Zahlen im Zeitraum; hell, kein Haken-Test aktiv) |
-| 17.11.2026 | Walt Disney | Zahlen 4. Quartal und Geschäftsjahr 2025/26, Gewinn je Aktie bereinigt +59 % über Erwartung, Dividende +33 %, Aktie vorbörslich erst rund +2 %, dann im Minus (dunkel, kein Haken-Test aktiv, Sprechtext Di) |
+| 17.11.2026 | Walt Disney | Zahlen 4. Quartal und Geschäftsjahr 2025/26, Gewinn je Aktie bereinigt +59 % über Erwartung, Dividende +33 %, Aktie vorbörslich erst rund +2 %, dann im Minus (hell, nachträglich von dunkel umgestellt, kein Haken-Test aktiv, Sprechtext Di) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
