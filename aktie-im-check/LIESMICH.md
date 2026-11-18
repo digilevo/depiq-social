@@ -32,6 +32,7 @@ Jede Folge im hellen Design: in der JSON `"design": "hell"` setzen (gleiches Ren
 | 13.11.2026 | Richemont | Halbjahreszahlen 2026/27, Gewinn +39 %, Aktie zeitweise rund −7 %, am Nachmittag rund −4,5 % (dunkel, kein Haken-Test aktiv) |
 | 16.11.2026 | AMD | Kursbewegung: rund +30 % in vier Tagen nach Nvidia-Chefrücktritt, dann Fr −8,75 %, Mo vorbörslich erneut Minus (keine Zahlen im Zeitraum; hell, kein Haken-Test aktiv) |
 | 17.11.2026 | Walt Disney | Zahlen 4. Quartal und Geschäftsjahr 2025/26, Gewinn je Aktie bereinigt +59 % über Erwartung, Dividende +33 %, Aktie vorbörslich erst rund +2 %, dann im Minus (hell, nachträglich von dunkel umgestellt, kein Haken-Test aktiv, Sprechtext Di) |
+| 18.11.2026 | Nvidia | Zahlen 3. Quartal GJ 2027 (erste ohne Jensen Huang), Umsatz +103 % auf 115,8 Mrd. $ über Erwartung, Aktie seit Chef-Rücktritt rund −10 %, Mi vorbörslich rund +3 % (hell, kein Haken-Test aktiv) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
