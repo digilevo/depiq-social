@@ -1,0 +1,44 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- Kanal-Kopfbild YouTube (20.11.2026): zeigt, worum es im Kanal geht; das Buch nur als Nebenelement.
+     2560 × 1440. Sicherer Bereich (überall sichtbar, auch Handy): x 507–2053, y 509–932.
+     Alles außerhalb sieht man nur am Desktop/TV: dort Buchseiten links und das Buch rechts.
+     Rendern: node vorlage/render-kopfbild-kanal.js <zielordner> [bild1 bild2 bild3] -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:2560px;height:1440px;overflow:hidden;font-family:'DM Sans',sans-serif;color:#1c1f3a;position:relative}
+.bg{position:absolute;inset:0;background:
+ radial-gradient(30% 45% at 72% 50%,rgba(20,184,166,.22),transparent 70%),
+ radial-gradient(35% 50% at 25% 60%,rgba(99,102,241,.16),transparent 70%),
+ linear-gradient(120deg,#fbf7f1 0%,#f1f0ff 55%,#e6f7f4 100%)}
+.txt{position:absolute;left:570px;top:540px;width:940px}
+.txt img{height:58px;display:block}
+h1{font-size:92px;line-height:1.04;font-weight:800;letter-spacing:-.02em;margin-top:22px}
+h1 em{font-style:normal;background:linear-gradient(90deg,#4f46e5,#0f9f8f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tags{display:flex;gap:12px;margin-top:26px;flex-wrap:nowrap}
+.tag{display:inline-flex;align-items:center;gap:.4em;white-space:nowrap;font-size:28px;font-weight:700;padding:10px 20px;border-radius:999px;background:#fff;border:3px solid #e2e3f3;color:#1c1f3a}
+.tag.haupt{background:#1c1f3a;border-color:#1c1f3a;color:#fff}
+.karten{position:absolute;left:1560px;top:540px;width:560px;height:410px}
+.karten img{position:absolute;height:340px;border-radius:18px;box-shadow:0 22px 44px rgba(28,31,90,.25);border:3px solid #fff}
+.k1{left:0;top:26px;transform:rotate(-7deg);opacity:.92}
+.k2{left:110px;top:4px;transform:rotate(3deg);opacity:.96}
+.k3{left:205px;top:20px;transform:rotate(-1deg)}
+/* nur Desktop/TV: */
+.seiten{position:absolute;left:20px;top:440px;width:470px;height:560px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,#000 40%,transparent 95%);mask-image:linear-gradient(90deg,#000 40%,transparent 95%)}
+.seiten img{position:absolute;width:210px;border-radius:8px;box-shadow:0 10px 24px rgba(28,31,90,.22);opacity:.6}
+.buch{position:absolute;left:2110px;top:520px;width:400px;text-align:center}
+.buch img{height:330px;filter:drop-shadow(0 18px 26px rgba(28,31,90,.3))}
+.buch p{font-size:26px;font-weight:700;color:#4a4f72;margin-top:10px;line-height:1.3}
+.buch b{color:#0f9f8f}
+</style></head><body><div class="bg"></div>
+<div class="seiten"><img src="../buch/umschlag/seite-007.png" style="left:-20px;top:70px;transform:rotate(-8deg)"><img src="../buch/umschlag/seite-113.png" style="left:110px;top:30px;transform:rotate(4deg)"><img src="../buch/umschlag/seite-434.png" style="left:230px;top:100px;transform:rotate(-3deg)"></div>
+<div class="txt"><img src="logo-light.svg" alt="depiq">
+<h1>Börse &amp; Vermögen<br><em>einfach erklärt.</em></h1>
+<div class="tags"><span class="tag haupt">📈 Aktie im Check · werktags</span><span class="tag">📚 Wissen</span><span class="tag">📊 Aktien &amp; ETFs</span></div></div>
+<div class="karten" id="karten"></div>
+<div class="buch"><img src="../buch/umschlag/buch-3d-ebook-zugeschnitten.png" alt=""><p>Mein Buch „Depot-IQ“<br><b>als E-Book kostenlos</b></p></div>
+<script>
+window.zeichne=bilder=>{const k=document.getElementById('karten');k.innerHTML=bilder.map((b,i)=>`<img class="k${i+1}" src="${b}">`).join('');};
+</script></body></html>
