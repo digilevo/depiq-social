@@ -244,3 +244,10 @@ Nur diese Funktionen in Beiträgen nennen. Neue erst nach Bestätigung durch Jü
 ## Instagram: keine Testreels (Trial Reels), bis die Mindest-Followerzahl erreicht ist (05.11.2026)
 - Fehler am 05.11.: „The instagram account does not meet the trial reel follower requirement to create trial reels.“
 - Instagram-Typ immer REEL, nie TRIAL_REEL. Testreels erst wieder, wenn Instagram sie im Konto freischaltet (in der App prüfen).
+
+## Vorschaubilder für Videos (20.11.2026, Jürgen: „aktuell werden zufällige Auszüge der Videos gezeigt“)
+- Jedes Video bekommt ein eigenes Vorschaubild: `node vorlage/render-vorschaubild.js <daten.json> <ziel-ohne-endung>` → `<ziel>.jpg`.
+- Hochkant 1080 × 1920 für Shorts, Reels und TikTok; quer 1280 × 720 (`"format":"quer"`) für lange YouTube-Videos.
+- Inhalt: Themen-Pille, kurze Frage oder Aussage als Titel (höchstens rund 6 Wörter, Schlüsselwort mit `<em>`), eine große Zahl mit kurzer Erklärung, ein Satz darunter, Logo. Gleicher heller Stil wie alle Beiträge.
+- In Metricool als `videoThumbnailUrl` (Raw-Link zur .jpg) mitschicken. Lehnt Metricool mit VIDEO_THUMBNAIL_NOT_APPLICABLE ab: einmal ohne `videoThumbnailUrl`, dafür mit `videoCoverMilliseconds` 1000 planen und melden.
+- YouTube zeigt eigene Vorschaubilder nur, wenn der Kanal bestätigt ist (youtube.com/verify).

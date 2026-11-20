@@ -1,0 +1,61 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- Vorschaubild (Thumbnail) für Videos, heller Stil (20.11.2026).
+     Hochkant 1080 × 1920 (YouTube Shorts, Instagram/Facebook Reels, TikTok) oder quer 1280 × 720 (lange YouTube-Videos).
+     Aufruf über render-vorschaubild.js. Daten: {etikett, symbol, titel (HTML, <em> = Farbe), zahl, zahlText, unter, format: "hoch"|"quer"}.
+     Hochkant: Inhalt im oberen und mittleren Bereich, weil YouTube und Instagram unten und rechts Bedienelemente darüberlegen. -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(schrift/dm-sans-800.woff2)}
+*{box-sizing:border-box;margin:0}
+body{position:relative;overflow:hidden;font-family:'DM Sans',sans-serif;color:#1c1f3a;
+ background:radial-gradient(55% 40% at 85% 30%,rgba(20,184,166,.24),transparent 70%),radial-gradient(60% 45% at 10% 95%,rgba(99,102,241,.20),transparent 70%),linear-gradient(160deg,#fbf7f1 0%,#f1f0ff 55%,#e6f7f4 100%)}
+.hoch{width:1080px;height:1920px}
+.quer{width:1280px;height:720px}
+.kopf{position:absolute;display:flex;justify-content:space-between;align-items:center}
+.pille{display:inline-flex;gap:.45em;align-items:center;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#4f46e5;background:#eceaff;border:3px solid #c9c6ff;border-radius:999px}
+.logo{display:block}
+h1{font-weight:800;line-height:1.04;letter-spacing:-.02em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#4f46e5,#0f9f8f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.zahl{font-weight:800;line-height:1;letter-spacing:-.03em;white-space:nowrap}
+.zahl.plus{color:#0f8f80}.zahl.minus{color:#d93a4a}
+.zt{color:#4a4f72;font-weight:700}
+.unter{color:#4a4f72;font-weight:500;line-height:1.3}
+.fuss{position:absolute;display:inline-flex;align-items:center;gap:.5em;background:#1c1f3a;color:#fff;font-weight:800;border-radius:999px}
+/* hochkant */
+.hoch .kopf{top:150px;left:80px;right:80px}
+.hoch .pille{font-size:40px;padding:16px 32px;white-space:nowrap}
+.hoch .logo{height:104px}
+.hoch .inhalt{position:absolute;top:430px;left:80px;right:80px}
+.hoch h1{font-size:150px}
+.hoch .zahlblock{margin-top:70px;background:#fff;border:3px solid #e2e3f3;border-radius:44px;padding:44px 50px;box-shadow:0 24px 50px rgba(40,40,120,.12)}
+.hoch .zahl{font-size:220px}
+.hoch .zt{font-size:50px;margin-top:10px}
+.hoch .unter{font-size:56px;margin-top:60px}
+.hoch .fuss{top:1580px;left:80px;font-size:52px;padding:24px 44px}
+/* quer */
+.quer .kopf{top:44px;left:60px;right:60px}
+.quer .pille{font-size:24px;padding:9px 20px}
+.quer .logo{height:52px}
+.quer .inhalt{position:absolute;top:175px;left:60px;right:60px;display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:center}
+.quer h1{font-size:80px}
+.quer .zahlblock{background:#fff;border:3px solid #e2e3f3;border-radius:30px;padding:30px 34px;box-shadow:0 18px 40px rgba(40,40,120,.12)}
+.quer .zahl{font-size:96px}
+.quer .zt{font-size:28px;margin-top:6px}
+.quer .unter{font-size:32px;margin-top:0;grid-column:1;grid-row:2}
+.quer h1{grid-column:1;grid-row:1}
+.quer .zahlblock{grid-column:2;grid-row:1/3}
+.quer .fuss{bottom:44px;left:60px;font-size:28px;padding:12px 26px}
+</style></head><body>
+<div class="kopf"><span class="pille" id="pille"></span><img class="logo" src="logo-light.svg" alt="depiq"></div>
+<div class="inhalt"><h1 id="titel"></h1><div class="zahlblock" id="zb"><div class="zahl" id="zahl"></div><div class="zt" id="zt"></div></div><p class="unter" id="unter"></p></div>
+<span class="fuss">👉 depiq.io</span>
+<script>
+window.zeichne=d=>{document.body.className=d.format==='quer'?'quer':'hoch';
+ document.getElementById('pille').textContent=(d.symbol?d.symbol+' ':'')+(d.etikett||'');
+ document.getElementById('titel').innerHTML=d.titel||'';
+ const z=document.getElementById('zahl');z.textContent=d.zahl||'';z.className='zahl'+(/^[−-]/.test(d.zahl||'')?' minus':/^\+/.test(d.zahl||'')?' plus':'');
+ document.getElementById('zt').textContent=d.zahlText||'';
+ if(!d.zahl)document.getElementById('zb').style.display='none';
+ const u=document.getElementById('unter');u.textContent=d.unter||'';if(!d.unter)u.style.display='none';};
+</script></body></html>
