@@ -34,6 +34,7 @@ Jede Folge im hellen Design: in der JSON `"design": "hell"` setzen (gleiches Ren
 | 17.11.2026 | Walt Disney | Zahlen 4. Quartal und Geschäftsjahr 2025/26, Gewinn je Aktie bereinigt +59 % über Erwartung, Dividende +33 %, Aktie vorbörslich erst rund +2 %, dann im Minus (hell, nachträglich von dunkel umgestellt, kein Haken-Test aktiv, Sprechtext Di) |
 | 18.11.2026 | Nvidia | Zahlen 3. Quartal GJ 2027 (erste ohne Jensen Huang), Umsatz +103 % auf 115,8 Mrd. $ über Erwartung, Aktie seit Chef-Rücktritt rund −10 %, Mi vorbörslich rund +3 % (hell, kein Haken-Test aktiv) |
 | 19.11.2026 | Walmart | Zahlen 3. Quartal GJ 2027, Umsatz +5,2 % auf 188,8 Mrd. $ leicht über Erwartung, Prognose zum 3. Mal angehoben (aber unter Erwartung), Aktie vorbörslich knapp im Plus, KGV rund 44 (hell, kein Haken-Test aktiv, Sprechtext Do) |
+| 20.11.2026 | Anthropic | Börsengang Do 19.11. (größter bisher, 81,3 Mrd. $): Ausgabepreis 83 $, erster Kurs 111,50 $, Schluss 97,17 $ (+17,1 %), Fr vorbörslich über −6 %; keine Quartalszahlen, Zahlen aus Prospekt (hell, kein Haken-Test aktiv, Vorschaubild neu) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
