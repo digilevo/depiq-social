@@ -38,7 +38,7 @@ Welle 1 ist damit abgeschlossen; danach weiter mit Welle 2 ab Nr. 10. Grundsatz:
 | 12 | Tagesgeld, Festgeld, Anleihen im Vergleich | tagesgeld festgeld | k10 | angepasst |
 | 13 | Die 200-Tage-Linie einfach erklärt | 200 tage linie | k17 | ja |
 | 14 | Fair Value: Was ist eine Aktie wirklich wert? | fair value aktie | k16 | ja |
-| 15 | Börsencrash: Was du jetzt tun und lassen solltest | börsencrash | k07, k27 | ja |
+| 15 | ✅ Erledigt als „Kurssturz: Ruhe bewahren statt Panik verkaufen“ (kennung kurssturz, Zweig entwurf/kurssturz, 21.11.2026) – nicht erneut schreiben | kurssturz | k07, k27 | ja |
 | 16 | Die 15 häufigsten Anfängerfehler beim Investieren | fehler beim investieren | k29 | ja |
 
 ## Welle 3
