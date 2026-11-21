@@ -1,0 +1,119 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- Vorlage „Krisen-Modus: Meine Checkliste für den Kurssturz“ (21.11.2026), 2 Seiten A4.
+     Rendern: node render-vorlage.js krisen-modus.html <ziel.pdf>. Gehört zum Wissensartikel „Kurssturz: Ruhe bewahren“. -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(../../vorlage/schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(../../vorlage/schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(../../vorlage/schrift/dm-sans-800.woff2)}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0}
+body{font-family:'DM Sans',sans-serif;color:#1c1f3a;font-size:10.5pt;line-height:1.4}
+.seite{width:210mm;height:297mm;padding:14mm 15mm 12mm;position:relative;overflow:hidden;page-break-after:always;
+ background:radial-gradient(60% 30% at 100% 0%,rgba(20,184,166,.13),transparent 70%),radial-gradient(60% 30% at 0% 100%,rgba(99,102,241,.10),transparent 70%),#fff}
+.kopf{display:flex;justify-content:space-between;align-items:center}
+.kopf img{height:9mm}
+.pille{font-weight:800;font-size:8.5pt;letter-spacing:.05em;text-transform:uppercase;color:#be123c;background:#ffe4e9;border:1.5px solid #fecdd6;border-radius:99px;padding:1.6mm 4mm}
+h1{font-size:25pt;line-height:1.05;font-weight:800;letter-spacing:-.02em;margin-top:7mm}
+h1 em{font-style:normal;background:linear-gradient(90deg,#4f46e5,#0f9f8f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.unter{color:#4a4f72;font-size:11pt;margin-top:2.5mm}
+.stopp{margin-top:6mm;background:#1c1f3a;color:#fff;border-radius:4mm;padding:4.5mm 6mm;display:flex;gap:5mm;align-items:center}
+.stopp b{font-size:15pt;line-height:1;font-weight:800;color:#7ee7d8;border:2px solid #7ee7d8;border-radius:3mm;padding:2mm 2.5mm;white-space:nowrap}
+.stopp p{font-size:11pt}
+.stopp strong{color:#7ee7d8}
+h2{font-size:12.5pt;font-weight:800;margin:5mm 0 2.5mm;display:flex;align-items:center;gap:3mm}
+h2 span{display:inline-flex;align-items:center;justify-content:center;width:7mm;height:7mm;border-radius:50%;background:#4f46e5;color:#fff;font-size:10pt}
+.karte{background:#fff;border:1.2px solid #e2e3f3;border-radius:3.5mm;padding:3.5mm 4.5mm}
+ul.box{list-style:none;padding:0}
+ul.box li{display:flex;gap:3mm;padding:1.4mm 0;border-bottom:1px dashed #e2e3f3}
+ul.box li:last-child{border-bottom:0}
+ul.box li::before{content:'';flex:none;width:4.2mm;height:4.2mm;border:1.6px solid #4f46e5;border-radius:1.2mm;margin-top:.4mm}
+ul.box li small{display:block;color:#5b6080;font-size:9pt}
+.zwei{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.nein{border-color:#fecdd6;background:#fff7f8}
+.nein h3,.ja h3{font-size:10.5pt;font-weight:800;margin-bottom:1.5mm}
+.nein h3{color:#be123c}.ja h3{color:#0f8f80}
+.ja{border-color:#bfece6;background:#f3fcfa}
+.nein li::before{border-color:#e11d48}.ja li::before{border-color:#0f9f8f}
+table{width:100%;border-collapse:collapse;font-size:9.5pt}
+th{background:#eef0ff;color:#3730a3;text-align:left;font-weight:800;padding:2mm;border:1px solid #d9dcf5}
+td{border:1px solid #d9dcf5;height:9mm;padding:1.5mm}
+.feld{border-bottom:1px solid #b9bde0;height:7mm}
+.fuss{position:absolute;left:15mm;right:15mm;bottom:8mm;display:flex;justify-content:space-between;color:#6b7090;font-size:8pt}
+.brief{font-size:10pt;color:#4a4f72;margin-bottom:2mm}
+</style></head><body>
+
+<div class="seite">
+ <div class="kopf"><img src="../../vorlage/logo-light.svg" alt="depiq"><span class="pille">🛟 Krisen-Modus</span></div>
+ <h1>Kurssturz?<br><em>Erst prüfen, dann entscheiden.</em></h1>
+ <p class="unter">Deine Checkliste für unruhige Börsentage. Am besten jetzt ausdrucken und ausfüllen, solange du ruhig bist.</p>
+
+ <div class="stopp"><b>24 h</b><p><strong>Schritt 0: 24 Stunden nichts verkaufen.</strong> Alles, was nicht in deinem Plan steht, wartet mindestens einen Tag. Gute Entscheidungen laufen an einem Tag nicht davon.</p></div>
+
+ <h2><span>1</span>Ruhe herstellen</h2>
+ <div class="karte"><ul class="box">
+  <li><div>Kurs-Benachrichtigungen für eine Woche abschalten<small>Wer stündlich schaut, spürt jeden kleinen Verlust doppelt.</small></div></li>
+  <li><div>Meinen Notfallplan bzw. meinen Brief an mich selbst lesen<small>Was habe ich mir in Ruhe für genau diesen Fall vorgenommen?</small></div></li>
+  <li><div>Mir klarmachen: Rückgänge von 10 % und mehr gehören zur Börse<small>Beim S&P 500 kamen sie im Schnitt etwa alle zwei bis drei Jahre vor.</small></div></li>
+ </ul></div>
+
+ <h2><span>2</span>Mein Fundament prüfen</h2>
+ <div class="karte"><ul class="box">
+  <li><div>Mein Notgroschen ist da<small>Ein Polster für unerwartete Ausgaben, damit ich nichts verkaufen muss.</small></div></li>
+  <li><div>Ich brauche das angelegte Geld in den nächsten Jahren nicht</div></li>
+  <li><div>In meinem Depot stecken keine Schulden (kein Kauf auf Kredit)<small>Wer auf Pump gekauft hat, muss oft nachschießen oder wird zum Verkauf gezwungen.</small></div></li>
+  <li><div>Ich weiß, wie viel Prozent in einer einzigen Branche stecken: ______ %</div></li>
+ </ul></div>
+
+ <h2><span>3</span>Jede Aktie einzeln prüfen</h2>
+ <div class="karte"><ul class="box">
+  <li><div>Mein „Warum“ lesen: Gilt mein Grund für diese Aktie noch?</div></li>
+  <li><div>Geschäft oder nur Kurs? Neue Zahlen zu Umsatz, Gewinn, Schulden, Ausblick?<small>Ein gefallener Kurs heißt nicht automatisch, dass das Unternehmen schlechter ist.</small></div></li>
+  <li><div>Bewertung ansehen: KGV und Fair Value. Habe ich einen sehr hohen Preis bezahlt?</div></li>
+  <li><div>Die Prüffrage: Würde ich diese Aktie heute zu diesem Preis neu kaufen?<small>Mein Kaufkurs spielt dabei keine Rolle.</small></div></li>
+ </ul></div>
+
+ <div class="fuss"><span>depiq · Krisen-Modus · Seite 1 von 2</span><span>Keine Anlageberatung · depiq.io</span></div>
+</div>
+
+<div class="seite">
+ <div class="kopf"><img src="../../vorlage/logo-light.svg" alt="depiq"><span class="pille">🛟 Krisen-Modus</span></div>
+
+ <h2 style="margin-top:6mm"><span>4</span>Meine Positionen im Überblick</h2>
+ <table>
+  <tr><th style="width:22%">Aktie / ETF</th><th style="width:22%">Grund gilt noch?</th><th style="width:22%">Geschäft geändert oder nur Kurs?</th><th style="width:14%">Heute neu kaufen?</th><th>Meine Entscheidung</th></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr>
+  
+ </table>
+
+ <h2><span>5</span>Was ich tue und was ich nicht tue</h2>
+ <div class="zwei">
+  <div class="karte ja"><h3>✓ Das tue ich</h3><ul class="box">
+   <li><div>Nach meinem Plan entscheiden, nicht nach der Schlagzeile</div></li>
+   <li><div>Jede Entscheidung mit einem Satz begründen und aufschreiben</div></li>
+   <li><div>Bei größeren Beträgen eine Woche Abstand halten</div></li>
+   <li><div>Vor einem Verkauf mit einer Person meines Vertrauens sprechen</div></li>
+  </ul></div>
+  <div class="karte nein"><h3>✗ Das tue ich nicht</h3><ul class="box">
+   <li><div>Alles auf einmal verkaufen, „bis es sich beruhigt“</div></li>
+   <li><div>Auf Kredit nachkaufen</div></li>
+   <li><div>Stündlich ins Depot schauen</div></li>
+   <li><div>Tipps aus sozialen Medien ungeprüft folgen</div></li>
+  </ul></div>
+ </div>
+
+ <h2><span>6</span>Mein Brief an mich für den nächsten Kurssturz</h2>
+ <p class="brief">Schreib ihn heute, in Ruhe. Wenn es das nächste Mal kracht, liest du ihn, bevor du irgendetwas verkaufst.</p>
+ <div class="karte">
+  <p class="brief">Ich investiere, weil …</p><div class="feld"></div><div class="feld"></div>
+  <p class="brief" style="margin-top:3mm">Das Geld brauche ich frühestens im Jahr …</p><div class="feld"></div>
+  <p class="brief" style="margin-top:3mm">Wenn mein Depot um 30 % fällt, werde ich …</p><div class="feld"></div>
+ </div>
+
+ <div class="karte" style="margin-top:4mm;background:#f5f4ff;border-color:#dcd9ff;font-size:9.5pt">
+  <b>Mit depiq:</b> Im Aktien-Cockpit siehst du Fair Value, KGV und die Qualität des Unternehmens auf einen Blick, getrennt vom Kurs. Unter „Mein Warum“ hältst du zu jeder Position fest, warum du sie gekauft hast. Mehr dazu: depiq.io/de/wissen/kurssturz
+ </div>
+
+ <div class="fuss"><span>depiq · Krisen-Modus · Seite 2 von 2</span><span>Keine Anlageberatung, keine Kauf- oder Verkaufsempfehlung · depiq.io</span></div>
+</div>
+</body></html>
