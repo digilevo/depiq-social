@@ -77,3 +77,12 @@ Monat 3: 900
 Monat 6: 1800
 :::
 ```
+
+## Anlass-Artikel bei Markt-Ereignissen (21.11.2026, Jürgen)
+
+Bei großen Markt-Ereignissen (Kurssturz, starke Rückgänge einer Branche, Zinsentscheid mit großer Wirkung) kommt kurzfristig ein eigener Wissensartikel, DE und EN. Vorbild: `kurssturz` (21.11.2026).
+- Erscheinungstag so früh wie möglich, vor den bereits geplanten Artikeln. In `themen.md` als erledigt eintragen, damit die Sonntags-Aufgabe ihn nicht doppelt schreibt.
+- Einstieg mit dem aktuellen Anlass (Datum, was passiert ist, mit Quelle), danach zeitloses Wissen, damit der Artikel auch in einem Jahr noch stimmt. Satz „Stand: TT.MM.JJJJ. Wie es weitergeht, weiß niemand.“
+- Keine Empfehlung, kein „jetzt kaufen“, keine Prognose, keine Kursziele.
+- Fahrplan Schritt für Schritt, passende Vorlage zum Ausdrucken, depiq-Abschnitt mit echten Bildern aus der App (Beispielansicht, Stand-Datum, „keine Kauf- oder Verkaufsempfehlung“), Hinweis auf das passende Buchkapitel von „Depot-IQ“.
+- Danach am selben Tag: Newsletter über Klick-Tipp und Social-Media-Posts mit Link auf den Artikel, erst wenn er live ist.
