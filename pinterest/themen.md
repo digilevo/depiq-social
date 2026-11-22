@@ -22,3 +22,10 @@
 | 20.11.2026 20:00 | 72er-Regel: Verdopplung in ≈ 12 Jahren bei 6 % → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=72er-regel | Zinseszins & Vermögensaufbau |
 | 21.11.2026 20:00 | Spartöpfe: 3 Töpfe statt einem Konto (100 € für 1.200 € Urlaub) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=spartoepfe | Geld sparen & Notgroschen |
 | 22.11.2026 20:00 | Sparrate jährlich +3 %: ≈ 90.800 € statt ≈ 68.000 € (25 Jahre) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=sparplan-dynamik | Zinseszins & Vermögensaufbau |
+| 23.11.2026 20:00 | Durchschnittskosten-Effekt: ≈ 66,67 € statt 75 € je Anteil → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=durchschnittskosten | ETF für Anfänger |
+| 24.11.2026 20:00 | Wie oft ins Depot schauen: fast jeder 2. Tag, ≈ 1 von 4 Jahren im Minus → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=depot-schauen | Börsenpsychologie: Denkfehler beim Investieren |
+| 25.11.2026 20:00 | Abos: 3 × 12,99 € ≈ 468 € im Jahr → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=abos | Geld sparen & Notgroschen |
+| 26.11.2026 20:00 | Zins oder Zinseszins: 25.000 € gegen ≈ 43.200 € (10.000 €, 5 %, 30 J.) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=zins-zinseszins | Zinseszins & Vermögensaufbau |
+| 27.11.2026 20:00 | Die 3 Säulen der Altersvorsorge → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=drei-saeulen | Altersvorsorge & finanzielle Freiheit |
+| 28.11.2026 20:00 | ETF-Namen entschlüsseln (MSCI World, UCITS, Acc) → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=etf-name | ETF für Anfänger |
+| 29.11.2026 20:00 | 30-Tage-Regel gegen Impulskäufe → https://depiq.io/?utm_source=pinterest&utm_medium=social&utm_campaign=30-tage-regel | Geld sparen & Notgroschen |
