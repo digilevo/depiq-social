@@ -36,6 +36,7 @@ Jede Folge im hellen Design: in der JSON `"design": "hell"` setzen (gleiches Ren
 | 19.11.2026 | Walmart | Zahlen 3. Quartal GJ 2027, Umsatz +5,2 % auf 188,8 Mrd. $ leicht über Erwartung, Prognose zum 3. Mal angehoben (aber unter Erwartung), Aktie vorbörslich knapp im Plus, KGV rund 44 (hell, kein Haken-Test aktiv, Sprechtext Do) |
 | 20.11.2026 | Anthropic | Börsengang Do 19.11. (größter bisher, 81,3 Mrd. $): Ausgabepreis 83 $, erster Kurs 111,50 $, Schluss 97,17 $ (+17,1 %), Fr vorbörslich über −6 %; keine Quartalszahlen, Zahlen aus Prospekt (hell, kein Haken-Test aktiv, Vorschaubild neu) |
 | 23.11.2026 | CrowdStrike | Zahlen 3. Quartal GJ 2027 (vorgezogen) plus Übernahme Zscaler für 43,9 Mrd. $ in Aktien: Umsatz +28 % auf 1,58 Mrd. $ über Erwartung, Gewinn je Aktie bereinigt +42 %, Prognose angehoben, Aktie vorbörslich rund −8 % (hell, Widerspruch-Haken laut Wochenauswertung 23.11., kein Haken-Test aktiv) |
+| 24.11.2026 | Xiaomi | Zahlen 3. Quartal 2026: Gewinn bereinigt −56,8 % auf 4,9 Mrd. Yuan unter Erwartung, Umsatz −5,2 % etwa wie erwartet, teure Speicherchips, Auto-Sparte mit Verlust, Aktie Hongkong rund −4 % (hell, Marken-Gefühls-Haken, kein Haken-Test aktiv, Sprechtext Di) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
