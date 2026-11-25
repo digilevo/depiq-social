@@ -37,6 +37,7 @@ Jede Folge im hellen Design: in der JSON `"design": "hell"` setzen (gleiches Ren
 | 20.11.2026 | Anthropic | Börsengang Do 19.11. (größter bisher, 81,3 Mrd. $): Ausgabepreis 83 $, erster Kurs 111,50 $, Schluss 97,17 $ (+17,1 %), Fr vorbörslich über −6 %; keine Quartalszahlen, Zahlen aus Prospekt (hell, kein Haken-Test aktiv, Vorschaubild neu) |
 | 23.11.2026 | CrowdStrike | Zahlen 3. Quartal GJ 2027 (vorgezogen) plus Übernahme Zscaler für 43,9 Mrd. $ in Aktien: Umsatz +28 % auf 1,58 Mrd. $ über Erwartung, Gewinn je Aktie bereinigt +42 %, Prognose angehoben, Aktie vorbörslich rund −8 % (hell, Widerspruch-Haken laut Wochenauswertung 23.11., kein Haken-Test aktiv) |
 | 24.11.2026 | Xiaomi | Zahlen 3. Quartal 2026: Gewinn bereinigt −56,8 % auf 4,9 Mrd. Yuan unter Erwartung, Umsatz −5,2 % etwa wie erwartet, teure Speicherchips, Auto-Sparte mit Verlust, Aktie Hongkong rund −4 % (hell, Marken-Gefühls-Haken, kein Haken-Test aktiv, Sprechtext Di) |
+| 25.11.2026 | Dell Technologies | Zahlen 3. Quartal GJ 2027: Umsatz +103 % auf 54,9 Mrd. $ über Erwartung (49,3), Gewinn je Aktie bereinigt 9,45 $ (+265 %), Jahresziel auf 202 Mrd. $ angehoben, Server-Marge soll sinken; Aktie Di −11,8 % (vor den Zahlen), Mi vorbörslich erneut im Minus (hell, Widerspruch-Haken laut Wochenauswertung 23.11., kein Haken-Test aktiv) |
 
 ## Baustein „Kurs gegen Gewinn“ (Entwurf 06.11.2026, noch nicht freigegeben)
 Ein Bild mit Kurs und einfacher Wertlinie (Gewinn je Aktie × Ø-KGV), passend als Seite 3 „Kennzahlen einfach erklärt“.
