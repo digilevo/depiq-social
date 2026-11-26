@@ -23,6 +23,15 @@ Nur Schlusskurse, nie Zwischenstände aus dem laufenden Handel.
 
 **Design hell (ab 16.11.2026, Jürgen):** In der Tages-JSON `"design": "hell"` setzen. Die Grundvorlage `vorlage/boersen.html` bleibt dunkel, die helle Fassung ist eine Variante.
 
+## „Was heißt das für dich?“ (Feld `einordnung`): jeden Tag neu (Jürgen, 26.11.2026)
+
+Bis 26.11. stand dort fast jeden Tag derselbe Satz („… gehören dazu / ist normal. Für Sparpläne zählt der lange Weg“ bzw. „Hat sich dein Grund geändert oder nur der Kurs?“). Das ist vorbei. Ab sofort gilt:
+1. **Bezug auf eine konkrete News des Tages:** Der Satz greift eine der 3 News (oder einen Indexwert der Karte) auf und sagt in Alltagssprache, wo der Leser das konkret spürt oder was es praktisch bedeutet: im ETF-Sparplan (welcher Index, welche Aktie steckt drin), bei Tagesgeld- oder Kreditzinsen, beim Euro-Dollar-Kurs für US-Aktien, bei Preisen im Alltag, bei der Steuer. Höchstens 80 Zeichen, nur Fakten, keine Prognose, keine Empfehlung.
+2. **Verbotene Standardsätze:** „gehören dazu“, „ist normal“, „ganz normal“, „zählt der lange Weg“, „ändert (sich) nichts“, „ruhig bleiben“, „Grund geändert oder nur der Kurs“. (Bei großer Marktbewegung steht die Warum-Frage im Facebook-Text, nicht in der Einordnung.)
+3. **Keine Wiederholung:** Vor dem Schreiben die `einordnung` der letzten 10 boersen/*.json lesen. Kein Satz und kein Satzanfang (erste 3 Wörter) darf sich wiederholen.
+4. Wechselnde Blickwinkel, z. B.: Was steckt in deinem ETF? · Was heißt das für Zinsen auf dein Konto? · Was bedeutet der Dollar für deine US-Aktien? · Ein Begriff aus der News kurz erklärt · Was kannst du heute in Ruhe prüfen?
+Beispiele: „Infineon steckt in jedem DAX-ETF. So spürst du solche Tage auch im Sparplan.“ · „Steigen US-Zinsen, wird der Dollar oft stärker. US-Aktien zählen dann in Euro mehr.“ (nur mit Beleg) · „Kerninflation heißt: Preise ohne Energie und Essen. Sie zeigt den Grundtrend.“
+
 ## Aufbau: 3 Karten, gut lesbar am Handy
 
 | Karte | Inhalt |
