@@ -63,6 +63,17 @@ body{font-family:'DM Sans',sans-serif;color:#fff;background:#0a0d2c}
 .fuer h3{font-size:38px;color:#e0e7ff;margin-bottom:6px}
 .fuer p{font-size:42px;font-weight:700;line-height:1.2}
 .heute{font-size:40px;font-weight:700}.heute span{color:#7ee7d8}
+/* Stimmungs-Tacho (Test ab 01.12.2026, Jürgen 26.11.: „Ok“): optional "stimmung":{"wert":17,"label":"Extreme Angst","quelle":"Fear & Greed Index (CNN), US-Börse"} im JSON. Ohne Feld bleibt Karte 1 wie bisher. */
+.tacho{display:flex;align-items:center;gap:34px;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.14);border-radius:28px;padding:18px 36px 16px}
+.tacho svg{width:300px;height:170px;flex:none}
+.tacho .t{display:flex;flex-direction:column;gap:4px;min-width:0}
+.tacho .t b{font-size:40px;font-weight:800;line-height:1.1}
+.tacho .t span{font-size:34px;color:#a9aed6;font-weight:500;line-height:1.2}
+.mit-stimmung .wert{padding:0 32px}
+.mit-stimmung .wert .r{display:flex;align-items:baseline;gap:26px}
+.mit-stimmung .wert .z{font-size:46px}
+html.hell .tacho{background:#fff;border-color:rgba(28,31,58,.08);box-shadow:0 10px 30px rgba(28,31,58,.07)}
+html.hell .tacho .t span{color:#4a4f72}
 /* Design-Variante „hell“ (16.11.2026, Jürgen: Börsen-Frühstück auch hell). Aktiv mit "design":"hell" im JSON. Grundvorlage bleibt dunkel. Farben wie karussell.html hell. */
 html.hell body{color:#1c1f3a;background:#fbf7f1}
 html.hell .bg{background:radial-gradient(ellipse 80% 35% at 0% 0%,rgba(196,181,253,.45),transparent 70%),radial-gradient(ellipse 70% 30% at 100% 100%,rgba(94,234,212,.35),transparent 70%),#fbf7f1}
@@ -95,6 +106,18 @@ window.zeichne = d => {
   const k = n => n > 0.05 ? 'plus' : n < -0.05 ? 'minus' : 'null';
   const pf = n => ({ plus: '▲', minus: '▼', null: '■' })[k(n)];
   const nbsp = t => t.replace(/ (%|\$|€|Uhr)/g, ' $1');
+  // Halbkreis-Tacho 0–100: Extreme Angst · Angst · Neutral · Gier · Extreme Gier
+  const tacho = st => {
+    const P = (w, r) => { const a = Math.PI * (1 - w / 100); return [150 + r * Math.cos(a), 155 - r * Math.sin(a)]; };
+    const farben = ['#e11d48', '#fb923c', '#facc15', '#5eead4', '#0f766e'];
+    const bogen = [0, 25, 45, 55, 75, 100].slice(0, 5).map((v, i) => { const b = [0, 25, 45, 55, 75, 100][i + 1];
+      const [x1, y1] = P(v + .8, 120), [x2, y2] = P(b - .8, 120); return `<path d="M${x1} ${y1} A120 120 0 0 1 ${x2} ${y2}" stroke="${farben[i]}" stroke-width="30" fill="none"/>`; }).join('');
+    const w = Math.max(0, Math.min(100, st.wert)), [nx, ny] = P(w, 92);
+    const tf = document.documentElement.classList.contains('hell') ? '#1c1f3a' : '#fff';
+    const fi = w < 25 ? 0 : w < 45 ? 1 : w < 55 ? 2 : w < 75 ? 3 : 4, lf = ['#be123c', '#c2410c', '#a16207', '#0f766e', '#0f766e'][fi];
+    return `<div class="tacho"><svg viewBox="0 0 300 170">${bogen}<line x1="150" y1="155" x2="${nx}" y2="${ny}" stroke="${tf}" stroke-width="9" stroke-linecap="round"/><circle cx="150" cy="155" r="13" fill="${tf}"/></svg>`
+      + `<div class="t"><b><em style="font-style:normal;font-family:JB;font-size:56px">${Math.round(w)}</em> <span style="color:${lf};font-size:44px;font-weight:800">${st.label}</span></b><span>Stimmung an der US-Börse</span><span>${st.quelle || 'Fear &amp; Greed Index (CNN)'}</span></div></div>`;
+  };
   document.getElementById('datum').textContent = d.datum;
   document.getElementById('stand').textContent = d.stand || '';
   // Ohne Gewinner/Verlierer entfällt Karte 2: dann 1/2 und 2/2
@@ -103,7 +126,9 @@ window.zeichne = d => {
   const inh = document.getElementById('inhalt'), titel = document.getElementById('titel');
   if (KARTE === 1) {
     titel.textContent = '📊 Die Märkte';
-    inh.innerHTML = d.indizes.map(x => `<div class="wert"><span class="n">${x.name}</span><span class="r"><div class="z">${x.wert}</div><div class="pc ${k(x.prozent)}">${pf(x.prozent)} ${f(x.prozent)}</div></span></div>`).join('');
+    const st = d.stimmung && typeof d.stimmung.wert === 'number' ? d.stimmung : null;
+    if (st) inh.classList.add('mit-stimmung');
+    inh.innerHTML = (st ? tacho(st) : '') + d.indizes.map(x => `<div class="wert"><span class="n">${x.name}</span><span class="r"><div class="z">${x.wert}</div><div class="pc ${k(x.prozent)}">${pf(x.prozent)} ${f(x.prozent)}</div></span></div>`).join('');
   } else if (KARTE === 2) {
     titel.innerHTML = '🏁 Gewinner &amp; Verlierer';
     const max = Math.max(1, ...[...d.gewinner, ...d.verlierer].map(x => Math.abs(x.prozent)));

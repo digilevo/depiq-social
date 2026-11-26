@@ -32,6 +32,16 @@ Bis 26.11. stand dort fast jeden Tag derselbe Satz („… gehören dazu / ist n
 4. Wechselnde Blickwinkel, z. B.: Was steckt in deinem ETF? · Was heißt das für Zinsen auf dein Konto? · Was bedeutet der Dollar für deine US-Aktien? · Ein Begriff aus der News kurz erklärt · Was kannst du heute in Ruhe prüfen?
 Beispiele: „Infineon steckt in jedem DAX-ETF. So spürst du solche Tage auch im Sparplan.“ · „Steigen US-Zinsen, wird der Dollar oft stärker. US-Aktien zählen dann in Euro mehr.“ (nur mit Beleg) · „Kerninflation heißt: Preise ohne Energie und Essen. Sie zeigt den Grundtrend.“
 
+## Stimmungs-Tacho auf Karte 1 (Test ab 01.12.2026, Jürgen 26.11.2026: „Ok“)
+
+Ab Dienstag, 01.12.2026, zeigt Karte 1 oben einen Tacho mit dem **Fear & Greed Index von CNN** (Stimmung an der US-Börse, 0 = extreme Angst, 100 = extreme Gier). Kein eigener Risikoscore: depiq berechnet nichts selbst, zeigt nur den öffentlichen Wert, ohne Prognose.
+- **Daten:** https://production.dataviz.cnn.io/index/fearandgreed/graphdata (JSON, Feld `fear_and_greed.score`, `rating`, `timestamp`) und zur Prüfung https://feargreedmeter.com/. Wert = CNN-Score gerundet. Aufnehmen nur, wenn der CNN-Zeitstempel vom letzten Handelstag oder heute ist UND beide Quellen dieselbe Stufe zeigen. Sonst Tacho weglassen und melden.
+- **Stufen (deutsch):** 0–24 „Extreme Angst“, 25–44 „Angst“, 45–55 „Neutral“, 56–75 „Gier“, 76–100 „Extreme Gier“ (CNN: extreme fear, fear, neutral, greed, extreme greed).
+- **JSON:** `"stimmung": {"wert": 17, "label": "Extreme Angst"}` (Muster: `beispiel_stimmung.json`, Bild `beispiel_stimmung_1.png`). Ohne Feld sieht Karte 1 aus wie bisher.
+- **Texte:** Im X- und Facebook-Text eine kurze Zeile nach dem Kopf, z. B. „😨 Stimmung an der US-Börse: 17 von 100, extreme Angst“. Darf die Mitmach-Frage tragen („Und deine Stimmung heute? 😨😐🤑“) – nur Gefühl, nie Geld.
+- **VDAX-NEW** (Angstbarometer für den DAX) war am 26.11. nicht zuverlässig abrufbar und bleibt vorerst weg.
+- **Test:** 2 Wochen (01.–14.12.), Vergleich mit 16.–29.11. ohne Tacho: Instagram-Story-Aufrufe und Facebook-Reichweite je Beitrag. Eintrag in `auswertung/protokoll.md`.
+
 ## Aufbau: 3 Karten, gut lesbar am Handy
 
 | Karte | Inhalt |
