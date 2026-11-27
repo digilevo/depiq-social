@@ -1,0 +1,8 @@
+{"thema": {"name": "Aktien & Börse", "farbe": "#2563eb", "symbol": "M3 17l6-6 4 4 8-8M14 7h7v7"},
+ "emoji": "📊", "titel": "39 steigen. Eine fällt.",
+ "satz": "Am 26.11. stieg der DAX um 2,08 %. Nur die Commerzbank schloss im Minus.",
+ "gross": {"zahl": "39/40", "text": "DAX-Werte im Plus"},
+ "balken": [{"name": "VW Vz", "wert": 4.60, "text": "+4,6 %"}, {"name": "BMW", "wert": 4.49, "text": "+4,5 %"}, {"name": "Bayer", "wert": 4.22, "text": "+4,2 %"}, {"name": "Rheinmetall", "wert": 4.06, "text": "+4,1 %"}, {"name": "Siemens Energy", "wert": 4.04, "text": "+4,0 %"}, {"name": "Commerzbank", "wert": -2.55, "text": "−2,6 %"}],
+ "hervor": 5,
+ "frage": "Hättest du das gedacht? JA oder NEIN 👇",
+ "quelle": "Schluss 26.11.2026 · finanzen.at, aktiencheck.de"}

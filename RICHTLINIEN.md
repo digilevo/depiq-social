@@ -73,6 +73,7 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 2. **Eine Aussage pro Bild oder Szene.**
 3. **Speichern anregen** bei Karussells schon auf Bild 1 („🔖 Speichern“).
 4. **Letztes Bild:** weißer Kasten „📘 Mehr davon im kostenlosen E-Book Depot-IQ · Link im Profil · depiq.io/de/book“ (Link im Profil auf allen Kanälen = https://depiq.io/de/book/). **Bis das E-Book erscheint** (voraussichtlich Mitte bis Ende November 2026) lautet der Hinweis überall: „📘 Mein kostenloses E-Book „Depot-IQ“ erscheint bald. Jetzt vormerken: Link im Profil.“ Nie „sofort“ oder „jetzt herunterladen“ schreiben, solange es nicht erschienen ist. oder Verweis auf eine Vorlage depiq.io/v/NN.
+4a. ⭐ **Ab 01.12.2026: Buch erschienen (Jürgen, 27.11.2026).** Das E-Book „Depot-IQ“ ist ab 01.12. kostenlos über https://depiq.io/de/book/ zu haben und mit gleichem Inhalt zusätzlich bei Amazon zu kaufen. Ab dann ersetzt dieser Hinweis überall den Satz „erscheint bald … vormerken“: „📘 Mein E-Book „Depot-IQ“ ist da: kostenlos holen, Link im Profil. Auch als Buch bei Amazon.“ Hauptziel bleibt das kostenlose E-Book (Link im Profil = depiq.io/de/book/); Amazon nur als kurzer Zusatz. Amazon-Link: folgt von Jürgen, bis dahin keinen Link erfinden. Vor dem 01.12. weiter „erscheint bald“.
 4b. **Zwei Ziele im Wechsel** – beide landen in Klick-Tipp und werden per E-Mail weiter betreut:
    - **E-Book „Depot-IQ“** (Montag, Mittwoch): „📘 Mein kostenloses E-Book „Depot-IQ“ erscheint bald. Jetzt vormerken: Link im Profil.“
    - **Kostenlos bei depiq registrieren** (Dienstag, Donnerstag, Freitag, Börsen-Frühstück): „📊 Dein Depot auf einen Blick: kostenlos bei depiq starten – depiq.io“
@@ -91,6 +92,8 @@ Menschen reagieren auf Gefühle, nicht auf Text. Jeder Beitrag folgt deshalb dem
 7. **Themenwelt sichtbar (ab 03.11.2026, Jürgen):** Jedes Bild, jede Karussellseite und jedes Reel-Titelbild trägt die Themenwelt aus `wissen/themenwelten.md`: oben links eine Pille mit Symbol und Themenname in Themenfarbe, dazu eine dünne Akzentlinie in Themenfarbe. Die Themenfarbe ist Akzent, der dunkle depiq-Hintergrund bleibt. Zuordnung nach Buchkapitel des Inhalts.
    Feste Zuordnung der Serien: **Börsen-Frühstück → Aktien & Börse** · **Börsenwort einfach erklärt → je Begriff** (zum Beispiel KGV → Aktien & Börse, TER → ETFs & Fonds) · **Mythos-Check, Zahl der Woche, Depot-Check → je Inhalt** · Pinterest-Pins → je Inhalt. Im Zweifel: Thema des Buchkapitels, aus dem der Inhalt kommt.
    Die Vorlagen bekommen dafür einen Parameter `thema` (Kennung). Bis eine Vorlage ihn hat, beim nächsten Bau dieser Serie nachrüsten, nie von Hand pro Bild.
+
+7b. **Design-Variante „Tweet-Karte“ (Jürgen, 27.11.2026: Beispiel HKCM „sehr gut, auch das Design“, Test ab 01.12.2026):** `vorlage/varianten/tweetkarte.html` + `render-tweetkarte.js`, Muster `beispiel_tweetkarte.json`/`.png`. Aufbau wie ein Beitrag in der Zeitleiste: Profilbild und Name, kurze Überschrift (höchstens rund 6 Wörter), ein Satz, große Zahl links, Balken mit genau EINEM hervorgehobenen Wert, Quelle und Stand unter der Grafik, Frage. Ohne Wertung („günstigste“ verboten, stattdessen „Du zahlst 9 Jahresgewinne“), ohne fremde Logos oder Produktbilder. Einsatz als Bild 1 bei „Aktie im Check“ oder für „Zahl der Woche“; Grundvorlagen bleiben.
 
 ## 4. Serien und Wochenplan
 | Serie | Tag | Format | Kanäle |

@@ -1,0 +1,98 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<!-- Design-Variante „Tweet-Karte“ (27.11.2026, Jürgen: Beispiel HKCM „sehr gut, auch das Design“). Test ab 01.12.2026.
+     Eine Aussage, ein Satz, eine große Zahl, Balken mit EINEM hervorgehobenen Wert, Quelle und Stand in der Fußzeile.
+     Sieht aus wie ein Beitrag in der Zeitleiste (Profilbild, Name), bleibt aber im depiq-Stil (hell, Themen-Pille, Logo oben rechts).
+     Verboten wie überall: Wertungen („günstigste“, „Schnäppchen“), fremde Logos und Produktbilder, Prognosen.
+     Aufruf: tweetkarte.html?format=feed|story   (feed 1080 × 1350, story 1080 × 1920)
+     Daten (JSON, siehe render-tweetkarte.js):
+     { "thema":{"name":"Aktien & Börse","farbe":"#2563eb","symbol":"M3 17l6-6 4 4 8-8M14 7h7v7"},
+       "emoji":"📊", "titel":"39 Aktien steigen. Eine fällt.",        höchstens rund 6 Wörter
+       "satz":"…",                                                     ein Satz, höchstens rund 110 Zeichen
+       "gross":{"zahl":"39 von 40","text":"DAX-Werte im Plus"},
+       "balken":[{"name":"VW Vz","wert":4.6,"text":"+4,6 %"}, …],   3 bis 7 Zeilen, Name höchstens 16 Zeichen
+       "hervor":5,                                                     Index (ab 0) des hervorgehobenen Balkens
+       "frage":"Hättest du das gedacht? JA oder NEIN 👇",              öffentlich beantwortbar (§4h)
+       "quelle":"Xetra-Schlusskurse · Quellen: finanzen.at, aktiencheck.de · Stand: 26.11.2026" } -->
+<style>
+@font-face{font-family:'DM Sans';font-weight:500;src:url(../schrift/dm-sans-500.woff2)}
+@font-face{font-family:'DM Sans';font-weight:700;src:url(../schrift/dm-sans-700.woff2)}
+@font-face{font-family:'DM Sans';font-weight:800;src:url(../schrift/dm-sans-800.woff2)}
+@font-face{font-family:'JB';font-weight:700;src:url(../schrift/jetbrains-mono-700.woff2)}
+:root{--tf:#2563eb;--ink:#1c1f3a;--leise:#4a4f72;--plus:#0f766e;--minus:#be123c}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+html.story,html.story body{height:1920px}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:#fbf7f1}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 30% at 0% 0%,rgba(196,181,253,.40),transparent 70%),radial-gradient(ellipse 70% 25% at 100% 100%,rgba(94,234,212,.30),transparent 70%),#fbf7f1}
+.akzent{position:absolute;left:0;right:0;top:0;height:10px;background:var(--tf)}
+.seite{position:absolute;inset:0;padding:56px 56px 48px;display:flex;flex-direction:column;gap:30px}
+.story .seite{padding:170px 56px 250px;gap:40px}
+.kopf{display:flex;justify-content:space-between;align-items:center}
+.pille{display:inline-flex;align-items:center;gap:12px;font-size:32px;font-weight:800;padding:10px 22px;border-radius:999px;border:2px solid var(--tf);color:var(--tf);background:color-mix(in srgb,var(--tf) 12%,#fff)}
+.pille svg{width:34px;height:34px;stroke:var(--tf)}
+.kopf img{height:64px}
+.karte{flex:1;min-height:0;background:#fff;border-radius:36px;box-shadow:0 14px 40px rgba(28,31,58,.09);padding:44px 48px 36px;display:flex;flex-direction:column;gap:26px;overflow:hidden}
+.wer{display:flex;align-items:center;gap:22px}
+.wer .av{width:92px;height:92px;border-radius:50%;background:#16134a;display:flex;align-items:center;justify-content:center;flex:none}
+.wer .av img{width:52px;height:52px}
+.wer b{font-size:42px;font-weight:800;display:flex;align-items:center;gap:10px}
+.wer b svg{width:38px;height:38px}
+.wer small{display:block;font-size:34px;color:var(--leise);font-weight:500}
+h1{font-size:72px;font-weight:800;line-height:1.08;letter-spacing:-.02em}
+.story h1{font-size:72px}
+.satz{font-size:42px;line-height:1.3;color:#2d3152;font-weight:500}
+.grafik{flex:1;min-height:0;display:flex;gap:30px;align-items:center;border-top:2px solid rgba(28,31,58,.08);padding-top:26px}
+.story .grafik{flex:none;flex-direction:column;align-items:stretch}
+.story .karte{justify-content:space-between}
+.gross{flex:0 0 300px;display:flex;flex-direction:column;justify-content:center;border-right:4px solid var(--tf);padding-right:26px}
+.story .gross{flex:none;border-right:0;border-bottom:4px solid var(--tf);padding:0 0 22px}
+.gross .z{font-family:'JB';font-size:96px;line-height:1;color:var(--tf);letter-spacing:-.04em}
+.gross .z.lang{font-size:72px}
+.story .gross .z{font-size:120px}
+.gross .t{margin-top:16px;font-size:38px;font-weight:800;line-height:1.15;background:var(--tf);color:#fff;padding:8px 16px;border-radius:10px;align-self:flex-start}
+.balken{flex:1;display:flex;flex-direction:column;justify-content:center;gap:14px;min-width:0}
+.zeile{display:grid;grid-template-columns:var(--nb,230px) 1fr;align-items:center;gap:18px;font-size:38px;font-weight:800}
+.zeile .n{white-space:nowrap;overflow:hidden}
+.zeile .b{height:58px;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding:0 14px;font-family:'JB';font-size:36px;min-width:170px;white-space:nowrap}
+.zeile.p .b{background:color-mix(in srgb,var(--tf) 22%,#fff);color:var(--ink)}
+.zeile.m .b{background:color-mix(in srgb,var(--minus) 20%,#fff);color:var(--ink)}
+.zeile.h .b{background:var(--tf);color:#fff}
+.zeile.h.m .b{background:var(--minus)}
+.zeile.h .n{color:var(--tf)} .zeile.h.m .n{color:var(--minus)}
+.frage{font-size:42px;font-weight:800;color:var(--tf)}
+.fuss{display:flex;justify-content:space-between;gap:20px;font-size:34px;color:var(--leise);font-weight:500}
+.quelle{display:flex;align-items:center;gap:12px;font-size:34px;color:var(--leise);font-weight:500}
+.quelle span{white-space:nowrap;overflow:hidden}
+</style></head><body><div class="bg"></div><div class="akzent"></div>
+<div class="seite">
+  <div class="kopf"><span class="pille" id="pille"></span><img src="../logo-light.svg" alt="depiq"></div>
+  <div class="karte" id="karte">
+    <div class="wer"><div class="av"><img src="../icon-dunkel.svg" alt=""></div><div><b>depiq <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#4f46e5"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></b><small>@depiq.io</small></div></div>
+    <h1 id="titel"></h1>
+    <p class="satz" id="satz"></p>
+    <div class="grafik"><div class="gross"><div class="z" id="gz"></div><div class="t" id="gt"></div></div><div class="balken" id="balken"></div></div>
+    <div class="quelle"><svg width="34" height="34" viewBox="0 0 24 24"><rect x="3" y="13" width="4" height="8" fill="#4a4f72"/><rect x="10" y="8" width="4" height="13" fill="#4a4f72"/><rect x="17" y="3" width="4" height="18" fill="#4a4f72"/></svg><span id="quelle"></span></div>
+    <div class="frage" id="frage"></div>
+  </div>
+  <div class="fuss"><span>depiq.io</span><span>Keine Anlageberatung</span></div>
+</div>
+<script>
+const q = new URLSearchParams(location.search);
+if (q.get('format') === 'story') document.documentElement.classList.add('story');
+window.zeichne = d => {
+  const t = d.thema || {name:'Aktien & Börse',farbe:'#2563eb',symbol:'M3 17l6-6 4 4 8-8M14 7h7v7'};
+  document.documentElement.style.setProperty('--tf', t.farbe);
+  document.getElementById('pille').innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="${t.symbol}"/></svg>${t.name}`;
+  document.getElementById('titel').textContent = (d.emoji ? d.emoji + ' ' : '') + d.titel;
+  document.getElementById('satz').textContent = d.satz || '';
+  const gz = document.getElementById('gz'); gz.textContent = d.gross.zahl; if (d.gross.zahl.length > 5) gz.classList.add('lang');
+  document.getElementById('gt').textContent = d.gross.text;
+  const max = Math.max(...d.balken.map(x => Math.abs(x.wert)));
+  const lang = Math.max(...d.balken.map(x => x.name.length));
+  document.documentElement.style.setProperty('--nb', Math.min(350, Math.max(170, lang * 24)) + 'px');
+  document.getElementById('balken').innerHTML = d.balken.map((x, i) =>
+    `<div class="zeile ${x.wert < 0 ? 'm' : 'p'} ${i === d.hervor ? 'h' : ''}"><span class="n">${x.name}</span><span class="b" style="width:${Math.max(30, Math.abs(x.wert) / max * 100)}%">${x.text}</span></div>`).join('');
+  document.getElementById('frage').textContent = d.frage || '';
+  document.getElementById('quelle').textContent = d.quelle;
+};
+</script></body></html>
